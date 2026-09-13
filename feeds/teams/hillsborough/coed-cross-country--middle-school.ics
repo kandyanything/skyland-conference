@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Hillsborough High School Middle School 
+ Coed Cross Country
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2653:7592082@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Hillsborough High School vs Crossroads Middle School (Middle Scho
+ ol Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7592060@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Hillsborough High School vs William Annin Middle School (Middle S
+ chool Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7577205@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Hillsborough High School at South Hunterdon Regional H.S. (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7483995@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Hillsborough High School at Warren Hills Regional School District
+  (Middle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7508394@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Hillsborough High School at Montgomery High School (Middle School
+  Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7592062@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Hillsborough High School vs Branchburg Middle School (Middle Scho
+ ol Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7484047@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Hillsborough High School at JP Case Middle School (Middle School 
+ Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7526071@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Hillsborough High School at Franklin High School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7592067@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Hillsborough High School vs Somerville Middle School (Middle Scho
+ ol Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+END:VCALENDAR

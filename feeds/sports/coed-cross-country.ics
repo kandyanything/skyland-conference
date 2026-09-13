@@ -1,0 +1,883 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Coed Cross Country
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103467471@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T160000
+DTEND;TZID=America/New_York:20260904T180000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
+ try)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102858912@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T170000
+DTEND;TZID=America/New_York:20260904T190000
+SUMMARY:Warren Hills Regional H.S. at Manalapan High School (Varsity Coed
+  Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101250735@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T180000
+DTEND;TZID=America/New_York:20260904T200000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7596617@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T041500
+DTEND;TZID=America/New_York:20260908T061500
+SUMMARY:Bernards High School vs Hillsborough Athletics (Varsity Coed Coed
+  Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:15 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7577842@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Bernards High School vs Somerville High School (Varsity Coed Coed
+  Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101252996@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T150000
+DTEND;TZID=America/New_York:20260911T170000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102859095@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T153000
+DTEND;TZID=America/New_York:20260911T173000
+SUMMARY:Warren Hills Regional H.S. at TBD (Varsity Coed Coed Cross Countr
+ y)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101253057@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T090000
+DTEND;TZID=America/New_York:20260912T110000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7567377@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T090000
+DTEND;TZID=America/New_York:20260912T110000
+SUMMARY:Delaware Valley Regional H.S. vs Hackettstown High School (Varsit
+ y Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7509959@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (V
+ arsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7509959@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (V
+ arsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102759481@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:Belvidere High School at Delaware Valley Regional H.S. (Varsity C
+ oed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7562244@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Bound Brook High School at Warren County Tech High (Varsity Coed 
+ Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7510471@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:South Hunterdon Regional H.S. at Warren County Tech High (Varsity
+  Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-09-14:16:00:CrossCountry:0@skyland-conf
+ erence
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Gill St. Bernard's School vs Delbarton School\, Peck School\, Vil
+ la Walsh Academy (Middle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7596652@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Bernards High School vs The Pingry School (Varsity Coed Coed Cros
+ s Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7562250@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Bound Brook High School at Manville High School (Varsity Coed Coe
+ d Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7510478@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:South Hunterdon Regional H.S. at Manville High School (Varsity Co
+ ed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101732280@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Belvidere High School at Manville High School (Varsity Coed Coed 
+ Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7584892@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Bernards High School vs Delbarton School (Middle School Coed Coed
+  Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102859169@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Warren Hills Regional H.S. at TBD (Varsity Coed Coed Cross Countr
+ y)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103467732@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
+ try)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-09-19:09:00:CrossCountry:14@skyland-con
+ ference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Gill St. Bernard's School vs Wardlaw-Hartridge School (Middle Sch
+ ool Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7584978@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Bernards High School vs Madison Junior High School (Middle School
+  Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103359562@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:North Hunterdon High School at Bernards High School (Varsity Coed
+  Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7577859@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Bernards High School vs Somerville High School (Varsity Coed Coed
+  Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7592082@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Hillsborough High School vs Crossroads Middle School (Middle Scho
+ ol Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7577859@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:Ridge High School at Bernards High School (Varsity Coed Coed Cros
+ s Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7562253@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Bound Brook High School at Belvidere High School (Varsity Coed Co
+ ed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7577201@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:South Hunterdon Regional H.S. at Pennington Prep (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7585407@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Bernards High School at Dover Middle School (Middle School Coed C
+ oed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7508668@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Franklin High School at Montgomery High School (Middle School Coe
+ d Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7592060@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Hillsborough High School vs William Annin Middle School (Middle S
+ chool Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101253082@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T080000
+DTEND;TZID=America/New_York:20260926T100000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 8:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102759872@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Belvidere High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7585576@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Bernards High School at Long Valley Middle School (Middle School 
+ Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7577205@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Hillsborough High School at South Hunterdon Regional H.S. (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7577205@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:South Hunterdon Regional H.S. vs Hillsborough Athletics (Middle S
+ chool Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7483995@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Hillsborough High School at Warren Hills Regional School District
+  (Middle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7510514@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity C
+ oed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102050034@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Belvidere High School vs Warren County Technical School (Varsity 
+ Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526482@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Franklin High School vs Branchburg Middle School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7508329@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Montgomery High School at JP Case Middle School (Middle School Co
+ ed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7582214@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T154500
+DTEND;TZID=America/New_York:20261001T174500
+SUMMARY:South Hunterdon Regional H.S. vs New Hope (Middle School Coed Coe
+ d Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7585642@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Bernards High School vs Morris Plains Borough MS (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102760064@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Belvidere High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101253116@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102859205@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:Warren Hills Regional H.S. at TBD (Varsity Coed Coed Cross Countr
+ y)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103468007@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
+ try)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7577206@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:South Hunterdon Regional H.S. at East Amwell Township School (Mid
+ dle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7585775@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Bernards High School vs Boonton Middle School (Middle School Coed
+  Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7484004@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Franklin High School at Warren Hills Regional School District (Mi
+ ddle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7508394@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Hillsborough High School at Montgomery High School (Middle School
+  Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7508394@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Montgomery High School vs Readington Middle School (Middle School
+  Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103041496@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Somerville High School vs TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7510557@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Bound Brook High School at South Hunterdon Regional H.S. (Varsity
+  Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7510557@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:South Hunterdon Regional H.S. vs Warren County Tech High (Varsity
+  Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101253164@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Manville High School at Somerville High School (Varsity Coed Coed
+  Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102472682@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261007
+DTEND;VALUE=DATE:20261008
+SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Varsity C
+ oed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7508417@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Montgomery High School at Bridgewater-Raritan Middle School (Midd
+ le School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7577208@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:South Hunterdon Regional H.S. at Somerville Middle School (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526041@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Franklin High School vs JP Case Middle School (Middle School Coed
+  Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7592062@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Hillsborough High School vs Branchburg Middle School (Middle Scho
+ ol Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103468189@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T160000
+DTEND;TZID=America/New_York:20261009T180000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
+ try)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7588776@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T160000
+DTEND;TZID=America/New_York:20261009T180000
+SUMMARY:Bernards High School at Briarcliff MS (Middle School Coed Coed Cr
+ oss Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7577188@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T160000
+DTEND;TZID=America/New_York:20261009T180000
+SUMMARY:South Hunterdon Regional H.S. at Timberlane Middle School (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7510598@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T120000
+DTEND;TZID=America/New_York:20261010T140000
+SUMMARY:South Hunterdon Regional H.S. at Pennington Prep (Varsity Coed Co
+ ed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102556825@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T090000
+DTEND;TZID=America/New_York:20261013T110000
+SUMMARY:Phillipsburg High School vs Warren Hills Regional H.S. (Varsity C
+ oed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102760176@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T100000
+DTEND;TZID=America/New_York:20261013T120000
+SUMMARY:Belvidere High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101253220@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T100000
+DTEND;TZID=America/New_York:20261013T120000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102548105@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T100000
+DTEND;TZID=America/New_York:20261013T120000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
+ try)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7588852@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Bernards High School vs Black River Middle School (Middle School 
+ Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7579668@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:South Hunterdon Regional H.S. at Delaware Township School (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7542596@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Franklin High School at Somerville Middle School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7508451@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Montgomery High School at TBA NJ (Middle School Coed Coed Cross C
+ ountry)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7602329@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:South Hunterdon Regional H.S. at TBD (Varsity Coed Coed Cross Cou
+ ntry)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7484047@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Hillsborough High School at JP Case Middle School (Middle School 
+ Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526071@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Franklin High School vs Clinton Township Middle School (Middle Sc
+ hool Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7526071@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Hillsborough High School at Franklin High School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7484081@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Montgomery High School vs Warren Hills Regional School District (
+ Middle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101253450@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7582082@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:South Hunterdon Regional H.S. at Delaware Township School (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526093@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Franklin High School at Readington Middle School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7592067@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Hillsborough High School vs Somerville Middle School (Middle Scho
+ ol Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7508506@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Montgomery High School at Clinton Township Middle School (Middle 
+ School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102176792@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T150000
+DTEND;TZID=America/New_York:20261021T170000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
+ try)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102760238@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T100000
+DTEND;TZID=America/New_York:20261022T120000
+SUMMARY:Belvidere High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102859537@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T123000
+DTEND;TZID=America/New_York:20261022T143000
+SUMMARY:Phillipsburg High School vs Warren Hills Regional H.S. (Varsity C
+ oed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7582226@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T154500
+DTEND;TZID=America/New_York:20261022T174500
+SUMMARY:South Hunterdon Regional H.S. vs New Hope (Middle School Coed Coe
+ d Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7582484@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:South Hunterdon Regional H.S. vs Alexandria Middle School (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101339253@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T150000
+DTEND;TZID=America/New_York:20261028T170000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103468282@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261028
+DTEND;VALUE=DATE:20261029
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
+ try)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101339255@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T090000
+DTEND;TZID=America/New_York:20261031T110000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102738019@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T090000
+DTEND;TZID=America/New_York:20261031T110000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
+ try)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102760444@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T123000
+DTEND;TZID=America/New_York:20261031T143000
+SUMMARY:Belvidere High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101339257@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261107T210000
+DTEND;TZID=America/New_York:20261107T230000
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101339259@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261114
+DTEND;VALUE=DATE:20261115
+SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away
+END:VEVENT
+END:VCALENDAR

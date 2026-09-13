@@ -1,0 +1,71 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Columbia High School Middle School 
+ Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103344657@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Columbia High School vs Hillside High School (Middle School Boys 
+ Football)
+DESCRIPTION:Middle School Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101678354@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Columbia High School at Union High School (Middle School Boys Foo
+ tball)
+DESCRIPTION:Middle School Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103344664@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Columbia High School vs Perth Amboy High School (Middle School Bo
+ ys Football)
+DESCRIPTION:Middle School Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102747919@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Columbia High School at North Plainfield School District (Middle 
+ School Boys Football)
+DESCRIPTION:Middle School Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103493057@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T183000
+DTEND;TZID=America/New_York:20261022T203000
+SUMMARY:Columbia High School at Bayonne High School (Middle School Boys F
+ ootball)
+DESCRIPTION:Middle School Boys Football - Away - 6:30 PM
+END:VEVENT
+END:VCALENDAR

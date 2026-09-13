@@ -1,0 +1,152 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Watchung Hills Regional H.S. Boys Baske
+ tball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:101242022@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Watchung Hills Regional H.S. vs Central High School (Junior Varsi
+ ty Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101242039@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T173000
+DTEND;TZID=America/New_York:20261209T193000
+SUMMARY:Watchung Hills Regional H.S. vs Central High School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103028598@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Watchung Hills Regional H.S. vs Bernards High School (Freshman Bo
+ ys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7448397@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T180000
+DTEND;TZID=America/New_York:20261215T200000
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564557@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T153000
+DTEND;TZID=America/New_York:20261228T173000
+SUMMARY:Montgomery High School vs Watchung Hills Regional H.S. (Freshman 
+ Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102953755@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T153000
+DTEND;TZID=America/New_York:20261228T173000
+SUMMARY:Watchung Hills Regional H.S. at Montgomery High School (Freshman 
+ Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102953785@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T140000
+DTEND;TZID=America/New_York:20261230T160000
+SUMMARY:Watchung Hills Regional H.S. at Bridgewater-Raritan High School (
+ Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7448405@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T180000
+DTEND;TZID=America/New_York:20270105T200000
+SUMMARY:Delaware Valley Regional H.S. vs Watchung Hills Regional H.S. (Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7611902@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T090000
+DTEND;TZID=America/New_York:20270109T110000
+SUMMARY:Immaculata High School vs Watchung Hills Regional H.S. (Freshman 
+ Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7611901@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T103000
+DTEND;TZID=America/New_York:20270109T123000
+SUMMARY:Immaculata High School vs Watchung Hills Regional H.S. (Junior Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102315448@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T103000
+DTEND;TZID=America/New_York:20270109T123000
+SUMMARY:Watchung Hills Regional H.S. at Immaculata High School (Junior Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7611900@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T120000
+DTEND;TZID=America/New_York:20270109T140000
+SUMMARY:Immaculata High School vs Watchung Hills Regional H.S. (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7448412@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T180000
+DTEND;TZID=America/New_York:20270114T200000
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7448420@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T180000
+DTEND;TZID=America/New_York:20270121T200000
+SUMMARY:Delaware Valley Regional H.S. at Watchung Hills Regional H.S. (Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+END:VCALENDAR

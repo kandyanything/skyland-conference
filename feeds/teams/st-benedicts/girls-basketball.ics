@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Saint Benedict's Prep Girls Basketb
+ all
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:100569727@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Saint Benedict's Prep at Technology High School (Newark) (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569554@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T160000
+DTEND;TZID=America/New_York:20261219T180000
+SUMMARY:Irvington High School vs Saint Benedict's Preparatory School (Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569687@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T163000
+DTEND;TZID=America/New_York:20270105T183000
+SUMMARY:Malcolm X Shabazz High School vs Saint Benedict's Preparatory Sch
+ ool (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569837@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Golda Och Academy at Saint Benedict's Preparatory School (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569792@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Saint Benedict's Prep at Saint Vincent Academy (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569876@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T110000
+DTEND;TZID=America/New_York:20270116T130000
+SUMMARY:Orange High School at Saint Benedict's Preparatory School (Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569883@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T160000
+DTEND;TZID=America/New_York:20270119T180000
+SUMMARY:Saint Benedict's Prep vs Technology High School (Newark) (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569890@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Malcolm X Shabazz High School at Saint Benedict's Preparatory Sch
+ ool (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569762@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T163000
+DTEND;TZID=America/New_York:20270126T183000
+SUMMARY:Golda Och Academy vs Saint Benedict's Preparatory School (Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100569896@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Saint Benedict's Prep vs Saint Vincent Academy (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR

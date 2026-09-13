@@ -1,0 +1,743 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Montgomery High School Boys Basketball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2741:7562938@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T163000
+DTEND;TZID=America/New_York:20261207T183000
+SUMMARY:Montgomery High School vs South Plainfield High School (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7562939@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T163000
+DTEND;TZID=America/New_York:20261207T183000
+SUMMARY:Montgomery High School vs South Plainfield High School (Junior Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7562940@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T163000
+DTEND;TZID=America/New_York:20261207T183000
+SUMMARY:Montgomery High School vs Manasquan High School (Freshman Boys Bo
+ ys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7562948@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Montgomery High School at Ewing High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564360@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Montgomery High School at Ewing High School (Freshman Boys Boys B
+ asketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564659@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Montgomery High School at Ewing High School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7562247@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T200000
+DTEND;TZID=America/New_York:20261211T220000
+SUMMARY:Montgomery High School vs Seton Hall Prep School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 8:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564385@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Montgomery High School at Phillipsburg High School (Freshman Boys
+  Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564668@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T173000
+DTEND;TZID=America/New_York:20261215T193000
+SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7448196@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T190000
+DTEND;TZID=America/New_York:20261215T210000
+SUMMARY:Montgomery High School at Phillipsburg High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7564396@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Montgomery High School (Freshm
+ an Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7574859@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Montgomery High School (Junior
+  Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564396@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Freshm
+ an Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7574859@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Junior
+  Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7448202@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T180000
+DTEND;TZID=America/New_York:20261217T200000
+SUMMARY:Hunterdon Central Regional H.S. vs Montgomery High School (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7448202@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T180000
+DTEND;TZID=America/New_York:20261217T200000
+SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564439@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T093000
+DTEND;TZID=America/New_York:20261219T113000
+SUMMARY:Montgomery High School at Burlington Township High School (Freshm
+ an Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7562958@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261219
+DTEND;VALUE=DATE:20261220
+SUMMARY:Montgomery High School at Saint Mary High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7562966@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T150000
+DTEND;TZID=America/New_York:20261222T170000
+SUMMARY:Montgomery High School at The Ranney School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7574883@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T093000
+DTEND;TZID=America/New_York:20261228T113000
+SUMMARY:Montgomery High School vs St Thomas Aquinas High School (Junior V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563000@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T113000
+DTEND;TZID=America/New_York:20261228T133000
+SUMMARY:Montgomery High School vs St Thomas Aquinas High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564557@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T153000
+DTEND;TZID=America/New_York:20261228T173000
+SUMMARY:Montgomery High School vs Watchung Hills Regional H.S. (Freshman 
+ Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102953755@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T153000
+DTEND;TZID=America/New_York:20261228T173000
+SUMMARY:Watchung Hills Regional H.S. at Montgomery High School (Freshman 
+ Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7574887@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T093000
+DTEND;TZID=America/New_York:20261230T113000
+SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Junior
+  Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7563003@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T113000
+DTEND;TZID=America/New_York:20261230T133000
+SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564563@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T123000
+DTEND;TZID=America/New_York:20261230T143000
+SUMMARY:Montgomery High School vs St Thomas Aquinas High School (Freshman
+  Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563007@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270102
+DTEND;VALUE=DATE:20270103
+SUMMARY:Montgomery High School at KIPP Newark Collegiate Academy (Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563024@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Montgomery High School vs Mastery High School of Camden (Junior V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563023@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T173000
+DTEND;TZID=America/New_York:20270105T193000
+SUMMARY:Montgomery High School vs Mastery High School of Camden (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7448208@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T180000
+DTEND;TZID=America/New_York:20270105T200000
+SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563038@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Montgomery High School at TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7448214@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T180000
+DTEND;TZID=America/New_York:20270107T200000
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563120@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T180000
+DTEND;TZID=America/New_York:20270107T200000
+SUMMARY:Montgomery High School at TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563130@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T140000
+DTEND;TZID=America/New_York:20270109T160000
+SUMMARY:Montgomery High School vs Morris Knolls High School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563195@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T170000
+DTEND;TZID=America/New_York:20270110T190000
+SUMMARY:Montgomery High School at Union Catholic Regional High School (Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7564584@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Hillsborough High School vs Montgomery High School (Freshman Boys
+  Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564584@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Montgomery High School at Hillsborough Athletics (Freshman Boys B
+ oys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7448219@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T180000
+DTEND;TZID=America/New_York:20270112T200000
+SUMMARY:Hillsborough High School vs Montgomery High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7448219@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T180000
+DTEND;TZID=America/New_York:20270112T200000
+SUMMARY:Montgomery High School at Hillsborough Athletics (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7574900@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Hillsborough High School vs Montgomery High School (Junior Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7574900@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Montgomery High School at Hillsborough Athletics (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7565061@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Montgomery High School at Pennington Prep (Freshman Boys Boys Bas
+ ketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563203@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T161500
+DTEND;TZID=America/New_York:20270114T181500
+SUMMARY:Montgomery High School at The Pingry School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563204@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T174500
+DTEND;TZID=America/New_York:20270114T194500
+SUMMARY:Montgomery High School at The Pingry School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7448224@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T180000
+DTEND;TZID=America/New_York:20270114T200000
+SUMMARY:Montgomery High School at The Pingry School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7565120@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T100000
+DTEND;TZID=America/New_York:20270116T120000
+SUMMARY:Bridgewater-Raritan High School vs Montgomery High School (Freshm
+ an Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7563988@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T143000
+DTEND;TZID=America/New_York:20270116T163000
+SUMMARY:Montgomery High School at Freehold Township High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7564072@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T154500
+DTEND;TZID=America/New_York:20270119T174500
+SUMMARY:Immaculata High School at Montgomery High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7564071@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T173000
+DTEND;TZID=America/New_York:20270119T193000
+SUMMARY:Immaculata High School at Montgomery High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7564073@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T173000
+DTEND;TZID=America/New_York:20270119T193000
+SUMMARY:Immaculata High School at Montgomery High School (Freshman Boys B
+ oys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7448228@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T180000
+DTEND;TZID=America/New_York:20270119T200000
+SUMMARY:Immaculata High School at Montgomery High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526669@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T163000
+DTEND;TZID=America/New_York:20270121T183000
+SUMMARY:Franklin High School at Montgomery High School (Junior Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7564588@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Franklin High School at Montgomery High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7448232@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T190000
+DTEND;TZID=America/New_York:20270121T210000
+SUMMARY:Franklin High School vs Montgomery High School (Varsity Boys Boys
+  Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564090@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Montgomery High School vs Lenape High School (Freshman Boys Boys 
+ Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564089@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T113000
+DTEND;TZID=America/New_York:20270123T133000
+SUMMARY:Montgomery High School vs Lenape High School (Junior Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564088@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T130000
+DTEND;TZID=America/New_York:20270123T150000
+SUMMARY:Montgomery High School vs Lenape High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7574910@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T160000
+DTEND;TZID=America/New_York:20270126T180000
+SUMMARY:Montgomery High School vs Rutgers Preparatory School (Junior Vars
+ ity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7448236@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:Montgomery High School vs Rutgers Preparatory School (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564637@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:Montgomery High School vs Rutgers Preparatory School (Freshman Bo
+ ys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564100@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T180000
+DTEND;TZID=America/New_York:20270128T200000
+SUMMARY:Montgomery High School at Christian Brothers Academy (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7565420@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T100000
+DTEND;TZID=America/New_York:20270130T120000
+SUMMARY:Montgomery High School vs Hudson Catholic High School (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564304@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T160000
+DTEND;TZID=America/New_York:20270202T180000
+SUMMARY:Montgomery High School at Gill St. Bernard's School (Junior Varsi
+ ty Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564303@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T180000
+DTEND;TZID=America/New_York:20270202T200000
+SUMMARY:Montgomery High School at Gill St. Bernard's School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564307@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T130000
+DTEND;TZID=America/New_York:20270206T150000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7590098@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T160000
+DTEND;TZID=America/New_York:20270209T180000
+SUMMARY:Montgomery High School vs Hudson Catholic High School (Junior Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7590099@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T173000
+DTEND;TZID=America/New_York:20270209T193000
+SUMMARY:Montgomery High School vs Hudson Catholic High School (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7590097@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T190000
+DTEND;TZID=America/New_York:20270209T210000
+SUMMARY:Montgomery High School vs Hudson Catholic High School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564312@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Montgomery High School at Ridge High School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564313@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Montgomery High School at Ridge High School (Freshman Boys Boys B
+ asketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564311@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T180000
+DTEND;TZID=America/New_York:20270211T200000
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564319@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270213T120000
+DTEND;TZID=America/New_York:20270213T140000
+SUMMARY:Montgomery High School at TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564322@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270218T160000
+DTEND;TZID=America/New_York:20270218T180000
+SUMMARY:Montgomery High School vs Morris Catholic High School (Junior Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564321@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270218T180000
+DTEND;TZID=America/New_York:20270218T200000
+SUMMARY:Montgomery High School vs Morris Catholic High School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564328@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T150000
+DTEND;TZID=America/New_York:20270220T170000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7597600@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270224T173000
+DTEND;TZID=America/New_York:20270224T193000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7597614@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270226T173000
+DTEND;TZID=America/New_York:20270226T193000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7597624@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270303T173000
+DTEND;TZID=America/New_York:20270303T193000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7597632@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270306T130000
+DTEND;TZID=America/New_York:20270306T150000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7597663@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270310
+DTEND;VALUE=DATE:20270311
+SUMMARY:Montgomery High School at TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7597675@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270314
+DTEND;VALUE=DATE:20270315
+SUMMARY:Montgomery High School at TBA NJ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Belvidere High School Junior Varsity Bo
+ ys Basketball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2877:7572136@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Junior Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102150033@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T163000
+DTEND;TZID=America/New_York:20261217T183000
+SUMMARY:Belvidere High School at College Achieve Central Charter School (
+ Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101726067@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T100000
+DTEND;TZID=America/New_York:20261219T120000
+SUMMARY:Belvidere High School vs Morris County School of Technology (Juni
+ or Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102064109@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T173000
+DTEND;TZID=America/New_York:20261221T193000
+SUMMARY:Belvidere High School at North Warren Regional H.S. (Junior Varsi
+ ty Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102083717@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T163000
+DTEND;TZID=America/New_York:20270105T183000
+SUMMARY:Belvidere High School vs Voorhees High School (Junior Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102083700@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T163000
+DTEND;TZID=America/New_York:20270107T183000
+SUMMARY:Belvidere High School vs Manville High School (Junior Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102205191@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T163000
+DTEND;TZID=America/New_York:20270108T183000
+SUMMARY:Belvidere High School vs Koinonia Academy (Junior Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102083696@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T163000
+DTEND;TZID=America/New_York:20270112T183000
+SUMMARY:Belvidere High School vs Bound Brook High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7572170@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Junior Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102083692@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T163000
+DTEND;TZID=America/New_York:20270114T183000
+SUMMARY:Belvidere High School vs South Hunterdon Regional H.S. (Junior Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102269492@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270124T160000
+DTEND;TZID=America/New_York:20270124T180000
+SUMMARY:Voorhees High School vs Belvidere High School (Junior Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101190530@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:Manville High School vs Belvidere High School (Junior Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+END:VCALENDAR

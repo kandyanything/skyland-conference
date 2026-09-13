@@ -1,0 +1,134 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Montclair High School Varsity Baseb
+ all
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:102565105@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T160000
+DTEND;TZID=America/New_York:20270330T180000
+SUMMARY:Montclair High School at West Essex High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565782@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Montclair High School vs West Essex High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102564978@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Montclair High School at Seton Hall Preparatory School (Varsity B
+ oys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565803@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
+SUMMARY:Montclair High School vs Seton Hall Preparatory School (Varsity B
+ oys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566023@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:James Caldwell High School vs Montclair High School (Varsity Boys
+  Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565822@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:James Caldwell High School at Montclair High School (Varsity Boys
+  Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565627@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T160000
+DTEND;TZID=America/New_York:20270419T180000
+SUMMARY:Livingston High School vs Montclair High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565858@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T160000
+DTEND;TZID=America/New_York:20270422T180000
+SUMMARY:Livingston High School at Montclair High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565878@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:Montclair High School vs Montclair Kimberley Academy (Varsity Boy
+ s Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565365@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T160000
+DTEND;TZID=America/New_York:20270428T180000
+SUMMARY:Montclair High School at Columbia High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565902@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T160000
+DTEND;TZID=America/New_York:20270503T180000
+SUMMARY:Montclair High School vs Columbia High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102567432@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T160000
+DTEND;TZID=America/New_York:20270518T180000
+SUMMARY:Montclair High School at Saint Benedict's Preparatory School (Var
+ sity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+END:VCALENDAR

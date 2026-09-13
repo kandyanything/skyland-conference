@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Watchung Hills Regional H.S. Junior Var
+ sity Girls Basketball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:102344386@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T233000
+DTEND;TZID=America/New_York:20261212T013000
+SUMMARY:Watchung Hills Regional H.S. at Morris Hills High School (Junior 
+ Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7623512@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Franklin High School vs Watchung Hills Regional H.S. (Junior Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102953740@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T123000
+DTEND;TZID=America/New_York:20261228T143000
+SUMMARY:Watchung Hills Regional H.S. vs Spotswood Public Schools (Junior 
+ Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102953729@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T080000
+DTEND;TZID=America/New_York:20261230T100000
+SUMMARY:Watchung Hills Regional H.S. vs Our Lady of Mercy Academy (Junior
+  Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 8:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102315675@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270101T113000
+DTEND;TZID=America/New_York:20270101T133000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Junior Varsity Girls Girls B
+ asketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7582758@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Junior Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103028528@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Watchung Hills Regional H.S. vs Hunterdon Central Reg. High Schoo
+ l (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7613362@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T113000
+DTEND;TZID=America/New_York:20270116T133000
+SUMMARY:Immaculata High School vs Watchung Hills Regional H.S. (Junior Va
+ rsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
+END:VEVENT
+END:VCALENDAR

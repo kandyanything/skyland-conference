@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Montgomery High School Girls Cheerleadi
+ ng
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2741:7489955@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T180000
+DTEND;TZID=America/New_York:20260828T200000
+SUMMARY:Montgomery High School vs Hopewell Valley Central School (Varsity
+  Girls Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7515186@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T190000
+DTEND;TZID=America/New_York:20260910T210000
+SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity G
+ irls Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7515198@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:Montgomery High School at Cranford High School (Varsity Girls Gir
+ ls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7528384@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T180000
+DTEND;TZID=America/New_York:20261009T200000
+SUMMARY:Hunterdon Central Regional H.S. vs Montgomery High School (Varsit
+ y Girls Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7515216@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T180000
+DTEND;TZID=America/New_York:20261009T200000
+SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
+ y Girls Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7515272@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Montgomery High School at North Hunterdon High School (Varsity Gi
+ rls Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7577619@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T180000
+DTEND;TZID=America/New_York:20261023T200000
+SUMMARY:Hillsborough High School at Montgomery High School (Varsity Girls
+  Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7577619@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T180000
+DTEND;TZID=America/New_York:20261023T200000
+SUMMARY:Montgomery High School vs Hillsborough Athletics (Varsity Girls G
+ irls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:00 PM
+END:VEVENT
+END:VCALENDAR

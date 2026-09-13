@@ -1,0 +1,51 @@
+name: Refresh upcoming schedule (DISABLED)
+
+# DISABLED ON PURPOSE. This incremental "next few days" refresh
+# (scripts/update-recent.js) re-fetched only the nearest days and SPLICED them
+# in - but whenever a source hiccupped it removed those games instead of keeping
+# them. With the full nightly rebuild not committing, it quietly hollowed out the
+# nearest days (Sept 1-2 dropped to zero).
+#
+# The full rebuild (schedule.yml) now runs every 3 hours instead. A full rebuild
+# is self-correcting and CANNOT erode, so it replaces this job. This file is kept
+# for reference and manual runs only; do NOT restore the cron trigger without
+# first fixing the erosion in update-recent.js (it must never drop a game just
+# because a single source returned thin).
+on:
+  workflow_dispatch:
+
+concurrency:
+  group: schedule-rebuild
+  cancel-in-progress: false
+
+jobs:
+  refresh:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Refresh the next few days
+        run: node scripts/update-recent.js
+
+      - name: Split into per-month files
+        run: node scripts/split-schedule.js
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "skyland-schedule-bot"
+          git config user.email "actions@github.com"
+          git add data/schedule.json data/schedule/
+          if git diff --cached --quiet; then
+            echo "no change - nothing to publish"
+            exit 0
+          fi
+          git commit -m "Hourly schedule refresh (manual)"
+          git push

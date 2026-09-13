@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — East Orange Campus High School Vars
+ ity Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103203401@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T163000
+DTEND;TZID=America/New_York:20260821T183000
+SUMMARY:East Orange Campus High School vs Ewing High School (Varsity Boys
+  Football)
+DESCRIPTION:Varsity Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100253122@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T130000
+DTEND;TZID=America/New_York:20260829T150000
+SUMMARY:East Orange Campus High School vs Piscataway High School (Varsity
+  Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99189382@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T180000
+DTEND;TZID=America/New_York:20260904T200000
+SUMMARY:Bloomfield High School vs East Orange Campus High School (Varsity
+  Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99801482@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T190000
+DTEND;TZID=America/New_York:20260911T210000
+SUMMARY:East Orange Campus High School at Union City High School (Varsity
+  Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100195171@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T190000
+DTEND;TZID=America/New_York:20260925T210000
+SUMMARY:East Orange Campus High School at West Orange High School (Varsit
+ y Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100253132@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:East Orange Campus High School vs Livingston High School (Varsity
+  Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100100596@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T130000
+DTEND;TZID=America/New_York:20261010T150000
+SUMMARY:East Orange Campus High School at Montclair High School (Varsity 
+ Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100253137@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T130000
+DTEND;TZID=America/New_York:20261017T150000
+SUMMARY:East Orange Campus High School vs Irvington High School (Varsity 
+ Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100253145@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T130000
+DTEND;TZID=America/New_York:20261024T150000
+SUMMARY:Central High School at East Orange Campus High School (Varsity Bo
+ ys Football)
+DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100384867@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261126T103000
+DTEND;TZID=America/New_York:20261126T123000
+SUMMARY:Barringer High School vs East Orange Campus High School (Varsity 
+ Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 10:30 AM
+END:VEVENT
+END:VCALENDAR

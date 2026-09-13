@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Montclair Kimberley Academy Varsity
+  Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103146718@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T110000
+DTEND;TZID=America/New_York:20260821T130000
+SUMMARY:Montclair Kimberley Academy at Indian Hills High School (Varsity 
+ Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99260956@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T160000
+DTEND;TZID=America/New_York:20260827T180000
+SUMMARY:Montclair Kimberley Academy vs Bergen County Technical High Schoo
+ l (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103008395@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T160000
+DTEND;TZID=America/New_York:20260919T180000
+SUMMARY:Montclair Kimberley Academy at King School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99260961@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T140000
+DTEND;TZID=America/New_York:20261003T160000
+SUMMARY:Montclair Kimberley Academy vs Fieldston School (Varsity Boys Foo
+ tball)
+DESCRIPTION:Varsity Boys Football - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99260964@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T133000
+DTEND;TZID=America/New_York:20261010T153000
+SUMMARY:Montclair Kimberley Academy vs Morristown-Beard School (Varsity B
+ oys Football)
+DESCRIPTION:Varsity Boys Football - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99699340@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Montclair Kimberley Academy at The Pingry School (Varsity Boys Fo
+ otball)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99260975@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T130000
+DTEND;TZID=America/New_York:20261024T150000
+SUMMARY:Montclair Kimberley Academy vs Poly Prep County Day School (Varsi
+ ty Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
+END:VEVENT
+END:VCALENDAR

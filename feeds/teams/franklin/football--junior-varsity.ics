@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Franklin High School Junior Varsity Foo
+ tball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2617:7584919@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260819T160000
+DTEND;TZID=America/New_York:20260819T180000
+SUMMARY:Franklin High School at Teaneck High School (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7495188@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260907T090000
+DTEND;TZID=America/New_York:20260907T110000
+SUMMARY:Franklin High School at Colonia High School (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526559@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Franklin High School at St Thomas Aquinas High School (Junior Var
+ sity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7500119@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Franklin High School vs Sayreville Public Schools (Junior Varsity
+  Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7394548@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Franklin High School at North Brunswick Township High School (Jun
+ ior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526560@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T140000
+DTEND;TZID=America/New_York:20261005T160000
+SUMMARY:Franklin High School vs Piscataway High School (Junior Varsity Bo
+ ys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7590967@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Franklin High School vs Teaneck High School (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526561@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Franklin High School at Edison High School (Junior Varsity Boys F
+ ootball)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526562@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Franklin High School vs South Brunswick High School (Junior Varsi
+ ty Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526563@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Franklin High School vs Woodbridge High School (Junior Varsity Bo
+ ys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR

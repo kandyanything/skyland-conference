@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Hillsborough High School Freshman Footb
+ all
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2653:7555894@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260822T110000
+DTEND;TZID=America/New_York:20260822T130000
+SUMMARY:Hillsborough High School at Wayne Valley High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7555891@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T113000
+DTEND;TZID=America/New_York:20260827T133000
+SUMMARY:Hillsborough High School vs Manalapan High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7528358@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:Hillsborough High School at Hunterdon Central Regional H.S. (Fres
+ hman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7503397@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T153000
+DTEND;TZID=America/New_York:20260914T173000
+SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Fres
+ hman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551087@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Hillsborough High School vs Phillipsburg High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7555899@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Hillsborough High School at Union High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7493017@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Hillsborough High School at Colonia High School (Freshman Boys Fo
+ otball)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7555900@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Hillsborough High School vs Elizabeth High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7558723@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Hillsborough High School at Ridge High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7555907@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T183000
+DTEND;TZID=America/New_York:20261019T203000
+SUMMARY:Hillsborough High School at Ridge High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7512265@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Hillsborough High School vs Montgomery High School (Freshman Boys
+  Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR

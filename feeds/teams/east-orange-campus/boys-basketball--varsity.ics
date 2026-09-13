@@ -1,0 +1,143 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — East Orange Campus High School Vars
+ ity Boys Basketball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:101009159@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T183000
+DTEND;TZID=America/New_York:20261211T203000
+SUMMARY:East Orange Campus High School vs Gill St. Bernard's School (Vars
+ ity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535448@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T210000
+SUMMARY:East Orange Campus High School at Saint Benedict's Preparatory Sc
+ hool (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100537465@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T130000
+DTEND;TZID=America/New_York:20261219T150000
+SUMMARY:East Orange Campus High School vs Millburn High School (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100537473@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T190000
+DTEND;TZID=America/New_York:20270105T210000
+SUMMARY:East Orange Campus High School vs Seton Hall Preparatory School (
+ Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535789@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T190000
+DTEND;TZID=America/New_York:20270107T210000
+SUMMARY:Arts High School vs East Orange Campus High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100536484@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:East Orange Campus High School at Essex County-Newark Tech High S
+ chool (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100537564@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T190000
+DTEND;TZID=America/New_York:20270114T210000
+SUMMARY:East Orange Campus High School vs Essex County-Payne Tech High Sc
+ hool (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100537578@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T130000
+DTEND;TZID=America/New_York:20270116T150000
+SUMMARY:East Orange Campus High School vs Saint Benedict's Preparatory Sc
+ hool (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100534704@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T190000
+DTEND;TZID=America/New_York:20270121T210000
+SUMMARY:East Orange Campus High School at Seton Hall Preparatory School (
+ Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100541765@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T133000
+DTEND;TZID=America/New_York:20270123T153000
+SUMMARY:East Orange Campus High School at East Side High School - Newark 
+ (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100537588@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Arts High School at East Orange Campus High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100537594@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T190000
+DTEND;TZID=America/New_York:20270209T210000
+SUMMARY:East Orange Campus High School vs Essex County-Newark Tech High S
+ chool (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100536106@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:East Orange Campus High School at Essex County-Payne Tech High Sc
+ hool (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+END:VCALENDAR

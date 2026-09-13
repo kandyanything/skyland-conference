@@ -1,0 +1,124 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Livingston High School Freshman Foo
+ tball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:99740553@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T120000
+SUMMARY:Livingston High School at Saint Joseph High School - Metuchen (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103209210@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T100000
+DTEND;TZID=America/New_York:20260821T120000
+SUMMARY:Livingston High School at Pascack Valley High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101195301@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T100000
+DTEND;TZID=America/New_York:20260828T120000
+SUMMARY:Livingston High School at TBD (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103467521@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T100000
+DTEND;TZID=America/New_York:20260828T120000
+SUMMARY:Livingston High School at Bayonne High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99776225@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:Livingston High School vs West Orange High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102553616@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Columbia High School vs Livingston High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100100600@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Livingston High School at Montclair High School (Freshman Boys Fo
+ otball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99776230@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Livingston High School vs Morristown High School (Freshman Boys F
+ ootball)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99776232@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
+SUMMARY:East Orange Campus High School at Livingston High School (Freshma
+ n Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100194832@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Livingston High School at Passaic County Tech Institute (Freshman
+  Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99776236@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Bloomfield High School at Livingston High School (Freshman Boys F
+ ootball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+END:VCALENDAR

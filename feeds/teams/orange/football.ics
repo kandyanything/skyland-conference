@@ -1,0 +1,192 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Orange High School Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103081020@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260817T180000
+DTEND;TZID=America/New_York:20260817T200000
+SUMMARY:Orange High School vs Henry Snyder High School (Varsity Boys Foot
+ ball)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101765088@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260822T100000
+DTEND;TZID=America/New_York:20260822T120000
+SUMMARY:Montclair High School vs Orange High School (Varsity Boys Footbal
+ l)
+DESCRIPTION:Varsity Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99154663@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T190000
+DTEND;TZID=America/New_York:20260828T210000
+SUMMARY:Orange High School at North Plainfield School District (Varsity B
+ oys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310893@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T170000
+DTEND;TZID=America/New_York:20260831T190000
+SUMMARY:Orange High School vs North Plainfield School District (Junior Va
+ rsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310867@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T190000
+DTEND;TZID=America/New_York:20260904T210000
+SUMMARY:Nutley High School at Orange High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100309517@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:Nutley High School vs Orange High School (Junior Varsity Boys Foo
+ tball)
+DESCRIPTION:Junior Varsity Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310872@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T190000
+DTEND;TZID=America/New_York:20260911T210000
+SUMMARY:Barringer High School at Orange High School (Varsity Boys Footbal
+ l)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100444185@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T163000
+DTEND;TZID=America/New_York:20260914T183000
+SUMMARY:Barringer High School vs Orange High School (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121599@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T130000
+DTEND;TZID=America/New_York:20260919T150000
+SUMMARY:Central High School vs Orange High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310898@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T170000
+DTEND;TZID=America/New_York:20260921T190000
+SUMMARY:Central High School at Orange High School (Junior Varsity Boys Fo
+ otball)
+DESCRIPTION:Junior Varsity Boys Football - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310879@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T130000
+DTEND;TZID=America/New_York:20260926T150000
+SUMMARY:Orange High School vs Lincoln High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310882@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:Orange High School vs Weequahic High School (Varsity Boys Footbal
+ l)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100236859@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Orange High School at Weequahic High School (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98884490@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T190000
+DTEND;TZID=America/New_York:20261009T210000
+SUMMARY:Orange High School at Clifton High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310901@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T170000
+DTEND;TZID=America/New_York:20261012T190000
+SUMMARY:Orange High School vs Clifton High School (Junior Varsity Boys Fo
+ otball)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99231481@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T130000
+DTEND;TZID=America/New_York:20261017T150000
+SUMMARY:Orange High School at Parsippany Hills High School (Varsity Boys 
+ Football)
+DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310906@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T170000
+DTEND;TZID=America/New_York:20261019T190000
+SUMMARY:Orange High School vs Parsippany Hills High School (Junior Varsit
+ y Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310886@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Orange High School vs Eastside High School - Paterson (Varsity Bo
+ ys Football)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99665771@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T161500
+DTEND;TZID=America/New_York:20261026T181500
+SUMMARY:Orange High School at Eastside High School - Paterson (Junior Var
+ sity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+END:VCALENDAR

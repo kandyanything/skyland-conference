@@ -1,0 +1,1556 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — University High School
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103554210@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260814T160000
+DTEND;TZID=America/New_York:20260814T180000
+SUMMARY:East Orange Campus High School vs University High School (Varsity
+  Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103103529@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T160000
+DTEND;TZID=America/New_York:20260824T180000
+SUMMARY:University High School vs Hillside High School (Varsity Girls Gir
+ ls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103073371@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T160000
+DTEND;TZID=America/New_York:20260826T180000
+SUMMARY:Golda Och Academy vs University High School (Varsity Girls Girls 
+ Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103073391@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T171500
+DTEND;TZID=America/New_York:20260826T191500
+SUMMARY:Golda Och Academy vs University High School (Junior Varsity Girls
+  Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103146212@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T120000
+DTEND;TZID=America/New_York:20260828T140000
+SUMMARY:East Orange Campus High School vs University High School (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103391629@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T160000
+DTEND;TZID=America/New_York:20260828T180000
+SUMMARY:University High School vs American History High School (Varsity G
+ irls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101917237@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T100000
+DTEND;TZID=America/New_York:20260829T120000
+SUMMARY:[Canceled] Technology High School vs University High School (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100737381@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T163000
+DTEND;TZID=America/New_York:20260831T183000
+SUMMARY:Newark Lab High School vs University High School (Varsity Girls G
+ irls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100737359@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T173000
+DTEND;TZID=America/New_York:20260831T193000
+SUMMARY:Newark Lab High School vs University High School (Junior Varsity 
+ Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100662275@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T160000
+DTEND;TZID=America/New_York:20260901T180000
+SUMMARY:Technology High School vs University High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100735167@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:University High School vs Weequahic High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100735155@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T171500
+DTEND;TZID=America/New_York:20260902T191500
+SUMMARY:University High School vs Weequahic High School (Junior Varsity G
+ irls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100662836@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:[Canceled] Eagle Academy vs University High School (Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101578782@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T150000
+DTEND;TZID=America/New_York:20260904T170000
+SUMMARY:Bloomfield High School at University High School (Varsity Girls G
+ irls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101492426@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T160000
+DTEND;TZID=America/New_York:20260904T180000
+SUMMARY:[Canceled] Bloomfield High School vs University High School (Juni
+ or Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102618066@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Cedar Grove High School at University High School (Varsity Girls 
+ Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759524@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Saint Vincent Academy at University High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102803563@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T160000
+DTEND;TZID=America/New_York:20260911T180000
+SUMMARY:Irvington High School at University High School (Varsity Girls Gi
+ rls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99247522@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T100000
+DTEND;TZID=America/New_York:20260912T120000
+SUMMARY:Newark Collegiate Academy vs University High School (Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99247543@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T113000
+DTEND;TZID=America/New_York:20260912T133000
+SUMMARY:Newark Collegiate Academy vs University High School (Junior Varsi
+ ty Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103758717@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:University High School vs American History High School (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759032@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:University High School at Newark School of Global Studies (Varsit
+ y Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759044@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T171500
+DTEND;TZID=America/New_York:20260914T191500
+SUMMARY:University High School at Newark School of Global Studies (Junior
+  Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759571@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:University High School vs West Side High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100662942@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:University High School vs West Side High School (Varsity Boys Boy
+ s Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759584@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T171500
+DTEND;TZID=America/New_York:20260916T191500
+SUMMARY:University High School vs West Side High School (Junior Varsity G
+ irls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100662940@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T160000
+DTEND;TZID=America/New_York:20260918T180000
+SUMMARY:Payne Tech at University High School (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102903744@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T160000
+DTEND;TZID=America/New_York:20260918T180000
+SUMMARY:University High School at Verona High School (Varsity Girls Girls
+  Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102928599@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Belleville High School at University High School (Varsity Girls G
+ irls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759615@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Malcolm X Shabazz High School at University High School (Varsity 
+ Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100662945@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Newark Collegiate Academy at University High School (Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759601@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T171500
+DTEND;TZID=America/New_York:20260921T191500
+SUMMARY:Malcolm X Shabazz High School at University High School (Junior V
+ arsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100662815@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:North Star Academy vs University High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99133804@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:North Star Academy vs University High School (Varsity Girls Girls
+  Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99133827@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T171500
+DTEND;TZID=America/New_York:20260923T191500
+SUMMARY:North Star Academy vs University High School (Junior Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99141696@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Newark Lab High School at University High School (Varsity Girls G
+ irls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101013446@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Science Park High School vs University High School (Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99141711@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T171500
+DTEND;TZID=America/New_York:20260928T191500
+SUMMARY:Newark Lab High School at University High School (Junior Varsity 
+ Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102683347@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Cedar Grove High School vs Newark Collegiate Academy (Varsity Gir
+ ls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102801628@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:East Side High School at Irvington High School (Varsity Boys Boys
+  Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101698171@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:University High School at Weequahic High School (Varsity Boys Boy
+ s Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99141743@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:University High School at Weequahic High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99141735@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T171500
+DTEND;TZID=America/New_York:20260930T191500
+SUMMARY:University High School at Weequahic High School (Junior Varsity G
+ irls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99140831@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Saint Vincent Academy vs University High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102206879@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:University High School at Newark School of Data Science (Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759638@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:University High School vs Newark School of Global Studies (Varsit
+ y Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759651@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T171500
+DTEND;TZID=America/New_York:20261007T191500
+SUMMARY:University High School vs Newark School of Global Studies (Junior
+  Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103331086@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T150000
+DTEND;TZID=America/New_York:20261008T170000
+SUMMARY:Belleville High School at Mount Saint Dominic Academy (Varsity Gi
+ rls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103222835@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:East Orange Campus High School vs Glen Ridge High School (Varsity
+  Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102801716@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:East Orange Campus High School at Irvington High School (Varsity 
+ Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100761118@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T163000
+DTEND;TZID=America/New_York:20261013T183000
+SUMMARY:University High School at West Side High School (Varsity Girls Gi
+ rls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100761134@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T171500
+DTEND;TZID=America/New_York:20261013T191500
+SUMMARY:University High School at West Side High School (Junior Varsity G
+ irls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99128987@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Malcolm X Shabazz High School vs University High School (Varsity 
+ Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99129013@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T171500
+DTEND;TZID=America/New_York:20261014T191500
+SUMMARY:Malcolm X Shabazz High School vs University High School (Junior V
+ arsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101423208@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Science Park High School vs University High School (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103758724@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:University High School vs American History High School (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103391650@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:University High School vs Gateway Academy High School (Varsity Gi
+ rls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101854747@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:University High School at West Side High School (Varsity Boys Boy
+ s Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759676@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:North Star Academy at University High School (Varsity Girls Girls
+  Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102981365@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:University High School at Roselle Catholic High School (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100759665@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T171500
+DTEND;TZID=America/New_York:20261021T191500
+SUMMARY:North Star Academy at University High School (Junior Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102981383@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:University High School at Roselle Catholic High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103758735@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:University High School vs Newark School of Data Science (Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101917308@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T160000
+DTEND;TZID=America/New_York:20261029T180000
+SUMMARY:Technology High School vs University High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551273@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Cedar Grove High School at University High School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551303@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T173000
+DTEND;TZID=America/New_York:20261215T193000
+SUMMARY:Cedar Grove High School at University High School (Junior Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100560067@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Glen Ridge High School vs University High School (Varsity Girls G
+ irls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100560119@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:Glen Ridge High School vs University High School (Junior Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551731@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:Newark Academy vs University High School (Junior Varsity Boys Boy
+ s Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551672@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T210000
+SUMMARY:Newark Academy vs University High School (Varsity Boys Boys Baske
+ tball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551309@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T100000
+DTEND;TZID=America/New_York:20261219T120000
+SUMMARY:Irvington High School at University High School (Junior Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551277@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T113000
+DTEND;TZID=America/New_York:20261219T133000
+SUMMARY:Irvington High School at University High School (Varsity Boys Boy
+ s Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551280@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:University High School vs Newark School of Global Studies (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559594@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T173000
+DTEND;TZID=America/New_York:20270105T193000
+SUMMARY:University High School at James Caldwell High School (Junior Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551314@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T173000
+DTEND;TZID=America/New_York:20270105T193000
+SUMMARY:University High School vs Newark School of Global Studies (Junior
+  Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559557@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T190000
+DTEND;TZID=America/New_York:20270105T210000
+SUMMARY:University High School at James Caldwell High School (Varsity Gir
+ ls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559716@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Mount Saint Dominic Academy at University High School (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559766@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T173000
+DTEND;TZID=America/New_York:20270107T193000
+SUMMARY:Mount Saint Dominic Academy at University High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100562339@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T100000
+DTEND;TZID=America/New_York:20270109T120000
+SUMMARY:Montclair High School vs University High School (Junior Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551321@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T100000
+DTEND;TZID=America/New_York:20270109T120000
+SUMMARY:University High School vs Weequahic High School (Junior Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100562171@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T113000
+DTEND;TZID=America/New_York:20270109T133000
+SUMMARY:Montclair High School vs University High School (Varsity Girls Gi
+ rls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551284@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T113000
+DTEND;TZID=America/New_York:20270109T133000
+SUMMARY:University High School vs Weequahic High School (Varsity Boys Boy
+ s Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559722@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:University High School vs West Orange High School (Varsity Girls 
+ Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551390@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:University High School at Verona High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559772@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T173000
+DTEND;TZID=America/New_York:20270112T193000
+SUMMARY:University High School vs West Orange High School (Junior Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551442@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T173000
+DTEND;TZID=America/New_York:20270112T193000
+SUMMARY:University High School at Verona High School (Junior Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551288@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Montclair Kimberley Academy at University High School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100560486@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T173000
+DTEND;TZID=America/New_York:20270114T193000
+SUMMARY:Columbia High School vs University High School (Junior Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551327@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T173000
+DTEND;TZID=America/New_York:20270114T193000
+SUMMARY:Montclair Kimberley Academy at University High School (Junior Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100560427@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T190000
+DTEND;TZID=America/New_York:20270114T210000
+SUMMARY:Columbia High School vs University High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100549465@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T113000
+DTEND;TZID=America/New_York:20270116T133000
+SUMMARY:North Star Academy vs University High School (Junior Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100549425@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T130000
+DTEND;TZID=America/New_York:20270116T150000
+SUMMARY:North Star Academy vs University High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551806@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T160000
+DTEND;TZID=America/New_York:20270119T180000
+SUMMARY:Cedar Grove High School vs University High School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559728@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T160000
+DTEND;TZID=America/New_York:20270119T180000
+SUMMARY:Glen Ridge High School at University High School (Varsity Girls G
+ irls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551919@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T173000
+DTEND;TZID=America/New_York:20270119T193000
+SUMMARY:Cedar Grove High School vs University High School (Junior Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559779@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T173000
+DTEND;TZID=America/New_York:20270119T193000
+SUMMARY:Glen Ridge High School at University High School (Junior Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551290@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Newark Academy at University High School (Varsity Boys Boys Baske
+ tball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551329@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Newark Academy at University High School (Junior Varsity Boys Boy
+ s Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559793@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Newark Academy at University High School (Junior Varsity Girls Gi
+ rls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559736@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T113000
+DTEND;TZID=America/New_York:20270123T133000
+SUMMARY:Newark Academy at University High School (Varsity Girls Girls Bas
+ ketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559748@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T160000
+DTEND;TZID=America/New_York:20270126T180000
+SUMMARY:University High School vs James Caldwell High School (Varsity Gir
+ ls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551236@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T161500
+DTEND;TZID=America/New_York:20270126T181500
+SUMMARY:University High School at Newark School of Global Studies (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559862@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:University High School vs James Caldwell High School (Junior Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551254@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T174500
+DTEND;TZID=America/New_York:20270126T194500
+SUMMARY:University High School at Newark School of Global Studies (Junior
+  Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100560234@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T160000
+DTEND;TZID=America/New_York:20270202T180000
+SUMMARY:Mount Saint Dominic Academy vs University High School (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100552061@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T160000
+DTEND;TZID=America/New_York:20270202T180000
+SUMMARY:University High School at Essex County-West Caldwell Tech High Sc
+ hool (Varsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100560294@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T173000
+DTEND;TZID=America/New_York:20270202T193000
+SUMMARY:Mount Saint Dominic Academy vs University High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100552362@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T173000
+DTEND;TZID=America/New_York:20270202T193000
+SUMMARY:University High School at Essex County-West Caldwell Tech High Sc
+ hool (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559436@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T160000
+DTEND;TZID=America/New_York:20270209T180000
+SUMMARY:University High School at West Orange High School (Varsity Girls 
+ Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551295@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T160000
+DTEND;TZID=America/New_York:20270209T180000
+SUMMARY:University High School vs Verona High School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559488@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T173000
+DTEND;TZID=America/New_York:20270209T193000
+SUMMARY:University High School at West Orange High School (Junior Varsity
+  Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551332@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T173000
+DTEND;TZID=America/New_York:20270209T193000
+SUMMARY:University High School vs Verona High School (Junior Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551534@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Montclair Kimberley Academy vs University High School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559757@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:University High School vs Columbia High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100551618@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:Montclair Kimberley Academy vs University High School (Junior Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100559884@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:University High School vs Columbia High School (Junior Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615179@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270322T160000
+DTEND;TZID=America/New_York:20270322T180000
+SUMMARY:Central High School at University High School (Varsity Boys Boys 
+ Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615150@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270322T171500
+DTEND;TZID=America/New_York:20270322T191500
+SUMMARY:Central High School at University High School (Junior Varsity Boy
+ s Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615232@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270326T160000
+DTEND;TZID=America/New_York:20270326T180000
+SUMMARY:Eagle Academy at University High School (Varsity Boys Boys Volley
+ ball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102583820@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T160000
+DTEND;TZID=America/New_York:20270329T180000
+SUMMARY:Barringer High School vs University High School (Varsity Girls So
+ ftball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102659236@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T160000
+DTEND;TZID=America/New_York:20270329T180000
+SUMMARY:University High School at West Side High School (Varsity Boys Boy
+ s Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102659226@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270329T171500
+DTEND;TZID=America/New_York:20270329T191500
+SUMMARY:University High School at West Side High School (Junior Varsity B
+ oys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102569999@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T160000
+DTEND;TZID=America/New_York:20270330T180000
+SUMMARY:North Star Academy vs University High School (Varsity Boys Baseba
+ ll)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615293@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T160000
+DTEND;TZID=America/New_York:20270331T180000
+SUMMARY:Newark Collegiate Academy at University High School (Varsity Boys
+  Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615354@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T171500
+DTEND;TZID=America/New_York:20270331T191500
+SUMMARY:Newark Collegiate Academy at University High School (Junior Varsi
+ ty Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102585102@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Central High School vs University High School (Varsity Girls Soft
+ ball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570247@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:North Star Academy at University High School (Varsity Boys Baseba
+ ll)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615476@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T160000
+DTEND;TZID=America/New_York:20270402T180000
+SUMMARY:University High School vs American History High School (Varsity B
+ oys Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615408@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T171500
+DTEND;TZID=America/New_York:20270402T191500
+SUMMARY:University High School vs American History High School (Junior Va
+ rsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102569842@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Golda Och Academy vs University High School (Varsity Boys Basebal
+ l)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102592593@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Malcolm X Shabazz High School vs University High School (Varsity 
+ Boys Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102592595@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T171500
+DTEND;TZID=America/New_York:20270405T191500
+SUMMARY:Malcolm X Shabazz High School vs University High School (Junior V
+ arsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102584124@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T160000
+DTEND;TZID=America/New_York:20270406T180000
+SUMMARY:Technology High School vs University High School (Varsity Girls S
+ oftball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570281@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
+SUMMARY:Golda Och Academy at University High School (Varsity Boys Basebal
+ l)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102661114@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
+SUMMARY:Newark Lab High School vs University High School (Varsity Boys Bo
+ ys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102661132@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T171500
+DTEND;TZID=America/New_York:20270407T191500
+SUMMARY:Newark Lab High School vs University High School (Junior Varsity 
+ Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102586462@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
+SUMMARY:University High School vs West Side High School (Varsity Girls So
+ ftball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102573839@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270409T160000
+DTEND;TZID=America/New_York:20270409T180000
+SUMMARY:Saint Benedict's Prep vs University High School (Varsity Boys Boy
+ s Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102584855@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270409T160000
+DTEND;TZID=America/New_York:20270409T180000
+SUMMARY:Science Park High School vs University High School (Varsity Girls
+  Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102573834@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270409T171500
+DTEND;TZID=America/New_York:20270409T191500
+SUMMARY:Saint Benedict's Prep vs University High School (Junior Varsity B
+ oys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102597458@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:Central High School vs University High School (Varsity Boys Boys 
+ Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570450@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:University High School at Weequahic High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102597461@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T171500
+DTEND;TZID=America/New_York:20270412T191500
+SUMMARY:Central High School vs University High School (Junior Varsity Boy
+ s Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102586232@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T160000
+DTEND;TZID=America/New_York:20270413T180000
+SUMMARY:Golda Och Academy at University High School (Varsity Girls Softba
+ ll)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570283@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:University High School vs Weequahic High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102586486@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
+SUMMARY:North Star Academy at University High School (Varsity Girls Softb
+ all)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615493@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T160000
+DTEND;TZID=America/New_York:20270416T180000
+SUMMARY:University High School vs Newark School of Global Studies (Varsit
+ y Boys Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615524@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270416T171500
+DTEND;TZID=America/New_York:20270416T191500
+SUMMARY:University High School vs Newark School of Global Studies (Junior
+  Varsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102586262@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T160000
+DTEND;TZID=America/New_York:20270419T180000
+SUMMARY:Central High School at University High School (Varsity Girls Soft
+ ball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570213@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T160000
+DTEND;TZID=America/New_York:20270419T180000
+SUMMARY:East Orange Campus High School vs University High School (Varsity
+  Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102586325@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T160000
+DTEND;TZID=America/New_York:20270420T180000
+SUMMARY:Newark Tech at University High School (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570292@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270421T160000
+DTEND;TZID=America/New_York:20270421T180000
+SUMMARY:East Orange Campus High School at University High School (Varsity
+  Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102586334@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T160000
+DTEND;TZID=America/New_York:20270422T180000
+SUMMARY:Technology High School at University High School (Varsity Girls S
+ oftball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570301@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T160000
+DTEND;TZID=America/New_York:20270423T180000
+SUMMARY:Malcolm X Shabazz High School at University High School (Varsity 
+ Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102587526@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:East Orange Campus High School vs University High School (Varsity
+  Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570129@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T160000
+DTEND;TZID=America/New_York:20270428T180000
+SUMMARY:Orange High School vs University High School (Varsity Boys Baseba
+ ll)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615717@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T160000
+DTEND;TZID=America/New_York:20270430T180000
+SUMMARY:University High School vs West Side High School (Varsity Boys Boy
+ s Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615695@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T171500
+DTEND;TZID=America/New_York:20270430T191500
+SUMMARY:University High School vs West Side High School (Junior Varsity B
+ oys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102657568@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T160000
+DTEND;TZID=America/New_York:20270503T180000
+SUMMARY:Newark Collegiate Academy vs University High School (Varsity Boys
+  Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102570306@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T160000
+DTEND;TZID=America/New_York:20270503T180000
+SUMMARY:Orange High School at University High School (Varsity Boys Baseba
+ ll)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102657581@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T171500
+DTEND;TZID=America/New_York:20270503T191500
+SUMMARY:Newark Collegiate Academy vs University High School (Junior Varsi
+ ty Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102585313@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T160000
+DTEND;TZID=America/New_York:20270505T180000
+SUMMARY:University High School at West Side High School (Varsity Girls So
+ ftball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102593347@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270507T163000
+DTEND;TZID=America/New_York:20270507T183000
+SUMMARY:University High School at American History High School (Varsity B
+ oys Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102593340@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270507T173000
+DTEND;TZID=America/New_York:20270507T193000
+SUMMARY:University High School at American History High School (Junior Va
+ rsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102586343@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270508T130000
+DTEND;TZID=America/New_York:20270508T150000
+SUMMARY:Science Park High School at University High School (Varsity Girls
+  Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102586125@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270510T160000
+DTEND;TZID=America/New_York:20270510T180000
+SUMMARY:North Star Academy vs University High School (Varsity Girls Softb
+ all)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615734@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270512T160000
+DTEND;TZID=America/New_York:20270512T180000
+SUMMARY:Malcolm X Shabazz High School at University High School (Varsity 
+ Boys Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615851@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270512T171500
+DTEND;TZID=America/New_York:20270512T191500
+SUMMARY:Malcolm X Shabazz High School at University High School (Junior V
+ arsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102616728@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T160000
+DTEND;TZID=America/New_York:20270514T180000
+SUMMARY:Newark Lab High School at University High School (Varsity Boys Bo
+ ys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102616692@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T171500
+DTEND;TZID=America/New_York:20270514T191500
+SUMMARY:Newark Lab High School at University High School (Junior Varsity 
+ Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:15 PM
+END:VEVENT
+END:VCALENDAR

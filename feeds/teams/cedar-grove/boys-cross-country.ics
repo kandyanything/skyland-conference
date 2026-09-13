@@ -1,0 +1,78 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Cedar Grove High School Boys Cross 
+ Country
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:102682446@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Barringer High School at Cedar Grove High School (Varsity Boys Bo
+ ys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102682561@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Cedar Grove High School vs Newark Collegiate Academy (Varsity Boy
+ s Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102682759@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Bard Early College at Cedar Grove High School (Varsity Boys Boys 
+ Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102682827@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Arts High School at Cedar Grove High School (Varsity Boys Boys Cr
+ oss Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102682890@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T150000
+DTEND;TZID=America/New_York:20261013T170000
+SUMMARY:Cedar Grove High School vs TBD (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102682977@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T150000
+DTEND;TZID=America/New_York:20261023T170000
+SUMMARY:Cedar Grove High School vs TBD (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Home - 3:00 PM
+END:VEVENT
+END:VCALENDAR

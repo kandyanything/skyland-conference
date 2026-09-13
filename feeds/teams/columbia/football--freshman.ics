@@ -1,0 +1,99 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Columbia High School Freshman Footb
+ all
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:100387273@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T160000
+DTEND;TZID=America/New_York:20260827T180000
+SUMMARY:[Canceled] Columbia High School at Hillside High School (Freshman
+  Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103524814@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T090000
+DTEND;TZID=America/New_York:20260829T110000
+SUMMARY:Columbia High School at Morristown High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102678977@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Columbia High School at Bayonne High School (Freshman Boys Footba
+ ll)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102553616@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Columbia High School vs Livingston High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100271018@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Columbia High School at Irvington High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102553627@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Columbia High School vs Henry Snyder High School (Freshman Boys F
+ ootball)
+DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99801574@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Columbia High School at Union City High School (Freshman Boys Foo
+ tball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103356097@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T163000
+DTEND;TZID=America/New_York:20261021T183000
+SUMMARY:Columbia High School vs Passaic County Tech Institute (Freshman B
+ oys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:30 PM
+END:VEVENT
+END:VCALENDAR

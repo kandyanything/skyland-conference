@@ -1,0 +1,156 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Millburn High School Baseball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:102567514@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270330T160000
+DTEND;TZID=America/New_York:20270330T180000
+SUMMARY:Millburn High School at Montclair Kimberley Academy (Varsity Boys
+  Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566220@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Millburn High School vs Montclair Kimberley Academy (Varsity Boys
+  Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566241@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Millburn High School vs Saint Benedict's Preparatory School (Vars
+ ity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102567101@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
+SUMMARY:Millburn High School at Saint Benedict's Preparatory School (Vars
+ ity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566266@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:Millburn High School vs Verona High School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566837@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270414T160000
+DTEND;TZID=America/New_York:20270414T180000
+SUMMARY:Millburn High School at Verona High School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566647@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270419T160000
+DTEND;TZID=America/New_York:20270419T180000
+SUMMARY:Millburn High School at West Orange High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566284@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270421T160000
+DTEND;TZID=America/New_York:20270421T180000
+SUMMARY:Millburn High School vs West Orange High School (Varsity Boys Bas
+ eball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102634396@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T160000
+DTEND;TZID=America/New_York:20270423T180000
+SUMMARY:Belleville High School at Millburn High School (Junior Varsity Bo
+ ys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566315@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270423T160000
+DTEND;TZID=America/New_York:20270423T180000
+SUMMARY:Belleville High School at Millburn High School (Varsity Boys Base
+ ball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103009315@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:Millburn High School at West Essex High School (Junior Varsity Bo
+ ys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102565214@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:Millburn High School at West Essex High School (Varsity Boys Base
+ ball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566344@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270428T160000
+DTEND;TZID=America/New_York:20270428T180000
+SUMMARY:Millburn High School vs Nutley High School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566524@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T160000
+DTEND;TZID=America/New_York:20270503T180000
+SUMMARY:Millburn High School at Nutley High School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102566400@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T160000
+DTEND;TZID=America/New_York:20270518T180000
+SUMMARY:Millburn High School vs Seton Hall Preparatory School (Varsity Bo
+ ys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR

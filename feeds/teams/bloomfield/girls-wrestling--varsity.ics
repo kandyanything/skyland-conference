@@ -1,0 +1,125 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Bloomfield High School Varsity Girl
+ s Wrestling
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:102615797@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T110000
+DTEND;TZID=America/New_York:20261212T130000
+SUMMARY:Bloomfield High School vs Orange High School (Varsity Girls Girls
+  Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102037698@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261220T090000
+DTEND;TZID=America/New_York:20261220T110000
+SUMMARY:Belleville High School at Bloomfield High School (Varsity Girls G
+ irls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615911@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T180000
+DTEND;TZID=America/New_York:20261222T200000
+SUMMARY:Bloomfield High School vs Ramsey High School (Varsity Girls Girls
+  Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102737753@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T090000
+DTEND;TZID=America/New_York:20261230T110000
+SUMMARY:Bloomfield High School at East Brunswick High School (Varsity Gir
+ ls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615948@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270102T120000
+DTEND;TZID=America/New_York:20270102T140000
+SUMMARY:Bloomfield High School vs Union City High School (Varsity Girls G
+ irls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102741919@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270103T090000
+DTEND;TZID=America/New_York:20270103T110000
+SUMMARY:Bloomfield High School at Elizabeth High School (Varsity Girls Gi
+ rls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102741990@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T190000
+DTEND;TZID=America/New_York:20270106T210000
+SUMMARY:Bloomfield High School at West Orange High School (Varsity Girls 
+ Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102742045@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T180000
+DTEND;TZID=America/New_York:20270108T200000
+SUMMARY:Belleville High School vs Bloomfield High School (Varsity Girls G
+ irls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103169507@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T170000
+DTEND;TZID=America/New_York:20270115T190000
+SUMMARY:Bloomfield High School at Nutley High School (Varsity Girls Girls
+  Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103169944@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T090000
+DTEND;TZID=America/New_York:20270121T110000
+SUMMARY:Bloomfield High School at West Orange High School (Varsity Girls 
+ Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103170165@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270214T090000
+DTEND;TZID=America/New_York:20270214T110000
+SUMMARY:Nutley High School vs Bloomfield High School (Varsity Girls Girls
+  Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
+END:VEVENT
+END:VCALENDAR

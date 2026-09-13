@@ -1,0 +1,104 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Verona High School Varsity Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:99665012@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260821T100000
+DTEND;TZID=America/New_York:20260821T120000
+SUMMARY:Verona High School vs Wood-Ridge High School (Varsity Boys Footba
+ ll)
+DESCRIPTION:Varsity Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99665022@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T180000
+DTEND;TZID=America/New_York:20260828T200000
+SUMMARY:Verona High School vs Ramsey High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99665031@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T190000
+DTEND;TZID=America/New_York:20260904T210000
+SUMMARY:Verona High School vs James Caldwell High School (Varsity Boys Fo
+ otball)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99188944@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T183000
+DTEND;TZID=America/New_York:20260911T203000
+SUMMARY:Verona High School at Hoboken High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99713907@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T140000
+DTEND;TZID=America/New_York:20260919T160000
+SUMMARY:Verona High School at Indian Hills High School (Varsity Boys Foot
+ ball)
+DESCRIPTION:Varsity Boys Football - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99665040@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:Glen Ridge High School at Verona High School (Varsity Boys Footba
+ ll)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99776321@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T120000
+DTEND;TZID=America/New_York:20261010T140000
+SUMMARY:Verona High School at Wallkill Valley Regional High School (Varsi
+ ty Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99528922@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Cedar Grove High School vs Verona High School (Varsity Boys Footb
+ all)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99665044@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Verona High School vs Jefferson Township High School (Varsity Boy
+ s Football)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+END:VCALENDAR

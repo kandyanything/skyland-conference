@@ -1,0 +1,139 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Mount Saint Mary Academy Freshman Girls
+  Volleyball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2665:7548618@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T160000
+DTEND;TZID=America/New_York:20260901T180000
+SUMMARY:Hunterdon Central Regional H.S. at Mount Saint Mary Academy (Fres
+ hman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7555651@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Hillsborough High School vs Mount Saint Mary Academy (Freshman Gi
+ rls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103178058@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:North Hunterdon High School vs Mount Saint Mary Academy (Freshman
+  Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7548622@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Mount Saint Mary Academy (Fres
+ hman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:3dc22ac0-d612-4276-a127-2f83a794e9dd@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Mount Saint Mary Academy at Hunterdon Central Regional H.S. (Fres
+ hman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:2fefb42e-8153-4598-ae8b-4e3cadf11ac9@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T161500
+DTEND;TZID=America/New_York:20260921T181500
+SUMMARY:Mount Saint Mary Academy vs Immaculate Heart Academy (Freshman Gi
+ rls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7555697@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Hillsborough High School at Mount Saint Mary Academy (Freshman Gi
+ rls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103172398@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:North Hunterdon High School at Mount Saint Mary Academy (Freshman
+  Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:5fed5b6e-3350-40f4-ac1c-e647d2ba8306@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T160000
+DTEND;TZID=America/New_York:20261009T180000
+SUMMARY:Mount Saint Mary Academy vs Chatham (Freshman Girls Girls Volleyb
+ all)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7588711@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Bridgewater-Raritan High School vs Mount Saint Mary Academy (Fres
+ hman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:28b71b55-a345-49fd-a2ca-31c5e11be21e@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Mount Saint Mary Academy vs Livingston High School (Freshman Girl
+ s Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:db1691d0-eb4b-42c7-babb-611b27bbcef7@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Mount Saint Mary Academy at Scotch Plains-Fanwood (Freshman Girls
+  Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+END:VCALENDAR

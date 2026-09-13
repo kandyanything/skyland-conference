@@ -1,0 +1,565 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — West Essex High School Field Hockey
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:100132603@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T130000
+DTEND;TZID=America/New_York:20260824T150000
+SUMMARY:West Essex High School vs Camden Catholic High School (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100132616@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T144500
+DTEND;TZID=America/New_York:20260824T164500
+SUMMARY:West Essex High School vs Camden Catholic High School (Junior Var
+ sity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 2:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103181822@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260827T160000
+DTEND;TZID=America/New_York:20260827T180000
+SUMMARY:[Canceled] West Essex High School at Chatham High School (Freshma
+ n Girls Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101423352@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Montclair Kimberley Academy vs West Essex High School (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101622179@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T173000
+DTEND;TZID=America/New_York:20260902T193000
+SUMMARY:Montclair Kimberley Academy vs West Essex High School (Junior Var
+ sity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98217717@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T110000
+DTEND;TZID=America/New_York:20260905T130000
+SUMMARY:West Essex High School at Episcopal Academy\, Newtown Square (Var
+ sity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98217732@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T123000
+DTEND;TZID=America/New_York:20260905T143000
+SUMMARY:West Essex High School at Episcopal Academy\, Newtown Square (Jun
+ ior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101441407@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Livingston High School at West Essex High School (Varsity Girls F
+ ield Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101621862@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T173000
+DTEND;TZID=America/New_York:20260908T193000
+SUMMARY:Livingston High School at West Essex High School (Junior Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98135520@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:West Essex High School at Academy-Notre Dame De Namur (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102717218@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T171500
+DTEND;TZID=America/New_York:20260909T191500
+SUMMARY:West Essex High School at Academy-Notre Dame De Namur (Junior Var
+ sity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102536157@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:West Essex High School vs Randolph High School (Freshman Girls Fi
+ eld Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101796547@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T110000
+DTEND;TZID=America/New_York:20260912T130000
+SUMMARY:West Essex High School vs Phillipsburg High School (Varsity Girls
+  Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102103516@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T123000
+DTEND;TZID=America/New_York:20260912T143000
+SUMMARY:[Canceled] West Essex High School vs Phillipsburg High School (Ju
+ nior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 12:30 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101489012@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Montclair High School vs West Essex High School (Varsity Girls Fi
+ eld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101622021@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T173000
+DTEND;TZID=America/New_York:20260914T193000
+SUMMARY:Montclair High School vs West Essex High School (Junior Varsity G
+ irls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101772247@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:West Essex High School vs Summit High School (Freshman Girls Fiel
+ d Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102037626@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:West Essex High School at Heritage Middle School (Middle School G
+ irls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101125971@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T160000
+DTEND;TZID=America/New_York:20260918T180000
+SUMMARY:West Essex High School at Mount Olive Township School District (M
+ iddle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103357705@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Columbia High School vs West Essex High School (Freshman Girls Fi
+ eld Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102756764@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T130000
+DTEND;TZID=America/New_York:20260919T150000
+SUMMARY:West Essex High School vs Staples High School (Varsity Girls Fiel
+ d Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102037660@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:West Essex High School vs Oak Knoll School of the Holy Child (Mid
+ dle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101448590@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Glen Ridge High School at West Essex High School (Varsity Girls F
+ ield Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101621868@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T173000
+DTEND;TZID=America/New_York:20260922T193000
+SUMMARY:Glen Ridge High School at West Essex High School (Junior Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101796653@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:West Essex High School vs Pope John XXIII High School (Middle Sch
+ ool Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101448594@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:West Essex High School vs Arthur L. Johnson High School (Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98755385@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T120000
+DTEND;TZID=America/New_York:20260926T140000
+SUMMARY:West Essex High School vs Cherokee High School (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98755397@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T133000
+DTEND;TZID=America/New_York:20260926T153000
+SUMMARY:West Essex High School vs Cherokee High School (Junior Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102104615@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Livingston High School vs West Essex High School (Freshman Girls 
+ Field Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102905693@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:West Essex High School vs Pequannock Township High School (Middle
+  School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101796663@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:West Essex High School vs Pequannock Middle School (Middle School
+  Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101434519@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:West Essex High School vs Oak Knoll School of the Holy Child (Var
+ sity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101621815@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T173000
+DTEND;TZID=America/New_York:20260930T193000
+SUMMARY:West Essex High School at Oak Knoll School of the Holy Child (Jun
+ ior Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101126194@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:West Essex High School at North Warren Regional High School (Midd
+ le School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102660147@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T161500
+DTEND;TZID=America/New_York:20261001T181500
+SUMMARY:West Essex High School vs Chatham High School (Freshman Girls Fie
+ ld Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98217829@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T110000
+DTEND;TZID=America/New_York:20261003T130000
+SUMMARY:West Essex High School at Kingsway Regional High School (Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99007650@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T121500
+DTEND;TZID=America/New_York:20261003T141500
+SUMMARY:West Essex High School at Kingsway Regional High School (Junior V
+ arsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 12:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101796674@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:West Essex High School vs Bernards High School (Middle School Gir
+ ls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102621035@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:West Essex High School at Randolph High School (Freshman Girls Fi
+ eld Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101796679@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:West Essex High School vs Peck School (Middle School Girls Field 
+ Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101626071@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:West Essex High School vs Kent Place School (Junior Varsity Girls
+  Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101077208@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:West Essex High School at Boonton High School (Middle School Girl
+ s Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101456015@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T173000
+DTEND;TZID=America/New_York:20261007T193000
+SUMMARY:West Essex High School vs Kent Place School (Varsity Girls Field 
+ Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102660171@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:West Essex High School at Westfield High School (Freshman Girls F
+ ield Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101796697@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T160000
+DTEND;TZID=America/New_York:20261009T180000
+SUMMARY:West Essex High School vs Mount Olive Township School District (M
+ iddle School Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102830098@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T161500
+DTEND;TZID=America/New_York:20261009T181500
+SUMMARY:Montclair High School vs West Essex High School (Freshman Girls F
+ ield Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102362300@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T130000
+DTEND;TZID=America/New_York:20261010T150000
+SUMMARY:West Essex High School at Villa Maria Academy (Varsity Girls Fiel
+ d Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102344740@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:West Essex High School vs Summit High School (Middle School Girls
+  Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101382189@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:West Essex High School at Summit High School (Varsity Girls Field
+  Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101382409@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T173000
+DTEND;TZID=America/New_York:20261012T193000
+SUMMARY:West Essex High School at Summit High School (Junior Varsity Girl
+ s Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103852981@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:West Essex High School at Pope John XXIII High School (Middle Sch
+ ool Girls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102769204@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T161500
+DTEND;TZID=America/New_York:20261014T181500
+SUMMARY:West Essex High School vs Westfield High School (Freshman Girls F
+ ield Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98993967@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T163000
+DTEND;TZID=America/New_York:20261014T183000
+SUMMARY:West Essex High School vs TBD (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101796704@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:West Essex High School vs Sparta High School (Middle School Girls
+  Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103869647@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:West Essex High School at Chatham High School (Freshman Girls Fie
+ ld Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102830120@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Montclair High School at West Essex High School (Freshman Girls F
+ ield Hockey)
+DESCRIPTION:Freshman Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99028258@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T163000
+DTEND;TZID=America/New_York:20261027T183000
+SUMMARY:West Essex High School at Allentown High School (Varsity Girls Fi
+ eld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99072839@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T110000
+DTEND;TZID=America/New_York:20261031T130000
+SUMMARY:West Essex High School at Camden Catholic High School (Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99072865@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261031T123000
+DTEND;TZID=America/New_York:20261031T143000
+SUMMARY:West Essex High School at Camden Catholic High School (Junior Var
+ sity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100792528@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261103T160000
+DTEND;TZID=America/New_York:20261103T180000
+SUMMARY:West Essex High School vs TBD (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR

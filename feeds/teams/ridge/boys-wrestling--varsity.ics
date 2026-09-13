@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Ridge High School Varsity Boys Wrestling
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:100998665@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T183000
+DTEND;TZID=America/New_York:20261216T203000
+SUMMARY:Phillipsburg High School at Ridge High School (Varsity Boys Boys 
+ Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7527069@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T180000
+DTEND;TZID=America/New_York:20261218T200000
+SUMMARY:Ridge High School vs Sayreville Public Schools (Varsity Boys Boys
+  Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7529963@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T080000
+DTEND;TZID=America/New_York:20261230T100000
+SUMMARY:Ridge High School vs Arthur L Johnson High School (Varsity Boys B
+ oys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 8:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7623291@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T190000
+DTEND;TZID=America/New_York:20270106T210000
+SUMMARY:Immaculata High School vs Ridge High School (Varsity Boys Boys Wr
+ estling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100998630@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T183000
+DTEND;TZID=America/New_York:20270120T203000
+SUMMARY:North Hunterdon High School at Ridge High School (Varsity Boys Bo
+ ys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7594353@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T180000
+DTEND;TZID=America/New_York:20270122T200000
+SUMMARY:Ridge High School vs River Dell Regional High School (Varsity Boy
+ s Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7532235@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T183000
+DTEND;TZID=America/New_York:20270127T203000
+SUMMARY:Delaware Valley Regional H.S. at Ridge High School (Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7532235@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T183000
+DTEND;TZID=America/New_York:20270127T203000
+SUMMARY:Ridge High School vs Delaware Valley Regional H.S. (Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+END:VEVENT
+END:VCALENDAR

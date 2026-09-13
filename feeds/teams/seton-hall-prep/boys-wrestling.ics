@@ -1,0 +1,88 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Seton Hall Prep Boys Wrestling
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103582774@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T180000
+DTEND;TZID=America/New_York:20261211T200000
+SUMMARY:Saint Benedict's Prep at Seton Hall Preparatory School (Varsity B
+ oys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102734089@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T180000
+DTEND;TZID=America/New_York:20261216T200000
+SUMMARY:Livingston High School vs Seton Hall Preparatory School (Junior V
+ arsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102733927@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T190000
+DTEND;TZID=America/New_York:20261216T210000
+SUMMARY:Livingston High School vs Seton Hall Preparatory School (Varsity 
+ Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102072256@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T180000
+DTEND;TZID=America/New_York:20261218T200000
+SUMMARY:Seton Hall Prep at West Essex High School (Varsity Boys Boys Wres
+ tling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103582778@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T180000
+DTEND;TZID=America/New_York:20270108T200000
+SUMMARY:Nutley High School at Seton Hall Preparatory School (Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102857673@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T180000
+DTEND;TZID=America/New_York:20270113T200000
+SUMMARY:Seton Hall Prep at James Caldwell High School (Varsity Boys Boys 
+ Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102741013@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T090000
+DTEND;TZID=America/New_York:20270120T110000
+SUMMARY:Bloomfield High School at West Orange High School (Varsity Boys B
+ oys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Belvidere High School Varsity Boys Bowl
+ ing
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2665:7429401@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T153000
+DTEND;TZID=America/New_York:20261203T173000
+SUMMARY:Hunterdon Central Regional H.S. vs Belvidere High School (Varsity
+  Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7429409@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T153000
+DTEND;TZID=America/New_York:20261210T173000
+SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Varsity B
+ oys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100970667@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T153000
+DTEND;TZID=America/New_York:20261217T173000
+SUMMARY:Watchung Hills Regional H.S. vs Belvidere High School (Varsity Bo
+ ys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7429425@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T161500
+DTEND;TZID=America/New_York:20270105T181500
+SUMMARY:Bridgewater-Raritan High School at Belvidere High School (Varsity
+  Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7429437@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T153000
+DTEND;TZID=America/New_York:20270114T173000
+SUMMARY:Hunterdon Central Regional H.S. at Belvidere High School (Varsity
+  Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7429445@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T153000
+DTEND;TZID=America/New_York:20270121T173000
+SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity B
+ oys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7429461@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T161500
+DTEND;TZID=America/New_York:20270202T181500
+SUMMARY:Bridgewater-Raritan High School vs Belvidere High School (Varsity
+  Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:15 PM
+END:VEVENT
+END:VCALENDAR

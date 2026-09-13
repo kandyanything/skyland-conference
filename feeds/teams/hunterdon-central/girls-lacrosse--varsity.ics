@@ -1,0 +1,107 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Hunterdon Central Regional H.S. Varsity
+  Girls Lacrosse
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2549:7608132@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
+ . (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7608132@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
+ l (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7608136@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Hunterdon Central Regional H.S. vs Montgomery High School (Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7608136@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7608138@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Hillsborough High School at Hunterdon Central Regional H.S. (Vars
+ ity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7608138@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Hunterdon Central Regional H.S. vs Hillsborough Athletics (Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7608141@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7608141@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7608143@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+END:VEVENT
+END:VCALENDAR

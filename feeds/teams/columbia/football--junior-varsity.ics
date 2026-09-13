@@ -1,0 +1,89 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Columbia High School Junior Varsity
+  Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:100387169@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:Columbia High School at Hillside High School (Junior Varsity Boys
+  Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102678951@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Columbia High School at Bayonne High School (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103344607@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Columbia High School vs Livingston High School (Junior Varsity Bo
+ ys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100270948@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Columbia High School at Irvington High School (Junior Varsity Boy
+ s Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99665769@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T161500
+DTEND;TZID=America/New_York:20261005T181500
+SUMMARY:Columbia High School at Eastside High School - Paterson (Junior V
+ arsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103344614@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Columbia High School vs Henry Snyder High School (Junior Varsity 
+ Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99801557@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T170000
+DTEND;TZID=America/New_York:20261019T190000
+SUMMARY:Columbia High School at Union City High School (Junior Varsity Bo
+ ys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 5:00 PM
+END:VEVENT
+END:VCALENDAR

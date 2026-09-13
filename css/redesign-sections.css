@@ -1,0 +1,877 @@
+/* ==========================================================================
+   SEC redesign - feature video, news slider, standings, honors
+   Loaded after redesign-components.css and overrides the pieces that changed.
+   ========================================================================== */
+
+/* ---------- SEC Vision: one feature, then a grid ---------- */
+.vision-feature { margin-bottom: 22px; }
+
+.vision-feature .vision-item {
+    flex: none;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 1.55fr 1fr;
+    align-items: stretch;
+}
+
+.vision-feature .vision-thumb,
+.vision-feature .vision-item iframe { height: 100%; aspect-ratio: 16 / 9; }
+
+.vision-feature .vision-meta {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 0;
+    border-left: 4px solid var(--red);
+    padding: 26px 30px;
+}
+
+.vision-feature .vision-meta h3 { font-size: 1.9rem; line-height: 1.12; margin-bottom: 10px; }
+.vision-feature .vision-sub { font-size: .84rem; }
+
+.vision-feature .vision-play { width: 76px; height: 76px; }
+.vision-feature .vision-play::after { border-width: 13px 0 13px 22px; }
+
+/* Fixed three across, so the six tiles below the feature form two even rows
+   rather than an auto-fill run that leaves a stranded single tile. */
+.vision-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+}
+
+/* the grid tiles are plain blocks, not flex children of a scroller */
+.vision-grid .vision-item { flex: none; width: 100%; }
+.vision-grid .vision-meta { padding: 15px 18px 17px; }
+.vision-grid .vision-meta h3 { font-size: 1.14rem; }
+.vision-grid .vision-sub { font-size: .75rem; }
+.vision-grid .vision-play { width: 56px; height: 56px; }
+.vision-grid .vision-play::after { border-width: 10px 0 10px 16px; }
+
+/* ---------- SEC News: slider ---------- */
+.news-nav { display: flex; gap: 8px; flex-shrink: 0; }
+
+.news-nav button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: var(--white);
+    border: 2px solid var(--line);
+    color: var(--navy-800);
+    font-size: 1.3rem;
+    line-height: 1;
+    transition: all .2s;
+}
+
+.news-nav button:hover:not(:disabled) { background: var(--red); border-color: var(--red); color: #fff; }
+.news-nav button:disabled { opacity: .35; cursor: default; }
+
+.news-track {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: calc((100% - 2 * 26px) / 3);
+    gap: 26px;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    padding-bottom: 6px;
+    scrollbar-width: none;
+    -webkit-overflow-scrolling: touch;
+}
+
+.news-track::-webkit-scrollbar { display: none; }
+.news-track .news-item { scroll-snap-align: start; }
+
+.news-dots { display: flex; justify-content: center; gap: 9px; margin-top: 22px; }
+
+.news-dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+    background: #c6cfe0;
+    transition: all .2s;
+}
+
+.news-dot.is-active { background: var(--red); transform: scale(1.25); }
+
+/* ---------- standings ---------- */
+.standings-season {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    color: #b9c8e8;
+    white-space: nowrap;
+}
+
+.standings-intro { color: #cfdcf5; max-width: 70ch; margin-bottom: 26px; }
+
+.standings-groups {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 22px;
+}
+
+.standings-group {
+    background: rgba(255, 255, 255, .07);
+    border: 1px solid rgba(255, 255, 255, .16);
+    border-top: 4px solid var(--red);
+    border-radius: var(--radius);
+    padding: 22px 24px 24px;
+}
+
+.standings-group h3 {
+    color: #fff;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: .06em;
+    margin-bottom: 14px;
+}
+
+.standings-links { display: flex; flex-direction: column; gap: 8px; }
+
+.standings-link {
+    display: block;
+    padding: 10px 14px;
+    border-radius: 7px;
+    background: rgba(255, 255, 255, .08);
+    color: #eaf0ff;
+    text-decoration: none;
+    font-size: .96rem;
+    transition: all .18s;
+}
+
+.standings-link::after { content: " \2197"; opacity: .55; font-size: .9em; }
+.standings-link:hover { background: var(--red); color: #fff; transform: translateX(3px); }
+
+/* ---------- honors ---------- */
+.honors-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 22px;
+}
+
+.honor-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--red);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    box-shadow: var(--shadow-sm);
+}
+
+.honor-tag {
+    margin: 0 0 6px;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+.honor-card h3 { color: var(--navy-800); font-size: 1.3rem; margin-bottom: 8px; }
+.honor-card h3 a { color: inherit; text-decoration: none; }
+.honor-card h3 a:hover { color: var(--red); }
+.honor-desc { color: var(--muted); font-size: .95rem; margin: 0; }
+
+.honor-list { margin: 12px 0 0; padding-left: 18px; color: var(--muted); font-size: .93rem; }
+.honor-list li { margin-bottom: 4px; }
+
+/* ---------- school tiles: transparent logos, no white plate ---------- */
+.school-tile img { background: transparent; }
+
+@media (max-width: 900px) {
+    .vision-grid { grid-template-columns: 1fr; }
+    .vision-feature .vision-item { grid-template-columns: 1fr; }
+    .vision-feature .vision-meta { border-left: 0; border-top: 4px solid var(--red); padding: 18px 20px; }
+    .vision-feature .vision-meta h3 { font-size: 1.35rem; }
+    .news-track { grid-auto-columns: 88%; }
+    .standings-season { display: none; }
+}
+
+@media (min-width: 901px) and (max-width: 1180px) {
+    .news-track { grid-auto-columns: calc((100% - 26px) / 2); }
+    .vision-grid { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* ---------- athletic director directory ---------- */
+.directory-head {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    flex-wrap: wrap;
+    margin-bottom: 24px;
+}
+
+.directory-count {
+    font-family: var(--font-display);
+    font-size: 1rem;
+    letter-spacing: .07em;
+    text-transform: uppercase;
+    color: var(--muted);
+    white-space: nowrap;
+}
+
+.directory-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(310px, 1fr));
+    gap: 18px;
+}
+
+.directory-card {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--navy-700);
+    border-radius: var(--radius);
+    padding: 18px 20px;
+    box-shadow: var(--shadow-sm);
+    transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+
+.directory-card:hover {
+    transform: translateY(-3px);
+    border-left-color: var(--red);
+    box-shadow: var(--shadow-md);
+}
+
+.directory-logo {
+    width: 58px;
+    height: 58px;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+
+.directory-body { min-width: 0; }
+
+.directory-body h3 {
+    color: var(--navy-800);
+    font-size: 1.15rem;
+    margin-bottom: 4px;
+    line-height: 1.2;
+}
+
+.directory-body h3 a { color: inherit; text-decoration: none; }
+.directory-body h3 a:hover { color: var(--red); }
+
+.directory-ad {
+    margin: 0 0 6px;
+    font-weight: 600;
+    font-size: .96rem;
+    color: var(--ink);
+}
+
+.directory-contact { margin: 0; font-size: .9rem; line-height: 1.55; }
+.directory-contact a { color: var(--muted); text-decoration: none; word-break: break-word; }
+.directory-contact a:hover { color: var(--red); text-decoration: underline; }
+
+/* ==========================================================================
+   Schools band - light sky background, bare transparent logos (no cards)
+   ========================================================================== */
+.band--sky {
+    position: relative;
+    background:
+        linear-gradient(118deg, rgba(255, 255, 255, .55) 0%, rgba(255, 255, 255, 0) 42%),
+        linear-gradient(160deg, #dcdfe4 0%, #eef0f2 45%, #d3d7dd 100%);
+    overflow: hidden;
+}
+
+.band--sky h2 { color: var(--navy-900); }
+.band--sky .eyebrow { color: var(--red); }
+
+/* logo-only tiles: no panel, no border, no shadow */
+.band--sky .schools-grid {
+    grid-template-columns: repeat(auto-fill, minmax(168px, 1fr));
+    gap: 34px 18px;
+}
+
+.band--sky .school-tile {
+    position: relative;
+    background: none;
+    border: 0;
+    border-radius: 0;
+    box-shadow: none;
+    padding: 6px 4px;
+    gap: 14px;
+}
+
+.band--sky .school-tile:hover {
+    transform: translateY(-6px);
+    z-index: 3;
+    background: none;
+    border: 0;
+    box-shadow: none;
+}
+
+.band--sky .school-tile img {
+    width: 96px;
+    height: 96px;
+    object-fit: contain;
+    transition: transform .28s cubic-bezier(.34, 1.56, .64, 1), filter .28s ease;
+}
+
+/* pop toward the viewer on hover - a bouncy scale plus a soft drop-shadow so
+   the logo lifts off the page, no box behind it */
+.band--sky .school-tile:hover img { transform: scale(1.32); filter: drop-shadow(0 14px 22px rgba(0, 0, 0, .42)); }
+
+.band--sky .school-tile .nm {
+    font-family: var(--font-body);
+    font-size: 1.06rem;
+    font-weight: 700;
+    letter-spacing: .04em;
+    line-height: 1.3;
+    text-transform: uppercase;
+    color: #14181c;
+}
+
+.band--sky .school-tile:hover .nm { color: var(--red); }
+
+@media (max-width: 900px) {
+    .band--sky .schools-grid { grid-template-columns: repeat(auto-fill, minmax(124px, 1fr)); gap: 26px 12px; }
+    .band--sky .school-tile img { width: 74px; height: 74px; }
+    .band--sky .school-tile .nm { font-size: .94rem; }
+}
+
+/* ==========================================================================
+   Hero photo slider - only applies once slides.json has photos
+   ========================================================================== */
+.hero--photo { padding: 0; min-height: clamp(400px, 52vw, 620px); display: flex; align-items: flex-end; }
+
+.hero-slides { position: absolute; inset: 0; z-index: 0; }
+
+.hero-slide {
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: opacity .9s ease;
+}
+
+.hero-slide.is-active { opacity: 1; }
+.hero-slide img { width: 100%; height: 100%; object-fit: cover; object-position: center 20%; }
+
+/* scrim so overlaid text stays readable on any photo */
+.hero--photo .hero-slides::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background:
+        linear-gradient(180deg, rgba(11, 26, 58, .32) 0%, rgba(11, 26, 58, .19) 45%, rgba(11, 26, 58, .87) 100%),
+        linear-gradient(100deg, rgba(11, 26, 58, .92) 0%, rgba(11, 26, 58, .72) 30%, rgba(11, 26, 58, .30) 62%, transparent 100%);
+}
+
+.hero--photo .hero-inner {
+    position: relative;
+    z-index: 2;
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 66px;
+}
+
+.hero-caption {
+    position: relative;
+    z-index: 2;
+    max-width: var(--wrap);
+    margin: 0 auto;
+    padding: 0 24px 26px;
+    width: 100%;
+}
+
+.hero-caption h2 { color: #fff; margin-bottom: 8px; }
+.hero-caption p { color: #dbe6ff; max-width: 60ch; }
+
+.hero-controls {
+    position: absolute;
+    z-index: 3;
+    right: 24px;
+    bottom: 22px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.hero-arrow {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, .14);
+    border: 2px solid rgba(255, 255, 255, .55);
+    color: #fff;
+    font-size: 1.3rem;
+    line-height: 1;
+    transition: all .2s;
+}
+
+.hero-arrow:hover { background: var(--red); border-color: var(--red); }
+
+.hero-dots { display: flex; gap: 8px; }
+
+.hero-dot {
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, .45);
+    transition: all .2s;
+}
+
+.hero-dot.is-active { background: var(--red); transform: scale(1.3); }
+
+@media (max-width: 900px) {
+    .hero-controls { right: 16px; bottom: 14px; }
+    .hero-arrow { width: 36px; height: 36px; font-size: 1.1rem; }
+}
+
+/* ---------- "all videos" link in a band head ---------- */
+.vision-more {
+    display: inline-block;
+    font-family: var(--font-display);
+    font-size: .95rem;
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    padding: 11px 22px;
+    border-radius: 6px;
+    text-decoration: none;
+    background: transparent;
+    color: #fff;
+    border: 2px solid rgba(255, 255, 255, .5);
+    white-space: nowrap;
+    transition: all .2s;
+}
+
+.vision-more:hover { background: #fff; color: var(--navy-800); border-color: #fff; }
+
+/* a sport with no standings link yet: listed, but not clickable */
+.standings-link.is-pending {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    background: rgba(255, 255, 255, .04);
+    color: #a9bce0;
+    cursor: default;
+    border: 1px dashed rgba(255, 255, 255, .22);
+}
+
+.standings-link.is-pending::after { content: none; }
+.standings-link.is-pending:hover { background: rgba(255, 255, 255, .04); color: #a9bce0; transform: none; }
+.standings-link.is-pending em { font-size: .78rem; font-style: normal; opacity: .7; white-space: nowrap; }
+
+/* ---------- small screens ---------- */
+@media (max-width: 600px) {
+    .honors-grid,
+    .directory-grid,
+    .standings-groups { grid-template-columns: 1fr; }
+    .schools-grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); }
+    .band--sky .schools-grid { grid-template-columns: repeat(auto-fill, minmax(104px, 1fr)); gap: 22px 10px; }
+    .band--sky .school-tile img { width: 62px; height: 62px; }
+    .band--sky .school-tile .nm { font-size: .86rem; }
+    .hero--photo { min-height: 320px; }
+    .directory-card { flex-direction: column; }
+}
+
+/* ---------- SEC leadership ---------- */
+.leadership-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.leader-card {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-top: 4px solid var(--red);
+    border-radius: var(--radius);
+    padding: 22px 24px;
+    box-shadow: var(--shadow-sm);
+    transition: transform .2s, box-shadow .2s;
+}
+
+.leader-card:hover { transform: translateY(-4px); box-shadow: var(--shadow-md); }
+
+.leader-role {
+    margin: 0 0 6px;
+    font-size: .74rem;
+    font-weight: 700;
+    letter-spacing: .13em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+.leader-card h3 { color: var(--navy-800); font-size: 1.32rem; margin: 0 0 4px; }
+
+.leader-school {
+    margin: 0;
+    font-size: .92rem;
+    color: var(--muted);
+    font-weight: 600;
+}
+
+
+@media (max-width: 600px) {
+    .leadership-grid { grid-template-columns: 1fr; }
+}
+
+/* a school with no athletic director on file yet */
+.directory-ad.is-blank { color: var(--muted); font-weight: 500; font-style: italic; }
+
+/* ---- Today at a Glance ---------------------------------------------------
+   The freshest thing on the site, so it sits directly under the hero and reads
+   at a glance: which day, how much is on, then the earliest fixtures. */
+.today-lede { color: var(--muted); margin: 0 0 18px; }
+
+.today-days {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    margin-bottom: 22px;
+}
+
+.today-day {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 16px;
+    border: 1px solid var(--line);
+    border-radius: 999px;
+    background: var(--white);
+    color: var(--ink);
+    font-family: var(--font-body);
+    font-size: .95rem;
+    cursor: pointer;
+    transition: border-color .2s ease, box-shadow .2s ease, background .2s ease;
+}
+
+.today-day:hover { border-color: var(--navy-600); box-shadow: var(--shadow-sm); }
+
+.today-day.is-on {
+    background: var(--navy-800);
+    border-color: var(--navy-800);
+    color: var(--white);
+}
+
+.today-day-name { font-weight: 600; }
+
+.today-day-count {
+    font-family: var(--font-display);
+    font-size: .85rem;
+    line-height: 1;
+    padding: 4px 8px;
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--navy-800);
+}
+
+.today-day.is-on .today-day-count { background: rgba(255, 255, 255, .18); color: var(--white); }
+
+/* A count per sport answers "is my sport on today" without reading any rows. */
+.today-sports {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-bottom: 18px;
+}
+
+/* Each count is the filter for its sport, so it has to read as a control:
+   a real button, with a pressed state and a hit area worth aiming at. */
+.today-sport {
+    display: inline-flex;
+    align-items: center;
+    gap: 7px;
+    padding: 7px 14px;
+    border: 1px solid transparent;
+    border-radius: 999px;
+    background: var(--bg);
+    color: var(--muted);
+    font-family: var(--font-body);
+    font-size: .85rem;
+    cursor: pointer;
+    transition: background .2s ease, color .2s ease, border-color .2s ease;
+}
+
+.today-sport:hover { border-color: var(--navy-600); color: var(--navy-800); }
+
+.today-sport.is-on {
+    background: var(--navy-800);
+    border-color: var(--navy-800);
+    color: var(--white);
+}
+
+.today-sport.is-on b { color: var(--white); }
+
+.today-sport b { color: var(--navy-800); font-family: var(--font-display); }
+
+.today-games { display: flex; flex-direction: column; gap: 8px; }
+
+.today-game {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    padding: 12px 16px;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-left: 3px solid var(--navy-600);
+    border-radius: var(--radius);
+    transition: box-shadow .2s ease, border-color .2s ease;
+}
+
+.today-game:hover { box-shadow: var(--shadow-sm); }
+.today-game.is-off { border-left-color: var(--red); opacity: .72; }
+
+.today-time {
+    flex: 0 0 auto;
+    min-width: 82px;
+    font-family: var(--font-display);
+    font-weight: 500;
+    color: var(--navy-800);
+}
+
+.today-match { display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.today-match strong { color: var(--ink); font-weight: 600; }
+.today-meta { font-size: .85rem; color: var(--muted); }
+
+.today-status {
+    margin-left: auto;
+    font-size: .78rem;
+    text-transform: uppercase;
+    letter-spacing: .04em;
+    color: var(--red);
+}
+
+.today-all {
+    display: inline-block;
+    margin-top: 16px;
+    font-weight: 600;
+    color: var(--navy-700);
+    text-decoration: none;
+    border-bottom: 2px solid transparent;
+    transition: border-color .2s ease;
+}
+
+.today-all::after { content: ' \2192'; }
+.today-all:hover { border-bottom-color: var(--red); }
+
+@media (max-width: 640px) {
+    .today-game { flex-direction: column; align-items: flex-start; gap: 4px; }
+    .today-time { min-width: 0; }
+    .today-status { margin-left: 0; }
+}
+
+/* On a phone the hero text runs the full width, but the scrim behind it is
+   diagonal - dark down the left where the desktop text sits, clear on the
+   right. Half of every line was landing on bare photograph. Narrow screens get
+   a straight vertical scrim instead, heavy enough that the type holds up over
+   any photo while the picture still reads through it. */
+@media (max-width: 900px) {
+    .hero--photo .hero-slides::after {
+        background: linear-gradient(180deg,
+            rgba(11, 26, 58, .80) 0%,
+            rgba(11, 26, 58, .62) 40%,
+            rgba(11, 26, 58, .75) 72%,
+            rgba(11, 26, 58, .92) 100%);
+    }
+}
+
+/* Each crest sits beside the name it belongs to, so a fixture between two
+   conference members shows both and there is never a question which is
+   which. Wrapping is allowed between the teams but never inside a team, so a
+   crest can never be orphaned from its own name. */
+.today-teams {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 4px 9px;
+    line-height: 1.3;
+}
+
+.today-team {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    min-width: 0;
+}
+
+.today-crest {
+    flex: 0 0 auto;
+    width: 26px;
+    height: 26px;
+    object-fit: contain;
+}
+
+/* Quieter than the school names it separates - it is punctuation, not a
+   third participant. */
+.today-vs {
+    font-style: normal;
+    font-weight: 400;
+    font-size: .82rem;
+    letter-spacing: .06em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+.today-tba { font-weight: 400; color: var(--muted); }
+
+/* Freshman, JV and Varsity against the same opponent at the same hour are one
+   fixture. The badges say who is playing it without repeating the matchup. */
+.today-levels {
+    margin-left: auto;
+    display: flex;
+    gap: 6px;
+    align-self: center;
+    flex: 0 0 auto;
+}
+
+.today-levels b {
+    font-family: var(--font-display);
+    font-size: .74rem;
+    font-weight: 500;
+    letter-spacing: .06em;
+    line-height: 1;
+    padding: 5px 8px;
+    min-width: 26px;
+    text-align: center;
+    border-radius: 5px;
+    background: var(--bg);
+    color: var(--navy-800);
+    cursor: default;
+}
+
+/* A cancelled fixture already dims the whole row; the badges should not fight
+   that by staying at full strength. */
+.today-game.is-off .today-levels b { background: rgba(200, 16, 46, .10); color: var(--red-dark); }
+
+.today-status { margin-left: 12px; }
+
+@media (max-width: 640px) {
+    .today-crest { width: 22px; height: 22px; }
+    /* stacked rows have no right-hand column to push the badges into */
+    .today-levels { margin-left: 0; }
+}
+
+/* ---- Ken Burns -----------------------------------------------------------
+   Each photograph drifts slowly for as long as it is on screen, so the hero
+   reads as film rather than as a slideshow of stills.
+
+   The movement comes from scale alone, with the origin placed off-centre to
+   give it direction. Panning with translate would be the obvious way to do it
+   and is a trap: the moment the translation exceeds the overflow the scale
+   provides, a bare edge appears at the side of the frame. Moving the origin
+   cannot expose an edge at any scale.
+
+   The movement is deliberately below the threshold of noticing frame to
+   frame. You should not be able to catch it moving; you should only feel that
+   the page is alive. Faster reads as a screensaver.
+
+   A slide only ever travels part of this range, because the drift runs for
+   twice a slide's life so it can never run out mid-turn. The range is
+   therefore set well beyond what is ever reached: 13% here gives roughly 5.5%
+   while a photograph is actually up. Widening it speeds the drift without
+   cropping any further, since the far end is never arrived at - the most a
+   slide reaches is about 1.076, which still leaves the source larger than the
+   frame it fills. */
+@keyframes kb-closer {
+    from { transform: scale(1.02); }
+    to   { transform: scale(1.15); }
+}
+
+/* Runs while the slide is showing and while it is fading out, never otherwise -
+   so every slide starts its drift from the beginning each time it comes round. */
+.hero-slide.is-playing img {
+    animation: kb-closer var(--kb-duration, 10900ms) linear both;
+    will-change: transform;
+}
+
+/* Every photograph closes in rather than half of them pulling back. Pulling
+   back reads as the picture settling, which is very nearly the opposite of
+   the effect wanted - the cross country frame was the only one anyone
+   noticed, and it was one of the four that pushed in. Variety comes from
+   where each one closes in on instead, which is a difference in direction
+   without a difference in energy. */
+.hero-slide:nth-child(4n+1) img { transform-origin: 32% 38%; }
+.hero-slide:nth-child(4n+2) img { transform-origin: 68% 42%; }
+.hero-slide:nth-child(4n+3) img { transform-origin: 46% 68%; }
+.hero-slide:nth-child(4n+4) img { transform-origin: 60% 28%; }
+
+/* Motion is decoration. Anyone who has asked for less gets a still photograph,
+   which is exactly what this section is without it. */
+@media (prefers-reduced-motion: reduce) {
+    .hero-slide.is-playing img {
+        animation: none;
+        transform: scale(1.015);
+    }
+}
+
+/* ---------- Fall scores ticker ---------- */
+.njac-scores { padding: 40px 0; overflow: hidden; }
+.njac-scores .band-head { margin-bottom: 22px; }
+.score-season { font-size: .82rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase; color: var(--silver); }
+
+/* full-bleed viewport with soft fade at both edges */
+.score-viewport {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    -webkit-mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);
+    mask-image: linear-gradient(90deg, transparent 0, #000 6%, #000 94%, transparent 100%);
+}
+.score-track {
+    display: inline-flex;
+    gap: 16px;
+    padding: 4px 8px;
+    white-space: nowrap;
+    will-change: transform;
+    animation: scoreScroll 60s linear infinite;
+}
+.score-viewport:hover .score-track,
+.score-viewport:focus-within .score-track { animation-play-state: paused; }
+@keyframes scoreScroll { from { transform: translateX(0); } to { transform: translateX(-50%); } }
+
+.score-card {
+    flex: 0 0 auto;
+    min-width: 208px;
+    background: rgba(255, 255, 255, .06);
+    border: 1px solid rgba(195, 201, 209, .22);
+    border-radius: 12px;
+    padding: 12px 16px 13px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, .22);
+}
+.score-head {
+    font-size: .66rem; font-weight: 700; letter-spacing: .12em; text-transform: uppercase;
+    color: var(--silver); margin-bottom: 9px; opacity: .9;
+}
+.score-row { display: grid; gap: 6px; }
+.score-team {
+    display: grid;
+    grid-template-columns: 26px auto 1fr;
+    align-items: center;
+    gap: 10px;
+    color: #c9ced6;
+}
+.score-logo { width: 26px; height: 26px; object-fit: contain; grid-column: 1; }
+.score-name {
+    font-family: var(--font-display); font-size: 1.02rem; font-weight: 500;
+    letter-spacing: .01em; color: #d7dbe1;
+}
+.score-num {
+    grid-column: 3; justify-self: end;
+    font-family: var(--font-display); font-weight: 600; font-size: 1.18rem;
+    font-variant-numeric: tabular-nums; color: #aeb4bd; min-width: 1.4ch; text-align: right;
+}
+/* winner: gold, with a small leading caret */
+.score-team.is-win .score-name,
+.score-team.is-win .score-num { color: var(--silver); font-weight: 700; }
+.score-team.is-win .score-name::after {
+    content: "\25C0"; font-size: .5em; color: var(--red); margin-left: 7px; vertical-align: middle;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .score-track { animation: none; flex-wrap: nowrap; overflow-x: auto; }
+}
+@media (max-width: 600px) { .score-card { min-width: 176px; } }

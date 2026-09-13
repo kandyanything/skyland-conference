@@ -1,0 +1,53 @@
+{
+  "_comment": "Skyland Conference standings via highschoolsports.nj.com. 'slug' = live link; 'pendingSlug' = coming soon; 'url' = direct external link. Activate winter/spring by renaming pendingSlug to slug when the season opens.",
+  "defaultSeason": "2026-2027",
+  "baseUrl": "https://highschoolsports.nj.com",
+  "defaultConference": "Skyland",
+  "seasons": [
+    {
+      "name": "Fall",
+      "sports": [
+        { "label": "Football",            "slug": "football",        "conference": "Skyland" },
+        { "label": "Boys Soccer",         "slug": "boyssoccer",      "conference": "Skyland" },
+        { "label": "Girls Soccer",        "slug": "girlssoccer",     "conference": "Skyland" },
+        { "label": "Field Hockey",        "slug": "fieldhockey",     "conference": "Skyland" },
+        { "label": "Girls Tennis",        "slug": "girlstennis",     "conference": "Skyland" },
+        { "label": "Girls Volleyball",    "slug": "girlsvolleyball", "conference": "Skyland" },
+        { "label": "Boys Cross Country",  "url": "https://nj.milesplit.com/" },
+        { "label": "Girls Cross Country", "url": "https://nj.milesplit.com/" },
+        { "label": "Cheerleading",        "url": "https://www.skylandconference.com/conference-standings/" }
+      ]
+    },
+    {
+      "name": "Winter",
+      "sports": [
+        { "label": "Boys Basketball",   "pendingSlug": "boysbasketball" },
+        { "label": "Girls Basketball",  "pendingSlug": "girlsbasketball" },
+        { "label": "Wrestling",         "pendingSlug": "wrestling" },
+        { "label": "Girls Wrestling",   "pendingSlug": "girlswrestling" },
+        { "label": "Boys Swimming",     "pendingSlug": "boysswimming" },
+        { "label": "Girls Swimming",    "pendingSlug": "girlsswimming" },
+        { "label": "Boys Bowling",      "pendingSlug": "boysbowling" },
+        { "label": "Girls Bowling",     "pendingSlug": "girlsbowling" },
+        { "label": "Ice Hockey",        "pendingSlug": "icehockey" },
+        { "label": "Boys Fencing",      "pendingSlug": "boysfencing" },
+        { "label": "Girls Fencing",     "pendingSlug": "girlsfencing" },
+        { "label": "Boys Winter Track", "pendingSlug": "boyswintertrack" },
+        { "label": "Girls Winter Track","pendingSlug": "girlswintertrack" }
+      ]
+    },
+    {
+      "name": "Spring",
+      "sports": [
+        { "label": "Baseball",       "pendingSlug": "baseball" },
+        { "label": "Softball",       "pendingSlug": "softball" },
+        { "label": "Boys Lacrosse",  "pendingSlug": "boyslacrosse" },
+        { "label": "Girls Lacrosse", "pendingSlug": "girlslacrosse" },
+        { "label": "Boys Tennis",    "pendingSlug": "boystennis" },
+        { "label": "Boys Track",     "pendingSlug": "boystrack" },
+        { "label": "Girls Track",    "pendingSlug": "girlstrack" },
+        { "label": "Boys Golf",      "pendingSlug": "boysgolf" }
+      ]
+    }
+  ]
+}

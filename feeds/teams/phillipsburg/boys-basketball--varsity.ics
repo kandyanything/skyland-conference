@@ -1,0 +1,251 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Phillipsburg High School Varsity Boys B
+ asketball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2741:7448196@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T190000
+DTEND;TZID=America/New_York:20261215T210000
+SUMMARY:Montgomery High School at Phillipsburg High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102270230@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T160000
+DTEND;TZID=America/New_York:20261223T180000
+SUMMARY:Phillipsburg High School at Warren Hills Regional H.S. (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102133540@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261229
+DTEND;VALUE=DATE:20261230
+SUMMARY:Phillipsburg High School at Easton Area High School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103888788@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270102T130000
+DTEND;TZID=America/New_York:20270102T150000
+SUMMARY:Phillipsburg High School vs Somerville High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102152198@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T180000
+DTEND;TZID=America/New_York:20270105T200000
+SUMMARY:Phillipsburg High School at Gill St. Bernard's School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7448211@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T180000
+DTEND;TZID=America/New_York:20270107T200000
+SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
+ ity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102264881@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T190000
+DTEND;TZID=America/New_York:20270107T210000
+SUMMARY:Phillipsburg High School vs Hunterdon Central Reg. High School (V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103072643@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T130000
+DTEND;TZID=America/New_York:20270109T150000
+SUMMARY:Phillipsburg High School at Nazareth Area HS/MS (Varsity Boys Boy
+ s Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7448217@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T180000
+DTEND;TZID=America/New_York:20270112T200000
+SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
+ ity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102264894@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T190000
+DTEND;TZID=America/New_York:20270112T210000
+SUMMARY:Phillipsburg High School vs Bridgewater-Raritan High School (Vars
+ ity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7448223@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T180000
+DTEND;TZID=America/New_York:20270114T200000
+SUMMARY:Ridge High School at Phillipsburg High School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102264904@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T190000
+DTEND;TZID=America/New_York:20270114T210000
+SUMMARY:Phillipsburg High School vs Ridge High School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103889317@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T130000
+DTEND;TZID=America/New_York:20270116T150000
+SUMMARY:Phillipsburg High School vs Whitehall High School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7448229@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T180000
+DTEND;TZID=America/New_York:20270119T200000
+SUMMARY:Hillsborough High School vs Phillipsburg High School (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102259610@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T190000
+DTEND;TZID=America/New_York:20270119T210000
+SUMMARY:Phillipsburg High School at Hillsborough High School (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102269223@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T161500
+DTEND;TZID=America/New_York:20270121T181500
+SUMMARY:Phillipsburg High School at The Pingry School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7448239@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Immaculata High School at Phillipsburg High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7448243@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T180000
+DTEND;TZID=America/New_York:20270128T200000
+SUMMARY:Franklin High School vs Phillipsburg High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102151664@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T190000
+DTEND;TZID=America/New_York:20270128T210000
+SUMMARY:Phillipsburg High School at Franklin High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103889461@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T130000
+DTEND;TZID=America/New_York:20270130T150000
+SUMMARY:Phillipsburg High School vs Vernon Township High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103937206@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T190000
+DTEND;TZID=America/New_York:20270204T210000
+SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102267923@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T190000
+DTEND;TZID=America/New_York:20270209T210000
+SUMMARY:Phillipsburg High School at Rutgers Preparatory School (Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103889600@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T171500
+DTEND;TZID=America/New_York:20270211T191500
+SUMMARY:Phillipsburg High School vs Delaware Valley Regional H.S. (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7559040@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:Delaware Valley Regional H.S. at Phillipsburg High School (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103889467@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270217T190000
+DTEND;TZID=America/New_York:20270217T210000
+SUMMARY:Phillipsburg High School vs Perkiomen School (Varsity Boys Boys B
+ asketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+END:VCALENDAR

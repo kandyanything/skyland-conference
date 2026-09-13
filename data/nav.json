@@ -1,0 +1,44 @@
+{
+  "_comment": "Skyland Conference top navigation. Built fresh on every page by js/nav-render.js.",
+  "items": [
+    { "label": "Home", "href": "index.html" },
+    {
+      "label": "Member Schools",
+      "href": "index.html#member-schools",
+      "children": [
+        { "label": "All Schools",         "href": "schools.html" },
+        { "label": "Conference Calendar", "href": "calendar.html" },
+        { "label": "School Websites",     "href": "websites.html" }
+      ]
+    },
+    { "label": "Conference Schedule", "href": "calendar.html" },
+    { "label": "Standings",           "href": "index.html#standings" },
+    {
+      "label": "Honors",
+      "href": "honors.html",
+      "children": [
+        { "label": "Championships History", "href": "honors.html#championships" },
+        { "label": "Scholar Athletes",      "href": "honors.html#scholars" }
+      ]
+    },
+    {
+      "label": "Media",
+      "href": "index.html#skyland-vision",
+      "children": [
+        { "label": "Skyland Vision",  "href": "index.html#skyland-vision" },
+        { "label": "All Videos",      "href": "videos.html" },
+        { "label": "Conference News", "href": "index.html#skyland-news" }
+      ]
+    },
+    {
+      "label": "Conference",
+      "href": "info.html",
+      "children": [
+        { "label": "Athletic Directors",    "href": "index.html#directory" },
+        { "label": "About the Conference",  "href": "info.html" },
+        { "label": "School Websites",       "href": "websites.html" },
+        { "label": "External Links",        "href": "links.html" }
+      ]
+    }
+  ]
+}

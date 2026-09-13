@@ -1,0 +1,601 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Ridge High School Girls Soccer
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2830:7522298@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Ridge High School at Scotch Plains-Fanwood High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7523017@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260824T100000
+DTEND;TZID=America/New_York:20260824T120000
+SUMMARY:Ridge High School at Scotch Plains-Fanwood High School (Junior Va
+ rsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7522292@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T163000
+DTEND;TZID=America/New_York:20260828T183000
+SUMMARY:Ridge High School at West Morris Central High School (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7523018@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T163000
+DTEND;TZID=America/New_York:20260828T183000
+SUMMARY:Ridge High School at West Morris Central High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7477951@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T153000
+DTEND;TZID=America/New_York:20260902T173000
+SUMMARY:Ridge High School vs North Hunterdon High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518648@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Ridge High School vs North Hunterdon High School (Junior Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98894643@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:North Hunterdon High School at Ridge High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7334695@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Ridge High School at Phillipsburg High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7477971@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Ridge High School at Phillipsburg High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518649@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Ridge High School at Phillipsburg High School (Junior Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7334697@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7334697@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Ridge High School vs Montgomery High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7516727@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T154500
+DTEND;TZID=America/New_York:20260909T174500
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7477990@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7334699@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Ridge High School at Warren Hills Regional School District (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7518651@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T154500
+DTEND;TZID=America/New_York:20260911T174500
+SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7478001@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T154500
+DTEND;TZID=America/New_York:20260911T174500
+SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7478001@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T154500
+DTEND;TZID=America/New_York:20260911T174500
+SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518651@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T154500
+DTEND;TZID=America/New_York:20260911T174500
+SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7478076@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Ridge High School vs The Pingry School (Varsity Girls Girls Socce
+ r)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7334700@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Bernards High School vs Ridge High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7334700@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Ridge High School at Bernards High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7335125@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Ridge High School at Phillipsburg High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7518652@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Hillsborough High School vs Ridge High School (Junior Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518652@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Ridge High School at Hillsborough Athletics (Junior Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7478024@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T180000
+DTEND;TZID=America/New_York:20260916T200000
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7478024@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T180000
+DTEND;TZID=America/New_York:20260916T200000
+SUMMARY:Ridge High School at Hillsborough Athletics (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7335127@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7335127@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Ridge High School vs Montgomery High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518653@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Ridge High School vs Rutgers Preparatory School (Junior Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7478043@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Ridge High School vs Rutgers Preparatory School (Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7334705@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Ridge High School vs Phillipsburg High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7335129@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Ridge High School at Warren Hills Regional School District (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518654@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Junior Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7478060@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98893572@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Watchung Hills Regional H.S. vs Ridge High School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98822331@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Watchung Hills Regional H.S. vs Ridge High School (Junior Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7335130@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Bernards High School vs Ridge High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7334707@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7335130@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Ridge High School at Bernards High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7334707@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7625735@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T153000
+DTEND;TZID=America/New_York:20260925T173000
+SUMMARY:Ridge High School at Roxbury High School (Varsity Girls Girls Soc
+ cer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7625736@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T153000
+DTEND;TZID=America/New_York:20260925T173000
+SUMMARY:Ridge High School at Roxbury High School (Junior Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7334709@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Ridge High School vs Warren Hills Regional School District (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7501509@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Montgomery High School vs Ridge High School (Junior Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499209@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7334710@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Bernards High School at Ridge High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7335135@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Ridge High School vs Phillipsburg High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7334710@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Ridge High School vs Bernards High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7614698@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Ridge High School vs The Pingry School (Junior Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7335137@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7335137@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7599136@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Ridge High School vs Watchung Hills Regional H.S. (Junior Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103579111@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Junior Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7335139@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Ridge High School vs Warren Hills Regional School District (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7335140@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Bernards High School at Ridge High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7335140@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Ridge High School vs Bernards High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7536985@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7522372@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:Ridge High School vs Gill St. Bernard's School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7523019@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T163000
+DTEND;TZID=America/New_York:20261019T183000
+SUMMARY:Ridge High School vs Hopewell Valley Central School (Junior Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7478140@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Immaculata High School at Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7522305@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T170000
+DTEND;TZID=America/New_York:20261026T190000
+SUMMARY:Ridge High School vs Northern Valley Regional High (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7536523@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T160000
+DTEND;TZID=America/New_York:20261029T180000
+SUMMARY:Bernards High School at Ridge High School (Junior Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7536522@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T180000
+DTEND;TZID=America/New_York:20261029T200000
+SUMMARY:Bernards High School at Ridge High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
+END:VEVENT
+END:VCALENDAR

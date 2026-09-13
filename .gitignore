@@ -1,0 +1,24 @@
+node_modules/
+
+# Local dev tooling only. Nothing in the site or the nightly workflow needs it -
+# the scripts use Node built-ins alone. Committing it would make Netlify install
+# netlify-cli on every deploy, including the nightly bot push.
+package.json
+package-lock.json
+
+# Derived from "Athletic Website Information.xlsx", regenerable at any time.
+.xlsx_extract/
+tmp_read_xlsx.js
+
+# Base64 encodings of logos that are already committed as .png files.
+images/logos/*-base64.txt
+
+# Local-only: a screenshot and a temp logo-verification page
+image.png
+_logo-check.html
+
+# Local Claude Code settings
+.claude/settings.local.json
+
+# Experimental scores-scraper output (backend only, not served)
+data/scores-scraped.json

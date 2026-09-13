@@ -1,0 +1,170 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Watchung Hills Regional H.S. Freshman F
+ ootball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:102734177@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260817T150000
+DTEND;TZID=America/New_York:20260817T170000
+SUMMARY:Watchung Hills Regional H.S. vs Wayne Hills High School (Freshman
+  Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417559@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260820T150000
+DTEND;TZID=America/New_York:20260820T170000
+SUMMARY:Watchung Hills Regional H.S. vs TBD (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417560@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T090000
+DTEND;TZID=America/New_York:20260829T110000
+SUMMARY:[Canceled] Watchung Hills Regional H.S. vs South Brunswick HS / C
+ rossroads MS (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101678296@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Watchung Hills Regional H.S. at Union High School (Freshman Boys 
+ Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417562@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7512260@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T180000
+DTEND;TZID=America/New_York:20260914T200000
+SUMMARY:Montgomery High School vs Watchung Hills Regional H.S. (Freshman 
+ Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417564@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T180000
+DTEND;TZID=America/New_York:20260914T200000
+SUMMARY:Watchung Hills Regional H.S. at Montgomery High School (Freshman 
+ Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417566@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Somerville High School at Watchung Hills Reg High School (Freshma
+ n Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7528360@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
+ Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417568@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Watchung Hills Regional H.S. vs Hunterdon Central Reg. High Schoo
+ l (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102959360@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:[Canceled] Watchung Hills Regional H.S. at Hunterdon Central Reg.
+  High School (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100194260@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Watchung Hills Regional H.S. at Summit High School (Freshman Boys
+  Football)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101672695@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:North Hunterdon High School vs Watchung Hills Reg High School (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417574@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Watchung Hills Regional H.S. vs Plainfield High School (Freshman 
+ Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503401@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Bridgewater-Raritan High School at Watchung Hills Regional H.S. (
+ Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417576@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Watchung Hills Regional H.S. vs Bridgewater-Raritan High School (
+ Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+END:VCALENDAR

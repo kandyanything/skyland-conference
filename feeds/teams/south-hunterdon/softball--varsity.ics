@@ -1,0 +1,188 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — South Hunterdon Regional H.S. Varsity S
+ oftball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2877:7540612@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:South Hunterdon Regional H.S. vs Mount Saint Mary Academy (Varsit
+ y Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540616@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270403
+DTEND;VALUE=DATE:20270404
+SUMMARY:South Hunterdon Regional H.S. at Voorhees High School (Varsity Gi
+ rls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540620@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:South Hunterdon Regional H.S. vs Rutgers Preparatory School (Vars
+ ity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540624@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity G
+ irls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540631@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:South Hunterdon Regional H.S. vs Manville High School (Varsity Gi
+ rls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102800655@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270410
+DTEND;VALUE=DATE:20270411
+SUMMARY:Manville High School at South Hunterdon Regional H.S. (Varsity Gi
+ rls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7540632@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Bound Brook High School at South Hunterdon Regional H.S. (Varsity
+  Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540632@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:South Hunterdon Regional H.S. vs Bound Brook High School (Varsity
+  Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540636@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:South Hunterdon Regional H.S. at Gill St. Bernard's School (Varsi
+ ty Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540640@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270417
+DTEND;VALUE=DATE:20270418
+SUMMARY:South Hunterdon Regional H.S. at Mount Saint Mary Academy (Varsit
+ y Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540644@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:South Hunterdon Regional H.S. vs Voorhees High School (Varsity Gi
+ rls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540648@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:South Hunterdon Regional H.S. at Rutgers Preparatory School (Vars
+ ity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540652@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270424
+DTEND;VALUE=DATE:20270425
+SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Varsity G
+ irls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102784902@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T160000
+DTEND;TZID=America/New_York:20270427T180000
+SUMMARY:Manville High School vs South Hunterdon Regional H.S. (Varsity Gi
+ rls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540659@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:South Hunterdon Regional H.S. at Manville High School (Varsity Gi
+ rls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7540660@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270504T120000
+DTEND;TZID=America/New_York:20270504T140000
+SUMMARY:Bound Brook High School vs South Hunterdon Regional H.S. (Varsity
+  Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540660@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270504T120000
+DTEND;TZID=America/New_York:20270504T140000
+SUMMARY:South Hunterdon Regional H.S. at Bound Brook High School (Varsity
+  Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7540664@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:South Hunterdon Regional H.S. vs Gill St. Bernard's School (Varsi
+ ty Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+END:VCALENDAR

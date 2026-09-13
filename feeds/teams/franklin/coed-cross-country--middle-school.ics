@@ -1,0 +1,98 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Franklin High School Middle School Coed
+  Cross Country
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2617:7508668@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Franklin High School at Montgomery High School (Middle School Coe
+ d Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526482@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T161500
+DTEND;TZID=America/New_York:20260930T181500
+SUMMARY:Franklin High School vs Branchburg Middle School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7484004@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Franklin High School at Warren Hills Regional School District (Mi
+ ddle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526041@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T161500
+DTEND;TZID=America/New_York:20261008T181500
+SUMMARY:Franklin High School vs JP Case Middle School (Middle School Coed
+  Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7542596@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T161500
+DTEND;TZID=America/New_York:20261013T181500
+SUMMARY:Franklin High School at Somerville Middle School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526071@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Franklin High School vs Clinton Township Middle School (Middle Sc
+ hool Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7526071@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T161500
+DTEND;TZID=America/New_York:20261016T181500
+SUMMARY:Hillsborough High School at Franklin High School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526093@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T161500
+DTEND;TZID=America/New_York:20261020T181500
+SUMMARY:Franklin High School at Readington Middle School (Middle School C
+ oed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
+END:VEVENT
+END:VCALENDAR

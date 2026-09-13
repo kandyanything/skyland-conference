@@ -1,0 +1,121 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Millburn High School Boys Ice Hockey
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103476484@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T154500
+DTEND;TZID=America/New_York:20261204T174500
+SUMMARY:Millburn High School at Montclair High School (Varsity Boys Boys 
+ Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648343@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T154500
+DTEND;TZID=America/New_York:20261205T174500
+SUMMARY:Millburn High School vs Morris Catholic High School (Varsity Boys
+  Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648349@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Millburn High School vs TBD (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648371@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T173000
+DTEND;TZID=America/New_York:20261213T193000
+SUMMARY:Millburn High School vs Montclair High School (Varsity Boys Boys 
+ Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648381@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T160000
+DTEND;TZID=America/New_York:20261230T180000
+SUMMARY:Millburn High School vs TBD (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648403@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T201500
+DTEND;TZID=America/New_York:20270104T221500
+SUMMARY:Millburn High School vs Arthur L. Johnson High School (Varsity Bo
+ ys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648415@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T154500
+DTEND;TZID=America/New_York:20270109T174500
+SUMMARY:Millburn High School vs TBD (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103044434@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270110T191500
+DTEND;TZID=America/New_York:20270110T211500
+SUMMARY:Millburn High School at Hoboken High School (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648477@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T183000
+DTEND;TZID=America/New_York:20270115T203000
+SUMMARY:Millburn High School vs Hoboken High School (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648494@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T201500
+DTEND;TZID=America/New_York:20270122T221500
+SUMMARY:Millburn High School vs Bayonne High School (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102648507@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T154500
+DTEND;TZID=America/New_York:20270130T174500
+SUMMARY:Millburn High School vs Bayonne High School (Varsity Boys Boys Ic
+ e Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:45 PM
+END:VEVENT
+END:VCALENDAR

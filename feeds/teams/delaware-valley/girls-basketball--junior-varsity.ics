@@ -1,0 +1,206 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Delaware Valley Regional H.S. Junior Va
+ rsity Girls Basketball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2586:7556294@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Delaware Valley Regional H.S. at Immaculata High School (Junior V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7556294@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Immaculata High School vs Delaware Valley Regional H.S. (Junior V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7556300@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Delaware Valley Regional H.S. at Ridge High School (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7556300@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Ridge High School vs Delaware Valley Regional H.S. (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7556306@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T110000
+DTEND;TZID=America/New_York:20261212T130000
+SUMMARY:Delaware Valley Regional H.S. at Lawrence High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101193666@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T161500
+DTEND;TZID=America/New_York:20261215T181500
+SUMMARY:Manville High School at Delaware Valley Regional H.S. (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7556312@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T100000
+DTEND;TZID=America/New_York:20261219T120000
+SUMMARY:Delaware Valley Regional H.S. vs Hackettstown High School (Junior
+  Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7574736@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Delaware Valley Regional H.S. at South Hunterdon Regional H.S. (J
+ unior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7574736@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:South Hunterdon Regional H.S. vs Delaware Valley Regional H.S. (J
+ unior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7556318@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T100000
+DTEND;TZID=America/New_York:20270109T120000
+SUMMARY:Delaware Valley Regional H.S. vs Hopewell Valley Central School (
+ Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101198245@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T160000
+DTEND;TZID=America/New_York:20270115T180000
+SUMMARY:Manville High School vs Delaware Valley Regional H.S. (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7556382@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T093000
+DTEND;TZID=America/New_York:20270116T113000
+SUMMARY:Delaware Valley Regional H.S. vs West Morris Mendham High School 
+ (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7576145@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (J
+ unior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7576145@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (J
+ unior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7556407@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Delaware Valley Regional H.S. vs Hunterdon Central Regional H.S. 
+ (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7556407@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Hunterdon Central Regional H.S. at Delaware Valley Regional H.S. 
+ (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7511107@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T160000
+DTEND;TZID=America/New_York:20270129T180000
+SUMMARY:Delaware Valley Regional H.S. at West Windsor-Plainsboro High Sch
+ ool South (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7556425@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T160000
+DTEND;TZID=America/New_York:20270204T180000
+SUMMARY:Delaware Valley Regional H.S. vs North Hunterdon High School (Jun
+ ior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7556431@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:Delaware Valley Regional H.S. at Phillipsburg High School (Junior
+  Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7535072@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T123000
+DTEND;TZID=America/New_York:20270220T143000
+SUMMARY:Delaware Valley Regional H.S. vs North Warren Regional H.S. (Juni
+ or Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 12:30 PM
+END:VEVENT
+END:VCALENDAR

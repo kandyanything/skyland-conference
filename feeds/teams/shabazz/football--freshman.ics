@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Malcolm X Shabazz High School Fresh
+ man Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:101196079@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T100000
+DTEND;TZID=America/New_York:20260829T120000
+SUMMARY:Malcolm X Shabazz High School vs Paramus Catholic High School (Fr
+ eshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98765823@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T093000
+DTEND;TZID=America/New_York:20260905T113000
+SUMMARY:Malcolm X Shabazz High School vs Bergen Catholic High School (Fre
+ shman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100195222@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Malcolm X Shabazz High School at West Orange High School (Freshma
+ n Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102678983@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T090000
+DTEND;TZID=America/New_York:20260926T110000
+SUMMARY:Malcolm X Shabazz High School at Bayonne High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101196089@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T093000
+DTEND;TZID=America/New_York:20261003T113000
+SUMMARY:Irvington High School at Malcolm X Shabazz High School (Freshman 
+ Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101196092@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Malcolm X Shabazz High School vs Don Bosco Preparatory High Schoo
+ l (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
+END:VEVENT
+END:VCALENDAR

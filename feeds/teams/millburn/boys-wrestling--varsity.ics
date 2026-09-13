@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Millburn High School Varsity Boys W
+ restling
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:102733918@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T190000
+DTEND;TZID=America/New_York:20261211T210000
+SUMMARY:Livingston High School vs Millburn High School (Varsity Boys Boys
+  Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102737301@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T090000
+DTEND;TZID=America/New_York:20261219T110000
+SUMMARY:Bloomfield High School at Kearny High School (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102615927@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T150000
+DTEND;TZID=America/New_York:20261223T170000
+SUMMARY:Bloomfield High School vs Millburn High School (Varsity Boys Boys
+  Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102611630@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T210000
+DTEND;TZID=America/New_York:20270109T230000
+SUMMARY:Belleville High School at Passaic Valley High School (Varsity Boy
+ s Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102578663@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T170000
+DTEND;TZID=America/New_York:20270127T190000
+SUMMARY:Millburn High School at Verona High School (Varsity Boys Boys Wre
+ stling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101287530@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T090000
+DTEND;TZID=America/New_York:20270130T110000
+SUMMARY:Millburn High School at J.F. Kennedy Memorial High School (Varsit
+ y Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+END:VCALENDAR

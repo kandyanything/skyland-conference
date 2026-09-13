@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Hillsborough High School Junior Varsity
+  Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2653:7503306@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T170000
+DTEND;TZID=America/New_York:20260914T190000
+SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Juni
+ or Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7555918@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Hillsborough High School at Union High School (Junior Varsity Boy
+ s Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7495193@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillsborough High School at Colonia High School (Junior Varsity B
+ oys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7557174@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T173000
+DTEND;TZID=America/New_York:20261012T193000
+SUMMARY:Hillsborough High School vs Elizabeth High School (Junior Varsity
+  Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7476324@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Hillsborough High School at Ridge High School (Junior Varsity Boy
+ s Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7512275@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T173000
+DTEND;TZID=America/New_York:20261026T193000
+SUMMARY:Hillsborough High School vs Montgomery High School (Junior Varsit
+ y Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,824 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Watchung Hills Regional H.S. Boys Soccer
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103036740@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T160000
+DTEND;TZID=America/New_York:20260826T180000
+SUMMARY:Watchung Hills Regional H.S. vs Summit High School (Freshman Boys
+  Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103036732@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T160000
+DTEND;TZID=America/New_York:20260826T180000
+SUMMARY:Watchung Hills Regional H.S. vs Summit High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103036694@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260826T160000
+DTEND;TZID=America/New_York:20260826T180000
+SUMMARY:Watchung Hills Regional H.S. vs Summit High School (Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103167835@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T160000
+DTEND;TZID=America/New_York:20260828T180000
+SUMMARY:[Canceled] Watchung Hills Regional H.S. vs Governor Livingston Hi
+ gh School (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103167804@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T160000
+DTEND;TZID=America/New_York:20260828T180000
+SUMMARY:Watchung Hills Regional H.S. vs Governor Livingston High School (
+ Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103167795@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T160000
+DTEND;TZID=America/New_York:20260828T180000
+SUMMARY:Watchung Hills Regional H.S. vs Governor Livingston High School (
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98819482@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Phillipsburg High School at Watchung Hills Reg High School (Varsi
+ ty Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98814084@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:[Rainout] Phillipsburg High School at Watchung Hills Reg High Sch
+ ool (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98814060@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:[Rainout] Phillipsburg High School at Watchung Hills Reg High Sch
+ ool (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7334778@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Montgomery High School vs Watchung Hills Regional H.S. (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7477972@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Bridgewater-Raritan High School vs Watchung Hills Regional H.S. (
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98846116@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Watchung Hills Regional H.S. at Bridgewater-Raritan High School (
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7508742@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Bridgewater-Raritan High School vs Watchung Hills Regional H.S. (
+ Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7508878@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Bridgewater-Raritan High School vs Watchung Hills Regional H.S. (
+ Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98814412@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Watchung Hills Regional H.S. at Bridgewater-Raritan High School (
+ Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98814403@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T120000
+DTEND;TZID=America/New_York:20260905T140000
+SUMMARY:Watchung Hills Regional H.S. at Bridgewater-Raritan High School (
+ Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7548215@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
+ Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7548203@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
+ Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7477984@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98820048@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Watchung Hills Regional H.S. vs Hunterdon Central Reg. High Schoo
+ l (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98814494@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Watchung Hills Regional H.S. vs Hunterdon Central Reg. High Schoo
+ l (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98814483@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Watchung Hills Regional H.S. vs Hunterdon Central Reg. High Schoo
+ l (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103847601@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Phillipsburg High School at Watchung Hills Reg High School (Fresh
+ man Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103847579@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Phillipsburg High School at Watchung Hills Reg High School (Junio
+ r Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7334785@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7335212@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Montgomery High School vs Watchung Hills Regional H.S. (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98818007@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:[Canceled] Watchung Hills Regional H.S. at Gill St. Bernard's Sch
+ ool (Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98812993@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Watchung Hills Regional H.S. at Gill St. Bernard's School (Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-09-16:16:15:Soccer:8@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T161500
+DTEND;TZID=America/New_York:20260916T181500
+SUMMARY:Gill St. Bernard's School vs Watchung Hills Regional H.S. (Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7334789@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101002367@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T150000
+DTEND;TZID=America/New_York:20260919T170000
+SUMMARY:Watchung Hills Regional H.S. at The Pingry School (Junior Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98845334@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T150000
+DTEND;TZID=America/New_York:20260919T170000
+SUMMARY:Watchung Hills Regional H.S. at The Pingry School (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7334793@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518873@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Ridge High School vs Watchung Hills Regional H.S. (Junior Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518918@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Ridge High School vs Watchung Hills Regional H.S. (Freshman Boys 
+ Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7478061@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Ridge High School vs Watchung Hills Regional H.S. (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99688090@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Junior Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98822253@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Freshman Boys 
+ Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98776730@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T160000
+DTEND;TZID=America/New_York:20260923T180000
+SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7335219@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7565632@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T120000
+SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Freshman 
+ Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499593@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T120000
+SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Junior Va
+ rsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98822861@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T120000
+SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Freshman 
+ Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98822831@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T120000
+SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Junior Va
+ rsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7478073@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T120000
+DTEND;TZID=America/New_York:20260926T140000
+SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98819781@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T120000
+DTEND;TZID=America/New_York:20260926T140000
+SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7335223@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7562996@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T163000
+DTEND;TZID=America/New_York:20261001T183000
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7563042@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T163000
+DTEND;TZID=America/New_York:20261001T183000
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103622068@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T163000
+DTEND;TZID=America/New_York:20261001T183000
+SUMMARY:Watchung Hills Regional H.S. at Bernards High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99011363@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T163000
+DTEND;TZID=America/New_York:20261001T183000
+SUMMARY:Watchung Hills Regional H.S. at Bernards High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7334800@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7335227@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity B
+ oys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7563056@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T160000
+DTEND;TZID=America/New_York:20261002T180000
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Freshman Bo
+ ys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102761148@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T160000
+DTEND;TZID=America/New_York:20261002T180000
+SUMMARY:Watchung Hills Regional H.S. vs Bernards High School (Freshman Bo
+ ys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98738682@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Watchung Hills Regional H.S. vs Millburn High School (Freshman Bo
+ ys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98738667@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Watchung Hills Regional H.S. vs Millburn High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98847831@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T140000
+DTEND;TZID=America/New_York:20261003T160000
+SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99083013@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T140000
+DTEND;TZID=America/New_York:20261003T160000
+SUMMARY:Watchung Hills Regional H.S. vs Millburn High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7334804@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Hillsborough High School at Watchung Hills Regional H.S. (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98847747@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98815870@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T154500
+DTEND;TZID=America/New_York:20261008T174500
+SUMMARY:Watchung Hills Regional H.S. at Hillsborough High School (Freshma
+ n Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98815813@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T154500
+DTEND;TZID=America/New_York:20261008T174500
+SUMMARY:Watchung Hills Regional H.S. at Hillsborough High School (Junior 
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551790@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Junior 
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551881@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Freshma
+ n Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7478008@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T180000
+DTEND;TZID=America/New_York:20261008T200000
+SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98776443@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T180000
+DTEND;TZID=America/New_York:20261008T200000
+SUMMARY:Watchung Hills Regional H.S. at Hillsborough High School (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526607@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Franklin High School at Watchung Hills Regional H.S. (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7464062@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Franklin High School at Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98824686@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:[Canceled] Watchung Hills Regional H.S. vs Franklin High School (
+ Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98824627@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Watchung Hills Regional H.S. vs Franklin High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98819813@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Watchung Hills Regional H.S. vs Franklin High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103579362@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Freshman Boys 
+ Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98861083@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7335234@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100469679@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Watchung Hills Regional H.S. vs TBD (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100469683@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Somerville High School at Watchung Hills Reg High School (Junior 
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100469667@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T183000
+DTEND;TZID=America/New_York:20261015T203000
+SUMMARY:Somerville High School at Watchung Hills Reg High School (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7335238@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Hillsborough High School at Watchung Hills Regional H.S. (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98861086@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T100000
+DTEND;TZID=America/New_York:20261017T120000
+SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102204991@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Watchung Hills Regional H.S. vs The Pingry School (Freshman Boys 
+ Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98819843@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:North Hunterdon High School at Watchung Hills Reg High School (Va
+ rsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98824959@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Watchung Hills Regional H.S. vs North Hunterdon High School (Fres
+ hman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98824940@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Watchung Hills Regional H.S. vs North Hunterdon High School (Juni
+ or Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100818913@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Watchung Hills Regional H.S. at Parsippany Hills High School (Fre
+ shman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100818783@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Watchung Hills Regional H.S. at Parsippany Hills High School (Jun
+ ior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99029574@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Watchung Hills Regional H.S. at Parsippany Hills High School (Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98861087@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T140000
+DTEND;TZID=America/New_York:20261024T160000
+SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102738577@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+END:VCALENDAR

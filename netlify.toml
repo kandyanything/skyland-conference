@@ -1,0 +1,54 @@
+# The combined schedule.json is a build artifact - the nightly workflow reads it
+# to compare against the previous run. Visitors only ever load data/schedule/,
+# so the 3.6 MB file does not belong in the deploy.
+[build]
+  publish = "."
+
+[[headers]]
+  for = "/data/schedule/*"
+  [headers.values]
+    Cache-Control = "public, max-age=1800"
+
+# Netlify serves an unknown extension as application/octet-stream. Chrome is
+# lenient about it, but the manifest has a registered type and some installers
+# check it before offering "Add to Home Screen".
+[[headers]]
+  for = "/site.webmanifest"
+  [headers.values]
+    Content-Type = "application/manifest+json"
+
+# The icons and the sharing card change only when the seal or wording does.
+[[headers]]
+  for = "/images/icons/*"
+  [headers.values]
+    Cache-Control = "public, max-age=604800"
+
+[[headers]]
+  for = "/feeds/all.ics"
+  [headers.values]
+    Content-Type = "text/calendar; charset=utf-8"
+    Cache-Control = "public, max-age=1800"
+
+[[headers]]
+  for = "/feeds/schools/*"
+  [headers.values]
+    Content-Type = "text/calendar; charset=utf-8"
+    Cache-Control = "public, max-age=1800"
+
+[[headers]]
+  for = "/feeds/sports/*"
+  [headers.values]
+    Content-Type = "text/calendar; charset=utf-8"
+    Cache-Control = "public, max-age=1800"
+
+[[headers]]
+  for = "/feeds/rss.xml"
+  [headers.values]
+    Content-Type = "application/rss+xml; charset=utf-8"
+    Cache-Control = "public, max-age=1800"
+
+[[headers]]
+  for = "/feeds/teams/*"
+  [headers.values]
+    Content-Type = "text/calendar; charset=utf-8"
+    Cache-Control = "public, max-age=1800"

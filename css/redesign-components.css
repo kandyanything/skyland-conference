@@ -1,0 +1,410 @@
+/* ==========================================================================
+   Super Essex Conference - components
+   Class names match the existing renderers so the data-driven sections
+   keep working against the new layout.
+   ========================================================================== */
+
+/* ---------- hero ---------- */
+.hero {
+    position: relative;
+    background:
+        radial-gradient(56rem 26rem at 15% -18%, rgba(195, 201, 209, .14), transparent 62%),
+        linear-gradient(140deg, var(--navy-900), var(--navy-800) 58%, var(--navy-700));
+    color: var(--white);
+    padding: 74px 0 66px;
+    overflow: hidden;
+}
+
+.hero::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 5px;
+    background: linear-gradient(90deg, var(--red) 0 33.33%, #fff 33.33% 66.66%, var(--red) 66.66%);
+}
+
+.hero-inner {
+    display: grid;
+    grid-template-columns: 1.35fr .65fr;
+    gap: 46px;
+    align-items: center;
+}
+
+.hero .eyebrow {
+    color: var(--silver);
+    font-size: .8rem;
+    font-weight: 700;
+    letter-spacing: .2em;
+    text-transform: uppercase;
+}
+
+.hero h1 { margin: 10px 0 14px; font-size: clamp(2.9rem, 6.4vw, 4.8rem); }
+.hero p { font-size: 1.1rem; color: #c7ccd4; max-width: 56ch; }
+
+.hero-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    margin-top: 26px;
+}
+
+.hero-facts { display: grid; gap: 14px; }
+
+.hero-fact {
+    background: rgba(255, 255, 255, .07);
+    border: 1px solid rgba(255, 255, 255, .16);
+    border-left: 4px solid var(--red);
+    border-radius: var(--radius);
+    padding: 16px 18px;
+}
+
+.hero-fact b {
+    display: block;
+    font-family: var(--font-display);
+    /* The number is the point of a statistic, so let it carry the weight - it
+       was set barely larger than the label beneath it. */
+    font-size: clamp(2.4rem, 3.2vw, 3.1rem);
+    font-weight: 600;
+    line-height: .95;
+    letter-spacing: -.01em;
+    /* Tabular figures so 39, 3 and 20+ line up on their stems down the column
+       rather than drifting with the width of each glyph. */
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+    margin-bottom: 4px;
+}
+
+.hero-fact span {
+    font-size: .82rem;
+    letter-spacing: .1em;
+    text-transform: uppercase;
+    color: #b9c8e8;
+}
+
+/* ---------- SEC Vision ---------- */
+.vision-nav { display: flex; gap: 8px; flex-shrink: 0; }
+
+.vision-nav button {
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    cursor: pointer;
+    background: rgba(255, 255, 255, .1);
+    border: 2px solid rgba(255, 255, 255, .4);
+    color: var(--white);
+    font-size: 1.3rem;
+    line-height: 1;
+    transition: all .2s;
+}
+
+.vision-nav button:hover { background: var(--red); border-color: var(--red); }
+
+.vision-track {
+    display: flex;
+    gap: 20px;
+    overflow-x: auto;
+    padding-bottom: 14px;
+    scroll-snap-type: x mandatory;
+    -webkit-overflow-scrolling: touch;
+}
+
+.vision-track::-webkit-scrollbar { height: 6px; }
+.vision-track::-webkit-scrollbar-track { background: rgba(255, 255, 255, .14); border-radius: 3px; }
+.vision-track::-webkit-scrollbar-thumb { background: rgba(255, 255, 255, .5); border-radius: 3px; }
+
+.vision-item {
+    flex: 0 0 356px;
+    scroll-snap-align: start;
+    background: var(--white);
+    color: var(--ink);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-md);
+    transition: transform .25s, box-shadow .25s;
+}
+
+.vision-item:hover { transform: translateY(-5px); box-shadow: var(--shadow-lg); }
+
+.vision-thumb,
+.vision-item iframe {
+    display: block;
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    border: 0;
+    padding: 0;
+    background: #000;
+}
+
+.vision-thumb { position: relative; cursor: pointer; }
+.vision-thumb img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s; }
+.vision-thumb:hover img { transform: scale(1.05); }
+
+.vision-play {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 58px;
+    height: 58px;
+    border-radius: 50%;
+    background: var(--red);
+    border: 3px solid #fff;
+    box-shadow: 0 4px 14px rgba(0, 0, 0, .45);
+    transition: transform .25s, background .25s;
+}
+
+.vision-play::after {
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    transform: translate(-50%, -50%);
+    border-style: solid;
+    border-width: 10px 0 10px 17px;
+    border-color: transparent transparent transparent #fff;
+}
+
+.vision-thumb:hover .vision-play {
+    transform: translate(-50%, -50%) scale(1.1);
+    background: var(--red-dark);
+}
+
+.vision-meta { padding: 16px 18px 18px; border-top: 3px solid var(--red); }
+.vision-meta h3 { color: var(--navy-800); font-size: 1.2rem; margin-bottom: 6px; }
+
+.vision-sub {
+    margin: 0;
+    font-size: .78rem;
+    font-weight: 700;
+    letter-spacing: .09em;
+    text-transform: uppercase;
+    color: var(--muted);
+}
+
+/* ---------- SEC News (card grid) ---------- */
+.news-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(330px, 1fr));
+    gap: 26px;
+}
+
+.news-item {
+    display: flex;
+    flex-direction: column;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    overflow: hidden;
+    box-shadow: var(--shadow-sm);
+    transition: transform .25s, box-shadow .25s;
+}
+
+.news-item:hover { transform: translateY(-5px); box-shadow: var(--shadow-md); }
+.news-thumb { width: 100%; height: 196px; object-fit: cover; }
+
+.news-body {
+    padding: 20px 22px 24px;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+.news-date {
+    order: -1;
+    margin: 0 0 8px;
+    font-size: .75rem;
+    font-weight: 700;
+    letter-spacing: .11em;
+    text-transform: uppercase;
+    color: var(--red);
+}
+
+.news-body h3 { color: var(--navy-800); font-size: 1.3rem; margin-bottom: 10px; }
+.news-body h3 a { color: inherit; text-decoration: none; }
+.news-body h3 a:hover { color: var(--red); }
+.news-excerpt { color: var(--muted); font-size: .96rem; margin: 0; }
+
+/* ---------- member schools ---------- */
+.schools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(216px, 1fr));
+    gap: 18px;
+}
+
+.school-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 12px;
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    padding: 22px 16px;
+    text-decoration: none;
+    color: inherit;
+    box-shadow: var(--shadow-sm);
+    transition: transform .2s, box-shadow .2s, border-color .2s;
+}
+
+.school-tile:hover {
+    transform: translateY(-4px);
+    border-color: var(--red);
+    box-shadow: var(--shadow-md);
+}
+
+.school-tile img { width: 84px; height: 84px; object-fit: contain; }
+
+.school-tile .nm {
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 500;
+    line-height: 1.2;
+    color: var(--navy-800);
+    text-transform: uppercase;
+    letter-spacing: .02em;
+}
+
+/* ---------- split content ---------- */
+.split {
+    display: grid;
+    grid-template-columns: 1.25fr .75fr;
+    gap: 46px;
+    align-items: start;
+}
+
+.factcard {
+    background: var(--white);
+    border: 1px solid var(--line);
+    border-left: 5px solid var(--red);
+    border-radius: var(--radius);
+    padding: 26px 28px;
+    box-shadow: var(--shadow-sm);
+}
+
+.factcard h3 { color: var(--navy-800); margin-bottom: 12px; }
+
+.factcard dl {
+    margin: 0;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 8px 16px;
+    font-size: .95rem;
+}
+
+.factcard dt { font-weight: 700; color: var(--navy-800); }
+.factcard dd { margin: 0; color: var(--muted); }
+
+/* ---------- footer ---------- */
+.site-footer { background: var(--navy-900); color: #b4b9c1; }
+
+.site-footer::before {
+    content: "";
+    display: block;
+    height: 5px;
+    margin-bottom: 46px;
+    background: linear-gradient(90deg, var(--red) 0 33.33%, #fff 33.33% 66.66%, var(--red) 66.66%);
+}
+
+.footer-cols {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr;
+    gap: 40px;
+    padding-bottom: 40px;
+}
+
+.site-footer h4 {
+    font-family: var(--font-display);
+    color: var(--white);
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: .08em;
+    margin-bottom: 14px;
+}
+
+.site-footer ul { list-style: none; margin: 0; padding: 0; }
+.site-footer li { margin-bottom: 9px; }
+.site-footer a { color: #b4b9c1; text-decoration: none; font-size: .95rem; }
+.site-footer a:hover { color: var(--white); }
+
+.footer-brand { display: flex; gap: 16px; align-items: flex-start; }
+.footer-brand img { width: 66px; height: 66px; object-fit: contain; flex-shrink: 0; }
+
+.footer-bottom {
+    border-top: 1px solid rgba(255, 255, 255, .12);
+    padding: 20px 0;
+    font-size: .85rem;
+    display: flex;
+    justify-content: space-between;
+    gap: 16px;
+    flex-wrap: wrap;
+}
+
+@media (max-width: 900px) {
+    .hero-inner,
+    .split { grid-template-columns: 1fr; gap: 30px; }
+    .footer-cols { grid-template-columns: 1fr; gap: 28px; }
+    .vision-item { flex-basis: 280px; }
+    .schools-grid { grid-template-columns: repeat(auto-fill, minmax(150px, 1fr)); }
+    .school-tile img { width: 64px; height: 64px; }
+}
+
+/* ---- Athlitiq credit ------------------------------------------------------
+   Lives in the stylesheet rather than in a <style> block beside the mark, so
+   the rules are not repeated seven times over. Class names keep their atq-
+   prefix so nothing here can collide with the rest of the site.
+
+   The two-tone variant, because this footer is navy-900. */
+.atq-credit {
+    display: inline-flex;
+    align-items: center;
+    gap: .55em;
+    font: 400 12px/1 var(--font-body);
+    letter-spacing: .08em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #8b959c;
+    transition: color .18s ease;
+}
+
+.atq-credit:hover,
+.atq-credit:focus-visible { color: #cfd6da; }
+
+.atq-credit:focus-visible {
+    outline: 2px solid #7BAFD4;
+    outline-offset: 4px;
+    border-radius: 2px;
+}
+
+.atq-credit svg {
+    height: 13px;
+    width: auto;
+    display: block;
+    color: #c3cbd1;
+    transition: color .18s ease;
+}
+
+.atq-credit .atq-logo {
+    height: 22px;
+    width: auto;
+    display: block;
+    transition: opacity .18s ease;
+}
+.atq-credit:hover .atq-logo,
+.atq-credit:focus-visible .atq-logo { opacity: .85; }
+
+.atq-credit:hover svg,
+.atq-credit:focus-visible svg { color: #e6ebee; }
+
+@media (prefers-reduced-motion: reduce) {
+    .atq-credit,
+    .atq-credit svg { transition: none; }
+}
+
+/* The counties sit between the copyright and the credit on a wide footer, and
+   the credit drops to its own line before the other two do on a narrow one. */
+@media (max-width: 600px) {
+    .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
+}

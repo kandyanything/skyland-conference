@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Nutley High School Boys Wrestling
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:103851036@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T170000
+DTEND;TZID=America/New_York:20261216T190000
+SUMMARY:East Side High School vs Nutley High School (Junior Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103851078@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T180000
+DTEND;TZID=America/New_York:20261216T200000
+SUMMARY:East Side High School vs Nutley High School (Varsity Boys Boys Wr
+ estling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102737503@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261227T084500
+DTEND;TZID=America/New_York:20261227T104500
+SUMMARY:Bloomfield High School at Morristown High School (Varsity Boys Bo
+ ys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 8:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102737574@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T090000
+DTEND;TZID=America/New_York:20261228T110000
+SUMMARY:Bloomfield High School at Morristown High School (Varsity Boys Bo
+ ys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103582778@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T180000
+DTEND;TZID=America/New_York:20270108T200000
+SUMMARY:Nutley High School at Seton Hall Preparatory School (Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102072312@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T180000
+DTEND;TZID=America/New_York:20270113T200000
+SUMMARY:Nutley High School vs West Essex High School (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102740919@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T180000
+DTEND;TZID=America/New_York:20270115T200000
+SUMMARY:Bloomfield High School vs Nutley High School (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101857565@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T100000
+DTEND;TZID=America/New_York:20270116T120000
+SUMMARY:Nutley High School at Perth Amboy High School (Varsity Boys Boys 
+ Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102741013@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T090000
+DTEND;TZID=America/New_York:20270120T110000
+SUMMARY:Bloomfield High School at West Orange High School (Varsity Boys B
+ oys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102741469@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270213T090000
+DTEND;TZID=America/New_York:20270213T110000
+SUMMARY:Nutley High School vs Bloomfield High School (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+END:VCALENDAR

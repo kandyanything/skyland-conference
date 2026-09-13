@@ -1,0 +1,205 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Hunterdon Central Regional H.S. Golf
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2665:7541161@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Montgomery High School (Varsit
+ y Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7541161@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
+ y Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541164@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
+ Varsity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7541168@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T160000
+DTEND;TZID=America/New_York:20270413T180000
+SUMMARY:Hillsborough High School at Hunterdon Central Regional H.S. (Vars
+ ity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541168@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T160000
+DTEND;TZID=America/New_York:20270413T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Hillsborough Athletics (Varsit
+ y Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541171@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7541171@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7541175@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T160000
+DTEND;TZID=America/New_York:20270420T180000
+SUMMARY:Bridgewater-Raritan High School at Hunterdon Central Regional H.S
+ . (Varsity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541175@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T160000
+DTEND;TZID=America/New_York:20270420T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Bridgewater-Raritan High Schoo
+ l (Varsity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541178@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Hunterdon Central Regional H.S. at The Pingry School (Varsity Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541182@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T160000
+DTEND;TZID=America/New_York:20270427T180000
+SUMMARY:Hunterdon Central Regional H.S. at Montgomery High School (Varsit
+ y Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7541182@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T160000
+DTEND;TZID=America/New_York:20270427T180000
+SUMMARY:Montgomery High School vs Hunterdon Central Regional H.S. (Varsit
+ y Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541185@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T160000
+DTEND;TZID=America/New_York:20270429T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
+ Varsity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7541189@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Hillsborough High School vs Hunterdon Central Regional H.S. (Vars
+ ity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541189@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Varsit
+ y Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541192@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270511T160000
+DTEND;TZID=America/New_York:20270511T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Ridge High School (Varsity Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7541192@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270511T160000
+DTEND;TZID=America/New_York:20270511T180000
+SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Varsity Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Golf - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7541196@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
+ . (Varsity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541196@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
+ l (Varsity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7541199@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T160000
+DTEND;TZID=America/New_York:20270518T180000
+SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Varsity Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,63 @@
+name: Rebuild Skyland Conference schedule
+
+# A FULL rebuild re-fetches every school from source, so it is self-correcting:
+# it can never erode existing games the way the incremental "next few days"
+# splice could. It runs every 3 hours (this is a public repo, so Actions minutes
+# are unlimited), which means schedule changes - new games, reschedules,
+# cancellations - show up within a few hours, and the 2am slot is simply one of
+# these runs. The sanity check refuses to publish a build that came back
+# suspiciously thin (a flaky source), so a bad run just waits for the next one.
+on:
+  schedule:
+    - cron: '0 */3 * * *'   # every 3 hours (UTC)
+  workflow_dispatch:         # and on demand
+
+concurrency:
+  group: schedule-rebuild
+  cancel-in-progress: false
+
+jobs:
+  rebuild:
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    permissions:
+      contents: write
+
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      # keep the committed version so the guard can compare against it
+      - name: Snapshot the current schedule
+        run: cp data/schedule.json /tmp/previous-schedule.json || echo "no previous build"
+
+      - name: Fetch every school
+        run: node scripts/build-schedule.js
+
+      # A build can succeed while returning far too little, if a source changes
+      # shape or fails. Fail here rather than publishing a gutted calendar - the
+      # next run three hours later will try again.
+      - name: Sanity check
+        run: node scripts/check-schedule.js /tmp/previous-schedule.json
+
+      - name: Split into per-month files
+        run: |
+          node scripts/split-schedule.js
+          node scripts/build-feeds.js
+
+      - name: Commit if anything changed
+        run: |
+          git config user.name  "skyland-schedule-bot"
+          git config user.email "actions@github.com"
+          git add data/schedule.json data/schedule/ feeds
+          if git diff --cached --quiet; then
+            echo "no change - nothing to publish"
+            exit 0
+          fi
+          GAMES=$(node -e "console.log(require('./data/schedule.json').counts.deduped)")
+          DATES=$(node -e "console.log(require('./data/schedule.json').counts.dates)")
+          git commit -m "Schedule rebuild: ${GAMES} games across ${DATES} dates"
+          git push

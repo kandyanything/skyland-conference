@@ -1,0 +1,402 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Bridgewater-Raritan High School Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2549:7506258@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260817T100000
+DTEND;TZID=America/New_York:20260817T120000
+SUMMARY:Bridgewater-Raritan High School vs DePaul Catholic High School (V
+ arsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7499287@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260820T170000
+DTEND;TZID=America/New_York:20260820T190000
+SUMMARY:Bridgewater-Raritan High School vs Somerville High School (Varsit
+ y Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7475940@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T100000
+DTEND;TZID=America/New_York:20260828T120000
+SUMMARY:Bridgewater-Raritan High School vs Woodbridge High School (Junior
+  Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7424191@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T180000
+DTEND;TZID=America/New_York:20260828T200000
+SUMMARY:Bridgewater-Raritan High School at Woodbridge High School (Varsit
+ y Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7587968@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T100000
+DTEND;TZID=America/New_York:20260831T120000
+SUMMARY:Bridgewater-Raritan High School vs Woodbridge High School (Freshm
+ an Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503302@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T113000
+DTEND;TZID=America/New_York:20260831T133000
+SUMMARY:Bridgewater-Raritan High School vs Woodbridge High School (Junior
+  Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503305@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:Bridgewater-Raritan High School vs Saint Joseph High School (Juni
+ or Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503407@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T090000
+DTEND;TZID=America/New_York:20260905T110000
+SUMMARY:Bridgewater-Raritan High School vs Saint Joseph High School (Fres
+ hman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7499308@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T130000
+DTEND;TZID=America/New_York:20260905T150000
+SUMMARY:Bridgewater-Raritan High School at Saint Joseph High School (Vars
+ ity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7502888@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T160000
+DTEND;TZID=America/New_York:20260911T180000
+SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
+ y Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7502888@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T160000
+DTEND;TZID=America/New_York:20260911T180000
+SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Vars
+ ity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503397@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T153000
+DTEND;TZID=America/New_York:20260914T173000
+SUMMARY:Bridgewater-Raritan High School at Hillsborough Athletics (Freshm
+ an Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7503397@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T153000
+DTEND;TZID=America/New_York:20260914T173000
+SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Fres
+ hman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503306@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T170000
+DTEND;TZID=America/New_York:20260914T190000
+SUMMARY:Bridgewater-Raritan High School at Hillsborough Athletics (Junior
+  Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7503306@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T170000
+DTEND;TZID=America/New_York:20260914T190000
+SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Juni
+ or Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7504734@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T180000
+DTEND;TZID=America/New_York:20260918T200000
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
+ s Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7476308@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7522356@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
+ ity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503199@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T130000
+DTEND;TZID=America/New_York:20260926T150000
+SUMMARY:Bridgewater-Raritan High School at Westfield High School (Varsity
+  Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503398@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Bridgewater-Raritan High School vs Westfield High School (Freshma
+ n Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503307@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T173000
+DTEND;TZID=America/New_York:20260928T193000
+SUMMARY:Bridgewater-Raritan High School vs Westfield High School (Junior 
+ Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7466647@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T180000
+DTEND;TZID=America/New_York:20261002T200000
+SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
+ . (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7466647@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T180000
+DTEND;TZID=America/New_York:20261002T200000
+SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
+ l (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503304@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Bridgewater-Raritan High School at Hunterdon Central Regional H.S
+ . (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7503304@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261002
+DTEND;VALUE=DATE:20261003
+SUMMARY:Hunterdon Central Regional H.S. vs Bridgewater-Raritan High Schoo
+ l (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503396@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Bridgewater-Raritan High School at Hunterdon Central Regional H.S
+ . (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7503396@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Bridgewater-Raritan High Schoo
+ l (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7528343@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T180000
+DTEND;TZID=America/New_York:20261005T200000
+SUMMARY:Bridgewater-Raritan High School at Hunterdon Central Regional H.S
+ . (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7528343@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T180000
+DTEND;TZID=America/New_York:20261005T200000
+SUMMARY:Hunterdon Central Regional H.S. vs Bridgewater-Raritan High Schoo
+ l (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503206@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T190000
+DTEND;TZID=America/New_York:20261009T210000
+SUMMARY:Bridgewater-Raritan High School at Union High School (Varsity Boy
+ s Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503399@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Bridgewater-Raritan High School vs Union High School (Freshman Bo
+ ys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503308@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T173000
+DTEND;TZID=America/New_York:20261012T193000
+SUMMARY:Bridgewater-Raritan High School vs Union High School (Junior Vars
+ ity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503229@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
+ ity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503400@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Fres
+ hman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503309@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T173000
+DTEND;TZID=America/New_York:20261019T193000
+SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Juni
+ or Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503253@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T180000
+DTEND;TZID=America/New_York:20261023T200000
+SUMMARY:Bridgewater-Raritan High School vs Watchung Hills Regional H.S. (
+ Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417145@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Watchung Hills Regional H.S. at Bridgewater-Raritan High School (
+ Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503401@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Bridgewater-Raritan High School at Watchung Hills Regional H.S. (
+ Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417576@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T090000
+DTEND;TZID=America/New_York:20261024T110000
+SUMMARY:Watchung Hills Regional H.S. vs Bridgewater-Raritan High School (
+ Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503310@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Bridgewater-Raritan High School at Watchung Hills Regional H.S. (
+ Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417577@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Watchung Hills Regional H.S. vs Bridgewater-Raritan High School (
+ Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7503263@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T180000
+DTEND;TZID=America/New_York:20261030T200000
+SUMMARY:Bridgewater-Raritan High School vs TBA NJ (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+END:VCALENDAR

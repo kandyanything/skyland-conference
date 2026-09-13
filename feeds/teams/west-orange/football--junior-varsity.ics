@@ -1,0 +1,97 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — West Orange High School Junior Vars
+ ity Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:101364335@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T110000
+DTEND;TZID=America/New_York:20260829T130000
+SUMMARY:West Orange High School at TBD (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100261227@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T161500
+DTEND;TZID=America/New_York:20260831T181500
+SUMMARY:West Orange High School at Ramapo High School (Junior Varsity Boy
+ s Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100195204@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T180000
+DTEND;TZID=America/New_York:20260914T200000
+SUMMARY:Irvington High School at West Orange High School (Junior Varsity 
+ Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100195209@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T180000
+DTEND;TZID=America/New_York:20260917T200000
+SUMMARY:Malcolm X Shabazz High School at West Orange High School (Junior 
+ Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101364345@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:East Orange Campus High School vs West Orange High School (Junior
+  Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100195211@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T163000
+DTEND;TZID=America/New_York:20261005T183000
+SUMMARY:Bloomfield High School at West Orange High School (Junior Varsity
+  Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100195214@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T163000
+DTEND;TZID=America/New_York:20261019T183000
+SUMMARY:Barringer High School at West Orange High School (Junior Varsity 
+ Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100100615@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Montclair High School vs West Orange High School (Junior Varsity 
+ Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR

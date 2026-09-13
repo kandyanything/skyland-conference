@@ -1,0 +1,161 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Arts High School Varsity Boys Baske
+ tball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:101009152@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T170000
+DTEND;TZID=America/New_York:20261211T190000
+SUMMARY:Arts High School vs Rutgers Prep School (Varsity Boys Boys Basket
+ ball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100534635@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T210000
+SUMMARY:Arts High School at Seton Hall Preparatory School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100540161@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T113000
+DTEND;TZID=America/New_York:20261219T133000
+SUMMARY:Arts High School at Columbia High School (Varsity Boys Boys Baske
+ tball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100536021@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T160000
+DTEND;TZID=America/New_York:20261222T180000
+SUMMARY:Arts High School at Essex County-Payne Tech High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535789@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T190000
+DTEND;TZID=America/New_York:20270107T210000
+SUMMARY:Arts High School vs East Orange Campus High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103894307@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T170000
+DTEND;TZID=America/New_York:20270108T190000
+SUMMARY:Arts High School vs Bishop McNamara High School (Varsity Boys Boy
+ s Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103894321@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T120000
+DTEND;TZID=America/New_York:20270109T140000
+SUMMARY:Arts High School at Union Catholic Regional High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535798@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T190000
+DTEND;TZID=America/New_York:20270112T210000
+SUMMARY:Arts High School vs Saint Benedict's Preparatory School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100536564@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T120000
+DTEND;TZID=America/New_York:20270116T140000
+SUMMARY:Arts High School at Essex County-Newark Tech High School (Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535805@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T190000
+DTEND;TZID=America/New_York:20270119T210000
+SUMMARY:Arts High School vs Seton Hall Preparatory School (Varsity Boys B
+ oys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535811@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T190000
+DTEND;TZID=America/New_York:20270121T210000
+SUMMARY:Arts High School vs Essex County-Payne Tech High School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535831@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T113000
+DTEND;TZID=America/New_York:20270123T133000
+SUMMARY:Arts High School vs West Side High School (Varsity Boys Boys Bask
+ etball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100537588@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T190000
+DTEND;TZID=America/New_York:20270126T210000
+SUMMARY:Arts High School at East Orange Campus High School (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535536@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T190000
+DTEND;TZID=America/New_York:20270209T210000
+SUMMARY:Arts High School at Saint Benedict's Preparatory School (Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100535857@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T190000
+DTEND;TZID=America/New_York:20270211T210000
+SUMMARY:Arts High School vs Essex County-Newark Tech High School (Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+END:VCALENDAR

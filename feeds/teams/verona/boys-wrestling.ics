@@ -1,0 +1,115 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Verona High School Boys Wrestling
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:102578643@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T170000
+DTEND;TZID=America/New_York:20261211T190000
+SUMMARY:Verona High School vs West Orange High School (Varsity Boys Boys 
+ Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102578646@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T170000
+DTEND;TZID=America/New_York:20261216T190000
+SUMMARY:Cedar Grove High School at Verona High School (Varsity Boys Boys 
+ Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103851051@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T170000
+DTEND;TZID=America/New_York:20261218T190000
+SUMMARY:East Side High School vs Verona High School (Junior Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103851085@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T180000
+DTEND;TZID=America/New_York:20261218T200000
+SUMMARY:East Side High School vs Verona High School (Varsity Boys Boys Wr
+ estling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102578651@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T170000
+DTEND;TZID=America/New_York:20270106T190000
+SUMMARY:Livingston High School at Verona High School (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102616092@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T170000
+DTEND;TZID=America/New_York:20270113T190000
+SUMMARY:Bloomfield High School vs Verona High School (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102061374@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T090000
+DTEND;TZID=America/New_York:20270116T110000
+SUMMARY:Verona High School at Hackettstown High School (Junior Varsity Bo
+ ys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102061364@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T090000
+DTEND;TZID=America/New_York:20270116T110000
+SUMMARY:Verona High School at Hackettstown High School (Varsity Boys Boys
+  Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102578663@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T170000
+DTEND;TZID=America/New_York:20270127T190000
+SUMMARY:Millburn High School at Verona High School (Varsity Boys Boys Wre
+ stling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102617182@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T090000
+DTEND;TZID=America/New_York:20270206T110000
+SUMMARY:Belleville High School at Verona High School (Varsity Boys Boys W
+ restling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+END:VCALENDAR

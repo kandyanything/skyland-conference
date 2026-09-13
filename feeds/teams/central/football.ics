@@ -1,0 +1,204 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — Central High School Football
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:100121472@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260820T100000
+DTEND;TZID=America/New_York:20260820T120000
+SUMMARY:Central High School vs Columbia High School (Varsity Boys Footbal
+ l)
+DESCRIPTION:Varsity Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121474@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T190000
+DTEND;TZID=America/New_York:20260828T210000
+SUMMARY:Bloomfield High School at Central High School (Varsity Boys Footb
+ all)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99189394@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260829T090000
+DTEND;TZID=America/New_York:20260829T110000
+SUMMARY:Bloomfield High School vs Central High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99189389@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T160000
+DTEND;TZID=America/New_York:20260831T180000
+SUMMARY:[Canceled] Bloomfield High School vs Central High School (Junior 
+ Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99920769@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260904T190000
+DTEND;TZID=America/New_York:20260904T210000
+SUMMARY:Central High School at Weequahic High School (Varsity Boys Footba
+ ll)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103399675@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260905T100000
+DTEND;TZID=America/New_York:20260905T120000
+SUMMARY:Central High School vs Weequahic High School (Junior Varsity Boys
+  Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100236857@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260907T160000
+DTEND;TZID=America/New_York:20260907T180000
+SUMMARY:[Canceled] Central High School at Weequahic High School (Junior V
+ arsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121598@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T190000
+DTEND;TZID=America/New_York:20260911T210000
+SUMMARY:Central High School vs Henry Snyder High School (Varsity Boys Foo
+ tball)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100261548@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T163000
+DTEND;TZID=America/New_York:20260914T183000
+SUMMARY:Central High School at Henry Snyder High School (Junior Varsity B
+ oys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121599@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T130000
+DTEND;TZID=America/New_York:20260919T150000
+SUMMARY:Central High School vs Orange High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99310898@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T170000
+DTEND;TZID=America/New_York:20260921T190000
+SUMMARY:Central High School at Orange High School (Junior Varsity Boys Fo
+ otball)
+DESCRIPTION:Junior Varsity Boys Football - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100309210@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T120000
+DTEND;TZID=America/New_York:20260926T140000
+SUMMARY:Central High School at Nutley High School (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121642@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T163000
+DTEND;TZID=America/New_York:20260928T183000
+SUMMARY:Central High School vs Nutley High School (Junior Varsity Boys Fo
+ otball)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100205892@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:Central High School at Union City High School (Varsity Boys Footb
+ all)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121648@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T163000
+DTEND;TZID=America/New_York:20261005T183000
+SUMMARY:Central High School vs TBD (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121606@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T190000
+DTEND;TZID=America/New_York:20261008T210000
+SUMMARY:Central High School vs West Essex High School (Varsity Boys Footb
+ all)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99231573@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Central High School at West Essex High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99231553@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261012T160000
+DTEND;TZID=America/New_York:20261012T180000
+SUMMARY:Central High School at West Essex High School (Junior Varsity Boy
+ s Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100253145@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T130000
+DTEND;TZID=America/New_York:20261024T150000
+SUMMARY:Central High School at East Orange Campus High School (Varsity Bo
+ ys Football)
+DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100121656@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T163000
+DTEND;TZID=America/New_York:20261026T183000
+SUMMARY:Central High School vs East Orange Campus High School (Junior Var
+ sity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
+END:VEVENT
+END:VCALENDAR

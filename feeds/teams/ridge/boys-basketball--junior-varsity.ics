@@ -1,0 +1,80 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — Ridge High School Junior Varsity Boys B
+ asketball
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:ds:2830:7599364@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T173000
+DTEND;TZID=America/New_York:20261207T193000
+SUMMARY:Ridge High School vs Morris Catholic High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7611986@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T171500
+DTEND;TZID=America/New_York:20261215T191500
+SUMMARY:Immaculata High School vs Ridge High School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526663@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T163000
+DTEND;TZID=America/New_York:20261217T183000
+SUMMARY:Franklin High School at Ridge High School (Junior Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102264939@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T171500
+DTEND;TZID=America/New_York:20270114T191500
+SUMMARY:Phillipsburg High School vs Ridge High School (Junior Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7564312@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Montgomery High School at Ridge High School (Junior Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7555733@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270218T161500
+DTEND;TZID=America/New_York:20270218T181500
+SUMMARY:Ridge High School vs Chatham High School (Junior Varsity Boys Boy
+ s Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
+END:VEVENT
+END:VCALENDAR

@@ -1,0 +1,378 @@
+/* ==========================================================================
+   Skyland Conference - design system
+   Type: Oswald for display, Open Sans for body.
+   Colour: sky blue primary with dark navy and silver accents.
+   ========================================================================== */
+
+:root {
+    --font-display: 'Oswald', 'Arial Narrow', Arial, sans-serif;
+    --font-body: 'Open Sans', -apple-system, BlinkMacSystemFont, 'Segoe UI', Arial, sans-serif;
+
+    /* sky blue primary palette */
+    --navy-900: #0d1b3e;   /* dark navy: topbar, footer, deep contrast elements */
+    --navy-800: #0a7a96;   /* deep sky blue: primary nav background */
+    --navy-700: #0d6f8a;   /* sky blue: body links (accessible on white) */
+    --navy-600: #1a9ab9;   /* medium sky: gradient accent */
+    /* accent / highlight (dark navy role) */
+    --red: #0d1b3e;
+    --red-dark: #050d1c;
+    /* light silver/ice: borders & accents on dark/sky surfaces */
+    --silver: #deedf5;
+    --silver-dark: #a8c8d8;
+
+    --ink: #16181c;
+    --muted: #666b74;
+    --line: #dcdee2;
+    --bg: #f3f4f6;
+    --white: #ffffff;
+
+    --wrap: 1280px;
+    --radius: 10px;
+    --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.09), 0 4px 12px rgba(0, 0, 0, 0.06);
+    --shadow-md: 0 8px 28px rgba(0, 0, 0, 0.13);
+    --shadow-lg: 0 18px 46px rgba(0, 0, 0, 0.20);
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+html { -webkit-text-size-adjust: 100%; }
+body {
+    margin: 0;
+    font-family: var(--font-body);
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--ink);
+    background: var(--bg);
+    -webkit-font-smoothing: antialiased;
+}
+img { max-width: 100%; display: block; }
+a { color: var(--navy-700); }
+
+.wrap { max-width: var(--wrap); margin: 0 auto; padding: 0 24px; }
+
+/* ---------- display type ---------- */
+h1, h2, h3, h4, .display {
+    font-family: var(--font-display);
+    font-weight: 600;
+    line-height: 1.1;
+    letter-spacing: 0.01em;
+    margin: 0;
+}
+h1 { font-size: clamp(2.4rem, 5vw, 3.6rem); text-transform: uppercase; }
+h2 { font-size: clamp(1.9rem, 3.2vw, 2.6rem); text-transform: uppercase; }
+h3 { font-size: 1.35rem; }
+p { margin: 0 0 1rem; }
+
+/* ---------- utility bar ---------- */
+.topbar {
+    background: var(--navy-900);
+    color: var(--silver);
+    font-size: 0.82rem;
+    letter-spacing: 0.04em;
+}
+.topbar .wrap { display: flex; align-items: center; justify-content: space-between; gap: 16px; min-height: 40px; }
+.topbar strong { color: var(--white); font-weight: 600; }
+.topbar-links { display: flex; gap: 20px; }
+.topbar-links a { color: var(--silver); text-decoration: none; }
+.topbar-links a:hover { color: var(--white); }
+
+/* ---------- masthead ---------- */
+/* sky blue masthead — THE primary brand color */
+.masthead { background: linear-gradient(180deg, #1284a0 0%, #45b8d0 100%); border-bottom: 4px solid #0d1b3e; }
+.masthead .wrap { display: flex; align-items: center; padding-top: 16px; padding-bottom: 16px; }
+.masthead-logo {
+    height: clamp(90px, 10.5vw, 142px);
+    width: auto;
+    max-width: 100%;
+    object-fit: contain;
+    flex-shrink: 0;
+}
+.masthead-text { flex: 0 1 auto; min-width: 0; }
+.masthead-text .name {
+    font-family: var(--font-display);
+    font-size: clamp(2.15rem, 5vw, 3.7rem);
+    font-weight: 700;
+    text-transform: uppercase;
+    color: var(--white);
+    line-height: 1.02;
+}
+/* logo and wordmark are one lockup, side by side, linking home */
+.masthead-brand {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: clamp(14px, 2vw, 26px);
+    /* sized to its content, not stretched - the logo strip measures this
+       element to find where Conference actually ends */
+    flex: 0 1 auto;
+    min-width: 0;
+    text-decoration: none;
+    color: inherit;
+}
+
+.masthead-brand .name { display: block; transition: color .2s; }
+.masthead-brand:hover .name { color: var(--red); }
+
+
+/* ---------- primary nav ---------- */
+.mainnav { background: var(--navy-800); position: sticky; top: 0; z-index: 200; box-shadow: var(--shadow-sm); }
+.mainnav .wrap { display: flex; align-items: stretch; padding: 0 24px; }
+.navlist { list-style: none; margin: 0; padding: 0; display: flex; flex-wrap: wrap; }
+.navlist > li { position: relative; }
+.navlist > li > a {
+    display: flex; align-items: center;
+    font-family: var(--font-display);
+    font-size: 1.02rem;
+    font-weight: 500;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: var(--white);
+    text-decoration: none;
+    padding: 15px 18px;
+    border-bottom: 3px solid transparent;
+    transition: background .2s, color .2s, border-color .2s;
+}
+.navlist > li > a:hover,
+.navlist > li > a[aria-current="page"] {
+    background: rgba(0,0,0,.18);
+    color: var(--white);
+    border-bottom-color: var(--silver);
+}
+.has-sub > a::after { content: "\25BE"; font-size: .7em; margin-left: 7px; opacity: .8; }
+.subnav {
+    position: absolute; left: 0; top: 100%;
+    min-width: 250px;
+    background: var(--white);
+    border-top: 3px solid var(--red);
+    box-shadow: var(--shadow-md);
+    list-style: none; margin: 0; padding: 6px 0;
+    opacity: 0; visibility: hidden; transform: translateY(6px);
+    transition: opacity .18s, transform .18s, visibility .18s;
+}
+/* A menu near the end of the bar hangs past the right edge on a narrower
+   desktop and widens the whole page - 67px of horizontal scroll at 1024px,
+   present even while closed, because a visibility: hidden box still counts
+   toward the scrollable area. The last two menus open leftwards instead. */
+.navlist > li.has-sub:nth-last-child(-n+2) .subnav { left: auto; right: 0; }
+
+/* Belt and braces at in-between widths: clip horizontally while leaving the
+   vertical overflow the dropdowns depend on. clip rather than hidden, because
+   hidden on one axis forces the other to auto and would trap them. */
+.mainnav { overflow-x: clip; }
+
+.has-sub:hover .subnav, .has-sub:focus-within .subnav { opacity: 1; visibility: visible; transform: translateY(0); }
+.subnav a {
+    display: block; padding: 10px 18px;
+    font-size: .95rem; color: var(--ink); text-decoration: none;
+}
+.subnav a:hover { background: var(--bg); color: var(--navy-700); }
+.nav-toggle { display: none; }
+
+/* ---------- section shell ---------- */
+.band { padding: 64px 0; }
+
+/* Weight follows darkness. The bands alternated light and dark but carried
+   identical padding, so the page read evenly rather than rhythmically - a dark
+   band needs more air around its content to feel deliberate rather than merely
+   coloured in. */
+.band--navy { padding: 88px 0; }
+
+/* Every figure on the site is data - counts, scores, dates. Tabular figures
+   keep them aligned on their stems in a column and stop numbers jittering when
+   they change. */
+.hero-fact b,
+.today-day-count,
+.today-sport b,
+.cal-num,
+.cal-count,
+.today-time,
+.cal-time {
+    font-variant-numeric: tabular-nums;
+    font-feature-settings: 'tnum' 1;
+}
+.band--tint { background: var(--white); }
+.band--navy {
+    background:
+        radial-gradient(60rem 26rem at 12% -20%, rgba(255,255,255,.08), transparent 62%),
+        linear-gradient(140deg, var(--navy-900), #0a7a96 60%, #45b8d0);
+    color: var(--white);
+}
+.band--navy h2 { color: var(--white); }
+.band-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 20px; margin-bottom: 30px; }
+.band-head .eyebrow {
+    font-size: .78rem; font-weight: 700; letter-spacing: .18em; text-transform: uppercase;
+    color: var(--red); margin-bottom: 6px;
+}
+.band--navy .eyebrow { color: var(--silver); }
+.band-head h2 { position: relative; padding-bottom: 12px; }
+.band-head h2::after {
+    content: ""; position: absolute; left: 0; bottom: 0; width: 62px; height: 4px; background: var(--silver);
+}
+.btn {
+    display: inline-block;
+    font-family: var(--font-display);
+    font-size: .95rem; letter-spacing: .08em; text-transform: uppercase; font-weight: 500;
+    padding: 11px 22px; border-radius: 6px; text-decoration: none;
+    background: var(--navy-900); color: var(--white); border: 2px solid var(--silver);
+    transition: all .2s;
+}
+.btn:hover { background: var(--navy-700); border-color: var(--white); }
+.btn--ghost { background: transparent; color: var(--white); border-color: rgba(255,255,255,.5); }
+.btn--ghost:hover { background: var(--white); color: var(--navy-800); border-color: var(--white); }
+
+/* ---------- responsive ---------- */
+@media (max-width: 900px) {
+    .band { padding: 48px 0; }
+    .band--navy { padding: 60px 0; }
+    .band-head { flex-direction: column; align-items: flex-start; }
+}
+
+/* The bar needs 1111px to sit on one line. Below that it used to wrap onto two
+   rows, which looks broken and threw the right-hand dropdowns off the left edge
+   of the screen. The menu therefore collapses well before the wrap, on its own
+   breakpoint rather than sharing the 900px one - that one carries band spacing,
+   which has no business changing just because the nav ran out of room. */
+@media (max-width: 1120px) {
+    .nav-toggle {
+        display: block; margin-left: auto; background: none; border: 0; cursor: pointer;
+        color: var(--white); font-family: var(--font-display); font-size: 1rem;
+        text-transform: uppercase; letter-spacing: .08em; padding: 14px 4px;
+    }
+    .navlist { display: none; width: 100%; flex-direction: column; }
+    .navlist.open { display: flex; }
+    .navlist > li > a { padding: 13px 4px; border-bottom: 1px solid rgba(255,255,255,.12); }
+    .subnav {
+        position: static; opacity: 1; visibility: visible; transform: none;
+        box-shadow: none; border-top: 0; background: rgba(0,0,0,.18); padding: 0;
+        display: none;
+    }
+    /* the collapsed menu stacks, so the desktop right-anchoring must not apply */
+    .navlist > li.has-sub:nth-last-child(-n+2) .subnav { left: auto; right: auto; }
+    .has-sub.open .subnav { display: block; }
+    .subnav a { color: var(--white); padding-left: 22px; }
+    .subnav a:hover { background: rgba(255,255,255,.08); }
+}
+
+/* ---------- small screens ---------- */
+@media (max-width: 600px) {
+    body { font-size: 16px; }
+
+    /* keep the logo and wordmark side by side, just scaled down */
+    .masthead-logo { width: 76px; height: 76px; }
+    .masthead-text .name { font-size: 1.18rem; letter-spacing: -.005em; }
+    .masthead .wrap { padding-top: 14px; padding-bottom: 14px; }
+
+    .topbar .wrap { flex-direction: column; align-items: flex-start; gap: 2px; padding-top: 8px; padding-bottom: 8px; }
+    .topbar-links { flex-wrap: wrap; gap: 14px; }
+
+    .wrap { padding: 0 16px; }
+    .band { padding: 36px 0; }
+}
+
+/* label kept for screen readers where the control is self-evident visually */
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    padding: 0;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+    border: 0;
+}
+
+/* ---------- school logos drifting behind the masthead ---------- */
+.masthead { position: relative; overflow: hidden; }
+
+.masthead-strip {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    display: flex;
+    align-items: center;
+    pointer-events: none;
+    opacity: 0;
+    transition: opacity .6s ease;
+}
+
+.masthead-strip.is-running { opacity: 1; }
+
+.strip-track {
+    display: flex;
+    align-items: center;
+    gap: clamp(38px, 5vw, 76px);
+    padding-left: clamp(38px, 5vw, 76px);
+    width: max-content;
+    /* A flex item shrinks by default, and this one was being squeezed from
+       10903px of content down to a 5928px box - so translate(-50%) moved it
+       barely half a lap and the strip restarted mid-alphabet. */
+    flex: none;
+    /* Slow enough to read as drift rather than motion. One lap is exactly one
+       full set, measured in pixels by the script and handed back as
+       --strip-shift, so the duplicate lands where the original was. */
+    animation: strip-drift 90s linear infinite;
+}
+
+@keyframes strip-drift {
+    from { transform: translate3d(0, 0, 0); }
+    to   { transform: translate3d(calc(-1 * var(--strip-shift, 50%)), 0, 0); }
+}
+
+.strip-logo {
+    height: clamp(42px, 4.4vw, 62px);
+    width: auto;
+    flex-shrink: 0;
+    /* Subordinate to the wordmark - present, but never competing with it. */
+    opacity: .4;
+    filter: saturate(.8);
+}
+
+/* the brand sits above the drift */
+.masthead .wrap { position: relative; z-index: 1; }
+
+/* the masthead is tight on a phone; the drift only adds noise there */
+@media (max-width: 900px) {
+    .masthead-strip { display: none; }
+}
+
+/* ---- Scroll reveal -------------------------------------------------------
+   A short fade and a 22px lift as each block enters the viewport. The hidden
+   state is scoped to .js-reveal, which an inline snippet in <head> sets before
+   the first paint - so without JavaScript the page is simply a normal page,
+   and there is never a flash of content appearing and then being hidden.
+
+   The transition lives on .is-in rather than on .reveal, so the element has no
+   animation on the way in to its hidden state - only on the way out of it.
+   Scrolling back up leaves everything where it is; the reveal is one-shot. */
+.js-reveal .reveal {
+    opacity: 0;
+    transform: translateY(22px);
+}
+
+.js-reveal .reveal.is-in {
+    opacity: 1;
+    transform: none;
+    /* Decelerating almost to a stop - the movement settles rather than arrives. */
+    transition: opacity .7s cubic-bezier(.16, 1, .3, 1),
+                transform .7s cubic-bezier(.16, 1, .3, 1);
+}
+
+/* Motion is decoration. Anyone who has asked for less gets none of it, and the
+   script removes .js-reveal entirely so nothing is left mid-transition. */
+@media (prefers-reduced-motion: reduce) {
+    .js-reveal .reveal,
+    .js-reveal .reveal.is-in {
+        opacity: 1;
+        transform: none;
+        transition: none;
+    }
+}
+
+/* An anchored section must clear the sticky nav. Without this the browser
+   scrolls the heading to y=0, where the bar is already sitting, and the first
+   line of the section is hidden underneath it. */
+section[id],
+.band[id],
+.page-head[id] {
+    scroll-margin-top: 76px;
+}

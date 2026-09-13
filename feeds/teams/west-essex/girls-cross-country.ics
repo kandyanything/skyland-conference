@@ -1,0 +1,70 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Super Essex Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Super Essex Conference — West Essex High School Girls Cross 
+ Country
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:101126193@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Montclair High School at West Essex High School (Varsity Girls Gi
+ rls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100796944@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Millburn High School at West Essex High School (Varsity Girls Gir
+ ls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100796939@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Columbia High School at West Essex High School (Varsity Girls Gir
+ ls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103023165@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T164500
+DTEND;TZID=America/New_York:20261008T184500
+SUMMARY:Columbia High School vs Caldwell High School (Varsity Girls Girls
+  Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100796943@super-essex-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:West Essex High School vs TBD (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
+END:VEVENT
+END:VCALENDAR
