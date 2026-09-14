@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2665:7631237@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270316T160000
+DTEND;TZID=America/New_York:20270316T180000
+SUMMARY:Hunterdon Central Regional H.S. vs South Plainfield High School (
+ Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7570068@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270316T160000
@@ -883,6 +892,15 @@ DTEND;VALUE=DATE:20270425
 SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Varsity G
  irls Softball)
 DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7631633@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270426T160000
+DTEND;TZID=America/New_York:20270426T180000
+SUMMARY:Montgomery High School vs Bound Brook High School (Varsity Girls 
+ Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102784902@skyland-conference

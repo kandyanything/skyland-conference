@@ -973,9 +973,10 @@ UID:arb:100591102@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
 DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Somerville High School at Montville Township High School (Varsity
-  Girls Field Hockey)
+SUMMARY:[Canceled] Somerville High School at Montville Township High Scho
+ ol (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100591115@skyland-conference
@@ -2138,6 +2139,15 @@ SUMMARY:Somerville High School vs Hunterdon Central Reg. High School (Jun
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2665:7631484@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T173000
+DTEND;TZID=America/New_York:20261019T193000
+SUMMARY:Hunterdon Central Regional H.S. vs Somerville High School (Varsit
+ y Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101886899@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T181500
@@ -2154,6 +2164,15 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Freshm
  an Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103974891@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Somerville High School at Piscataway High School (Varsity Girls F
+ ield Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102625346@skyland-conference
@@ -2174,7 +2193,7 @@ SUMMARY:Somerville High School vs Nottingham High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:7720861f-87bb-4880-be14-d342b6803c19@skyland
+UID:bb:MountSaintMaryAcademy:0bdab6e5-e4f6-4136-8fd8-4db7459f67a3@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T120000
@@ -2184,7 +2203,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:4d0b77ee-906e-4f5f-ae13-330af2448970@skyland
+UID:bb:MountSaintMaryAcademy:b103d3f1-55e2-401e-b4de-9c8dbbce3b65@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T131500
@@ -2293,24 +2312,6 @@ SUMMARY:Somerville High School vs Elizabeth High School (Freshman Boys Fo
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7499246@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T100000
-DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:Montgomery High School at Somerville High School (Varsity Girls G
- irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7501551@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T100000
-DTEND;TZID=America/New_York:20261024T120000
-SUMMARY:Montgomery High School at Somerville High School (Junior Varsity 
- Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103425604@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T100000
@@ -2327,6 +2328,42 @@ DTEND;TZID=America/New_York:20261024T120000
 SUMMARY:Somerville High School at Colonia High School (Varsity Boys Boys 
  Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101972724@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Somerville High School vs Montgomery High School (Junior Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101900362@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T100000
+DTEND;TZID=America/New_York:20261024T120000
+SUMMARY:Somerville High School vs Montgomery High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499246@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T120000
+DTEND;TZID=America/New_York:20261024T140000
+SUMMARY:Montgomery High School at Somerville High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7501551@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261024T120000
+DTEND;TZID=America/New_York:20261024T140000
+SUMMARY:Montgomery High School at Somerville High School (Junior Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7555842@skyland-conference
@@ -3095,15 +3132,6 @@ SUMMARY:North Hunterdon High School vs Somerville High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103156766@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T093000
-DTEND;TZID=America/New_York:20270116T113000
-SUMMARY:Somerville High School at Koinonia Academy (Varsity Girls Girls B
- asketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7611928@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T100000
@@ -3111,15 +3139,6 @@ DTEND;TZID=America/New_York:20270116T120000
 SUMMARY:Immaculata High School at Somerville High School (Freshman Boys B
  oys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102313662@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T110000
-DTEND;TZID=America/New_York:20270116T130000
-SUMMARY:Somerville High School at Warren Hills Regional H.S. (Varsity Gir
- ls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7611927@skyland-conference

@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2617:7526043@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Franklin High School vs South Plainfield High School (Middle Scho
- ol Boys Football)
-DESCRIPTION:Middle School Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7526045@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -67,5 +58,14 @@ DTEND;TZID=America/New_York:20261022T183000
 SUMMARY:Franklin High School at Perth Amboy High School (Middle School Bo
  ys Football)
 DESCRIPTION:Middle School Boys Football - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7631375@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T160000
+DTEND;TZID=America/New_York:20261029T180000
+SUMMARY:Franklin High School vs South Plainfield Middle School (Middle Sc
+ hool Boys Football)
+DESCRIPTION:Middle School Boys Football - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
