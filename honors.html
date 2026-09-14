@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
@@ -54,7 +54,7 @@
         <div class="masthead-strip" aria-hidden="true"></div>
         <div class="wrap">
             <a class="masthead-brand" href="index.html" aria-label="Skyland Conference home">
-                <img class="masthead-logo" src="images/skyland-mark.svg" alt="Skyland Conference logo">
+                <img class="masthead-logo" src="images/skyland-mark.png" alt="Skyland Conference logo">
                 <span class="masthead-text">
                     <span class="name">Skyland Conference</span>
                 </span>
@@ -87,7 +87,7 @@
     .tab-btn {
         font-family: var(--font-display); font-size: 1rem; font-weight: 600;
         text-transform: uppercase; letter-spacing: .06em;
-        padding: 12px 26px; border: none; cursor: pointer;
+        padding: 12px 22px; border: none; cursor: pointer;
         color: var(--muted); background: none;
         border-bottom: 3px solid transparent; margin-bottom: -3px;
         transition: color .18s, border-color .18s, background .18s;
@@ -122,6 +122,11 @@
     .sport-block td.school-cell { font-weight: 600; }
     .sport-block td.coach-cell { color: var(--muted); }
     .honors-loading { color: var(--muted); font-style: italic; padding: 2rem 0; }
+    .honors-note {
+        background: #f0f8fc; border-left: 4px solid #45b8d0;
+        padding: .85rem 1.1rem; margin-bottom: 1.8rem;
+        font-size: .93rem; color: var(--navy-800); border-radius: 0 4px 4px 0;
+    }
     /* history timeline */
     .history-table { width: 100%; border-collapse: collapse; font-size: .91rem; }
     .history-table thead th {
@@ -136,8 +141,20 @@
     .history-table .yr { font-weight: 700; color: var(--navy-800); white-space: nowrap; }
     .history-table .school { font-weight: 600; }
     .history-table .coach { color: var(--muted); }
+    /* scholar sections */
+    .scholar-intro { max-width: 680px; margin: 0 0 2rem; font-size: 1rem; line-height: 1.7; }
+    .scholar-coming {
+        padding: 3rem 2rem; text-align: center;
+        background: var(--base-2, #f8f9fa); border-radius: 6px;
+        border: 1px dashed var(--line);
+    }
+    .scholar-coming h3 {
+        font-family: var(--font-display); text-transform: uppercase; letter-spacing: .08em;
+        font-size: 1.15rem; color: var(--navy-800); margin: 0 0 .6rem;
+    }
+    .scholar-coming p { color: var(--muted); margin: 0; font-size: .95rem; }
     @media (max-width: 640px) {
-        .tab-btn { padding: 10px 14px; font-size: .88rem; }
+        .tab-btn { padding: 9px 12px; font-size: .82rem; }
         .honors-wrap { padding: 0 16px 40px; }
     }
     </style>
@@ -145,25 +162,38 @@
     <main>
         <div class="honors-wrap">
 
-            <!-- Season / Timeline tabs -->
-            <div class="tab-bar" role="tablist" aria-label="Honors seasons">
-                <button class="tab-btn active" role="tab" aria-selected="true"  aria-controls="panel-fall"    id="tab-fall">Fall</button>
-                <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-winter"  id="tab-winter">Winter</button>
-                <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-spring"  id="tab-spring">Spring</button>
-                <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-history" id="tab-history">History Timeline</button>
+            <!-- 4 tabs matching skylandconference.com/honors structure -->
+            <div class="tab-bar" role="tablist" aria-label="Honors categories">
+                <button class="tab-btn active" role="tab" aria-selected="true"  aria-controls="panel-history"  id="tab-history">Championships History</button>
+                <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-champs"   id="tab-champs">Conference Championships</button>
+                <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-scholars" id="tab-scholars">Scholar Athletes</button>
+                <button class="tab-btn"        role="tab" aria-selected="false" aria-controls="panel-njsiaa"   id="tab-njsiaa">NJSIAA Scholar Athletes</button>
             </div>
 
-            <div id="panel-fall"    class="tab-panel active" role="tabpanel" aria-labelledby="tab-fall">
-                <p class="honors-loading">Loading Fall championships&hellip;</p>
+            <!-- Championships History: full cross-year champion table -->
+            <div id="panel-history" class="tab-panel active" role="tabpanel" aria-labelledby="tab-history">
+                <p class="honors-loading">Loading championship history&hellip;</p>
             </div>
-            <div id="panel-winter"  class="tab-panel" role="tabpanel" aria-labelledby="tab-winter">
-                <p class="honors-loading">Loading Winter championships&hellip;</p>
+
+            <!-- Conference Championships: current-season division champions -->
+            <div id="panel-champs" class="tab-panel" role="tabpanel" aria-labelledby="tab-champs">
+                <p class="honors-loading">Loading conference championships&hellip;</p>
             </div>
-            <div id="panel-spring"  class="tab-panel" role="tabpanel" aria-labelledby="tab-spring">
-                <p class="honors-loading">Loading Spring championships&hellip;</p>
+
+            <!-- Scholar Athletes -->
+            <div id="panel-scholars" class="tab-panel" role="tabpanel" aria-labelledby="tab-scholars">
+                <div class="scholar-coming">
+                    <h3>Scholar Athletes</h3>
+                    <p>Scholar Athlete recognition records are being compiled. Check back soon.</p>
+                </div>
             </div>
-            <div id="panel-history" class="tab-panel" role="tabpanel" aria-labelledby="tab-history">
-                <p class="honors-loading">Loading history&hellip;</p>
+
+            <!-- NJSIAA Scholar Athletes -->
+            <div id="panel-njsiaa" class="tab-panel" role="tabpanel" aria-labelledby="tab-njsiaa">
+                <div class="scholar-coming">
+                    <h3>NJSIAA Scholar Athletes</h3>
+                    <p>NJSIAA Scholar Athlete recognition records are being compiled. Check back soon.</p>
+                </div>
             </div>
 
         </div>
@@ -173,7 +203,7 @@
         <div class="wrap">
             <div class="footer-cols">
                 <div class="footer-brand">
-                    <img src="images/skyland-logo.svg" alt="">
+                    <img src="images/skyland-mark.png" alt="">
                     <div>
                         <h4>Skyland Conference</h4>
                         <p style="margin:0;font-size:.93rem;">Somerset &middot; Hunterdon &middot; Warren &middot; Middlesex. Serving 25 member high schools in New Jersey.</p>
@@ -218,87 +248,6 @@
                 .replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
         }
 
-        // Build one season panel HTML from a sports array
-        function renderSeason(sports) {
-            if (!Array.isArray(sports) || !sports.length) {
-                return '<p class="honors-loading">No data yet for this season.</p>';
-            }
-            var out = '';
-            sports.forEach(function (sport) {
-                if (!Array.isArray(sport.history) || !sport.history.length) return;
-                var rows = '';
-                sport.history.forEach(function (entry) {
-                    if (!Array.isArray(entry.divisions) || !entry.divisions.length) return;
-                    entry.divisions.forEach(function (div, di) {
-                        rows += '<tr>' +
-                            '<td class="year-cell">' + (di === 0 ? esc(entry.year) : '') + '</td>' +
-                            '<td class="coach-cell">' + esc(div.coach) + '</td>' +
-                            '<td class="school-cell">' + esc(div.school) + '</td>' +
-                            '<td>' + esc(div.name) + '</td>' +
-                            '</tr>';
-                    });
-                });
-                if (!rows) return;
-                out += '<div class="sport-block">' +
-                    '<h3>' + esc(sport.name) + '</h3>' +
-                    '<div class="table-wrap"><table>' +
-                    '<thead><tr><th>Year</th><th>Coach</th><th>School</th><th>Division</th></tr></thead>' +
-                    '<tbody>' + rows + '</tbody></table></div></div>';
-            });
-            return out || '<p class="honors-loading">No data yet.</p>';
-        }
-
-        // Build History Timeline: all records sorted by year desc, season, sport
-        function renderHistory(seasons) {
-            var rows = [];
-            var seasonOrder = { 'Fall': 1, 'Winter': 2, 'Spring': 3 };
-            seasons.forEach(function (season) {
-                if (!Array.isArray(season.sports)) return;
-                season.sports.forEach(function (sport) {
-                    if (!Array.isArray(sport.history)) return;
-                    sport.history.forEach(function (entry) {
-                        if (!Array.isArray(entry.divisions)) return;
-                        entry.divisions.forEach(function (div) {
-                            rows.push({
-                                year: entry.year,
-                                seasonName: season.name,
-                                seasonOrd: seasonOrder[season.name] || 9,
-                                sport: sport.name,
-                                coach: div.coach,
-                                school: div.school,
-                                division: div.name
-                            });
-                        });
-                    });
-                });
-            });
-
-            rows.sort(function (a, b) {
-                if (b.year !== a.year) return b.year - a.year;
-                if (a.seasonOrd !== b.seasonOrd) return a.seasonOrd - b.seasonOrd;
-                return a.sport < b.sport ? -1 : a.sport > b.sport ? 1 : 0;
-            });
-
-            if (!rows.length) return '<p class="honors-loading">No history available.</p>';
-
-            var tableRows = rows.map(function (r) {
-                return '<tr>' +
-                    '<td class="yr">' + esc(r.year) + '</td>' +
-                    '<td>' + esc(r.seasonName) + '</td>' +
-                    '<td>' + esc(r.sport) + '</td>' +
-                    '<td class="school">' + esc(r.school) + '</td>' +
-                    '<td class="coach">' + esc(r.coach) + '</td>' +
-                    '<td>' + esc(r.division) + '</td>' +
-                    '</tr>';
-            }).join('');
-
-            return '<div style="overflow-x:auto;"><table class="history-table">' +
-                '<thead><tr>' +
-                '<th>Year</th><th>Season</th><th>Sport</th>' +
-                '<th>School</th><th>Coach</th><th>Division</th>' +
-                '</tr></thead><tbody>' + tableRows + '</tbody></table></div>';
-        }
-
         // Tab switching
         var buttons = document.querySelectorAll('.tab-btn');
         var panels  = document.querySelectorAll('.tab-panel');
@@ -308,32 +257,90 @@
                 panels.forEach(function (p) { p.classList.remove('active'); });
                 btn.classList.add('active');
                 btn.setAttribute('aria-selected','true');
-                var target = btn.getAttribute('aria-controls');
-                var panel = document.getElementById(target);
+                var panel = document.getElementById(btn.getAttribute('aria-controls'));
                 if (panel) panel.classList.add('active');
             });
         });
 
-        // Load and render data
+        // Build one sport block: year rows with divisions
+        function sportBlock(sportName, historyArr) {
+            if (!Array.isArray(historyArr) || !historyArr.length) return '';
+            var rows = '';
+            historyArr.forEach(function (entry) {
+                if (!Array.isArray(entry.divisions) || !entry.divisions.length) return;
+                entry.divisions.forEach(function (div, di) {
+                    rows += '<tr>' +
+                        '<td class="year-cell">' + (di === 0 ? esc(entry.year) : '') + '</td>' +
+                        '<td class="school-cell">' + esc(div.school) + '</td>' +
+                        '<td class="coach-cell">' + esc(div.coach) + '</td>' +
+                        '<td>' + esc(div.name) + '</td>' +
+                        '</tr>';
+                });
+            });
+            if (!rows) return '';
+            return '<div class="sport-block">' +
+                '<h3>' + esc(sportName) + '</h3>' +
+                '<div class="table-wrap"><table>' +
+                '<thead><tr><th>Year</th><th>School</th><th>Coach</th><th>Division</th></tr></thead>' +
+                '<tbody>' + rows + '</tbody></table></div></div>';
+        }
+
+        // Championships History tab: all sports across all seasons, sorted by sport name, year desc
+        function renderHistory(seasons) {
+            // Collect sport-keyed history across all seasons
+            var bySport = {};
+            var seasonOrder = { 'Fall': 1, 'Winter': 2, 'Spring': 3 };
+            seasons.forEach(function (season) {
+                if (!Array.isArray(season.sports)) return;
+                season.sports.forEach(function (sport) {
+                    var key = (seasonOrder[season.name] || 9) + '|' + sport.name;
+                    if (!bySport[key]) bySport[key] = { season: season.name, name: sport.name, history: [] };
+                    (sport.history || []).forEach(function (h) { bySport[key].history.push(h); });
+                });
+            });
+            // Sort years desc within each sport
+            Object.keys(bySport).forEach(function (k) {
+                bySport[k].history.sort(function (a, b) { return b.year - a.year; });
+            });
+            var keys = Object.keys(bySport).sort();
+            var html = '';
+            var lastSeason = null;
+            keys.forEach(function (k) {
+                var sp = bySport[k];
+                if (sp.season !== lastSeason) {
+                    html += '<h2 style="font-family:var(--font-display);font-size:1.35rem;text-transform:uppercase;letter-spacing:.06em;margin:2.2rem 0 .5rem;padding-bottom:.4rem;border-bottom:2px solid var(--line)">' + esc(sp.season) + ' Sports</h2>';
+                    lastSeason = sp.season;
+                }
+                html += sportBlock(sp.name, sp.history);
+            });
+            return html || '<p class="honors-loading">Championship history coming soon.</p>';
+        }
+
+        // Conference Championships tab: current-season champions by season (Fall / Winter / Spring)
+        function renderChampionships(seasons) {
+            var html = '<p class="honors-note">Skyland Conference division champions — most recent season. For full historical records see the Championships History tab.</p>';
+            seasons.forEach(function (season) {
+                if (!Array.isArray(season.sports) || !season.sports.length) return;
+                html += '<h2 style="font-family:var(--font-display);font-size:1.35rem;text-transform:uppercase;letter-spacing:.06em;margin:2.2rem 0 .5rem;padding-bottom:.4rem;border-bottom:2px solid var(--line)">' + esc(season.name) + ' Sports</h2>';
+                season.sports.forEach(function (sport) {
+                    html += sportBlock(sport.name, sport.history);
+                });
+            });
+            return html || '<p class="honors-loading">Championship data coming soon.</p>';
+        }
+
+        // Load and render
         fetch('data/honors.json')
             .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
             .then(function (data) {
                 var seasons = Array.isArray(data.seasons) ? data.seasons : [];
-                var map = {};
-                seasons.forEach(function (s) { map[s.name.toLowerCase()] = s; });
-
-                var fallEl    = document.getElementById('panel-fall');
-                var winterEl  = document.getElementById('panel-winter');
-                var springEl  = document.getElementById('panel-spring');
                 var historyEl = document.getElementById('panel-history');
-
-                if (fallEl)    fallEl.innerHTML    = renderSeason(map['fall']   ? map['fall'].sports   : []);
-                if (winterEl)  winterEl.innerHTML  = renderSeason(map['winter'] ? map['winter'].sports : []);
-                if (springEl)  springEl.innerHTML  = renderSeason(map['spring'] ? map['spring'].sports : []);
+                var champsEl  = document.getElementById('panel-champs');
                 if (historyEl) historyEl.innerHTML = renderHistory(seasons);
+                if (champsEl)  champsEl.innerHTML  = renderChampionships(seasons);
             })
             .catch(function () {
-                ['panel-fall','panel-winter','panel-spring','panel-history'].forEach(function (id) {
+                ['panel-history','panel-champs'].forEach(function (id) {
                     var el = document.getElementById(id);
                     if (el) el.innerHTML = '<p class="honors-loading">Championship data coming soon.</p>';
                 });
