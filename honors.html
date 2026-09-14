@@ -182,18 +182,12 @@
 
             <!-- Scholar Athletes -->
             <div id="panel-scholars" class="tab-panel" role="tabpanel" aria-labelledby="tab-scholars">
-                <div class="scholar-coming">
-                    <h3>Scholar Athletes</h3>
-                    <p>Scholar Athlete recognition records are being compiled. Check back soon.</p>
-                </div>
+                <p class="honors-loading">Loading scholar athletes&hellip;</p>
             </div>
 
             <!-- NJSIAA Scholar Athletes -->
             <div id="panel-njsiaa" class="tab-panel" role="tabpanel" aria-labelledby="tab-njsiaa">
-                <div class="scholar-coming">
-                    <h3>NJSIAA Scholar Athletes</h3>
-                    <p>NJSIAA Scholar Athlete recognition records are being compiled. Check back soon.</p>
-                </div>
+                <p class="honors-loading">Loading NJSIAA scholar athletes&hellip;</p>
             </div>
 
         </div>
@@ -329,8 +323,60 @@
             return html || '<p class="honors-loading">Championship data coming soon.</p>';
         }
 
+        // Scholar Athletes: year selector + table
+        function renderScholars(data) {
+            var years = Array.isArray(data.years) ? data.years : [];
+            if (!years.length) return '<p class="honors-loading">Scholar athlete data coming soon.</p>';
+
+            var html = '<div style="margin-bottom:1.2rem">' +
+                '<label for="sa-year" style="font-family:var(--font-display);font-weight:600;text-transform:uppercase;letter-spacing:.05em;margin-right:.5rem">Year:</label>' +
+                '<select id="sa-year" style="font-size:1rem;padding:.3rem .6rem;border:1px solid var(--line);border-radius:4px;background:var(--white)">';
+            years.forEach(function (y) {
+                html += '<option value="' + y.year + '">' + y.year + '</option>';
+            });
+            html += '</select></div><div id="sa-table"></div>';
+
+            setTimeout(function () {
+                var sel = document.getElementById('sa-year');
+                var tbl = document.getElementById('sa-table');
+                if (!sel || !tbl) return;
+                function showYear() {
+                    var yr = parseInt(sel.value);
+                    var yearData = years.find(function (y) { return y.year === yr; });
+                    if (!yearData) return;
+                    var rows = yearData.athletes.map(function (a) {
+                        return '<tr><td class="school-cell">' + esc(a.school) + '</td>' +
+                            '<td>' + esc(a.male) + '</td>' +
+                            '<td>' + esc(a.female) + '</td></tr>';
+                    }).join('');
+                    tbl.innerHTML = '<div style="overflow-x:auto"><table class="history-table">' +
+                        '<thead><tr>' +
+                        '<th style="border-left:5px solid #45b8d0">School</th>' +
+                        '<th>Male Athlete</th><th>Female Athlete</th>' +
+                        '</tr></thead><tbody>' + rows + '</tbody></table></div>';
+                }
+                sel.addEventListener('change', showYear);
+                showYear();
+            }, 0);
+            return html;
+        }
+
+        // NJSIAA Scholar Athletes
+        function renderNjsiaa(data) {
+            var athletes = Array.isArray(data.athletes) ? data.athletes : [];
+            if (!athletes.length) return '<p class="honors-loading">NJSIAA scholar athlete data coming soon.</p>';
+            var year = data.year || '';
+            var rows = athletes.map(function (a) {
+                return '<tr><td class="school-cell">' + esc(a.school) + '</td><td>' + esc(a.name) + '</td></tr>';
+            }).join('');
+            return '<p class="honors-note">NJSIAA Scholar Athlete recipients' + (year ? ' — ' + year : '') + '.</p>' +
+                '<div style="overflow-x:auto"><table class="history-table" style="max-width:600px">' +
+                '<thead><tr><th style="border-left:5px solid #45b8d0">School</th><th>Athlete</th></tr></thead>' +
+                '<tbody>' + rows + '</tbody></table></div>';
+        }
+
         // Load and render
-        fetch('data/honors.json')
+        var p1 = fetch('data/honors.json')
             .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
             .then(function (data) {
                 var seasons = Array.isArray(data.seasons) ? data.seasons : [];
@@ -344,6 +390,28 @@
                     var el = document.getElementById(id);
                     if (el) el.innerHTML = '<p class="honors-loading">Championship data coming soon.</p>';
                 });
+            });
+
+        var p2 = fetch('data/scholars.json')
+            .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+            .then(function (data) {
+                var el = document.getElementById('panel-scholars');
+                if (el) el.innerHTML = renderScholars(data);
+            })
+            .catch(function () {
+                var el = document.getElementById('panel-scholars');
+                if (el) el.innerHTML = '<p class="honors-loading">Scholar athlete data coming soon.</p>';
+            });
+
+        var p3 = fetch('data/njsiaa-scholars.json')
+            .then(function (r) { return r.ok ? r.json() : Promise.reject(r.status); })
+            .then(function (data) {
+                var el = document.getElementById('panel-njsiaa');
+                if (el) el.innerHTML = renderNjsiaa(data);
+            })
+            .catch(function () {
+                var el = document.getElementById('panel-njsiaa');
+                if (el) el.innerHTML = '<p class="honors-loading">NJSIAA scholar athlete data coming soon.</p>';
             });
     })();
     </script>
