@@ -33,6 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
             img.src = s.image;
             img.alt = s.alt || '';
             img.loading = i === 0 ? 'eager' : 'lazy';
+            if (s.mobilePos) img.style.setProperty('--mob-pos', s.mobilePos);
             fig.appendChild(img);
             layer.appendChild(fig);
         });
