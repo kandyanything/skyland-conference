@@ -2813,15 +2813,6 @@ SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7501166@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Gymnas
- tics)
-DESCRIPTION:Varsity Girls Gymnastics - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7503517@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
@@ -2856,6 +2847,15 @@ DTEND;TZID=America/New_York:20261007T181500
 SUMMARY:Montgomery High School at The Lawrenceville School (Varsity Girls
   Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7501166@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T163000
+DTEND;TZID=America/New_York:20261007T183000
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Gymnas
+ tics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103477199@skyland-conference
@@ -4640,11 +4640,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7563007@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270102
-DTEND;VALUE=DATE:20270103
+DTSTART;TZID=America/New_York:20270102T173000
+DTEND;TZID=America/New_York:20270102T193000
 SUMMARY:Montgomery High School at KIPP Newark Collegiate Academy (Varsity
   Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7580780@skyland-conference
@@ -6058,13 +6058,13 @@ SUMMARY:Montgomery High School at The Pingry School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7631633@skyland-conference
+UID:ds:2545:7631633@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270426T160000
 DTEND;TZID=America/New_York:20270426T180000
-SUMMARY:Montgomery High School vs Bound Brook High School (Varsity Girls 
+SUMMARY:Bound Brook High School at Montgomery High School (Varsity Girls 
  Softball)
-DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7541182@skyland-conference

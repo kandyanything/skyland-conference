@@ -259,11 +259,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7563007@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270102
-DTEND;VALUE=DATE:20270103
+DTSTART;TZID=America/New_York:20270102T173000
+DTEND;TZID=America/New_York:20270102T193000
 SUMMARY:Montgomery High School at KIPP Newark Collegiate Academy (Varsity
   Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7563024@skyland-conference
