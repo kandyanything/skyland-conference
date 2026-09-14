@@ -48,6 +48,15 @@
 .vision-grid .vision-play { width: 56px; height: 56px; }
 .vision-grid .vision-play::after { border-width: 10px 0 10px 16px; }
 
+/* NFHS source badge on video tile */
+.vision-source-badge {
+    position: absolute; bottom: 10px; left: 10px;
+    background: rgba(0,0,0,.72); color: #fff;
+    font-size: .72rem; font-weight: 700; letter-spacing: .04em;
+    padding: 3px 8px; border-radius: 3px; pointer-events: none;
+    text-transform: uppercase;
+}
+
 /* ---------- SEC News: slider ---------- */
 .news-nav { display: flex; gap: 8px; flex-shrink: 0; }
 

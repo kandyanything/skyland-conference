@@ -1,12 +1,12 @@
 {
-  "_comment": "SEC Vision. Only entries in 'videos' are rendered. 'id' is the YouTube video id - the part after youtube.com/watch?v= , /live/ or /embed/ . The first video runs large as the feature; the rest fill the grid beneath it (homepage shows up to 7 = 1 feature + 6 grid; videos.html shows all). Optional 'thumb' picks the preview image: omit it for the uploader's graphic, or use 'hq1'/'hq2'/'hq3' for an auto-captured frame, or a full image URL. Order here is the order shown.",
+  "_comment": "Sky Vision videos. Two formats: YouTube (set 'id' = the watch?v= part, plays inline) or NFHS Network (set 'url' = full NFHS event URL and 'source':'nfhs', opens in new tab — NFHS blocks iframe embedding). Optional 'thumb': omit for auto-thumbnail, or use a full image URL. Optional 'date': ISO date string. Order here is display order — first entry is the large feature.",
   "videos": [
-    { "id": "gRObaN5w8_k", "title": "Girls Flag Football: West Orange vs Montclair", "sport": "Girls Flag Football" },
-    { "id": "78l9DPX_Jc4", "title": "Football: Nutley vs Caldwell (Senior Night)", "sport": "Football" },
-    { "id": "D3pFpYFBRGE", "title": "Boys Lacrosse: Cedar Grove vs Morris Hills", "sport": "Boys Lacrosse" },
-    { "id": "sBj5a8iDvkg", "title": "NJSIAA Boys Basketball Final Round: Arts vs Shabazz", "sport": "Boys Basketball" },
-    { "id": "u5W7Iw01lvc", "title": "Boys Lacrosse: Seton Hall Prep vs Summit", "sport": "Boys Lacrosse" },
-    { "id": "rWa_ITQWgPU", "title": "Softball: West Essex vs Livingston (Stand Up to Cancer)", "sport": "Softball" },
-    { "id": "4QyLSch4Ieo", "title": "Boys Basketball: East Orange vs Shabazz", "sport": "Boys Basketball" }
+    {
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam8b7a66617f",
+      "source": "nfhs",
+      "title": "Whippany Park vs Bernards — Girls Varsity Soccer",
+      "sport": "Girls Soccer",
+      "date": "2026-09-04"
+    }
   ]
 }
