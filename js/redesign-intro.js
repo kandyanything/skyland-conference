@@ -38,7 +38,7 @@
 
     function img(src) { var i = new Image(); i.src = src; return i; }
     var balls = ['basketball', 'soccer', 'tennis', 'lacrosse', 'volleyball'].map(function (n) { return img('images/balls/' + n + '.png'); });
-    var logo = img('images/skyland-mark.svg');
+    var logo = img('images/skyland-mark.png');
     var assets = balls.concat([logo]);
     function ready() { for (var i = 0; i < assets.length; i++) { if (!assets[i].complete || !assets[i].naturalWidth) return false; } return true; }
 
@@ -58,15 +58,14 @@
     function ballShape(im, r) { if (im.complete && im.naturalWidth) { var s = 2.18 * r; ctx.drawImage(im, -s / 2, -s / 2, s, s); } }
     function crestShape(r) {
         ctx.save();
-        ctx.shadowColor = 'rgba(0,0,0,0.55)'; ctx.shadowBlur = r * 0.30; ctx.shadowOffsetY = r * 0.07;
-        var g = ctx.createRadialGradient(-r * 0.32, -r * 0.34, r * 0.15, 0, 0, r);
-        g.addColorStop(0, '#7adcf0'); g.addColorStop(0.68, '#45b8d0'); g.addColorStop(1, '#1a7a95');
-        ctx.beginPath(); ctx.arc(0, 0, r, 0, PI2); ctx.fillStyle = g; ctx.fill();
+        // Drop shadow behind the badge
+        ctx.shadowColor = 'rgba(0,0,0,0.60)'; ctx.shadowBlur = r * 0.32; ctx.shadowOffsetY = r * 0.07;
+        ctx.beginPath(); ctx.arc(0, 0, r, 0, PI2); ctx.fillStyle = '#1a3070'; ctx.fill();
         ctx.shadowBlur = 0; ctx.shadowOffsetY = 0;
-        ctx.lineWidth = r * 0.035; ctx.strokeStyle = 'rgba(255,255,255,0.70)'; ctx.beginPath(); ctx.arc(0, 0, r, 0, PI2); ctx.stroke();
+        // Clip to circle then draw the real logo PNG at full diameter
+        ctx.beginPath(); ctx.arc(0, 0, r, 0, PI2); ctx.clip();
         if (logo.complete && logo.naturalWidth) {
-            var iw = logo.naturalWidth, ih = logo.naturalHeight, fit = 1.42 * r / Math.max(iw, ih);
-            ctx.drawImage(logo, -iw * fit / 2, -ih * fit / 2, iw * fit, ih * fit);
+            ctx.drawImage(logo, -r, -r, r * 2, r * 2);
         }
         ctx.restore();
     }
