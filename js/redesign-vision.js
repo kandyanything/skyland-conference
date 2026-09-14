@@ -44,11 +44,11 @@ document.addEventListener('DOMContentLoaded', function () {
         var btn = document.createElement('button');
         btn.type = 'button';
         btn.className = 'vision-thumb';
-        btn.setAttribute('aria-label', 'Play video: ' + (v.title || 'SEC game'));
+        btn.setAttribute('aria-label', 'Play video: ' + (v.title || 'Skyland Conference game'));
 
         var img = document.createElement('img');
         img.src = thumbUrl(v, big);
-        img.alt = v.title || 'SEC game video';
+        img.alt = v.title || 'Skyland Conference game video';
         img.loading = big ? 'eager' : 'lazy';
         img.onerror = function () {
             // maxresdefault is not generated for every upload
@@ -65,7 +65,7 @@ document.addEventListener('DOMContentLoaded', function () {
         btn.addEventListener('click', function () {
             var frame = document.createElement('iframe');
             frame.src = 'https://www.youtube.com/embed/' + v.id + '?autoplay=1&rel=0';
-            frame.title = v.title || 'SEC game video';
+            frame.title = v.title || 'Skyland Conference game video';
             frame.allow = 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share';
             frame.referrerPolicy = 'strict-origin-when-cross-origin';
             frame.allowFullscreen = true;
@@ -76,7 +76,7 @@ document.addEventListener('DOMContentLoaded', function () {
         var meta = document.createElement('div');
         meta.className = 'vision-meta';
         var h3 = document.createElement('h3');
-        h3.textContent = v.title || 'SEC game';
+        h3.textContent = v.title || 'Skyland Conference game';
         meta.appendChild(h3);
         if (v.sport || v.date) {
             var p = document.createElement('p');

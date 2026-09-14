@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
                     a.className = 'standings-link';
                     a.href = sp.url || (data.baseUrl + '/' + sp.slug + '/standings/season/' +
                              (sp.season || data.defaultSeason) + '?conference=' +
-                             (sp.conference || data.defaultConference || 'SEC'));
+                             (sp.conference || data.defaultConference || 'Skyland'));
                     a.target = '_blank';
                     a.rel = 'noopener';
                     a.textContent = sp.label;

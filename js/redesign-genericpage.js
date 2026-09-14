@@ -38,7 +38,7 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 
     function renderPage(data) {
-        if (data.pageTitle) document.title = data.pageTitle + ' | SEC';
+        if (data.pageTitle) document.title = data.pageTitle + ' | Skyland Conference';
 
         mount.innerHTML = '';
 

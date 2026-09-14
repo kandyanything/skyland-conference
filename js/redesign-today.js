@@ -73,7 +73,7 @@ document.addEventListener('DOMContentLoaded', function () {
         // between seasons - say so plainly rather than quietly showing another
         // day's fixtures under a heading that claims otherwise.
         if (dates[0] !== today) {
-            lede.textContent = 'No SEC games today. Here is what is coming up.';
+            lede.textContent = 'No Skyland Conference games today. Here is what is coming up.';
             lede.hidden = false;
         } else {
             lede.hidden = true;
