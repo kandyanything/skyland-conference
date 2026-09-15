@@ -831,9 +831,10 @@ UID:arb:100164105@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
 DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Watchung Hills Regional H.S. at Somerville High School (Varsity G
- irls Girls Tennis)
+SUMMARY:[Canceled] Watchung Hills Regional H.S. at Somerville High School
+  (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102909818@skyland-conference
@@ -1034,15 +1035,6 @@ SUMMARY:Immaculata High School vs Somerville High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103696466@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:North Hunterdon High School at Bernards High School (Varsity Girl
- s Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102312503@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -1106,6 +1098,15 @@ DTEND;TZID=America/New_York:20260922T181500
 SUMMARY:Bernards High School vs Somerville High School (Varsity Coed Coed
   Cross Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103696466@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T161500
+DTEND;TZID=America/New_York:20260922T181500
+SUMMARY:North Hunterdon High School at Bernards High School (Varsity Girl
+ s Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103693846@skyland-conference
@@ -1797,15 +1798,6 @@ SUMMARY:Bridgewater-Raritan High School vs Somerville High School (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102619144@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T133000
-DTEND;TZID=America/New_York:20261009T153000
-SUMMARY:Somerville High School at North Plainfield School District (Varsi
- ty Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100192899@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T183000
@@ -1840,6 +1832,15 @@ DTSTART;TZID=America/New_York:20261010T113000
 DTEND;TZID=America/New_York:20261010T133000
 SUMMARY:Somerville High School vs TBD (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102619144@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T133000
+DTEND;TZID=America/New_York:20261010T153000
+SUMMARY:Somerville High School at North Plainfield School District (Varsi
+ ty Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98771121@skyland-conference
@@ -2220,7 +2221,7 @@ SUMMARY:Somerville High School vs Nottingham High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:63cdf545-8e32-4869-aa71-7519efd43523@skyland
+UID:bb:MountSaintMaryAcademy:4e607a5a-84af-46df-bb46-ba30aa213cf0@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T120000
@@ -2230,7 +2231,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:4c66e75d-76b3-40ae-9539-968008f86f21@skyland
+UID:bb:MountSaintMaryAcademy:7998117c-336e-4e3d-b5a8-b11753e7c59b@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T131500
