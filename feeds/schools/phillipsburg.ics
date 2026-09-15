@@ -972,17 +972,17 @@ SUMMARY:Montgomery High School vs Phillipsburg High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e583ffed-4e4b-46b1-87b1-e2de5233ec8e@skyland
+UID:bb:MountSaintMaryAcademy:9a1cbd06-987c-4295-9abe-bf853edefb05@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T120000
 DTEND;TZID=America/New_York:20260915T140000
 SUMMARY:Mount Saint Mary Academy vs Phillipsburg High School (Junior Vars
- ity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 12:00 PM
+ ity Girls /Varsity Tennis)
+DESCRIPTION:Junior Varsity Girls /Varsity Tennis - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ff0e7fdd-77be-47f0-a871-dad8badd71d5@skyland
+UID:bb:MountSaintMaryAcademy:6400693e-fc91-4359-9eb0-a17086905209@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T120000
@@ -2204,17 +2204,17 @@ SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:dbb8be72-7ecf-4f36-977e-344fa1a7e973@skyland
+UID:bb:MountSaintMaryAcademy:3e0211c7-d1bd-4f7b-afdf-adee01e0e6f5@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
 DTEND;TZID=America/New_York:20261008T140000
 SUMMARY:Mount Saint Mary Academy at Phillipsburg High School (Junior Vars
- ity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 12:00 PM
+ ity Girls /Varsity Tennis)
+DESCRIPTION:Junior Varsity Girls /Varsity Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:7eff0ca4-6d04-47e2-bba3-e14116a3c389@skyland
+UID:bb:MountSaintMaryAcademy:2160b8c8-76fa-44f6-84f7-2e78e312b1db@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -2331,33 +2331,6 @@ SUMMARY:Phillipsburg High School vs TBD (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7551897@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Hillsborough High School at Phillipsburg High School (Freshman Bo
- ys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7552644@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Hillsborough High School vs Phillipsburg High School (Junior Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7551433@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Hillsborough High School at Phillipsburg High School (Junior Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7478116@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T100000
@@ -2374,6 +2347,33 @@ DTEND;TZID=America/New_York:20261010T120000
 SUMMARY:Hillsborough High School vs Phillipsburg High School (Varsity Gir
  ls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551433@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Hillsborough High School at Phillipsburg High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551897@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Hillsborough High School at Phillipsburg High School (Freshman Bo
+ ys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7552644@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Hillsborough High School vs Phillipsburg High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102663934@skyland-conference
@@ -2421,15 +2421,6 @@ SUMMARY:Phillipsburg High School vs Warren Hills Regional H.S. (Varsity C
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7544096@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T100000
-DTEND;TZID=America/New_York:20261013T120000
-SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
- ity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7544048@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T100000
@@ -2437,6 +2428,15 @@ DTEND;TZID=America/New_York:20261013T120000
 SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
  ity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7544096@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T100000
+DTEND;TZID=America/New_York:20261013T120000
+SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
+ ity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103734636@skyland-conference
@@ -2781,15 +2781,6 @@ SUMMARY:Phillipsburg High School at Gill St. Bernard's School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7544097@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T100000
-DTEND;TZID=America/New_York:20261022T120000
-SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
- ity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7544054@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T100000
@@ -2797,6 +2788,15 @@ DTEND;TZID=America/New_York:20261022T120000
 SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
  ity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7544097@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T100000
+DTEND;TZID=America/New_York:20261022T120000
+SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
+ ity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103734708@skyland-conference
@@ -2880,15 +2880,6 @@ SUMMARY:Phillipsburg High School at Warren Hills Regional H.S. (Freshman
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7528386@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T190000
-DTEND;TZID=America/New_York:20261023T210000
-SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
- ity Girls Girls Cheerleading)
-DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7474593@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T190000
@@ -2896,6 +2887,15 @@ DTEND;TZID=America/New_York:20261023T210000
 SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
  ity Boys Football)
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7528386@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261023T190000
+DTEND;TZID=America/New_York:20261023T210000
+SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
+ ity Girls Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98156250@skyland-conference
