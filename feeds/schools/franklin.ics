@@ -1900,7 +1900,7 @@ SUMMARY:Franklin High School at Piscataway High School (Varsity Boys Foot
 DESCRIPTION:Varsity Boys Football - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ed1a8717-f532-49bb-b20b-76b34f90030e@skyland
+UID:bb:MountSaintMaryAcademy:7d37188b-e837-4c98-b6a6-e75f74862330@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T120000
@@ -1910,7 +1910,7 @@ SUMMARY:Mount Saint Mary Academy at Franklin High School (Varsity Girls F
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ec33fbb1-cedf-4111-a194-9c3a97a64ec6@skyland
+UID:bb:MountSaintMaryAcademy:42c2f057-b397-4f9b-9e59-9603925135ef@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T131500
@@ -3143,6 +3143,24 @@ SUMMARY:Franklin High School vs Hackensack High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7640878@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T170000
+DTEND;TZID=America/New_York:20261210T190000
+SUMMARY:Franklin High School vs Hackensack High School (Junior Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640803@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261210
+DTEND;VALUE=DATE:20261211
+SUMMARY:Franklin High School vs Hackensack High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7560097@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T120000
@@ -3150,6 +3168,60 @@ DTEND;TZID=America/New_York:20261212T140000
 SUMMARY:Franklin High School vs St Thomas Aquinas High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640431@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T153000
+DTEND;TZID=America/New_York:20261215T173000
+SUMMARY:Franklin High School at Hunterdon Central Regional H.S. (Varsity 
+ Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640496@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T153000
+DTEND;TZID=America/New_York:20261215T173000
+SUMMARY:Franklin High School at Hunterdon Central Regional H.S. (Varsity 
+ Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7640431@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T153000
+DTEND;TZID=America/New_York:20261215T173000
+SUMMARY:Hunterdon Central Regional H.S. vs Franklin High School (Varsity 
+ Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7640496@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T153000
+DTEND;TZID=America/New_York:20261215T173000
+SUMMARY:Hunterdon Central Regional H.S. vs Franklin High School (Varsity 
+ Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7526662@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Bridgewater-Raritan High School vs Franklin High School (Junior V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7640906@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Bridgewater-Raritan High School vs Franklin High School (Freshman
+  Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7623512@skyland-conference
@@ -3170,22 +3242,13 @@ SUMMARY:Franklin High School at Voorhees High School (Varsity Coed Coed S
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7526662@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T163000
-DTEND;TZID=America/New_York:20261215T183000
-SUMMARY:Bridgewater-Raritan High School vs Franklin High School (Junior V
- arsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7448199@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T180000
-DTEND;TZID=America/New_York:20261215T200000
+DTSTART;TZID=America/New_York:20261215T173000
+DTEND;TZID=America/New_York:20261215T193000
 SUMMARY:Bridgewater-Raritan High School vs Franklin High School (Varsity 
  Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7443774@skyland-conference
@@ -3224,13 +3287,22 @@ SUMMARY:Franklin High School vs Ridge High School (Junior Varsity Girls G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7640917@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Franklin High School at Ridge High School (Freshman Boys Boys Bas
+ ketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7526663@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T163000
-DTEND;TZID=America/New_York:20261217T183000
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T193000
 SUMMARY:Franklin High School at Ridge High School (Junior Varsity Boys Bo
  ys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7443780@skyland-conference
@@ -3313,15 +3385,6 @@ SUMMARY:Voorhees High School at Franklin High School (Varsity Boys Boys W
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526645@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261223T193000
-DTEND;TZID=America/New_York:20261223T213000
-SUMMARY:Franklin High School vs Voorhees High School (Junior Varsity Boys
-  Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 7:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7589199@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261226T170500
@@ -3373,15 +3436,6 @@ SUMMARY:Franklin High School at Elizabeth High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7480534@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261230T170000
-DTEND;TZID=America/New_York:20261230T190000
-SUMMARY:Franklin High School at Elizabeth High School (Junior Varsity Boy
- s Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7589201@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261230T170500
@@ -3399,6 +3453,24 @@ SUMMARY:Franklin High School vs Northern Valley Regional High (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7640927@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T154500
+DTEND;TZID=America/New_York:20270105T174500
+SUMMARY:Franklin High School vs Hillsborough Athletics (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7640927@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T154500
+DTEND;TZID=America/New_York:20270105T174500
+SUMMARY:Hillsborough High School at Franklin High School (Freshman Boys B
+ oys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7623514@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T170000
@@ -3410,20 +3482,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7526664@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T173000
-DTEND;TZID=America/New_York:20270105T193000
+DTSTART;TZID=America/New_York:20270105T171500
+DTEND;TZID=America/New_York:20270105T191500
 SUMMARY:Franklin High School vs Hillsborough Athletics (Junior Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7526664@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T173000
-DTEND;TZID=America/New_York:20270105T193000
+DTSTART;TZID=America/New_York:20270105T171500
+DTEND;TZID=America/New_York:20270105T191500
 SUMMARY:Hillsborough High School at Franklin High School (Junior Varsity 
  Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102265239@skyland-conference
@@ -3507,15 +3579,6 @@ SUMMARY:Somerville High School at Franklin High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526647@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T193000
-DTEND;TZID=America/New_York:20270106T213000
-SUMMARY:Franklin High School vs Somerville High School (Junior Varsity Bo
- ys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 7:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100971089@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T151500
@@ -3552,13 +3615,22 @@ SUMMARY:Immaculata High School at Franklin High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7448212@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T161500
+DTEND;TZID=America/New_York:20270107T181500
+SUMMARY:Franklin High School at The Pingry School (Varsity Boys Boys Bask
+ etball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7526665@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T173000
-DTEND;TZID=America/New_York:20270107T193000
+DTSTART;TZID=America/New_York:20270107T171500
+DTEND;TZID=America/New_York:20270107T191500
 SUMMARY:Franklin High School vs The Pingry School (Junior Varsity Boys Bo
  ys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7443792@skyland-conference
@@ -3568,24 +3640,6 @@ DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Franklin High School vs Mount Saint Mary Academy (Varsity Girls G
  irls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7448212@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T190000
-DTEND;TZID=America/New_York:20270107T210000
-SUMMARY:Franklin High School at The Pingry School (Varsity Boys Boys Bask
- etball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7526673@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T083000
-DTEND;TZID=America/New_York:20270109T103000
-SUMMARY:Franklin High School at Plainfield High School (Junior Varsity Bo
- ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 8:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7570138@skyland-conference
@@ -3606,12 +3660,39 @@ SUMMARY:Franklin High School vs Trenton Central High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7640881@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T120000
+DTEND;TZID=America/New_York:20270109T140000
+SUMMARY:Franklin High School vs Trenton Central High School (Junior Varsi
+ ty Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7589202@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T170500
 DTEND;TZID=America/New_York:20270109T190500
 SUMMARY:Franklin High School vs TBD (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640802@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Franklin High School vs Trenton Central High School (Freshman Boy
+ s Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7612099@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T154500
+DTEND;TZID=America/New_York:20270112T174500
+SUMMARY:Franklin High School vs Immaculata High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7582781@skyland-conference
@@ -3623,15 +3704,6 @@ SUMMARY:Franklin High School at Montgomery High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7612099@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Franklin High School vs Immaculata High School (Freshman Boys Boy
- s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7633707@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
@@ -3641,6 +3713,15 @@ SUMMARY:Franklin High School at Rutgers Preparatory School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7526666@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T171500
+DTEND;TZID=America/New_York:20270112T191500
+SUMMARY:Franklin High School vs Immaculata High School (Junior Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7448311@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
@@ -3648,15 +3729,6 @@ DTEND;TZID=America/New_York:20270112T193000
 SUMMARY:Franklin High School at Montgomery High School (Varsity Girls Gir
  ls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7526666@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T173000
-DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Franklin High School vs Immaculata High School (Junior Varsity Bo
- ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7443798@skyland-conference
@@ -3695,6 +3767,15 @@ SUMMARY:Bridgewater-Raritan High School at Franklin High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7526667@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Franklin High School at Gill St. Bernard's School (Junior Varsity
+  Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7581036@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
@@ -3711,15 +3792,6 @@ DTEND;TZID=America/New_York:20270114T181500
 SUMMARY:Bridgewater-Raritan High School vs Franklin High School (Varsity 
  Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7526667@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T163000
-DTEND;TZID=America/New_York:20270114T183000
-SUMMARY:Franklin High School at Gill St. Bernard's School (Junior Varsity
-  Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7448317@skyland-conference
@@ -3760,11 +3832,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7526668@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T173000
-DTEND;TZID=America/New_York:20270119T193000
+DTSTART;TZID=America/New_York:20270119T171500
+DTEND;TZID=America/New_York:20270119T191500
 SUMMARY:Franklin High School vs Rutgers Preparatory School (Junior Varsit
  y Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7443810@skyland-conference
@@ -3794,6 +3866,15 @@ SUMMARY:Franklin High School vs South Brunswick High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7640799@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T154500
+DTEND;TZID=America/New_York:20270121T174500
+SUMMARY:Franklin High School vs Montgomery High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7623518@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -3810,15 +3891,6 @@ DTEND;TZID=America/New_York:20270121T183000
 SUMMARY:Franklin High School at Montgomery High School (Junior Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7564588@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T173000
-DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Franklin High School at Montgomery High School (Freshman Boys Boy
- s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7443816@skyland-conference
@@ -3839,13 +3911,22 @@ SUMMARY:Franklin High School vs Montgomery High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526655@skyland-conference
+UID:ds:2617:7641407@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T080000
-DTEND;TZID=America/New_York:20270123T100000
-SUMMARY:Franklin High School vs Manville High School (Junior Varsity Boys
-  Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 8:00 AM
+DTSTART;TZID=America/New_York:20270122T171500
+DTEND;TZID=America/New_York:20270122T191500
+SUMMARY:Franklin High School at Rutgers Preparatory School (Junior Varsit
+ y Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7641394@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T180000
+DTEND;TZID=America/New_York:20270122T200000
+SUMMARY:Franklin High School at Rutgers Preparatory School (Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102048900@skyland-conference
@@ -3881,6 +3962,42 @@ DTSTART;TZID=America/New_York:20270123T170500
 DTEND;TZID=America/New_York:20270123T190500
 SUMMARY:Franklin High School vs TBD (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640436@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T153000
+DTEND;TZID=America/New_York:20270126T173000
+SUMMARY:Franklin High School vs Hunterdon Central Regional H.S. (Varsity 
+ Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640497@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T153000
+DTEND;TZID=America/New_York:20270126T173000
+SUMMARY:Franklin High School vs Hunterdon Central Regional H.S. (Varsity 
+ Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7640436@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T153000
+DTEND;TZID=America/New_York:20270126T173000
+SUMMARY:Hunterdon Central Regional H.S. at Franklin High School (Varsity 
+ Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7640497@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T153000
+DTEND;TZID=America/New_York:20270126T173000
+SUMMARY:Hunterdon Central Regional H.S. at Franklin High School (Varsity 
+ Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7623519@skyland-conference
@@ -3937,6 +4054,15 @@ SUMMARY:Hillsborough High School vs Franklin High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7640800@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T154500
+DTEND;TZID=America/New_York:20270128T174500
+SUMMARY:Franklin High School vs Phillipsburg High School (Freshman Boys B
+ oys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102151787@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
@@ -3944,6 +4070,15 @@ DTEND;TZID=America/New_York:20270128T180000
 SUMMARY:Phillipsburg High School at Franklin High School (Freshman Boys B
  oys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526670@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T171500
+DTEND;TZID=America/New_York:20270128T191500
+SUMMARY:Franklin High School vs Phillipsburg High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7448341@skyland-conference
@@ -3955,15 +4090,6 @@ SUMMARY:Franklin High School at Hillsborough Athletics (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526670@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T173000
-DTEND;TZID=America/New_York:20270128T193000
-SUMMARY:Franklin High School vs Phillipsburg High School (Junior Varsity 
- Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7448341@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
@@ -3971,6 +4097,15 @@ DTEND;TZID=America/New_York:20270128T193000
 SUMMARY:Hillsborough High School vs Franklin High School (Varsity Girls G
  irls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102151703@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T173000
+DTEND;TZID=America/New_York:20270128T193000
+SUMMARY:Phillipsburg High School at Franklin High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7443828@skyland-conference
@@ -3982,15 +4117,6 @@ SUMMARY:Franklin High School at Hillsborough Athletics (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7448243@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T180000
-DTEND;TZID=America/New_York:20270128T200000
-SUMMARY:Franklin High School vs Phillipsburg High School (Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7443828@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T180000
@@ -4000,13 +4126,13 @@ SUMMARY:Hillsborough High School vs Franklin High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102151664@skyland-conference
+UID:ds:2617:7448243@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T190000
 DTEND;TZID=America/New_York:20270128T210000
-SUMMARY:Phillipsburg High School at Franklin High School (Varsity Boys Bo
+SUMMARY:Franklin High School vs Phillipsburg High School (Varsity Boys Bo
  ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7611083@skyland-conference
@@ -4033,6 +4159,15 @@ DTSTART;TZID=America/New_York:20270130T170500
 DTEND;TZID=America/New_York:20270130T190500
 SUMMARY:Franklin High School vs TBD (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:05 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640886@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270201T170000
+DTEND;TZID=America/New_York:20270201T190000
+SUMMARY:Franklin High School at Saint Peters Prep (Junior Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7608742@skyland-conference
@@ -4069,6 +4204,24 @@ DTEND;VALUE=DATE:20270209
 SUMMARY:Franklin High School vs Morris Catholic High School (Junior Varsi
  ty Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640801@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T154500
+DTEND;TZID=America/New_York:20270209T174500
+SUMMARY:Franklin High School at Hunterdon Central Regional H.S. (Freshman
+  Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7640801@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T154500
+DTEND;TZID=America/New_York:20270209T174500
+SUMMARY:Hunterdon Central Regional H.S. vs Franklin High School (Freshman
+  Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7623521@skyland-conference
@@ -4141,6 +4294,15 @@ DTEND;TZID=America/New_York:20270220T120000
 SUMMARY:Franklin High School at Hackensack High School (Varsity Boys Boys
   Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7640893@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270220T120000
+DTEND;TZID=America/New_York:20270220T140000
+SUMMARY:Franklin High School at Hackensack High School (Junior Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7623271@skyland-conference
@@ -4600,11 +4762,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7540877@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270514
+DTSTART;TZID=America/New_York:20270513T160000
+DTEND;TZID=America/New_York:20270513T180000
 SUMMARY:Franklin High School at Immaculata High School (Varsity Girls Sof
  tball)
-DESCRIPTION:Varsity Girls Softball - Away
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7542791@skyland-conference
@@ -4614,14 +4776,5 @@ DTEND;VALUE=DATE:20270514
 SUMMARY:Franklin High School at Rutgers Preparatory School (Varsity Boys 
  Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7540877@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270514
-SUMMARY:Immaculata High School vs Franklin High School (Varsity Girls Sof
- tball)
-DESCRIPTION:Varsity Girls Softball - Home
 END:VEVENT
 END:VCALENDAR

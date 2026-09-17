@@ -52,20 +52,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540865@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
 SUMMARY:Immaculata High School vs Ridge High School (Varsity Girls Softba
  ll)
-DESCRIPTION:Varsity Girls Softball - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7540865@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
-SUMMARY:Ridge High School at Immaculata High School (Varsity Girls Softba
- ll)
-DESCRIPTION:Varsity Girls Softball - Away
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7540867@skyland-conference
@@ -88,11 +79,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540868@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
 SUMMARY:Immaculata High School vs Phillipsburg High School (Varsity Girls
   Softball)
-DESCRIPTION:Varsity Girls Softball - Home
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7586973@skyland-conference
@@ -115,20 +106,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7540871@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270420
-DTEND;VALUE=DATE:20270421
+DTSTART;TZID=America/New_York:20270420T160000
+DTEND;TZID=America/New_York:20270420T180000
 SUMMARY:Bridgewater-Raritan High School at Immaculata High School (Varsit
  y Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7540871@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270420
-DTEND;VALUE=DATE:20270421
-SUMMARY:Immaculata High School vs Bridgewater-Raritan High School (Varsit
- y Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540875@skyland-conference
@@ -160,19 +142,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7540877@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270514
+DTSTART;TZID=America/New_York:20270513T160000
+DTEND;TZID=America/New_York:20270513T180000
 SUMMARY:Franklin High School at Immaculata High School (Varsity Girls Sof
  tball)
-DESCRIPTION:Varsity Girls Softball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7540877@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270514
-SUMMARY:Immaculata High School vs Franklin High School (Varsity Girls Sof
- tball)
-DESCRIPTION:Varsity Girls Softball - Home
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

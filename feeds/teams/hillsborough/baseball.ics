@@ -52,11 +52,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7542794@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
 SUMMARY:Hillsborough High School at Immaculata High School (Varsity Boys 
  Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7542737@skyland-conference

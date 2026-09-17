@@ -71,11 +71,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540868@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
 SUMMARY:Immaculata High School vs Phillipsburg High School (Varsity Girls
   Softball)
-DESCRIPTION:Varsity Girls Softball - Home
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104054195@skyland-conference

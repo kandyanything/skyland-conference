@@ -52,20 +52,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540865@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
 SUMMARY:Immaculata High School vs Ridge High School (Varsity Girls Softba
  ll)
-DESCRIPTION:Varsity Girls Softball - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7540865@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
-SUMMARY:Ridge High School at Immaculata High School (Varsity Girls Softba
- ll)
-DESCRIPTION:Varsity Girls Softball - Away
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7540869@skyland-conference
