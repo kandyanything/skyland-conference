@@ -24,7 +24,27 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:77ae2f5b-d0f5-4424-8d23-db8d1645542e@skyland
+UID:bb:MountSaintMaryAcademy:c6ce0125-4f84-42e1-93ac-bf5d3e57cbe9@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T063000
+DTEND;TZID=America/New_York:20260919T083000
+SUMMARY:Mount Saint Mary Academy at MULTIPLE OPPONENTS (Girls Girls Cross
+  Country)
+DESCRIPTION:Girls Girls Cross Country - Away - 6:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:e60d86a9-c5fd-470b-a359-da94e914dd72@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T060000
+DTEND;TZID=America/New_York:20260926T080000
+SUMMARY:Mount Saint Mary Academy at MULTIPLE OPPONENTS (Girls Girls Cross
+  Country)
+DESCRIPTION:Girls Girls Cross Country - Away - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:025fd2ba-9413-4060-9b25-f5a5f6457693@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T060000
@@ -32,5 +52,15 @@ DTEND;TZID=America/New_York:20261013T080000
 SUMMARY:Mount Saint Mary Academy at MULTIPLE OPPONENTS (Girls Girls Cross
   Country)
 DESCRIPTION:Girls Girls Cross Country - Away - 6:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:46a1e75c-2e1a-45e1-aa7e-3d0b101545f8@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T113500
+DTEND;TZID=America/New_York:20261021T133500
+SUMMARY:Mount Saint Mary Academy at MULTIPLE OPPONENTS (Girls Girls Cross
+  Country)
+DESCRIPTION:Girls Girls Cross Country - Away - 11:35 AM
 END:VEVENT
 END:VCALENDAR
