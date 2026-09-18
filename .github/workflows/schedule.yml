@@ -48,11 +48,15 @@ jobs:
           node scripts/split-schedule.js
           node scripts/build-feeds.js
 
+      - name: Build news feed
+        continue-on-error: true
+        run: node scripts/build-news.js
+
       - name: Commit if anything changed
         run: |
           git config user.name  "skyland-schedule-bot"
           git config user.email "actions@github.com"
-          git add data/schedule.json data/schedule/ feeds
+          git add data/schedule.json data/schedule/ feeds data/news.json
           if git diff --cached --quiet; then
             echo "no change - nothing to publish"
             exit 0
