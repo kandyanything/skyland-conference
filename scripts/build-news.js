@@ -16,7 +16,7 @@
 const CONF_NAME    = 'Skyland Conference';
 const CONF_SHORT   = 'Skyland';           // case-sensitive â€” used in headline matching
 const EXTRA_QUERIES = [];             // extra Google News search phrases if needed
-const MAX_ITEMS    = 40;              // articles kept in news.json, newest first
+const MAX_ITEMS    = 7;              // articles kept in news.json, newest first
 // â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 const fs   = require('fs');
@@ -128,7 +128,7 @@ const HOUSE_SOURCES = [
 ];
 
 const DENY_HOSTS = [
-    'maxpreps.com', 'nfhsnetwork.com', 'hudl.com', 'arbiterlive.com',
+    'nfhsnetwork.com', 'hudl.com', 'arbiterlive.com',
     'digitalsports.com', 'si.com', 'athlitiq.com',
 ];
 
@@ -147,6 +147,7 @@ const OUTLET_NAMES = {
     'mycentraljersey.com': 'MyCentralJersey',
     'onnj.com':            'On New Jersey',
     'wrnjradio.com':       'WRNJ Radio',
+    'maxpreps.com':        'MaxPreps',
 };
 
 function outletNameFor(host) {
