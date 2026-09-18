@@ -222,15 +222,6 @@ SUMMARY:Phillipsburg High School vs Bernards High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7563202@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Bernards High School vs Phillipsburg High School (Junior Varsity 
- Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7441458@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
@@ -240,7 +231,16 @@ SUMMARY:Bernards High School at Phillipsburg High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a4e14b10-4847-40d1-af1a-7fa77f641b4c@skyland
+UID:ds:2535:7563202@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Bernards High School vs Phillipsburg High School (Junior Varsity 
+ Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:28a82f1e-a1f9-458d-af72-325002ade742@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -250,7 +250,7 @@ SUMMARY:Mount Saint Mary Academy at Phillipsburg High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a0a05642-c6d4-4d29-b09c-60b559e1385e@skyland
+UID:bb:MountSaintMaryAcademy:05f019ba-76fd-419e-bf24-f9365b581b75@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000

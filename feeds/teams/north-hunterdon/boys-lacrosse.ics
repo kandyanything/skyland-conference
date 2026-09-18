@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:104027472@skyland-conference
+UID:arb:104102953@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270512T164500
-DTEND;TZID=America/New_York:20270512T184500
-SUMMARY:North Hunterdon High School at Hillsborough High School (Varsity 
- Boys Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:45 PM
+DTSTART;TZID=America/New_York:20270413T163000
+DTEND;TZID=America/New_York:20270413T183000
+SUMMARY:North Hunterdon High School at Immaculata High School (Varsity Bo
+ ys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104102964@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T100000
+DTEND;TZID=America/New_York:20270417T120000
+SUMMARY:North Hunterdon High School at Immaculata High School (Varsity Bo
+ ys Boys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR
