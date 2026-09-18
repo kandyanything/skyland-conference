@@ -376,5 +376,21 @@
     <script src="js/redesign-logostrip.js"></script>
     <script src="js/nav-render.js"></script>
     <script src="js/redesign-reveal.js"></script>
+    <script>
+    /* Pink October intro — October only, once per session */
+    (function(){
+      if(new Date().getMonth()!==9)return;
+      try{if(sessionStorage.getItem('po_oct_2026'))return;}catch(e){}
+      var w=document.createElement('div');
+      w.style.cssText='position:fixed;inset:0;z-index:99999;';
+      var f=document.createElement('iframe');
+      f.src='pink-october.html';f.allow='autoplay';
+      f.style.cssText='width:100%;height:100%;border:none;display:block;';
+      w.appendChild(f);document.documentElement.appendChild(w);
+      window.addEventListener('message',function(e){
+        if(e.data==='po-done')w.remove();
+      },{once:true});
+    })();
+    </script>
 </body>
 </html>
