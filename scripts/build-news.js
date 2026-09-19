@@ -1,4 +1,4 @@
-﻿'use strict';
+'use strict';
 /**
  * scripts/build-news.js
  *
@@ -260,6 +260,7 @@ function classify(title, preview, url) {
         && (onSources || NJ_MARKER.test(text) || NJ_FULL.test(text));
 
     if (!confHit && !schoolHit) return null;
+    if (!SPORTS_TERMS_RE.test(title)) return null;
     return { schoolName };
 }
 
