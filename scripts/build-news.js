@@ -134,6 +134,11 @@ const DENY_HOSTS = [
 
 const OG_BLOCKED = ['nj.com'];
 
+// Title must contain at least one sports-related word to be published.
+// This prevents crime, politics, and general local news from slipping through
+// when a conference school name appears in the dateline or article body.
+const SPORTS_TERMS_RE = /\b(soccer|football|basketball|baseball|softball|wrestling|swimming|tennis|lacrosse|volleyball|cross[- ]country|track|field hockey|golf|gymnastics|bowling|fencing|skiing|hockey|rugby|crew|cheerleading|athlete|athletic|athletics|varsity|coaches?|coaching|playoff|championship|tournament|recruit|stat(s)?|sport(s)?|season|rankings?|all-state|all-conference|shutout|hat.trick|assists?|roster|scorer|scoring|goals?|win|wins|victory|defeats?|beats?|standout|signing day|mvp|game|match)\b/i;
+
 const OUTLET_NAMES = {
     'nj.com':              'NJ.com',
     'highschoolsports.nj.com': 'NJ.com',
@@ -470,7 +475,7 @@ async function main() {
     let existing = [];
     try {
         const raw = JSON.parse(fs.readFileSync(OUT, 'utf8'));
-        existing = (raw.news || []).filter(n => n && n.title && n.url);
+        existing = (raw.news || []).filter(n => n && n.title && n.url && SPORTS_TERMS_RE.test(n.title));
     } catch { /* first run */ }
 
     const merged = new Map(existing.map(n => [n.url, n]));
