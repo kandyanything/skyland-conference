@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104162299@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:North Hunterdon High School at Ridge High School (Varsity Girls G
+ irls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7645482@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T163000
@@ -48,6 +57,15 @@ DTEND;TZID=America/New_York:20261214T180000
 SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
  Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104162408@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Voorhees High School at Ridge High School (Varsity Girls Girls Fe
+ ncing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7621017@skyland-conference
