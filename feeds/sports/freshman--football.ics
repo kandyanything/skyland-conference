@@ -469,11 +469,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7528360@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
+DTSTART;TZID=America/New_York:20260926T080000
+DTEND;TZID=America/New_York:20260926T100000
 SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
  Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 8:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98417568@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T080000
+DTEND;TZID=America/New_York:20260926T100000
+SUMMARY:Watchung Hills Regional H.S. vs Hunterdon Central Reg. High Schoo
+ l (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7536160@skyland-conference
@@ -501,15 +510,6 @@ DTEND;TZID=America/New_York:20260926T110000
 SUMMARY:Ridge High School at Elizabeth High School (Freshman Boys Footbal
  l)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:98417568@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Watchung Hills Regional H.S. vs Hunterdon Central Reg. High Schoo
- l (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7640103@skyland-conference
@@ -546,16 +546,6 @@ DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Phillipsburg High School vs Saint Joseph High School - Metuchen (
  Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102959360@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:[Canceled] Watchung Hills Regional H.S. at Hunterdon Central Reg.
-  High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7512262@skyland-conference

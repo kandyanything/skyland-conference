@@ -122,15 +122,6 @@ SUMMARY:Delaware Valley Regional H.S. vs Robbinsville High School/Pond Ro
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104049129@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T080000
-DTEND;TZID=America/New_York:20261212T100000
-SUMMARY:Watchung Hills Regional H.S. vs Governor Livingston High School (
- Junior Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 8:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104080573@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
@@ -166,13 +157,22 @@ SUMMARY:Manville High School at Morristown High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104049129@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T090000
+DTEND;TZID=America/New_York:20261212T110000
+SUMMARY:Watchung Hills Regional H.S. at Governor Livingston High School (
+ Junior Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104049127@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
 DTEND;TZID=America/New_York:20261212T110000
-SUMMARY:Watchung Hills Regional H.S. vs Governor Livingston High School (
+SUMMARY:Watchung Hills Regional H.S. at Governor Livingston High School (
  Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102878163@skyland-conference
@@ -1191,6 +1191,15 @@ DTEND;TZID=America/New_York:20270116T110000
 SUMMARY:Delaware Valley Regional H.S. vs North Brunswick Township High Sc
  hool (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104190246@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T090000
+DTEND;TZID=America/New_York:20270116T110000
+SUMMARY:Voorhees High School at Belvidere High School (Varsity Boys Boys 
+ Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104070685@skyland-conference
