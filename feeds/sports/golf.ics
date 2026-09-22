@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104203368@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T150000
+DTEND;TZID=America/New_York:20270401T170000
+SUMMARY:North Hunterdon High School vs Voorhees High School (Varsity Boys
+  Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7541161@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
@@ -92,6 +101,15 @@ DTEND;VALUE=DATE:20270402
 SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Varsity B
  oys Golf)
 DESCRIPTION:Varsity Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104203404@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T150000
+DTEND;TZID=America/New_York:20270406T170000
+SUMMARY:North Hunterdon High School vs Delaware Valley Regional H.S. (Var
+ sity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7541162@skyland-conference
