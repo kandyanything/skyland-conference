@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:104203404@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270406T150000
-DTEND;TZID=America/New_York:20270406T170000
-SUMMARY:North Hunterdon High School vs Delaware Valley Regional H.S. (Var
- sity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7541115@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
@@ -40,6 +31,15 @@ DTEND;VALUE=DATE:20270407
 SUMMARY:Delaware Valley Regional H.S. vs Somerville High School (Varsity 
  Boys Golf)
 DESCRIPTION:Varsity Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104203404@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T150000
+DTEND;TZID=America/New_York:20270408T170000
+SUMMARY:North Hunterdon High School vs Delaware Valley Regional H.S. (Var
+ sity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7541116@skyland-conference

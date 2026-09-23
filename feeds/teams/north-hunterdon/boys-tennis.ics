@@ -23,12 +23,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104219684@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:North Hunterdon High School vs Voorhees High School (Varsity Boys
+  Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102880049@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T160000
 DTEND;TZID=America/New_York:20270406T180000
 SUMMARY:North Hunterdon High School vs Warren Hills Regional H.S. (Varsit
  y Boys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104219686@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T160000
+DTEND;TZID=America/New_York:20270413T180000
+SUMMARY:North Hunterdon High School vs Bound Brook High School (Varsity B
+ oys Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -41,6 +59,15 @@ SUMMARY:Bound Brook High School vs North Hunterdon High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Tennis - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104219679@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T120000
+DTEND;TZID=America/New_York:20270415T140000
+SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity 
+ Boys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7541413@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270429
@@ -48,5 +75,14 @@ DTEND;VALUE=DATE:20270430
 SUMMARY:Bound Brook High School at North Hunterdon High School (Varsity B
  oys Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104219689@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270504T160000
+DTEND;TZID=America/New_York:20270504T180000
+SUMMARY:Phillipsburg High School at North Hunterdon High School (Varsity 
+ Boys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
