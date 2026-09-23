@@ -105,16 +105,6 @@ SUMMARY:Hillsborough High School at Bernards High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:1439ed7a-e622-4d9e-852c-ec416db610a8@skyland
- -conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T120000
-DTEND;TZID=America/New_York:20260922T140000
-SUMMARY:Mount Saint Mary Academy at Bernards High School (Varsity Girls G
- irls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7441503@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -140,6 +130,15 @@ DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Bernards High School at Gill St. Bernard's School (Varsity Girls 
  Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-09-29:16:00:Tennis:19@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Gill St. Bernard's School vs Bernards High School (Varsity Girls 
+ Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7441551@skyland-conference
@@ -187,7 +186,7 @@ SUMMARY:Bernards High School vs Voorhees High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:c6c45d91-145b-4cf3-bdd1-ce4624894ff7@skyland
+UID:bb:MountSaintMaryAcademy:1c336865-4a13-4eae-9a3c-c15bc4d21ff4@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T120000
