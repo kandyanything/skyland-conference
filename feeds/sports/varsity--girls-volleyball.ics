@@ -1404,6 +1404,15 @@ SUMMARY:Franklin High School vs Montgomery High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:98765383@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Phillipsburg High School vs Watchung Hills Reg High School (Varsi
+ ty Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:fs:GillSt.BernardsSchool:2026-09-24:16:00:Volleyball:0@skyland-confer
  ence
 DTSTAMP:20250801T000000Z
@@ -1447,15 +1456,6 @@ DTSTART;TZID=America/New_York:20260924T173000
 DTEND;TZID=America/New_York:20260924T193000
 SUMMARY:North Hunterdon High School vs Hunterdon Central Reg. High School
   (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:98765383@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T173000
-DTEND;TZID=America/New_York:20260924T193000
-SUMMARY:Phillipsburg High School vs Watchung Hills Reg High School (Varsi
- ty Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1550,7 +1550,7 @@ SUMMARY:Warren Hills Regional H.S. at Delaware Valley Regional H.S. (Vars
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:40 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a7f9710f-f245-4f47-8fcb-bdb633f74168@skyland
+UID:bb:MountSaintMaryAcademy:3b5f7234-2102-4a9d-8930-6e7c9c07b3ff@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T123000
@@ -1623,7 +1623,7 @@ SUMMARY:Warren Hills Regional H.S. at Delaware Valley Regional H.S. (Vars
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:8a18a117-d7b9-46e9-bdca-676914d4268e@skyland
+UID:bb:MountSaintMaryAcademy:dc7a84ab-d370-4e88-9228-ae0de38fc577@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T131500
@@ -1958,7 +1958,7 @@ SUMMARY:Delaware Valley Regional H.S. at West Windsor-Plainsboro High Sch
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:c2f17a2d-d0f5-40f2-b723-9755afef8a1e@skyland
+UID:bb:MountSaintMaryAcademy:bdcfc971-e5bc-453f-9700-58374c3ff232@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T131500
@@ -2085,7 +2085,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Ridge High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:578c17ac-050f-4aa8-809c-12100520c8c5@skyland
+UID:bb:MountSaintMaryAcademy:ff54a078-2328-4076-8dd4-d8db56f6c777@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2229,7 +2229,7 @@ SUMMARY:North Hunterdon High School vs West Morris Central High School (V
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:26c4c88b-bee4-4c3c-92f6-8a5d83a5a9cf@skyland
+UID:bb:MountSaintMaryAcademy:5dad7786-35eb-4562-ac26-278c6955ab11@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T120000
@@ -2383,7 +2383,7 @@ SUMMARY:Watchung Hills Regional H.S. at Franklin High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:33f378ee-cc6c-468c-8d56-cff423ab65f9@skyland
+UID:bb:MountSaintMaryAcademy:62659bb4-37b3-4801-9604-64b814275926@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T131500
@@ -2505,8 +2505,8 @@ UID:arb:102403125@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home
+SUMMARY:Voorhees High School at TBD (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7561288@skyland-conference
@@ -2545,7 +2545,7 @@ SUMMARY:North Hunterdon High School vs Watchung Hills Reg High School (Va
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:434bdb18-849b-4388-ab39-d040445b5688@skyland
+UID:bb:MountSaintMaryAcademy:09b77fb1-38dc-4039-a1b6-1ba6648975e9@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T120000
@@ -2642,7 +2642,7 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:703fe447-3cb7-45d9-b018-10dddcc8fac3@skyland
+UID:bb:MountSaintMaryAcademy:86687a01-397d-4b73-a714-8f1510cc0ffc@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T120000
@@ -2804,7 +2804,7 @@ SUMMARY:Voorhees High School at Warren Hills Regional H.S. (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:b381d387-0a2e-4dd5-9fb6-8bdefe2b853e@skyland
+UID:bb:MountSaintMaryAcademy:94da2d83-3afa-4368-843e-3039eabb9eed@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T120000

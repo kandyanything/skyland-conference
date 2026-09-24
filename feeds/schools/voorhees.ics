@@ -2164,15 +2164,6 @@ SUMMARY:Voorhees High School at The Pingry School (Varsity Girls Field Ho
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102584194@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T173000
-DTEND;TZID=America/New_York:20261006T193000
-SUMMARY:Voorhees High School at The Pingry School (Junior Varsity Girls F
- ield Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102402983@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T173000
@@ -2180,6 +2171,15 @@ DTEND;TZID=America/New_York:20261006T193000
 SUMMARY:Voorhees High School vs Franklin High School (Junior Varsity Girl
  s Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102584194@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T174500
+DTEND;TZID=America/New_York:20261006T194500
+SUMMARY:Voorhees High School at The Pingry School (Junior Varsity Girls F
+ ield Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7335110@skyland-conference
@@ -2215,7 +2215,7 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ec4b3f9f-441f-4416-a6a5-831ec5c73659@skyland
+UID:bb:MountSaintMaryAcademy:de1da026-46a3-4be1-89cf-26d7283cee82@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2225,7 +2225,7 @@ SUMMARY:Mount Saint Mary Academy at Voorhees High School (Girls RESCHEDUL
 DESCRIPTION:Girls RESCHEDULED - 10/7/26 JV Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:636c13d3-e9cd-4f6c-918f-f03138ce7995@skyland
+UID:bb:MountSaintMaryAcademy:8abf8131-2591-4faa-af0b-0eb8b94e6f7b@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2565,7 +2565,7 @@ SUMMARY:Voorhees High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a953c329-c1d6-45c5-8937-26d05fa068c9@skyland
+UID:bb:MountSaintMaryAcademy:05488a0c-e4f3-4364-9794-5d150f2f4a88@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -2575,7 +2575,7 @@ SUMMARY:Mount Saint Mary Academy vs Voorhees High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:c5ab1199-031a-43a4-8cd9-e5b4f2f51617@skyland
+UID:bb:MountSaintMaryAcademy:3026b99d-294e-4d6d-add8-3f228e5920b5@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -2583,6 +2583,14 @@ DTEND;TZID=America/New_York:20261013T140000
 SUMMARY:Mount Saint Mary Academy at Voorhees High School (Varsity Girls G
  irls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102665316@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Voorhees High School vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7511409@skyland-conference
@@ -2657,20 +2665,12 @@ SUMMARY:Bridgewater-Raritan High School vs Voorhees High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102665316@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:Voorhees High School vs TBD (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102403125@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261013
 DTEND;VALUE=DATE:20261014
-SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home
+SUMMARY:Voorhees High School at TBD (Varsity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102391500@skyland-conference
