@@ -1787,15 +1787,6 @@ SUMMARY:Immaculata High School at Rutgers Preparatory School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7499453@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Montgomery High School at Phillipsburg High School (Freshman Boys
-  Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7499561@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -1803,6 +1794,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499453@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Montgomery High School at Phillipsburg High School (Freshman Boys
+  Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7477987@skyland-conference
@@ -2797,15 +2797,6 @@ SUMMARY:Hunterdon Central Regional H.S. at Montgomery High School (Varsit
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7499458@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Montgomery High School vs Hunterdon Central Regional H.S. (Freshm
- an Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7499589@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -2813,6 +2804,15 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Montgomery High School vs Hunterdon Central Regional H.S. (Junior
   Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499458@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Montgomery High School vs Hunterdon Central Regional H.S. (Freshm
+ an Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7478018@skyland-conference
@@ -4463,14 +4463,6 @@ SUMMARY:Somerville High School at Princeton Day School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7633421@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T160000
-DTEND;TZID=America/New_York:20260925T180000
-SUMMARY:Franklin High School vs TBD (MS-B Boys Boys Soccer)
-DESCRIPTION:MS-B Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7563055@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T160000
@@ -4642,24 +4634,6 @@ SUMMARY:Hunterdon Central Regional H.S. at North Hunterdon High School (V
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7565632@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Freshman 
- Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7499593@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Junior Va
- rsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7523630@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
@@ -4709,18 +4683,20 @@ UID:arb:98822861@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
 DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Freshman 
- Boys Boys Soccer)
+SUMMARY:[Canceled] Watchung Hills Regional H.S. vs Montgomery High School
+  (Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98822831@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
 DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Junior Va
- rsity Boys Boys Soccer)
+SUMMARY:[Canceled] Watchung Hills Regional H.S. vs Montgomery High School
+  (Junior Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7478073@skyland-conference
@@ -7188,16 +7164,6 @@ SUMMARY:Voorhees High School vs Allentown High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:98824686@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:[Canceled] Watchung Hills Regional H.S. vs Franklin High School (
- Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
-STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:98824627@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T100000
@@ -7319,9 +7285,9 @@ UID:arb:103579362@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Freshman Boys 
- Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+SUMMARY:Warren Hills Regional H.S. vs Watchung Hills Reg High School (Fre
+ shman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7510916@skyland-conference
