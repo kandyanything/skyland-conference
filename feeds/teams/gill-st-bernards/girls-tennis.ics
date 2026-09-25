@@ -178,15 +178,6 @@ SUMMARY:Voorhees High School at Gill St. Bernard's School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7441455@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Bernards High School at Gill St. Bernard's School (Varsity Girls 
- Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7563173@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
@@ -196,22 +187,23 @@ SUMMARY:Bernards High School vs Gill St. Bernard's School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-09-29:16:00:Tennis:8@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260929T160000
-DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Gill St. Bernard's School vs Bernards High School (Varsity Girls 
- Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-09-29:16:00:Tennis:11@skyland-conference
+UID:fs:GillSt.BernardsSchool:2026-09-29:16:00:Tennis:10@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
 SUMMARY:Gill St. Bernard's School vs Bernards High School (Junior Varsity
   Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-09-29:16:00:Tennis:12@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:[Cancelled] Gill St. Bernard's School vs Bernards High School (Va
+ rsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:fs:GillSt.BernardsSchool:2026-09-30:15:30:Tennis:14@skyland-conference
@@ -232,7 +224,7 @@ SUMMARY:Gill St. Bernard's School vs Morristown High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:67704ec0-8e1f-49a7-b1c1-667250b6fa0d@skyland
+UID:bb:MountSaintMaryAcademy:cb437e6a-87c1-4da8-bf33-be799cc44e8f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T120000
@@ -242,7 +234,7 @@ SUMMARY:Mount Saint Mary Academy at Gill St. Bernard's School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a5c52a17-a58f-4613-9ea3-8bb2071e9973@skyland
+UID:bb:MountSaintMaryAcademy:ca281906-46e1-4f5f-8621-437d3d0177d0@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T120000
@@ -252,20 +244,31 @@ SUMMARY:Mount Saint Mary Academy vs Gill St. Bernard's School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-10-01:16:00:Tennis:19@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Gill St. Bernard's School vs Mount Saint Mary Academy (Junior Var
- sity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:fs:GillSt.BernardsSchool:2026-10-01:16:00:Tennis:20@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
 DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Gill St. Bernard's School vs Mount Saint Mary Academy (Varsity Gi
+SUMMARY:[Cancelled] Gill St. Bernard's School vs Mount Saint Mary Academy
+  (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-10-01:16:00:Tennis:21@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:[Cancelled] Gill St. Bernard's School vs Mount Saint Mary Academy
+  (Junior Varsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-10-01:16:00:Tennis:22@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Gill St. Bernard's School vs Immaculate Heart Academy (Varsity Gi
  rls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT

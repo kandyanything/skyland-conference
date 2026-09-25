@@ -1539,24 +1539,6 @@ SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7478075@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7516730@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Juni
- or Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7546747@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
@@ -1575,6 +1557,16 @@ SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Fres
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:103098020@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T120000
+SUMMARY:[Canceled] Phillipsburg High School vs Bridgewater-Raritan High S
+ chool (Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101521822@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
@@ -1582,6 +1574,15 @@ DTEND;TZID=America/New_York:20260926T120000
 SUMMARY:Phillipsburg High School at Emmaus High School (Varsity Girls Fie
  ld Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98845876@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T120000
+SUMMARY:Phillipsburg High School at Bridgewater-Raritan High School (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101508046@skyland-conference
@@ -1611,6 +1612,15 @@ DTEND;TZID=America/New_York:20260926T150000
 SUMMARY:Phillipsburg High School at Saint Joseph High School - Metuchen (
  Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104288635@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T154500
+DTEND;TZID=America/New_York:20260928T174500
+SUMMARY:Phillipsburg High School at Morristown High School (Varsity Girls
+  Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7493286@skyland-conference
@@ -1698,9 +1708,10 @@ UID:arb:100870768@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T163000
 DTEND;TZID=America/New_York:20260929T183000
-SUMMARY:Phillipsburg High School at Warren Hills Regional H.S. (Junior Va
- rsity Girls Field Hockey)
+SUMMARY:[Canceled] Phillipsburg High School at Warren Hills Regional H.S.
+  (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:30 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100870793@skyland-conference
@@ -1809,6 +1820,15 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Phillipsburg High School at Hunterdon Central Reg. High School (V
  arsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7478075@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7441347@skyland-conference
@@ -2198,7 +2218,7 @@ SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:82c11d35-8e7d-46ec-b4fe-edc4f41c00bb@skyland
+UID:bb:MountSaintMaryAcademy:7abf011d-4e47-4d38-967d-a019432eb66b@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -2208,7 +2228,7 @@ SUMMARY:Mount Saint Mary Academy at Phillipsburg High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:607d72b2-9eed-47df-80a4-123a51c76de7@skyland
+UID:bb:MountSaintMaryAcademy:9d806d9a-c31a-4aa1-8b59-c41da8007c24@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -2308,13 +2328,13 @@ SUMMARY:Franklin High School vs Phillipsburg High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7563285@skyland-conference
+UID:arb:103643018@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
 DTEND;TZID=America/New_York:20261009T180000
-SUMMARY:Bernards High School at Phillipsburg High School (Freshman Girls 
+SUMMARY:Phillipsburg High School vs Bernards High School (Freshman Girls 
  Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103139671@skyland-conference
@@ -3799,6 +3819,15 @@ SUMMARY:Phillipsburg High School vs Morris Hills High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104290622@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T153000
+DTEND;TZID=America/New_York:20270112T173000
+SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity 
+ Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102265066@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T154500
@@ -4890,9 +4919,9 @@ UID:arb:104219679@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T120000
 DTEND;TZID=America/New_York:20270415T140000
-SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity 
+SUMMARY:Phillipsburg High School at North Hunterdon High School (Varsity 
  Boys Boys Tennis)
-DESCRIPTION:Varsity Boys Boys Tennis - Home - 12:00 PM
+DESCRIPTION:Varsity Boys Boys Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540868@skyland-conference
