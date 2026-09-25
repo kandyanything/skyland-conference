@@ -226,6 +226,74 @@ const CTX_SCHOOLS = SCHOOL_NAMES.map((name, i) => ({
     names: bareSchoolNames([name]),
 }));
 
+// Bare aliases that are ordinary words. On their own they prove nothing, so
+// they only count when the article also names the conference or the county.
+const GENERIC_ALIASES = new Set(["academy","central","hills","prep","preparatory","regional","ridge","valley"]);
+
+// Words that may sit beside a school name without being part of it. Anything
+// else capitalised next to an alias is treated as part of a longer proper name,
+// which is what "Union City" and "North Plainfield" are.
+const NEIGHBOR_OK = new Set([
+    'a', 'an', 'and', 'at', 'beats', 'boys', 'by', 'coach', 'coaches', 'coed',
+    'country', 'cross', 'defeats', 'downs', 'edges', 'falls', 'field', 'for',
+    'freshman', 'from', 'girls', 'golf', 'high', 'hosts', 'in', 'junior',
+    'leads', 'nets', 'no', 'of', 'on', 'or', 'over', 'past', 'roll', 'rolls',
+    'routs', 'school', 'senior', 'shuts', 'sophomore', 'standout', 'stars',
+    'survives', 'team', 'teams', 'the', 'to', 'top', 'tops', 'topples', 'track',
+    'upsets', 'varsity', 'versus', 'victory', 'visits', 'vs', 'win', 'wins', 'with',
+]);
+
+// Local context that rescues an otherwise-generic alias.
+const LOCAL_CONTEXT_RE = /\b(Skyland|Somerset County|Hunterdon|Warren County|Basking Ridge|Bridgewater|Somerville)\b/i;
+
+// Municipalities the conference draws from. A capitalised neighbour that is one
+// of these is a hometown qualifier on one of our own schools, not the start of
+// somebody else's name.
+const HOME_TOWNS = new Set(["annandale","basking","belvidere","bernardsville","bound","bridgewater","clinton","flemington","franklin","hillsborough","lebanon","manville","montgomery","phillipsburg","raritan","somerville","warren","washington","watchung"]);
+
+const WORD_BEFORE = /([A-Za-z][A-Za-z.'’-]*)\s+$/;
+const WORD_AFTER  = /^\s+([A-Za-z][A-Za-z.'’-]*)/;
+
+// Headline and summary are separate sentences. Joined by a bare space, the
+// summary's first word glues onto the headline's last one and invents a
+// compound that is nobody's school.
+function relevanceText(title, preview) {
+    return `${title || ''} . ${preview || ''}`;
+}
+
+// Which school, if any, owns this phrase?
+function schoolOwning(phrase) {
+    const re = phraseRe(phrase);
+    return SCHOOL_NAMES.find(n => re.test(n)) || null;
+}
+
+// Decide what a single alias occurrence really refers to.
+//   'alone'    - nothing capitalised beside it; it means what it says
+//   'expanded' - it grows into one of OUR school names ("Union Catholic")
+//   null       - it grows into somebody else's ("Union City", "North Plainfield")
+function aliasHit(text, alias, index) {
+    const before = text.slice(0, index);
+    const after  = text.slice(index + alias.length);
+
+    const expansions = [];            // { phrase, extra }
+    const mb = before.match(WORD_BEFORE);
+    if (mb && /^[A-Z]/.test(mb[1]) && !NEIGHBOR_OK.has(mb[1].toLowerCase()))
+        expansions.push({ phrase: `${mb[1]} ${alias}`, extra: mb[1] });
+    const ma = after.match(WORD_AFTER);
+    if (ma && /^[A-Z]/.test(ma[1]) && !NEIGHBOR_OK.has(ma[1].toLowerCase()))
+        expansions.push({ phrase: `${alias} ${ma[1]}`, extra: ma[1] });
+
+    if (!expansions.length) return { kind: 'alone', school: null };
+    for (const e of expansions) {
+        const owner = schoolOwning(e.phrase);
+        if (owner) return { kind: 'expanded', school: owner };
+    }
+    // A hometown qualifier on one of ours, e.g. "Union Township".
+    if (expansions.some(e => HOME_TOWNS.has(e.extra.toLowerCase())))
+        return { kind: 'expanded', school: null };
+    return null;                      // part of another school's name
+}
+
 function matchRelevance(text) {
     const shortHit = new RegExp(`\\b${escapeRe(CONF_SHORT)}\\b`).test(text)
         && !COUNTIES_FP.test(text);
@@ -235,10 +303,25 @@ function matchRelevance(text) {
     for (const school of CTX_SCHOOLS) {
         for (const n of school.names) {
             if (n.length < 4) continue;
-            const m = phraseRe(n).exec(text);
-            if (!m) continue;
-            if (m.index < bestIdx || (m.index === bestIdx && n.length > bestLen)) {
-                bestIdx = m.index; bestLen = n.length; schoolName = school.name;
+            const re = new RegExp(`\\b${escapeRe(n).replace(/\s+/g, '\\s+')}\\b`, 'ig');
+            let m;
+            while ((m = re.exec(text)) !== null) {
+                const hit = aliasHit(text, m[0], m.index);
+                if (!hit) continue;                       // another school's name
+
+                let owner = school.name;
+                if (hit.kind === 'expanded') {
+                    owner = hit.school || school.name;    // credit the real school
+                } else if (GENERIC_ALIASES.has(n.toLowerCase())
+                    && !confHit
+                    && !LOCAL_CONTEXT_RE.test(text)
+                    && !phraseRe(school.name).test(text)) {
+                    continue;                             // bare common word, no context
+                }
+
+                if (m.index < bestIdx || (m.index === bestIdx && n.length > bestLen)) {
+                    bestIdx = m.index; bestLen = n.length; schoolName = owner;
+                }
             }
         }
     }
@@ -250,7 +333,7 @@ function classify(title, preview, url) {
     if (isDenyHost(host)) return null;
     if (!isArticleUrl(url)) return null;
 
-    const text      = `${title} ${preview || ''}`;
+    const text      = relevanceText(title, preview);
     const onSources = HOUSE_SOURCES.some(s => hostMatches(host, s))
         || FEED_HOSTS.some(fh => hostMatches(host, fh));
     if (!onSources) return null;   // only publish from known NJ outlets
@@ -476,7 +559,17 @@ async function main() {
     let existing = [];
     try {
         const raw = JSON.parse(fs.readFileSync(OUT, 'utf8'));
-        existing = (raw.news || []).filter(n => n && n.title && n.url && SPORTS_TERMS_RE.test(n.title));
+        existing = (raw.news || []).filter(n => {
+            if (!n || !n.title || !n.url) return false;
+            if (!SPORTS_TERMS_RE.test(n.title)) return false;
+            const rel = matchRelevance(relevanceText(n.title, n.excerpt));
+            if (rel.confHit || rel.schoolName !== null) {
+                if (rel.schoolName) n.school = rel.schoolName;
+                return true;
+            }
+            console.log(`  [evict] no longer relevant: ${n.title.slice(0, 70)}`);
+            return false;
+        });
     } catch { /* first run */ }
 
     const merged = new Map(existing.map(n => [n.url, n]));
@@ -500,4 +593,9 @@ async function main() {
     console.log(`wrote ${OUT}`);
 }
 
-main().catch(e => { console.error(e); process.exit(1); });
+// Only scrape when run directly, so the relevance rules can be unit-tested.
+if (require.main === module) {
+    main().catch(e => { console.error(e); process.exit(1); });
+}
+
+module.exports = { matchRelevance, relevanceText, classify, bareSchoolNames, SPORTS_TERMS_RE, SCHOOL_NAMES };
