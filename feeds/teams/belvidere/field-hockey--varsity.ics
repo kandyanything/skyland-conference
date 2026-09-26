@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:103539687@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T153000
+DTEND;TZID=America/New_York:20260831T173000
+SUMMARY:Belvidere High School vs Wallkill Valley Regional High School (Va
+ rsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:98770962@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
@@ -134,14 +143,13 @@ SUMMARY:Belvidere High School vs South Hunterdon Regional H.S. (Varsity G
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:3c0c8da9-1a42-4e46-b18d-07940455d159@skyland
- -conference
+UID:arb:98771029@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
 DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Mount Saint Mary Academy at Belvidere High School (Varsity Girls 
+SUMMARY:Belvidere High School vs Mount Saint Mary Academy (Varsity Girls 
  Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7441414@skyland-conference
