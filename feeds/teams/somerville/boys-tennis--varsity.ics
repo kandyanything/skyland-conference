@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:102880106@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T160000
+DTEND;TZID=America/New_York:20270413T180000
+SUMMARY:Somerville High School at Warren Hills Regional H.S. (Varsity Boy
+ s Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7541401@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270415
@@ -33,6 +42,15 @@ SUMMARY:Bound Brook High School at Somerville High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Tennis - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104219688@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T160000
+DTEND;TZID=America/New_York:20270427T180000
+SUMMARY:North Hunterdon High School vs Somerville High School (Varsity Bo
+ ys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7541416@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270504
@@ -40,5 +58,14 @@ DTEND;VALUE=DATE:20270505
 SUMMARY:Bound Brook High School vs Somerville High School (Varsity Boys B
  oys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104219683@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270506T160000
+DTEND;TZID=America/New_York:20270506T180000
+SUMMARY:North Hunterdon High School vs Somerville High School (Varsity Bo
+ ys Boys Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:103845042@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T163000
+DTEND;TZID=America/New_York:20270401T183000
+SUMMARY:North Hunterdon High School vs Somerville High School (Varsity Gi
+ rls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7608203@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270415
@@ -31,5 +40,14 @@ DTEND;VALUE=DATE:20270416
 SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Gir
  ls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103762388@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T163000
+DTEND;TZID=America/New_York:20270513T183000
+SUMMARY:Somerville High School at Watchung Hills Reg High School (Varsity
+  Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR

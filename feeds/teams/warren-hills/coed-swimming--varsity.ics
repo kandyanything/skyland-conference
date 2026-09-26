@@ -24,6 +24,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104203015@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T161500
+DTEND;TZID=America/New_York:20261208T181500
+SUMMARY:Warren Hills Regional H.S. vs Gill St. Bernard's School (Varsity 
+ Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104183577@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T180000
+DTEND;TZID=America/New_York:20261215T200000
+SUMMARY:Warren Hills Regional H.S. vs Rutgers Preparatory School (Varsity
+  Coed Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104183667@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261222
+DTEND;VALUE=DATE:20261223
+SUMMARY:Warren Hills Regional H.S. at Franklin High School (Varsity Coed 
+ Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104183680@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
@@ -31,5 +58,14 @@ DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Somerville High School at Warren Hills Regional H.S. (Varsity Coe
  d Coed Swimming)
 DESCRIPTION:Varsity Coed Coed Swimming - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104183756@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270112
+DTEND;VALUE=DATE:20270113
+SUMMARY:Warren Hills Regional H.S. at Immaculata High School (Varsity Coe
+ d Coed Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Away
 END:VEVENT
 END:VCALENDAR

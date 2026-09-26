@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:102810010@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T151500
+DTEND;TZID=America/New_York:20270406T171500
+SUMMARY:Watchung Hills Regional H.S. vs Hunterdon Central Reg. High Schoo
+ l (Varsity Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7541164@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
@@ -31,6 +40,15 @@ DTEND;VALUE=DATE:20270407
 SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
  Varsity Boys Golf)
 DESCRIPTION:Varsity Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102809739@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T151500
+DTEND;TZID=America/New_York:20270408T171500
+SUMMARY:Watchung Hills Regional H.S. vs Hillsborough High School (Varsity
+  Boys Golf)
+DESCRIPTION:Varsity Boys Golf - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7541165@skyland-conference
@@ -58,6 +76,15 @@ DTEND;VALUE=DATE:20270416
 SUMMARY:Bridgewater-Raritan High School vs Watchung Hills Regional H.S. (
  Varsity Boys Golf)
 DESCRIPTION:Varsity Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102880671@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T151500
+DTEND;TZID=America/New_York:20270422T171500
+SUMMARY:Watchung Hills Regional H.S. at Montgomery High School (Varsity B
+ oys Golf)
+DESCRIPTION:Varsity Boys Golf - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7541179@skyland-conference
