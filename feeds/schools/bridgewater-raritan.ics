@@ -1932,15 +1932,6 @@ SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7478075@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7546747@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
@@ -1959,13 +1950,24 @@ SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Fres
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7657525@skyland-conference
+UID:arb:103098020@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
 DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Juni
- or Varsity Girls Girls Soccer)
+SUMMARY:[Canceled] Phillipsburg High School vs Bridgewater-Raritan High S
+ chool (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98845876@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T100000
+DTEND;TZID=America/New_York:20260926T120000
+SUMMARY:[Canceled] Phillipsburg High School at Bridgewater-Raritan High S
+ chool (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 10:00 AM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101703150@skyland-conference
@@ -1976,15 +1978,6 @@ SUMMARY:[Canceled] Phillipsburg High School at Bridgewater-Raritan High S
  chool (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503199@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T130000
-DTEND;TZID=America/New_York:20260926T150000
-SUMMARY:Bridgewater-Raritan High School at Westfield High School (Varsity
-  Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7504743@skyland-conference
@@ -2003,6 +1996,15 @@ DTEND;TZID=America/New_York:20260926T150000
 SUMMARY:Bridgewater-Raritan High School at Westfield High School (Varsity
   Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7657798@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260926T130000
+DTEND;TZID=America/New_York:20260926T150000
+SUMMARY:Bridgewater-Raritan High School at Westfield High School (Varsity
+  Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7503398@skyland-conference
@@ -3094,7 +3096,7 @@ SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a0a8fab3-9067-441b-9457-ce8942a607de@skyland
+UID:bb:MountSaintMaryAcademy:692597e7-f327-4b26-9262-7dc2584dc13d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -3104,7 +3106,7 @@ SUMMARY:Mount Saint Mary Academy at Bridgewater-Raritan High School (Fres
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:3bab91fe-14dc-4c31-a61e-062de4b08b7b@skyland
+UID:bb:MountSaintMaryAcademy:12ccad98-2e0c-46ac-9c1b-6ba040e818d2@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -3114,7 +3116,7 @@ SUMMARY:Mount Saint Mary Academy vs Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:7f6c1808-27d1-460f-ba66-e30e93419b61@skyland
+UID:bb:MountSaintMaryAcademy:02ac5959-aa2b-44f2-9762-af54247e44ab@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T131500
