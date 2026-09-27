@@ -1267,6 +1267,15 @@ DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 12:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104321174@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T140000
+DTEND;TZID=America/New_York:20260928T160000
+SUMMARY:Somerville High School at Vernon Township High School (Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7441435@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -1541,6 +1550,22 @@ DTEND;TZID=America/New_York:20261003T131500
 SUMMARY:Somerville High School at Mount Saint Mary Academy (Junior Varsit
  y Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 11:15 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104321198@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Somerville High School vs TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104321185@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261003
+DTEND;VALUE=DATE:20261004
+SUMMARY:Somerville High School vs TBD (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7441429@skyland-conference
@@ -2199,7 +2224,7 @@ SUMMARY:Somerville High School vs Nottingham High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:29d69ac5-6231-4651-bffa-12bc7b729b15@skyland
+UID:bb:MountSaintMaryAcademy:2840a92f-2617-45ae-a5e8-b81960d599aa@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T120000
@@ -2209,7 +2234,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:f624a320-802a-479f-8c8b-9e48fa7d6eb8@skyland
+UID:bb:MountSaintMaryAcademy:7d803187-1973-46ba-91f0-21e22d95f1b7@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T131500
