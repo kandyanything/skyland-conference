@@ -1592,24 +1592,6 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104202188@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Voorhees High School at Rancocas Valley Regional High School (Var
- sity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104202160@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T090000
-DTEND;TZID=America/New_York:20260926T110000
-SUMMARY:Voorhees High School at Rancocas Valley Regional High School (Var
- sity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104286468@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T100000
@@ -1637,6 +1619,15 @@ SUMMARY:Voorhees High School vs Westfield High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104311746@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T150000
+DTEND;TZID=America/New_York:20260928T170000
+SUMMARY:Voorhees High School vs Arthur L. Johnson High School (Varsity Gi
+ rls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7627102@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -1659,18 +1650,20 @@ UID:arb:103976632@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Voorhees High School vs Gill St. Bernard's School (Junior Varsity
-  Girls Girls Tennis)
+SUMMARY:[Canceled] Voorhees High School vs Gill St. Bernard's School (Jun
+ ior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103976609@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Voorhees High School at Gill St. Bernard's School (Varsity Girls 
- Girls Tennis)
+SUMMARY:[Canceled] Voorhees High School at Gill St. Bernard's School (Var
+ sity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103843349@skyland-conference
@@ -1709,21 +1702,30 @@ SUMMARY:Franklin High School at Voorhees High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104311746@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260928
-DTEND;VALUE=DATE:20260929
-SUMMARY:Voorhees High School vs Arthur L. Johnson High School (Varsity Gi
- rls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102665983@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260928
 DTEND;VALUE=DATE:20260929
 SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104202188@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Voorhees High School at Rancocas Valley Regional High School (Var
+ sity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104202160@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Voorhees High School at Rancocas Valley Regional High School (Var
+ sity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102391044@skyland-conference
@@ -2233,7 +2235,7 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0202ea58-7dd0-4cce-8033-782724d4cc97@skyland
+UID:bb:MountSaintMaryAcademy:64c76404-2661-487c-87b2-16454421b098@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2243,7 +2245,7 @@ SUMMARY:Mount Saint Mary Academy at Voorhees High School (Girls RESCHEDUL
 DESCRIPTION:Girls RESCHEDULED - 10/7/26 JV Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:194e1fc5-1f42-4975-af23-d97db0278512@skyland
+UID:bb:MountSaintMaryAcademy:8b2fafb1-12d4-4fa8-9031-13b9218641af@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2583,7 +2585,7 @@ SUMMARY:Voorhees High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ad76197d-8c3f-4e10-8f3c-4c173b7e6325@skyland
+UID:bb:MountSaintMaryAcademy:40da3075-cfe0-4285-986f-ba57deb05c1e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -2593,7 +2595,7 @@ SUMMARY:Mount Saint Mary Academy vs Voorhees High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:9381a4af-772e-4832-b6a0-eda57e7a8ed6@skyland
+UID:bb:MountSaintMaryAcademy:95d3cd60-a43e-44cb-af28-e0177eb9e69b@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
