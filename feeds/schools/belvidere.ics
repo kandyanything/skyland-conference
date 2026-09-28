@@ -697,17 +697,10 @@ UID:arb:104230661@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T153000
 DTEND;TZID=America/New_York:20260928T173000
-SUMMARY:Belvidere High School at TBD (Varsity Coed Coed Cross Country)
+SUMMARY:[Canceled] Belvidere High School at TBD (Varsity Coed Coed Cross 
+ Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7553115@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Bound Brook High School vs Belvidere High School (Junior Varsity 
- Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7441449@skyland-conference
@@ -723,18 +716,30 @@ UID:arb:103386372@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Belvidere High School vs North Plainfield School District (Varsit
- y Girls Girls Soccer)
+SUMMARY:[Postponed] Belvidere High School vs North Plainfield School Dist
+ rict (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99260933@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:[Canceled] Belvidere High School at Bound Brook High School (Juni
+ or Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98771019@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Belvidere High School vs South Hunterdon Regional H.S. (Varsity G
- irls Field Hockey)
+SUMMARY:[Postponed] Belvidere High School vs South Hunterdon Regional H.S
+ . (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7334851@skyland-conference
@@ -809,7 +814,7 @@ SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:f182c654-76b6-4a8b-a6f6-fc0a80dd4838@skyland
+UID:bb:MountSaintMaryAcademy:74641a5c-24c9-42cd-af7b-0e9e1bb44959@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T120000
@@ -999,7 +1004,7 @@ SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Varsity C
 DESCRIPTION:Varsity Coed Coed Cross Country - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:133511a0-fa21-4114-bdc7-85021edb8882@skyland
+UID:bb:MountSaintMaryAcademy:3563b255-404f-4ba2-badb-18d23d2e7081@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -1097,6 +1102,15 @@ DTEND;TZID=America/New_York:20261010T120000
 SUMMARY:Belvidere High School vs Morris Catholic High School (Varsity Boy
  s Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104331578@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T121500
+DTEND;TZID=America/New_York:20261010T141500
+SUMMARY:Belvidere High School vs Dunellen High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7513909@skyland-conference

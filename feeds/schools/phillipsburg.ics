@@ -652,15 +652,6 @@ SUMMARY:Phillipsburg High School vs Montgomery High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7499561@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7501366@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -677,6 +668,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Montgomery High School at Phillipsburg High School (Freshman Boys
   Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499561@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7477987@skyland-conference
@@ -2212,7 +2212,7 @@ SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:12abd2e2-2e03-472a-9dfb-47802c98706f@skyland
+UID:bb:MountSaintMaryAcademy:f5b241a2-d75e-4013-8b0c-63dc8f1c1890@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -2222,7 +2222,7 @@ SUMMARY:Mount Saint Mary Academy at Phillipsburg High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:8926f5f7-af15-46d8-8b37-0ee0d6bb5e9a@skyland
+UID:bb:MountSaintMaryAcademy:9fad1876-35d6-467f-933d-bd6ed6df6616@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -4736,6 +4736,24 @@ DTEND;TZID=America/New_York:20270217T210000
 SUMMARY:Phillipsburg High School vs Perkiomen School (Varsity Boys Boys B
  asketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104346247@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T160000
+DTEND;TZID=America/New_York:20270318T180000
+SUMMARY:Phillipsburg High School at William Allen High School (Junior Var
+ sity Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104346245@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T160000
+DTEND;TZID=America/New_York:20270318T180000
+SUMMARY:Phillipsburg High School vs William Allen High School (Varsity Bo
+ ys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102126627@skyland-conference

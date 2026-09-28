@@ -72,10 +72,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:103336580@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:North Hunterdon High School at Hunterdon Central Reg. High School
   (Junior Varsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
