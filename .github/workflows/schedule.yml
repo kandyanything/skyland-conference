@@ -69,4 +69,20 @@ jobs:
           GAMES=$(node -e "console.log(require('./data/schedule.json').counts.deduped)")
           DATES=$(node -e "console.log(require('./data/schedule.json').counts.dates)")
           git commit -m "Schedule rebuild: ${GAMES} games across ${DATES} dates"
-          git push
+          # A rebuild takes 20+ minutes. Anything else landing on main in that
+          # window makes this push non-fast-forward, and a naked `git push`
+          # would throw away a build that already fetched, validated and
+          # committed cleanly. Rebase onto what landed and try again.
+          # -X theirs keeps this build on conflict: it was just rebuilt from
+          # source, so it is strictly newer than whatever it lands on.
+          for attempt in 1 2 3; do
+            if git push; then
+              echo "pushed on attempt $attempt"
+              exit 0
+            fi
+            echo "push rejected - rebasing onto origin/main and retrying"
+            git fetch origin main
+            git rebase -X theirs origin/main || { git rebase --abort || true; }
+          done
+          echo "could not push after 3 attempts"
+          exit 1
