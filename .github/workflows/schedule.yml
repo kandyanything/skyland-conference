@@ -9,7 +9,12 @@ name: Rebuild Skyland Conference schedule
 # suspiciously thin (a flaky source), so a bad run just waits for the next one.
 on:
   schedule:
-    - cron: '0 */3 * * *'   # every 3 hours (UTC)
+    # 0,3,6,9,12,21 UTC is the off-window three-hourly cadence. 15-19 UTC
+    # covers 11am-3pm ET as a FALLBACK only: the Cloudflare Worker
+    # (conference-refresh-trigger, in worker/) is what actually drives that
+    # window, because GitHub drops roughly half of these slots and the ones
+    # it honours can drift 20-45 minutes.
+    - cron: '0 0,3,6,9,12,15,16,17,18,19,21 * * *'
   workflow_dispatch:         # and on demand
 
 concurrency:
