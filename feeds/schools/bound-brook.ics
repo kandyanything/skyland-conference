@@ -1824,11 +1824,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104357292@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
+DTSTART;TZID=America/New_York:20261003T140000
+DTEND;TZID=America/New_York:20261003T160000
 SUMMARY:Somerville High School vs Bound Brook High School (Varsity Girls 
  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104340138@skyland-conference
@@ -1957,6 +1957,15 @@ SUMMARY:Bound Brook High School at North Hunterdon High School (Junior Va
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2545:7661860@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Bound Brook High School vs Hillsborough Athletics (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7564486@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T160000
@@ -1973,6 +1982,15 @@ DTEND;TZID=America/New_York:20261006T180000
 SUMMARY:Bound Brook High School at Franklin High School (Junior Varsity G
  irls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7661860@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Hillsborough High School at Bound Brook High School (Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7526001@skyland-conference
@@ -2731,7 +2749,7 @@ SUMMARY:Bound Brook High School at Immaculata High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:b73730a2-0f09-4851-a8d7-aac1716a9203@skyland
+UID:bb:MountSaintMaryAcademy:d2fac59f-7918-4eee-a6e0-7f8d4cec6236@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T120000

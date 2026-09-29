@@ -384,14 +384,6 @@ SUMMARY:Bernards High School vs Morris Plains Borough MS (Middle School C
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102760064@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T090000
-DTEND;TZID=America/New_York:20261003T110000
-SUMMARY:Belvidere High School at TBD (Varsity Coed Coed Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101253116@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T090000
@@ -411,11 +403,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:103468007@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
 SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
  try)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102760064@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T120000
+DTEND;TZID=America/New_York:20261003T140000
+SUMMARY:Belvidere High School at TBD (Varsity Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7577206@skyland-conference

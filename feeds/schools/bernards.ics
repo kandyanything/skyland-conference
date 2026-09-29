@@ -2331,20 +2331,38 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7491014@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T170000
-DTEND;TZID=America/New_York:20261002T190000
+DTSTART;TZID=America/New_York:20261002T161500
+DTEND;TZID=America/New_York:20261002T181500
 SUMMARY:Bernards High School vs Mountain Lakes High School (Varsity Girls
   Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 5:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7661980@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T174500
+DTEND;TZID=America/New_York:20261002T194500
+SUMMARY:Bernards High School vs Mountain Lakes High School (Junior Varsit
+ y Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7662424@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:Bernards High School vs Franklin High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7562481@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T100000
-DTEND;TZID=America/New_York:20261003T120000
+DTSTART;TZID=America/New_York:20261003T090000
+DTEND;TZID=America/New_York:20261003T110000
 SUMMARY:Bernards High School at Chatham High School (Freshman Girls Field
   Hockey)
-DESCRIPTION:Freshman Girls Field Hockey - Away - 10:00 AM
+DESCRIPTION:Freshman Girls Field Hockey - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7561989@skyland-conference
@@ -2403,20 +2421,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7562171@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T161500
-DTEND;TZID=America/New_York:20261005T181500
+DTSTART;TZID=America/New_York:20261005T163000
+DTEND;TZID=America/New_York:20261005T183000
 SUMMARY:Bernards High School vs Belvidere High School (Varsity Girls Fiel
  d Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7562240@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T174500
-DTEND;TZID=America/New_York:20261005T194500
-SUMMARY:Bernards High School vs Belvidere High School (Junior Varsity Gir
- ls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7334712@skyland-conference
@@ -2851,15 +2860,6 @@ SUMMARY:Delaware Valley Regional H.S. vs Bernards High School (Freshman B
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7562180@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T163000
-DTEND;TZID=America/New_York:20261012T183000
-SUMMARY:Bernards High School vs Franklin High School (Varsity Girls Field
-  Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7562004@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T163000
@@ -2869,13 +2869,13 @@ SUMMARY:Bernards High School at Voorhees High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7562252@skyland-conference
+UID:ds:2535:7562180@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T180000
-DTEND;TZID=America/New_York:20261012T200000
-SUMMARY:Bernards High School vs Franklin High School (Junior Varsity Girl
- s Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
+DTSTART;TZID=America/New_York:20261012T170000
+DTEND;TZID=America/New_York:20261012T190000
+SUMMARY:Bernards High School vs Franklin High School (Varsity Girls Field
+  Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7588848@skyland-conference
@@ -2968,7 +2968,7 @@ SUMMARY:Bernards High School vs Dover Middle School (Middle School Boys B
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:9f641c22-ce6e-4194-9bd3-f03e0c522ada@skyland
+UID:bb:MountSaintMaryAcademy:66ab14f3-039a-4891-847c-66112d034353@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T120000
@@ -2978,7 +2978,7 @@ SUMMARY:Mount Saint Mary Academy at Bernards High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:502832b5-6b70-482c-bf6e-e770808f1c15@skyland
+UID:bb:MountSaintMaryAcademy:7b94770d-0ce8-4d0c-85fd-6ba712de7e22@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T120000
@@ -3320,7 +3320,7 @@ SUMMARY:Bernards High School at Summit High School (Varsity Girls Girls C
 DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:b91ab0a7-fcc6-401e-879b-66704ed64c67@skyland
+UID:bb:MountSaintMaryAcademy:ca5fd695-ef66-46c2-8c71-d16348cf4d18@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T121500
@@ -3330,7 +3330,7 @@ SUMMARY:Mount Saint Mary Academy vs Bernards High School (Varsity Girls F
 DESCRIPTION:Varsity Girls Field Hockey - Home - 12:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ce823b13-c42d-4682-8a3d-21e112af5f14@skyland
+UID:bb:MountSaintMaryAcademy:41d8c356-5e5d-4e2d-9569-41cec8a1af9e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T133000
@@ -4417,6 +4417,23 @@ DTEND;TZID=America/New_York:20270219T190000
 SUMMARY:Bernards High School vs Middlesex High School (Varsity Girls Girl
  s Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7663479@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Bernards High School at Livingston High School (Varsity Boys Boys
+  Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7663480@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T173000
+DTEND;TZID=America/New_York:20270401T193000
+SUMMARY:Bernards High School vs TBD (Junior Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7540718@skyland-conference

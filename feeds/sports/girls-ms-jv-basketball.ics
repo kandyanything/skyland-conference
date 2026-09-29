@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2653:7662360@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T170000
+DTEND;TZID=America/New_York:20261208T190000
+SUMMARY:Hillsborough High School vs Readington Middle School (Girls (MS -
+  JV) Basketball)
+DESCRIPTION:Girls (MS - JV) Basketball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7648624@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T170000
@@ -47,5 +56,14 @@ DTEND;TZID=America/New_York:20270108T190000
 SUMMARY:Hillsborough High School vs The Hun School (Girls (MS - JV) Baske
  tball)
 DESCRIPTION:Girls (MS - JV) Basketball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7662569@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T171500
+DTEND;TZID=America/New_York:20270113T191500
+SUMMARY:Hillsborough High School vs Bridgewater-Raritan Middle School (Gi
+ rls (MS - JV) Basketball)
+DESCRIPTION:Girls (MS - JV) Basketball - Home - 5:15 PM
 END:VEVENT
 END:VCALENDAR
