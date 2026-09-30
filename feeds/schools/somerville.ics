@@ -1402,6 +1402,15 @@ SUMMARY:South Hunterdon Regional H.S. at Somerville High School (Varsity
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:102514616@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Somerville High School at Delaware Valley Regional H.S. (Freshman
+  Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:100870870@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -1456,22 +1465,13 @@ SUMMARY:Somerville High School at Randolph High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102514616@skyland-conference
+UID:arb:102514583@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
 DTEND;TZID=America/New_York:20261001T180000
 SUMMARY:Somerville High School at Delaware Valley Regional H.S. (Freshman
   Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102514583@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Somerville High School at Delaware Valley Regional H.S. (Junior V
- arsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101319330@skyland-conference
@@ -1510,7 +1510,7 @@ SUMMARY:Hillsborough High School at Somerville High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:fc2c5ef4-5db2-441e-976f-7b4d1f69530a@skyland
+UID:bb:MountSaintMaryAcademy:bb030f93-f255-402c-b202-4b60ae6cf0b3@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T111500
@@ -1520,7 +1520,7 @@ SUMMARY:Mount Saint Mary Academy vs Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Home - 11:15 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:892fe34e-5c01-4c8b-800f-ef75e4e8371d@skyland
+UID:bb:MountSaintMaryAcademy:432c267c-19ff-4a38-917c-ed6031c4686d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T123000
@@ -1528,6 +1528,24 @@ DTEND;TZID=America/New_York:20261002T143000
 SUMMARY:Mount Saint Mary Academy vs Somerville High School (Junior Varsit
  y Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 12:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100871446@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T151500
+DTEND;TZID=America/New_York:20261002T171500
+SUMMARY:Somerville High School at Mount Saint Mary Academy (Varsity Girls
+  Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100871425@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T163000
+DTEND;TZID=America/New_York:20261002T183000
+SUMMARY:Somerville High School at Mount Saint Mary Academy (Junior Varsit
+ y Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100192895@skyland-conference
@@ -1555,15 +1573,6 @@ SUMMARY:Somerville High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100871446@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T100000
-DTEND;TZID=America/New_York:20261003T120000
-SUMMARY:Somerville High School at Mount Saint Mary Academy (Varsity Girls
-  Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104396671@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T110000
@@ -1571,15 +1580,6 @@ DTEND;TZID=America/New_York:20261003T130000
 SUMMARY:Somerville High School at Cranford High School (Freshman Boys Foo
  tball)
 DESCRIPTION:Freshman Boys Football - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:100871425@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T111500
-DTEND;TZID=America/New_York:20261003T131500
-SUMMARY:Somerville High School at Mount Saint Mary Academy (Junior Varsit
- y Girls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 11:15 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7662433@skyland-conference
@@ -2282,7 +2282,7 @@ SUMMARY:Somerville High School vs Nottingham High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:90347c23-4a7d-45db-8bef-87d6633f4d97@skyland
+UID:bb:MountSaintMaryAcademy:d79243d1-9dd7-4335-b763-0b54ecd144c2@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T120000
@@ -2292,7 +2292,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0f28868a-09d6-4754-a514-4ab6e2309827@skyland
+UID:bb:MountSaintMaryAcademy:316ed447-f617-4e91-8703-60404e47fe4b@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T131500
