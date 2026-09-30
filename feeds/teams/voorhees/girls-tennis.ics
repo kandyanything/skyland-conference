@@ -267,11 +267,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102666015@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
+DTSTART;TZID=America/New_York:20260930T143000
+DTEND;TZID=America/New_York:20260930T163000
 SUMMARY:Voorhees High School at Pascack Valley High School (Varsity Girls
   Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103491314@skyland-conference
@@ -383,7 +383,7 @@ SUMMARY:Voorhees High School at Watchung Hills Reg High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:6fc00a36-9fbb-4794-abfc-071d8a834d38@skyland
+UID:bb:MountSaintMaryAcademy:1a84cbd1-eae3-4db4-b336-4206617a708e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -393,7 +393,7 @@ SUMMARY:Mount Saint Mary Academy vs Voorhees High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:836c3f9b-a13d-4396-aba2-8d2e39420d55@skyland
+UID:bb:MountSaintMaryAcademy:a67dac64-7fc9-4b4d-8776-8204c32c92bd@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000

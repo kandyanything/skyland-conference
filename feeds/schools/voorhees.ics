@@ -1813,11 +1813,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102666015@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260930
-DTEND;VALUE=DATE:20261001
+DTSTART;TZID=America/New_York:20260930T143000
+DTEND;TZID=America/New_York:20260930T163000
 SUMMARY:Voorhees High School at Pascack Valley High School (Varsity Girls
   Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103704857@skyland-conference
@@ -2173,7 +2173,7 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:99e3c1ab-5468-43e4-b0e9-b2cf53cc2de5@skyland
+UID:bb:MountSaintMaryAcademy:38cc3a97-4a9a-4523-826d-c94e563c37bf@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2183,7 +2183,7 @@ SUMMARY:Mount Saint Mary Academy at Voorhees High School (Girls RESCHEDUL
 DESCRIPTION:Girls RESCHEDULED - 10/7/26 JV Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a6969cf7-88dc-4ba4-bafe-2f8b373088dd@skyland
+UID:bb:MountSaintMaryAcademy:a53d352e-e922-46e2-9855-7ce93b5f873d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2525,7 +2525,7 @@ SUMMARY:Voorhees High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:6fc00a36-9fbb-4794-abfc-071d8a834d38@skyland
+UID:bb:MountSaintMaryAcademy:1a84cbd1-eae3-4db4-b336-4206617a708e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -2535,7 +2535,7 @@ SUMMARY:Mount Saint Mary Academy vs Voorhees High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:836c3f9b-a13d-4396-aba2-8d2e39420d55@skyland
+UID:bb:MountSaintMaryAcademy:a67dac64-7fc9-4b4d-8776-8204c32c92bd@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
