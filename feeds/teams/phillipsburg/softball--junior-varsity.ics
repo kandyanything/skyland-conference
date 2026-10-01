@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104427951@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270323T160000
+DTEND;TZID=America/New_York:20270323T180000
+SUMMARY:Phillipsburg High School vs Somerville High School (Junior Varsit
+ y Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102485169@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270403T110000
@@ -42,12 +51,29 @@ SUMMARY:Phillipsburg High School at Nazareth Area HS/MS (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Softball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104427935@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T100000
+DTEND;TZID=America/New_York:20270417T120000
+SUMMARY:Phillipsburg High School vs TBD (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102126352@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270507T160000
 DTEND;TZID=America/New_York:20270507T180000
 SUMMARY:Phillipsburg High School vs Easton Area High School (Junior Varsi
  ty Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104427933@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270514T160000
+DTEND;TZID=America/New_York:20270514T180000
+SUMMARY:Phillipsburg High School vs Hunterdon Central Reg. High School (J
+ unior Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -1856,15 +1856,6 @@ SUMMARY:Phillipsburg High School at Voorhees High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:98765902@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Phillipsburg High School at Voorhees High School (Varsity Girls G
- irls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103222019@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
@@ -1918,6 +1909,15 @@ DTEND;TZID=America/New_York:20261001T193000
 SUMMARY:Phillipsburg High School at Voorhees High School (Junior Varsity 
  Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98765902@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T173000
+DTEND;TZID=America/New_York:20261001T193000
+SUMMARY:Phillipsburg High School at Voorhees High School (Varsity Girls G
+ irls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7334688@skyland-conference
@@ -2174,7 +2174,7 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e975cde7-b53d-496a-b638-d5d4f8317250@skyland
+UID:bb:MountSaintMaryAcademy:a8702920-58c6-4811-8199-6ea638a5aaa1@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2184,7 +2184,7 @@ SUMMARY:Mount Saint Mary Academy at Voorhees High School (Girls RESCHEDUL
 DESCRIPTION:Girls RESCHEDULED - 10/7/26 JV Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:79f35190-d9b3-4223-b8a5-d2020c120672@skyland
+UID:bb:MountSaintMaryAcademy:4bb566e0-41e4-4fc4-b2dd-633bb003d63d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -2526,7 +2526,7 @@ SUMMARY:Voorhees High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:381979ed-b0b2-47ab-ad8c-1e361b90693b@skyland
+UID:bb:MountSaintMaryAcademy:fb308610-a00e-4234-b24b-dfaecc0d4399@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -2536,7 +2536,7 @@ SUMMARY:Mount Saint Mary Academy vs Voorhees High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:b6f6a090-f7b6-47cb-a9e6-f38f19a097e8@skyland
+UID:bb:MountSaintMaryAcademy:c144ed80-c4bc-48f6-b8a6-dddb0ee0da7c@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -4453,6 +4453,24 @@ DTEND;TZID=America/New_York:20270401T180000
 SUMMARY:North Hunterdon High School vs Voorhees High School (Varsity Boys
   Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104427721@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Phillipsburg High School vs Voorhees High School (Junior Varsity 
+ Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104427614@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Phillipsburg High School vs Voorhees High School (Varsity Boys Ba
+ seball)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103375113@skyland-conference
