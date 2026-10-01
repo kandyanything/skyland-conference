@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104430860@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T161500
+DTEND;TZID=America/New_York:20261217T181500
+SUMMARY:Watchung Hills Regional H.S. at Oratory Prep School (Varsity Boys
+  Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103804892@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261220T154500
@@ -62,11 +71,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:103476580@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T163000
-DTEND;TZID=America/New_York:20270122T183000
+DTSTART;TZID=America/New_York:20270122T170000
+DTEND;TZID=America/New_York:20270122T190000
 SUMMARY:Watchung Hills Regional H.S. at Montclair High School (Varsity Bo
  ys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:30 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103950682@skyland-conference
@@ -76,5 +85,23 @@ DTEND;TZID=America/New_York:20270127T181500
 SUMMARY:Watchung Hills Regional H.S. at East Brunswick High School (Varsi
  ty Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104431166@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T204500
+DTEND;TZID=America/New_York:20270204T224500
+SUMMARY:Watchung Hills Regional H.S. at Hoboken High School (Varsity Boys
+  Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104431207@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:Watchung Hills Regional H.S. at Lenape High School (Varsity Boys 
+ Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away
 END:VEVENT
 END:VCALENDAR
