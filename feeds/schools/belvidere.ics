@@ -932,11 +932,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104427498@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261003
-DTEND;VALUE=DATE:20261004
+DTSTART;TZID=America/New_York:20261003T140000
+DTEND;TZID=America/New_York:20261003T160000
 SUMMARY:Belvidere High School vs Kittatinny Regional High School (Varsity
   Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7441419@skyland-conference
@@ -1003,7 +1003,7 @@ SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Varsity C
 DESCRIPTION:Varsity Coed Coed Cross Country - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:dd50acdb-c642-4e7d-8d15-9ade0fbcc0da@skyland
+UID:bb:MountSaintMaryAcademy:0d0e7334-d5b7-4517-8cde-3d74534ce7c0@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
