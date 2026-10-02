@@ -633,7 +633,36 @@ async function main() {
     const merged = new Map(existing.map(n => [n.url, n]));
     for (const c of fresh) merged.set(c.url, c);  // fresh data wins
 
-    const sorted = [...merged.values()]
+    // One story, many hosts. The USA Today Network republishes the same
+    // article across app.com / northjersey.com / mycentraljersey.com /
+    // dailyrecord.com / courierpostonline.com under an identical path and
+    // numeric story id, so keying on the full url kept every copy and the same
+    // headline appeared twice. Key on the path, falling back to the headline
+    // for outlets that rewrite the slug.
+    function storyKey(n) {
+        try {
+            const u = new URL(n.url);
+            const id = u.pathname.match(/\/(\d{6,})\/?$/);
+            if (id) return 'id:' + id[1];
+            return 'path:' + u.pathname.replace(/\/+$/, '').toLowerCase();
+        } catch {
+            return 'url:' + String(n.url || '').toLowerCase();
+        }
+    }
+    function titleKey(n) {
+        return String(n.title || '').toLowerCase().replace(/[^a-z0-9]+/g, ' ').trim();
+    }
+    function dedupe(list) {
+        const seenStory = new Set(), seenTitle = new Set(), out = [];
+        for (const n of list) {
+            const sk = storyKey(n), tk = titleKey(n);
+            if (seenStory.has(sk) || (tk && seenTitle.has(tk))) continue;
+            seenStory.add(sk); if (tk) seenTitle.add(tk);
+            out.push(n);
+        }
+        return out;
+    }
+    const sorted = dedupe([...merged.values()])
         .filter(n => n.date)
         .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
         .slice(0, MAX_ITEMS);
