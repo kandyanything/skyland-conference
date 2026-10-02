@@ -257,12 +257,16 @@ var PAINT_START=B2+5300, PAINT_FULL=B2+7900; // 450ms visible site gap + 2600ms 
 var HOLD_END=B2+9900, REVEAL_END=B2+10700, DONE=B2+10950;
 
 // ── frame loop ────────────────────────────────────────────────────────────
-var t0=null, rafId=null;
+var t0=null, rafId=null, waitStart=null;
 
 function frame(ts){
+    // Two clocks. waitStart bounds how long we wait for the images; t0 is the
+    // ANIMATION clock and must not start until we are actually drawing, or the
+    // sequence begins however many milliseconds the images took to load.
+    if(waitStart===null) waitStart=ts;
+    if(!loaded() && ts-waitStart<3000){ rafId=requestAnimationFrame(frame); return; }
     if(!t0) t0=ts;
     var now=ts-t0;
-    if(!loaded()&&now<3000){ rafId=requestAnimationFrame(frame); return; }
     if(!DRIP_DATA) initDripData();
     if(!paintCols) initPaintCols();
 
@@ -386,7 +390,22 @@ function frame(ts){
 
 function initPaintCols(){ initPaint(); } // alias
 
+function dropIntroVeils(){
+    var ids = (cfg.introId ? [cfg.introId] : [])
+        .concat(['bnc-intro','njac-intro','sec-intro','UCIAC-intro','skyland-intro','ucc-intro']);
+    ids.forEach(function(id){
+        var el = document.getElementById(id);
+        if(el && el !== cv && el.parentNode){ el.parentNode.removeChild(el); }
+    });
+}
+
 function finish(){
+    escapeHatch(false);   // stop intercepting clicks once we are done
+    // Take the regular intro with us. It is a separate full-screen veil that
+    // redesign-intro.js re-attaches on DOMContentLoaded, so it is usually still
+    // there, animating underneath. Without this, clicking only reveals it and
+    // the viewer never reaches the site.
+    dropIntroVeils();
     if(rafId) cancelAnimationFrame(rafId);
     try{ sessionStorage.setItem('po_oct_2026','1'); }catch(_){}
     cv.style.transition='opacity 0.5s ease';
@@ -394,7 +413,19 @@ function finish(){
     setTimeout(function(){ if(cv.parentNode) cv.parentNode.removeChild(cv); },550);
 }
 
-cv.addEventListener('click',finish);
+// A click anywhere must end the intro, even if something has stacked itself
+// above the canvas. Capture phase on document runs before any element-level
+// handler in the tree, so nothing can swallow it.
+function onAnyClick(e){ finish(); }
+function onKey(e){ if(e.key === "Escape" || e.key === "Enter" || e.key === " ") finish(); }
+function escapeHatch(on){
+    var m = on ? "addEventListener" : "removeEventListener";
+    document[m]("pointerdown", onAnyClick, true);
+    document[m]("click", onAnyClick, true);
+    document[m]("keydown", onKey, true);
+}
+cv.addEventListener("click", finish);
+escapeHatch(true);
 setTimeout(finish,14000); // DONE = ~12s; 14s safety net
 rafId=requestAnimationFrame(frame);
 })();

@@ -89,15 +89,16 @@ function parseDateTime(isoStr) {
 
 // Extract all <tr> row bodies from the table.
 function extractRows(html) {
-    const tableM = html.match(/<table[^>]*class="[^"]*fsEventTable[^"]*"[^>]*>([\s\S]*?)<\/table>/i);
-    if (!tableM) return [];
-    const tbody = tableM[1];
-
+    // Every fsEventTable on the page, not just the first. A school may split
+    // its schedule across several tables (Princeton Day uses three); reading
+    // only the first drops the rest with no error and no sign in the report.
     const rows = [];
-    const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
-    let m;
-    while ((m = rowRe.exec(tbody)) !== null) {
-        rows.push(m[1]);
+    const tableRe = /<table[^>]*class="[^"]*fsEventTable[^"]*"[^>]*>([\s\S]*?)<\/table>/gi;
+    let t;
+    while ((t = tableRe.exec(html)) !== null) {
+        const rowRe = /<tr[^>]*>([\s\S]*?)<\/tr>/gi;
+        let m;
+        while ((m = rowRe.exec(t[1])) !== null) rows.push(m[1]);
     }
     return rows;
 }

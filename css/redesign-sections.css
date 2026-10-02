@@ -886,3 +886,99 @@
     .score-track { animation: none; flex-wrap: nowrap; overflow-x: auto; }
 }
 @media (max-width: 600px) { .score-card { min-width: 176px; } }
+
+
+/* ==========================================================================
+   Social wall. Tabs switch platform; "All" lays them side by side on wide
+   screens and stacks below 720px. The Facebook Page Plugin has a fixed
+   intrinsic width (500px max), so the grid tracks are sized to it rather
+   than stretching the iframe, which would letterbox it.
+
+   Every colour comes from the site's own tokens with a fallback, so this
+   block is identical on all sites and still picks up each conference's
+   palette. Nothing here renders unless data/social.json enables a platform —
+   redesign-social.js removes the whole section when none is enabled.
+   ========================================================================== */
+.njac-social .social-tabs {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin: 0 0 18px;
+}
+
+.njac-social .social-tab {
+    appearance: none;
+    border: 1px solid var(--line, #dcdfe5);
+    background: var(--white, #fff);
+    color: var(--ink, #15181d);
+    font: inherit;
+    font-weight: 600;
+    padding: 8px 16px;
+    border-radius: 999px;
+    cursor: pointer;
+    transition: background .18s ease, color .18s ease, border-color .18s ease;
+}
+
+.njac-social .social-tab:hover { border-color: var(--navy-600, var(--accent, #2c3e60)); }
+
+.njac-social .social-tab.is-active {
+    background: var(--navy-800, var(--accent, #1b2740));
+    border-color: var(--navy-800, var(--accent, #1b2740));
+    color: var(--white, #fff);
+}
+
+.njac-social .social-tab:focus-visible {
+    outline: 2px solid var(--red, var(--accent, #b3202c));
+    outline-offset: 2px;
+}
+
+.njac-social .social-panel { display: grid; gap: 20px; }
+
+.njac-social .social-panel--grid {
+    grid-template-columns: repeat(auto-fit, minmax(300px, 500px));
+    justify-content: center;
+}
+
+.njac-social .social-feed {
+    background: var(--white, #fff);
+    border: 1px solid var(--line, #dcdfe5);
+    border-radius: var(--radius, 14px);
+    box-shadow: var(--shadow-sm, 0 1px 3px rgba(0,0,0,.08));
+    padding: 14px;
+    overflow: hidden;
+}
+
+.njac-social .social-feed__head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 12px;
+}
+
+.njac-social .social-feed__name { font-weight: 700; }
+
+.njac-social .social-feed__link {
+    font-size: .86rem;
+    color: var(--navy-700, var(--accent, #233351));
+}
+
+.njac-social .social-posts {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+    gap: 12px;
+}
+
+.njac-social .social-empty {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 22px 4px 8px;
+    color: var(--muted, #5d6675);
+}
+
+@media (max-width: 720px) {
+    .njac-social .social-panel--grid { grid-template-columns: 1fr; }
+    .njac-social .social-feed { padding: 10px; }
+}

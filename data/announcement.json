@@ -1,5 +1,5 @@
 {
-  "_comment": "Site-wide pop-up. active:true shows it. id: change whenever posting a NEW message so prior dismissers see it. mode: 'once' = one time per visitor; 'acknowledge' = until they click Don't show again; 'untilDate' = hides itself after endDate (YYYY-MM-DD). linkUrl/linkLabel optional.",
+  "_comment": "Site-wide pop-up. mode 'acknowledge' shows it each visit until the visitor clicks 'Don't show this again'; closing with X or Esc dismisses for that session only. Change 'id' for a NEW message. Other modes: 'once', 'untilDate' (with endDate), 'always'.",
   "active": true,
   "id": "welcome-skyland-2026",
   "eyebrow": "Welcome",
@@ -7,6 +7,6 @@
   "body": "The all-new Skyland Conference site is here. Browse every school's schedule, follow conference standings, explore our championships history, and stay connected all season long.",
   "linkUrl": "#member-schools",
   "linkLabel": "Explore Schools",
-  "mode": "once",
+  "mode": "acknowledge",
   "endDate": ""
 }

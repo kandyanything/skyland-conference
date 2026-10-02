@@ -1,0 +1,25 @@
+{
+  "_comment": "Social wall. Each platform renders behind a tab; \"All\" shows them side by side and hides itself when only one platform is configured. The whole section disappears when nothing is enabled, so it is safe to ship unconfigured. Facebook uses the official Page Plugin: it needs only a PAGE url - no app id, no token, no SDK - and a personal profile cannot be embedded. Instagram profile FEEDS cannot be embedded without a Business account and a Meta access token, so put individual post urls in \"posts\" (single-post embeds work without a token) or leave it empty and the tab shows a link instead. TO GO LIVE: add the url and set enabled to true.",
+  "note": "Follow the conference.",
+  "combinedLabel": "All",
+  "showCombined": true,
+  "platforms": [
+    {
+      "id": "facebook",
+      "label": "Facebook",
+      "enabled": false,
+      "handle": "Skyland Conference",
+      "url": ""
+    },
+    {
+      "id": "instagram",
+      "label": "Instagram",
+      "enabled": false,
+      "handle": "",
+      "url": "",
+      "posts": [],
+      "emptyText": "No posts yet. Follow us for highlights, results and championship coverage.",
+      "cta": "Open Instagram"
+    }
+  ]
+}

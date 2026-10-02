@@ -29,8 +29,17 @@ document.addEventListener('DOMContentLoaded', function () {
         })
         .catch(function () { section.style.display = 'none'; });
 
+    // NFHS Network publishes a real frame from the game itself, derivable from
+    // the game id in the event url. These entries are {url, source:'nfhs'} with
+    // no YouTube id, so the template was building i.ytimg.com/vi/undefined/.
+    function nfhsThumb(url) {
+        var m = String(url || '').match(new RegExp('/(gam[a-z0-9]+)(?:[/?#]|$)', 'i'));
+        return m ? 'https://social.nfhsnetwork.com/thumbnails/' + m[1] + '_nfhs_net.jpg' : '';
+    }
+
     function thumbUrl(v, big) {
         if (v.thumb && /^https?:\/\//i.test(v.thumb)) return v.thumb;
+        if (!v.id && v.url) return nfhsThumb(v.url);
         if (v.id) {
             if (v.thumb) return 'https://i.ytimg.com/vi/' + v.id + '/' + v.thumb + '.jpg';
             return 'https://i.ytimg.com/vi/' + v.id + '/' + (big ? 'maxresdefault' : 'hqdefault') + '.jpg';
@@ -81,6 +90,9 @@ document.addEventListener('DOMContentLoaded', function () {
         }
 
         btn.addEventListener('click', function () {
+            // An NFHS broadcast cannot be embedded the way a YouTube video can,
+            // so send the viewer to the game rather than to a frame that never loads.
+            if (!v.id && v.url) { window.open(v.url, '_blank', 'noopener'); return; }
             if (isExternal) {
                 window.open(v.url, '_blank', 'noopener,noreferrer');
             } else {
