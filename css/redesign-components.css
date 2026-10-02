@@ -408,3 +408,32 @@
 @media (max-width: 600px) {
     .footer-bottom { flex-direction: column; align-items: flex-start; gap: 12px; }
 }
+
+/* ==========================================================================
+   School colours on the directory cards. White, silver and gold are real
+   school colours here, and a white band on a white card is invisible, so the
+   stripe carries a hairline inner edge - a pale band still reads as a band
+   rather than as a gap. It is decoration: drawn with a pseudo-element, so it
+   stays out of the accessibility tree and carries no meaning a screen-reader
+   user would miss.
+   ========================================================================== */
+.directory-card { position: relative; overflow: hidden; }
+
+.directory-card.has-colors::before {
+    content: "";
+    position: absolute;
+    inset-inline-start: 0;
+    inset-block: 0;
+    width: 6px;
+    background: linear-gradient(
+        180deg,
+        var(--school-1) 0 33.33%,
+        var(--school-2) 33.33% 66.66%,
+        var(--school-3) 66.66% 100%);
+    box-shadow: inset -1px 0 0 rgba(0, 0, 0, .14);
+    pointer-events: none;
+}
+
+@media (max-width: 720px) {
+    .directory-card.has-colors::before { width: 5px; }
+}

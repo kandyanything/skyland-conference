@@ -28,6 +28,15 @@ document.addEventListener('DOMContentLoaded', function () {
         var card = document.createElement('article');
         card.className = 'directory-card';
 
+        // School colours drive an accent stripe. Up to three, falling back to
+        // the conference accent when a school has none on file.
+        if (Array.isArray(d.colors) && d.colors.length) {
+            card.classList.add("has-colors");
+            card.style.setProperty("--school-1", d.colors[0]);
+            card.style.setProperty("--school-2", d.colors[1] || d.colors[0]);
+            card.style.setProperty("--school-3", d.colors[2] || d.colors[1] || d.colors[0]);
+        }
+
         if (d.logo) {
             var img = document.createElement('img');
             img.className = 'directory-logo';

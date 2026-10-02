@@ -1,30 +1,320 @@
 {
   "_comment": "Athletic director directory. Fill 'ad'/'email'/'phone' as you get them; a school with a blank 'ad' is skipped on the page. 'logo' is the filename in images/logos/optimized/.",
   "directory": [
-    { "school": "Belvidere High School",            "logo": "belvidere.png",           "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Bernards High School",             "logo": "bernards.png",            "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Bound Brook High School",          "logo": "bound-brook.png",         "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Bridgewater-Raritan High School",  "logo": "bridgewater-raritan.png", "website": "", "ad": "Bill Deniz", "email": "", "phone": "908-231-8660 ext. 6" },
-    { "school": "Delaware Valley Regional H.S.",    "logo": "delaware-valley.png",     "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Franklin High School",             "logo": "franklin.png",            "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Gill St. Bernard's School",        "logo": "gill-st-bernards.png",    "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Hillsborough High School",         "logo": "hillsborough.png",        "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Hunterdon Central Regional H.S.",  "logo": "hunterdon-central.png",   "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Immaculata High School",           "logo": "immaculata.png",          "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Manville High School",             "logo": "manville.png",            "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Montgomery High School",           "logo": "montgomery.png",          "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Mount Saint Mary Academy",         "logo": "mount-saint-mary.png",    "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "North Hunterdon High School",      "logo": "north-hunterdon.png",     "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "North Plainfield High School",     "logo": "north-plainfield.png",    "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "North Warren Regional H.S.",       "logo": "north-warren.png",        "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Phillipsburg High School",         "logo": "phillipsburg.png",        "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "The Pingry School",                "logo": "pingry.png",              "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Ridge High School",                "logo": "ridge.png",               "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Rutgers Preparatory School",       "logo": "rutgers-prep.png",        "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Somerville High School",           "logo": "somerville.png",          "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "South Hunterdon Regional H.S.",    "logo": "south-hunterdon.png",     "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Voorhees High School",             "logo": "voorhees.png",            "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Warren Hills Regional H.S.",       "logo": "warren-hills.png",        "website": "", "ad": "", "email": "", "phone": "" },
-    { "school": "Watchung Hills Regional H.S.",     "logo": "watchung-hills.png",      "website": "", "ad": "", "email": "", "phone": "" }
+    {
+      "school": "Belvidere High School",
+      "logo": "belvidere.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#cf001e",
+        "#fcfefd"
+      ]
+    },
+    {
+      "school": "Bernards High School",
+      "logo": "bernards.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#9d2320",
+        "#ffffff"
+      ]
+    },
+    {
+      "school": "Bound Brook High School",
+      "logo": "bound-brook.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#040606",
+        "#ec222a",
+        "#d6d7d9"
+      ]
+    },
+    {
+      "school": "Bridgewater-Raritan High School",
+      "logo": "bridgewater-raritan.png",
+      "website": "",
+      "ad": "Bill Deniz",
+      "email": "",
+      "phone": "908-231-8660 ext. 6",
+      "colors": [
+        "#000000",
+        "#999999",
+        "#da1b3c"
+      ]
+    },
+    {
+      "school": "Delaware Valley Regional H.S.",
+      "logo": "delaware-valley.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#f4b918",
+        "#142a50"
+      ]
+    },
+    {
+      "school": "Franklin High School",
+      "logo": "franklin.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#091f40",
+        "#fdd106"
+      ]
+    },
+    {
+      "school": "Gill St. Bernard's School",
+      "logo": "gill-st-bernards.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#231f20",
+        "#0168a5",
+        "#a8b2b8"
+      ]
+    },
+    {
+      "school": "Hillsborough High School",
+      "logo": "hillsborough.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#800001",
+        "#1f4285",
+        "#e3be77"
+      ]
+    },
+    {
+      "school": "Hunterdon Central Regional H.S.",
+      "logo": "hunterdon-central.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#020202",
+        "#dd0432",
+        "#fbfafa"
+      ]
+    },
+    {
+      "school": "Immaculata High School",
+      "logo": "immaculata.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#20205f",
+        "#030354",
+        "#ffffff"
+      ]
+    },
+    {
+      "school": "Manville High School",
+      "logo": "manville.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#ffc311",
+        "#3523e3"
+      ]
+    },
+    {
+      "school": "Montgomery High School",
+      "logo": "montgomery.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#2b5946",
+        "#fbe302"
+      ]
+    },
+    {
+      "school": "Mount Saint Mary Academy",
+      "logo": "mount-saint-mary.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#0b2868",
+        "#fbfbfc",
+        "#bb1845"
+      ]
+    },
+    {
+      "school": "North Hunterdon High School",
+      "logo": "north-hunterdon.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#004228",
+        "#e7b021",
+        "#ffffff"
+      ]
+    },
+    {
+      "school": "North Plainfield High School",
+      "logo": "north-plainfield.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#630e23",
+        "#e5dddf",
+        "#ffffff"
+      ]
+    },
+    {
+      "school": "North Warren Regional H.S.",
+      "logo": "north-warren.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#c21844",
+        "#03245b",
+        "#f9fcfc"
+      ]
+    },
+    {
+      "school": "Phillipsburg High School",
+      "logo": "phillipsburg.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#9a9a99",
+        "#5c0029",
+        "#010101"
+      ]
+    },
+    {
+      "school": "The Pingry School",
+      "logo": "pingry.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#002855"
+      ]
+    },
+    {
+      "school": "Ridge High School",
+      "logo": "ridge.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#fafdfc",
+        "#045727",
+        "#205939"
+      ]
+    },
+    {
+      "school": "Rutgers Preparatory School",
+      "logo": "rutgers-prep.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#961a41",
+        "#8b7f72",
+        "#ffffff"
+      ]
+    },
+    {
+      "school": "Somerville High School",
+      "logo": "somerville.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#070404",
+        "#fdfcf9",
+        "#190603"
+      ]
+    },
+    {
+      "school": "South Hunterdon Regional H.S.",
+      "logo": "south-hunterdon.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#fcfdfb",
+        "#383983",
+        "#bfc1e0"
+      ]
+    },
+    {
+      "school": "Voorhees High School",
+      "logo": "voorhees.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#770827",
+        "#fbc51f"
+      ]
+    },
+    {
+      "school": "Warren Hills Regional H.S.",
+      "logo": "warren-hills.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#3b37e3",
+        "#fefefb",
+        "#e1e3f4"
+      ]
+    },
+    {
+      "school": "Watchung Hills Regional H.S.",
+      "logo": "watchung-hills.png",
+      "website": "",
+      "ad": "",
+      "email": "",
+      "phone": "",
+      "colors": [
+        "#4f3818",
+        "#fcd704"
+      ]
+    }
   ]
 }
