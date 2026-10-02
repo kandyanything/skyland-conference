@@ -996,14 +996,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102472682@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261007
-DTEND;VALUE=DATE:20261008
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
 SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Varsity C
  oed Coed Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:f6dad602-bccd-4b19-9193-ededfd839fd6@skyland
+UID:bb:MountSaintMaryAcademy:89f02d54-693c-4ca6-99e2-83cd9cc64d2d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
