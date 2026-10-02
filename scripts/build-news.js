@@ -134,10 +134,53 @@ const DENY_HOSTS = [
 
 const OG_BLOCKED = ['nj.com'];
 
-// Title must contain at least one sports-related word to be published.
-// This prevents crime, politics, and general local news from slipping through
-// when a conference school name appears in the dateline or article body.
-const SPORTS_TERMS_RE = /\b(soccer|football|basketball|baseball|softball|wrestling|swimming|tennis|lacrosse|volleyball|cross[- ]country|track|field hockey|golf|gymnastics|bowling|fencing|skiing|hockey|rugby|crew|cheerleading|athlete|athletic|athletics|varsity|coaches?|coaching|playoff|championship|tournament|recruit|stat(s)?|sport(s)?|season|rankings?|all-state|all-conference|shutout|hat.trick|assists?|roster|scorer|scoring|goals?|win|wins|victory|defeats?|beats?|standout|signing day|mvp|game|match)\b/i;
+// A conference site is read by students, parents and prospective families, so
+// it does not surface arrests, hazing, abuse, lawsuits, deaths, weapons, hate
+// speech or substance stories. Those are legitimate high-school sports
+// coverage; they are just not what this site is for.
+//
+// Every rule is a phrase or a word with no innocent sports reading, because
+// ordinary sports writing is violent by convention: teams KILL it, CRUSH,
+// DESTROY, HAMMER, BURY and SLAUGHTER; players SHOOT and FIGHT for position;
+// games reach SUDDEN DEATH and a SHOOTOUT. "sudden death" is exempted by
+// lookbehind - it was the one false positive a 28-headline corpus of normal
+// coverage turned up.
+const SCHOOL_UNSAFE = [
+    /\barrest(ed|s)?\b/i, /\bcharged with\b/i, /\bindicted\b/i, /\bconvicted\b/i,
+    /\bplead(s|ed)? guilty\b/i, /\bsentenced to\b/i, /\blawsuit\b/i, /\bsue[sd]\b/i,
+    /\bcriminal\b/i, /\bfelony\b/i, /\bmisdemeanou?r\b/i,
+    /\bhazing\b/i, /\bbullying\b/i, /\bharassment\b/i, /\bmisconduct\b/i,
+    /\babuse[ds]?\b/i, /\babusive\b/i, /\bsexual\b/i, /\bmolest/i, /\bgrooming\b/i,
+    /\bassault(ed|ing)?\b/i, /\bpredator\b/i,
+    /\bracist\b/i, /\bracial slur\b/i, /\bslurs?\b/i, /\bhomophobic\b/i,
+    /\bantisemit/i, /\bhate (speech|crime)\b/i,
+    /\boverdose\b/i, /\bDUI\b/, /\bDWI\b/, /\bdrunk\b/i, /\bmarijuana\b/i,
+    /\bvaping\b/i, /\bsteroids?\b/i, /\bdoping\b/i,
+    /\bdied\b/i, /(?<!sudden )\bdeaths?\b/i, /\bfatal(ly)?\b/i, /\bkilled in\b/i,
+    /\bobituary\b/i, /\bin memoriam\b/i, /\bmourns?\b/i,
+    /\bgun\b/i, /\bfirearm\b/i, /\bweapons?\b/i, /\bstabb(ed|ing)\b/i,
+    /\bshooting at\b/i, /\bschool shooting\b/i, /\blockdown\b/i, /\bbomb threat\b/i,
+    /\bthreatened\b/i, /\bdeath threat/i,
+    /\ballegations?\b/i, /\balleged(ly)?\b/i, /\binvestigation\b/i, /\bprobe\b/i,
+    /\bsuspend(ed|s|ing)\b/i, /\bexpelled\b/i, /\bresign(ed|s|ation)\b/i,
+    /\bfired\b/i, /\bstepped down\b/i, /\bforfeit(ed|s)?\b/i, /\bineligible\b/i,
+    /\bsanctions?\b/i, /\bviolation\b/i,
+];
+function schoolUnsafe(text) {
+    for (const re of SCHOOL_UNSAFE) if (re.test(text)) return true;
+    return false;
+}
+
+// A story qualifies on a real sport, a competition noun, or statistical
+// vocabulary - NOT on bare "win"/"game"/"athletic", which the previous list
+// accepted and which let a lottery result and a powerlifting gym opening
+// publish after they happened to name a member town.
+const SPORTS_TERMS_RE = /\b(soccer|football|basketball|baseball|softball|wrestling|swimming|swim|tennis|lacrosse|volleyball|cross[- ]country|field hockey|ice hockey|golf|gymnastics|bowling|fencing|skiing|rugby|crew|cheerleading|cheer|track and field|water polo|diving|varsity|playoffs?|championships?|tournament|sectional|all[- ]state|all[- ]conference|all[- ]area|mvp|players? of the week|athlete of the week|stat leaders?|stats leaders?|season stats|rankings?|recruit(ing|s)?|signing day|shutout|hat[- ]trick|scoreboard|roundup|head coach|coaches?|athletic director|invitational|relays|conference title|state final|semifinals?|quarterfinals?|yards|touchdowns?|rushing|passing|receptions?|strikeouts?|home runs?|rebounds?|career[- ]high|doubleheader|overtime|innings?|goalkeeper|penalty kick)\b/i;
+
+// Local genres that name schools and towns constantly and are never school
+// sport. Checked separately so a story cannot qualify on a sport word while
+// actually being about a restaurant opening or a council vote.
+const OFF_TOPIC_RE = /\b(lottery|powerball|mega ?millions|jackpot|winning numbers|real estate|for sale|open house|restaurant|menu|brewery|dispensary|retail|storefront|grand opening|ribbon cutting|borough council|township committee|board of education meeting|zoning|planning board|ordinance|budget vote|tax rate|traffic|road work|detour|power outage|snow day|closings?|obituar(y|ies)|wedding|election|ballot|referendum|gym (opens|opening)|fitness (studio|center))\b/i;
 
 const OUTLET_NAMES = {
     'nj.com':              'NJ.com',
@@ -348,7 +391,9 @@ function classify(title, preview, url) {
         && (onSources || NJ_MARKER.test(text) || NJ_FULL.test(text));
 
     if (!confHit && !schoolHit) return null;
-    if (!SPORTS_TERMS_RE.test(title)) return null;
+    if (!SPORTS_TERMS_RE.test(title) || OFF_TOPIC_RE.test(title)) return null;
+        // not for a school audience - see SCHOOL_UNSAFE above
+        if (schoolUnsafe(title) || schoolUnsafe(preview || "")) return null;
     return { schoolName };
 }
 
@@ -567,6 +612,7 @@ async function main() {
         existing = (raw.news || []).filter(n => {
             if (!n || !n.title || !n.url) return false;
             if (!SPORTS_TERMS_RE.test(n.title)) return false;
+            if (OFF_TOPIC_RE.test(n.title) || schoolUnsafe(n.title)) return false;
             // Re-check the URL too, not just the text. A filter that applies
             // only to incoming items can never remove what it let through
             // before, so anything already published outlives the fix.
