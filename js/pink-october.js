@@ -10,6 +10,7 @@ try { if (sessionStorage.getItem('po_oct_2026')) return; } catch (_) {}
 
 // ── canvas ────────────────────────────────────────────────────────────────
 var cv = document.createElement('canvas');
+cv.id = 'po-intro';   // redesign-announce.js waits on this id before opening the pop-up
 cv.style.cssText = 'position:fixed;inset:0;z-index:2147483647;width:100%;height:100%;cursor:pointer;display:block;';
 document.documentElement.appendChild(cv);
 var ctx = cv.getContext('2d');
