@@ -826,7 +826,7 @@ SUMMARY:Belvidere High School at Manville High School (Varsity Boys Footb
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e71c1125-7627-431c-8c59-6e90e1f9815f@skyland
+UID:bb:MountSaintMaryAcademy:6362adec-79c6-4aeb-91e3-a4b6c273ad21@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T060000
@@ -1867,11 +1867,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102424837@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261230
-DTEND;VALUE=DATE:20261231
+DTSTART;TZID=America/New_York:20261230T090000
+DTEND;TZID=America/New_York:20261230T110000
 SUMMARY:Manville High School at East Brunswick High School (Varsity Girls
   Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101772843@skyland-conference
@@ -1899,6 +1899,15 @@ DTEND;TZID=America/New_York:20270105T191500
 SUMMARY:Bound Brook High School vs Manville High School (Junior Varsity B
  oys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101189774@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T173000
+DTEND;TZID=America/New_York:20270105T193000
+SUMMARY:Manville High School at Bound Brook High School (Junior Varsity B
+ oys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101193852@skyland-conference
@@ -2025,15 +2034,6 @@ DTEND;TZID=America/New_York:20270109T120000
 SUMMARY:Manville High School vs Keyport High School (Varsity Girls Girls 
  Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101043983@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T110000
-DTEND;TZID=America/New_York:20270109T130000
-SUMMARY:Manville High School at Haddon Township High School (Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102424937@skyland-conference
@@ -2182,20 +2182,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:101198245@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T160000
-DTEND;TZID=America/New_York:20270115T180000
+DTSTART;TZID=America/New_York:20270115T161500
+DTEND;TZID=America/New_York:20270115T181500
 SUMMARY:Manville High School vs Delaware Valley Regional H.S. (Junior Var
  sity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:101198227@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270115T173000
-DTEND;TZID=America/New_York:20270115T193000
-SUMMARY:Manville High School vs Delaware Valley Regional H.S. (Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7448510@skyland-conference
@@ -2205,6 +2196,15 @@ DTEND;TZID=America/New_York:20270115T200000
 SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
  rls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101198227@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T180000
+DTEND;TZID=America/New_York:20270115T200000
+SUMMARY:Manville High School vs Delaware Valley Regional H.S. (Varsity Gi
+ rls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101780455@skyland-conference
@@ -2634,15 +2634,6 @@ DTEND;TZID=America/New_York:20270204T210000
 SUMMARY:Manville High School at Highland Park High School (Varsity Boys B
  oys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102425058@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270204
-DTEND;VALUE=DATE:20270205
-SUMMARY:Manville High School at North Hunterdon High School (Varsity Girl
- s Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100739529@skyland-conference

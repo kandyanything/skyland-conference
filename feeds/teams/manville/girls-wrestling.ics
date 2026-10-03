@@ -68,11 +68,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102424837@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261230
-DTEND;VALUE=DATE:20261231
+DTSTART;TZID=America/New_York:20261230T090000
+DTEND;TZID=America/New_York:20261230T110000
 SUMMARY:Manville High School at East Brunswick High School (Varsity Girls
   Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101846233@skyland-conference
@@ -145,14 +145,5 @@ DTEND;TZID=America/New_York:20270204T200000
 SUMMARY:Manville High School at North Hunterdon High School (Varsity Girl
  s Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102425058@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270204
-DTEND;VALUE=DATE:20270205
-SUMMARY:Manville High School at North Hunterdon High School (Varsity Girl
- s Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
 END:VEVENT
 END:VCALENDAR
