@@ -965,8 +965,29 @@
 
 .njac-social .social-posts {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-    gap: 12px;
+    /* Pinned, not stretched: the frame height is fixed (see below), so a
+       column free to grow would clip the post. */
+    grid-template-columns: repeat(auto-fit, 340px);
+    justify-content: center;
+    gap: 14px;
+}
+
+/* An Instagram /embed/ cannot self-size across origins without Meta's
+   embed.js, which this site does not load. Measured against real posts:
+   594px tall at a 300px column, 644px at 340px, 719px at 400px. 680px at
+   a 340px column clears the tallest with a little headroom. */
+.njac-social .social-post {
+    width: 100%;
+    height: 680px;
+    border: 0;
+    display: block;
+    overflow: hidden;
+    background: var(--white, #fff);
+    border-radius: 3px;
+}
+
+@media (max-width: 400px) {
+    .njac-social .social-posts { grid-template-columns: 1fr; }
 }
 
 .njac-social .social-empty {

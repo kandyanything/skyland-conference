@@ -91,6 +91,18 @@
         if (active.p) select(active.p, active.b); else selectAll(active.b);
     }
 
+
+    // Instagram hands out several url shapes for the same post:
+    //   instagram.com/p/<code>/        instagram.com/reel/<code>/
+    //   instagram.com/<user>/p/<code>/ and any of them with query strings.
+    // They all embed from the canonical /p/<code>/embed/ (reels keep /reel/),
+    // so pull the code out rather than appending to whatever was pasted in.
+    function igEmbedSrc(u) {
+        var m = String(u || '').match(/instagram\.com\/(?:[^\/]+\/)?(p|reel|tv)\/([A-Za-z0-9_-]+)/i);
+        if (!m) return '';
+        return 'https://www.instagram.com/' + m[1].toLowerCase() + '/' + m[2] + '/embed/';
+    }
+
     function buildFeed(p) {
         var box = el('div', 'social-feed');
         box.setAttribute('data-platform', p.id);
@@ -127,20 +139,25 @@
         }
 
         if (p.id === 'instagram' && Array.isArray(p.posts) && p.posts.length) {
-            // Single-post embeds still work without a token; a profile feed does not.
+            // Single-post embeds need no token. A profile FEED still does.
             var grid = el('div', 'social-posts');
             p.posts.forEach(function (u) {
+                var src = igEmbedSrc(u);
+                if (!src) return;
                 var f = document.createElement('iframe');
-                f.src = u.replace(/\/?$/, '/') + 'embed';
+                f.src = src;
                 f.title = 'Instagram post';
-                f.style.cssText = 'border:none;overflow:hidden;width:100%;aspect-ratio:1/1.25;';
+                f.className = 'social-post';
                 f.scrolling = 'no';
                 f.frameBorder = '0';
                 f.loading = 'lazy';
+                f.allow = 'encrypted-media';
                 grid.appendChild(f);
             });
-            box.appendChild(grid);
-            return box;
+            if (grid.children.length) {
+                box.appendChild(grid);
+                return box;
+            }
         }
 
         // Nothing embeddable yet — say so plainly instead of showing a dead frame.
