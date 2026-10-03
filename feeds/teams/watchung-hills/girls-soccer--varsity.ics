@@ -242,10 +242,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104397882@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
+DTSTART;TZID=America/New_York:20261006T183000
+DTEND;TZID=America/New_York:20261006T203000
+SUMMARY:Watchung Hills Regional H.S. vs Somerville High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7478121@skyland-conference
