@@ -1,0 +1,28 @@
+{
+  "_comment": "Schools whose NFHS Network slug cannot be derived from the name. The harvester matches strictly - every distinctive word of the school name must appear as a whole hyphen-separated word in the slug, and no slug may serve two schools - so it refuses rather than guessing, and what it refuses is listed here. Resolve each against the sitemap and pick by event-card count when two records compete. null means the school is genuinely not on NFHS Network.",
+  "conference": "Skyland",
+  "overrides": {
+    "Bernards High School": "bernards-high-school-bernardsville-nj",
+    "Bridgewater-Raritan High School": "bridgewaterraritan-high-school-bridgewater-nj",
+    "Delaware Valley Regional H.S.": "delaware-valley-regional-high-school-frenchtown-nj",
+    "Franklin High School": "franklin-high-school-somerset-nj",
+    "Gill St. Bernard's School": "gillst-bernards-school-gladstone-nj",
+    "Hunterdon Central Regional H.S.": "hunterdon-central-regional-high-flemington-nj",
+    "North Warren Regional H.S.": "north-warren-regional-high-school-blairstown-nj",
+    "Ridge High School": "ridge-high-school-basking-ridge-nj",
+    "Rutgers Preparatory School": "rutgers-prep-school-somerset-nj",
+    "Somerville High School": "somerville-high-school-somerville-nj",
+    "South Hunterdon Regional H.S.": "south-hunterdon-regional-high-school-lambertville-nj",
+    "Voorhees High School": "voorhees-high-school-glen-gardner-nj",
+    "Warren Hills Regional H.S.": "warren-hills-regional-high-school-washington-nj",
+    "Watchung Hills Regional H.S.": "watchung-hills-regional-high-school-warren-nj"
+  },
+  "_notes": {
+    "Warren Hills vs Watchung Hills": "These two sit in each other's towns - Warren Hills Regional is in WASHINGTON, Watchung Hills Regional is in WARREN - and a search for either returns both. Swapping them would publish one school's games on the other's page.",
+    "Bernards vs Gill St. Bernard's": "'bernards' matches both; Gill St. Bernard's is in Gladstone and NFHS writes it 'gillst-bernards'.",
+    "Franklin": "Franklin HS is in Somerset. The other candidate, Ramapo, is in Franklin LAKES and is a Big North school.",
+    "Ridge": "Five slugs contain 'ridge'. Ridge High School is in Basking Ridge; Park Ridge, Glen Ridge and Oak Ridge are different schools entirely.",
+    "Voorhees": "Voorhees HS is in Glen Gardner. Eastern Regional is in the TOWN of Voorhees, in South Jersey.",
+    "H.S. abbreviation": "Seven of this conference's school names end in 'H.S.' rather than 'High School', which is why so many needed an override here compared with other conferences."
+  }
+}
