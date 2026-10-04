@@ -1,54 +1,300 @@
 {
-  "_comment": "Sky Vision videos. Two formats: YouTube (set 'id' = the watch?v= part, plays inline) or NFHS Network (set 'url' = full NFHS event URL and 'source':'nfhs', opens in new tab — NFHS blocks iframe embedding). Optional 'thumb': omit for auto-thumbnail, or use a full image URL. Optional 'date': ISO date string. Order here is display order — first entry is the large feature.",
+  "_comment": "Skyland Vision. NFHS Network broadcasts of member schools, newest first. No \"thumb\" is stored: the renderer derives the broadcast frame from the game id (social.nfhsnetwork.com/thumbnails/<id>_nfhs_net.jpg), and every entry here was checked to have one. Rebuild with scripts/build-nfhs-videos.js.",
+  "generated": "2026-10-04T15:30:18.861Z",
   "videos": [
     {
-      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gamae8b47908b",
+      "url": "https://www.nfhsnetwork.com/events/franklin-high-school-somerset-nj/gam05f3740d88",
       "source": "nfhs",
-      "title": "Voorhees vs Warren Hills — Boys Varsity Football",
-      "sport": "Football",
-      "date": "2026-08-28"
+      "title": "Belvidere vs. Franklin",
+      "date": "2026-10-03",
+      "sport": "Varsity Girls Field Hockey"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam8b7a66617f",
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamd306f8079c",
       "source": "nfhs",
-      "title": "Whippany Park vs Bernards — Girls Varsity Soccer",
-      "sport": "Girls Soccer",
-      "date": "2026-09-04"
+      "title": "Hillsborough vs. Mt. Saint Mary",
+      "date": "2026-10-03",
+      "sport": "Freshman Girls Volleyball"
     },
     {
       "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam18b2bcdf81",
       "source": "nfhs",
-      "title": "Mt. Saint Mary vs Manville — Girls Varsity Soccer",
-      "sport": "Girls Soccer",
-      "date": "2026-09-03"
+      "title": "Manville vs. Mt. Saint Mary",
+      "date": "2026-10-03",
+      "sport": "Varsity Girls Soccer"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gam0d46880810",
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam9d0a2f8262",
       "source": "nfhs",
-      "title": "Freedom vs Phillipsburg — Boys Varsity Football",
-      "sport": "Football",
-      "date": "2026-09-11"
+      "title": "Somerville vs. Mt. Saint Mary",
+      "date": "2026-10-03",
+      "sport": "Junior Varsity Girls Field Hockey"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gam6466a9c8e5",
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gam019d9976c7",
       "source": "nfhs",
-      "title": "Whippany Park vs Somerville — Boys Varsity Soccer",
-      "sport": "Boys Soccer",
-      "date": "2026-08-25"
+      "title": "Phillipsburg vs. Ridge",
+      "date": "2026-10-03",
+      "sport": "Varsity Boys Football"
     },
     {
-      "url": "https://www.nfhsnetwork.com/events/franklin-high-school-somerset-nj/gamfd0e1bb039",
+      "url": "https://www.nfhsnetwork.com/events/whippany-park-high-school-whippany-nj/gama1f0f03614",
       "source": "nfhs",
-      "title": "Franklin vs STAHS — Boys Varsity Football",
-      "sport": "Football",
-      "date": "2026-09-11"
+      "title": "Immaculata vs. Whippany Park",
+      "date": "2026-10-02",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam4819373e0e",
+      "source": "nfhs",
+      "title": "Hun vs. Mt. Saint Mary",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam5659f4d888",
+      "source": "nfhs",
+      "title": "Somerville vs. Mt. Saint Mary",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam5d421a2cbf",
+      "source": "nfhs",
+      "title": "Warren Hills vs. Mt. Saint Mary",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gamd16eba36e3",
+      "source": "nfhs",
+      "title": "Easton vs. Phillipsburg",
+      "date": "2026-10-02",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gama43ba13ce6",
+      "source": "nfhs",
+      "title": "North Hunterdon vs. Mt. Saint Mary",
+      "date": "2026-10-01",
+      "sport": "Freshman Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gam5d8fc46a01",
+      "source": "nfhs",
+      "title": "N. Plainfield vs. Voorhees",
+      "date": "2026-10-01",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamabd7c636bb",
+      "source": "nfhs",
+      "title": "Roselle Cath. vs. Mt. Saint Mary",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
     },
     {
       "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamf04e486db4",
       "source": "nfhs",
-      "title": "Mt. Saint Mary vs North Hunterdon — Girls Varsity Volleyball",
-      "sport": "Girls Volleyball",
-      "date": "2026-09-10"
+      "title": "North Hunterdon vs. Mt. Saint Mary",
+      "date": "2026-09-29",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamd54cbf4c03",
+      "source": "nfhs",
+      "title": "Roselle Cath. vs. Mt. Saint Mary",
+      "date": "2026-09-28",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam6052a480fb",
+      "source": "nfhs",
+      "title": "Bound Brook vs. Mt. Saint Mary",
+      "date": "2026-09-25",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hopewell-valley-central-high-pennington-nj/gamd38f173f51",
+      "source": "nfhs",
+      "title": "Montgomery vs. Hopewell Valley",
+      "date": "2026-09-24",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam79d20eec4e",
+      "source": "nfhs",
+      "title": "Belvidere vs. Mt. Saint Mary",
+      "date": "2026-09-23",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/franklin-high-school-somerset-nj/gam47dc5ba540",
+      "source": "nfhs",
+      "title": "2026 NJSIAA Boys Volleyball Playoffs — Bound Brook vs. Franklin",
+      "date": "2026-09-22",
+      "sport": "Varsity Boys Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gamea81fb3544",
+      "source": "nfhs",
+      "title": "Hillsborough vs. Phillipsburg",
+      "date": "2026-09-22",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam219b273609",
+      "source": "nfhs",
+      "title": "Hillsborough vs. Mt. Saint Mary",
+      "date": "2026-09-18",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hopewell-valley-central-high-pennington-nj/gam01c0836986",
+      "source": "nfhs",
+      "title": "Montgomery vs. Hopewell Valley",
+      "date": "2026-09-18",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gam0d46880810",
+      "source": "nfhs",
+      "title": "Phillipsburg vs. Freedom",
+      "date": "2026-09-18",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gam4045f6e9a2",
+      "source": "nfhs",
+      "title": "Phillipsburg vs. Emmaus",
+      "date": "2026-09-11",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam81c3e18328",
+      "source": "nfhs",
+      "title": "Belvidere vs. Mt. Saint Mary",
+      "date": "2026-09-10",
+      "sport": "Varsity Girls Field Hockey"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gam717e518ddb",
+      "source": "nfhs",
+      "title": "North Hunterdon vs. Mt. Saint Mary",
+      "date": "2026-09-10",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/franklin-high-school-somerset-nj/gam858f9e967e",
+      "source": "nfhs",
+      "title": "N. Plainfield vs. Franklin",
+      "date": "2026-09-10",
+      "sport": "Varsity Boys Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/franklin-high-school-somerset-nj/gamd1714e39c8",
+      "source": "nfhs",
+      "title": "Pingry School vs. Franklin",
+      "date": "2026-09-10",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hopewell-valley-central-high-pennington-nj/gamfb0ff20605",
+      "source": "nfhs",
+      "title": "Immaculata vs. Hopewell Valley",
+      "date": "2026-09-08",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/ramapo-high-school-franklin-lakes-nj/gamd7d31c6aa0",
+      "source": "nfhs",
+      "title": "Pingry School vs. Ramapo",
+      "date": "2026-09-08",
+      "sport": "Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gam2fa4a79cea",
+      "source": "nfhs",
+      "title": "Parkland vs. Phillipsburg",
+      "date": "2026-09-04",
+      "sport": "Varsity Boys Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamf5e5b83d2a",
+      "source": "nfhs",
+      "title": "Hillsborough vs. Mt. Saint Mary",
+      "date": "2026-09-03",
+      "sport": "Junior Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/hopewell-valley-central-high-pennington-nj/gam55877919a8",
+      "source": "nfhs",
+      "title": "Hillsborough vs. Hopewell Valley",
+      "date": "2026-09-03",
+      "sport": "Varsity Girls Volleyball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gama54bcb0318",
+      "source": "nfhs",
+      "title": "Manville vs. Mt. Saint Mary",
+      "date": "2026-09-03",
+      "sport": "Varsity Girls Flag Football"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/garden-state-athletic-network/gam830c4dc987",
+      "source": "nfhs",
+      "title": "2026 NJSIAA District 12 Boys Wrestling Tournament — Final Round",
+      "date": "2026-09-02",
+      "sport": ""
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-olive-high-school-flanders-nj/gamabba9c9bce",
+      "source": "nfhs",
+      "title": "Phillipsburg vs. Mount Olive",
+      "date": "2026-08-28",
+      "sport": "Junior Varsity Boys Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/depaul-catholic-high-school-wayne-nj/gam7584ec28fe",
+      "source": "nfhs",
+      "title": "Immaculata vs. DePaul Catholic",
+      "date": "2026-08-27",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/d1-media-pro/gamdb488d31f7",
+      "source": "nfhs",
+      "title": "Bernards vs. Pingry School",
+      "date": "2026-08-27",
+      "sport": "Varsity Boys Baseball"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/depaul-catholic-high-school-wayne-nj/gam3f2d3004e1",
+      "source": "nfhs",
+      "title": "Immaculata vs. DePaul Catholic",
+      "date": "2026-08-25",
+      "sport": "Varsity Girls Soccer"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamd621dfebaa",
+      "source": "nfhs",
+      "title": "Immaculata vs. Mt. Saint Mary",
+      "date": "2026-08-25",
+      "sport": "Varsity Girls Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/mount-saint-mary-academy-watchung-nj/gamda09772878",
+      "source": "nfhs",
+      "title": "Montgomery vs. Mt. Saint Mary",
+      "date": "2026-08-25",
+      "sport": "Varsity Girls Lacrosse"
+    },
+    {
+      "url": "https://www.nfhsnetwork.com/events/piaa/gam530266641a",
+      "source": "nfhs",
+      "title": "Boys Philly Live 2026-Jefferson University 1 — Hillsborough High School vs. Largo High School",
+      "date": "2026-08-24",
+      "sport": "Varsity Boys Basketball"
     }
   ]
 }
