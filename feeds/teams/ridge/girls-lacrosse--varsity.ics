@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2830:7673428@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T160000
+DTEND;TZID=America/New_York:20270318T180000
+SUMMARY:Ridge High School at West Morris Central High School (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7661839@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270323T160000
@@ -102,5 +111,13 @@ DTEND;VALUE=DATE:20270514
 SUMMARY:Ridge High School at Hillsborough Athletics (Varsity Girls Girls 
  Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7673430@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270522T100000
+DTEND;TZID=America/New_York:20270522T120000
+SUMMARY:Ridge High School vs Trinity Hall (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 10:00 AM
 END:VEVENT
 END:VCALENDAR

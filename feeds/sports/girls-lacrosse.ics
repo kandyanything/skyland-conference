@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2830:7673428@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T160000
+DTEND;TZID=America/New_York:20270318T180000
+SUMMARY:Ridge High School at West Morris Central High School (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7673429@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T173000
+DTEND;TZID=America/New_York:20270318T193000
+SUMMARY:Ridge High School at West Morris Central High School (Junior Vars
+ ity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7644802@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270323T160000
@@ -633,5 +651,22 @@ DTEND;TZID=America/New_York:20270520T193000
 SUMMARY:Hillsborough High School vs Southern Regional High School (Varsit
  y Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7673430@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270522T100000
+DTEND;TZID=America/New_York:20270522T120000
+SUMMARY:Ridge High School vs Trinity Hall (Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7673431@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270522T113000
+DTEND;TZID=America/New_York:20270522T133000
+SUMMARY:Ridge High School vs Trinity Hall (Junior Varsity Girls Girls Lac
+ rosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 11:30 AM
 END:VEVENT
 END:VCALENDAR
