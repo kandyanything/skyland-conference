@@ -1406,7 +1406,7 @@ SUMMARY:South Hunterdon Regional H.S. vs Mount Saint Mary Academy (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e37073ad-c383-4d9a-90a3-358288e00c5c@skyland
+UID:bb:MountSaintMaryAcademy:00a1fedb-2c39-4078-a655-506a3b96e4b1@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -1416,7 +1416,7 @@ SUMMARY:Mount Saint Mary Academy vs South Hunterdon Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Field Hockey - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:2876e785-1223-4249-841a-6d82a4b975da@skyland
+UID:bb:MountSaintMaryAcademy:3b4ee98a-9219-4fc8-b98e-c06eeb11569a@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T131500
@@ -1704,24 +1704,6 @@ DTEND;TZID=America/New_York:20261012T180000
 SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Junior Va
  rsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7568253@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:South Hunterdon Regional H.S. vs Somerville Middle School (Middle
-  School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7568481@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:South Hunterdon Regional H.S. at Somerville Middle School (Middle
-  School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99192047@skyland-conference
@@ -3507,6 +3489,24 @@ SUMMARY:South Hunterdon Regional H.S. vs Central Jersey College Prep Char
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7676764@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T000900
+DTEND;TZID=America/New_York:20270202T020900
+SUMMARY:Bernards High School at South Hunterdon Regional H.S. (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:09 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7676764@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T000900
+DTEND;TZID=America/New_York:20270202T020900
+SUMMARY:South Hunterdon Regional H.S. vs Bernards High School (Varsity Bo
+ ys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:09 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7429464@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270202T153000
@@ -3541,6 +3541,24 @@ DTEND;TZID=America/New_York:20270202T173000
 SUMMARY:South Hunterdon Regional H.S. at Hunterdon Central Regional H.S. 
  (Varsity Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7676771@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:Bernards High School at South Hunterdon Regional H.S. (Junior Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7676771@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270202
+DTEND;VALUE=DATE:20270203
+SUMMARY:South Hunterdon Regional H.S. vs Bernards High School (Junior Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7506150@skyland-conference
