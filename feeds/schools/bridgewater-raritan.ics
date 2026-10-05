@@ -2420,13 +2420,13 @@ SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7562664@skyland-conference
+UID:ds:2665:7466647@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T180000
 DTEND;TZID=America/New_York:20261002T200000
 SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
- l (Varsity Boys Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 6:00 PM
+ l (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7504739@skyland-conference
@@ -2438,13 +2438,13 @@ SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
 DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7466647@skyland-conference
+UID:ds:2665:7562664@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T180000
 DTEND;TZID=America/New_York:20261002T200000
 SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
- l (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+ l (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7503304@skyland-conference
@@ -3104,7 +3104,7 @@ SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:fb2d5adb-df0b-4514-a6cf-cbd565daa57e@skyland
+UID:bb:MountSaintMaryAcademy:27836652-9d43-40b0-860f-64eaedae9dc5@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -3114,7 +3114,7 @@ SUMMARY:Mount Saint Mary Academy at Bridgewater-Raritan High School (Fres
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:9eaf0d0a-c4f9-4de8-992a-12807995ef4c@skyland
+UID:bb:MountSaintMaryAcademy:82022ad7-10e8-410e-848d-ffd4e5fbca96@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -3124,7 +3124,7 @@ SUMMARY:Mount Saint Mary Academy vs Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:6547a669-0fd0-4cdb-aacb-35009d6b8c6b@skyland
+UID:bb:MountSaintMaryAcademy:9fe16fe6-bdbe-47f7-8da5-b686fe5fac7d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T131500
@@ -3566,15 +3566,6 @@ SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
 DESCRIPTION:Varsity Coed Unified Sports Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7586435@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Fres
- hman Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7478137@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
@@ -3584,13 +3575,13 @@ SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Vars
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7551918@skyland-conference
+UID:ds:2653:7508800@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
 DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Fres
- hman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Juni
+ or Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7516732@skyland-conference
@@ -3602,13 +3593,22 @@ SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7508800@skyland-conference
+UID:ds:2653:7551918@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
 DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Juni
- or Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Fres
+ hman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7586435@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Fres
+ hman Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7626885@skyland-conference

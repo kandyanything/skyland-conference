@@ -1328,9 +1328,10 @@ UID:arb:102861442@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
 DTEND;TZID=America/New_York:20261005T181500
-SUMMARY:Somerville High School vs South Hunterdon Regional H.S. (Junior V
- arsity Girls Girls Soccer)
+SUMMARY:[Canceled] Somerville High School vs South Hunterdon Regional H.S
+ . (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:15 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7334742@skyland-conference
@@ -1405,7 +1406,7 @@ SUMMARY:South Hunterdon Regional H.S. vs Mount Saint Mary Academy (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:d6a9bba5-5c25-4f5d-adab-2f366466e552@skyland
+UID:bb:MountSaintMaryAcademy:20145c65-65d9-43cb-83c2-9a0132a497ab@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T120000
@@ -1415,7 +1416,7 @@ SUMMARY:Mount Saint Mary Academy vs South Hunterdon Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Field Hockey - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:5918bb37-a100-4c2f-97a3-f9ac546ff3e9@skyland
+UID:bb:MountSaintMaryAcademy:4bd3d823-b818-4081-b4fb-627f153fb12c@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T131500
@@ -1822,15 +1823,6 @@ SUMMARY:South Hunterdon Regional H.S. at TBD (Varsity Coed Coed Cross Cou
 DESCRIPTION:Varsity Coed Coed Cross Country - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7597992@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Montgomery High School vs South Hunterdon Regional H.S. (Middle S
- chool Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7597969@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
@@ -1838,6 +1830,15 @@ DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Montgomery High School at South Hunterdon Regional H.S. (Middle S
  chool Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7597992@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Montgomery High School vs South Hunterdon Regional H.S. (Middle S
+ chool Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7568007@skyland-conference
