@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2535:7674300@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T053000
+DTEND;TZID=America/New_York:20261215T073000
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Freshman Bo
+ ys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7448397@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T180000
@@ -30,6 +39,15 @@ DTEND;TZID=America/New_York:20261215T200000
 SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
  s Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7674316@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Bernards High School vs Warren Hills Regional School District (Fr
+ eshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102084005@skyland-conference
@@ -95,13 +113,13 @@ SUMMARY:Bernards High School at Hopatcong High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 9:45 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102268685@skyland-conference
+UID:ds:2535:7674323@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Somerville High School vs Bernards High School (Freshman Boys Boy
+SUMMARY:Bernards High School at Somerville High School (Freshman Boys Boy
  s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102268632@skyland-conference
@@ -131,13 +149,13 @@ SUMMARY:Somerville High School vs Bernards High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102264433@skyland-conference
+UID:ds:2535:7674336@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:North Hunterdon High School vs Bernards High School (Freshman Boy
+SUMMARY:Bernards High School at North Hunterdon High School (Freshman Boy
  s Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102264404@skyland-conference
@@ -194,6 +212,33 @@ SUMMARY:Bernards High School at Jonathan Dayton High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7674346@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:Bernards High School at Jonathan Dayton High School (Freshman Boy
+ s Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7674362@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Bernards High School vs Delaware Valley Regional H.S. (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7674362@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Delaware Valley Regional H.S. at Bernards High School (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7448409@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T180000
@@ -210,6 +255,15 @@ DTEND;TZID=America/New_York:20270112T200000
 SUMMARY:Delaware Valley Regional H.S. at Bernards High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7674363@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Freshman Bo
+ ys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7448412@skyland-conference
@@ -248,6 +302,15 @@ SUMMARY:Bernards High School at Arthur L Johnson High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7674364@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T160000
+DTEND;TZID=America/New_York:20270119T180000
+SUMMARY:Bernards High School at Warren Hills Regional School District (Fr
+ eshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102270538@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
@@ -284,13 +347,13 @@ SUMMARY:Warren Hills Regional H.S. vs Bernards High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102084082@skyland-conference
+UID:ds:2535:7674369@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Somerville High School at Bernards High School (Freshman Boys Boy
+SUMMARY:Bernards High School vs Somerville High School (Freshman Boys Boy
  s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102083913@skyland-conference
@@ -320,13 +383,22 @@ SUMMARY:Somerville High School at Bernards High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102084182@skyland-conference
+UID:ds:2535:7674373@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270123
+DTEND;VALUE=DATE:20270124
+SUMMARY:Bernards High School at West Morris Mendham High School (Freshman
+  Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7674377@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
-SUMMARY:North Hunterdon High School at Bernards High School (Freshman Boy
+SUMMARY:Bernards High School vs North Hunterdon High School (Freshman Boy
  s Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102083903@skyland-conference
@@ -356,58 +428,31 @@ SUMMARY:North Hunterdon High School at Bernards High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7572190@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T160000
-DTEND;TZID=America/New_York:20270204T180000
-SUMMARY:Bernards High School at South Hunterdon Regional H.S. (Junior Var
- sity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7572190@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T160000
-DTEND;TZID=America/New_York:20270204T180000
-SUMMARY:South Hunterdon Regional H.S. vs Bernards High School (Junior Var
- sity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7571620@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T173000
-DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Bernards High School at South Hunterdon Regional H.S. (Varsity Bo
- ys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7571620@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T173000
-DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:South Hunterdon Regional H.S. vs Bernards High School (Varsity Bo
- ys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7544396@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270205T100000
-DTEND;TZID=America/New_York:20270205T120000
-SUMMARY:Bernards High School vs Middlesex High School (Junior Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7544284@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270205T113000
-DTEND;TZID=America/New_York:20270205T133000
+DTSTART;TZID=America/New_York:20270205T180000
+DTEND;TZID=America/New_York:20270205T200000
 SUMMARY:Bernards High School vs Middlesex High School (Varsity Boys Boys 
  Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 11:30 AM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7674383@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T160000
+DTEND;TZID=America/New_York:20270209T180000
+SUMMARY:Bernards High School at Delaware Valley Regional H.S. (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7674383@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T160000
+DTEND;TZID=America/New_York:20270209T180000
+SUMMARY:Delaware Valley Regional H.S. vs Bernards High School (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7448424@skyland-conference
