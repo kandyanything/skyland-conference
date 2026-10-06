@@ -1,0 +1,116 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//AthlitIQ//Skyland Conference//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Skyland Conference — North Hunterdon High School Varsity Boy
+ s Golf
+X-WR-TIMEZONE:America/New_York
+BEGIN:VTIMEZONE
+TZID:America/New_York
+BEGIN:DAYLIGHT
+TZOFFSETFROM:-0500
+TZOFFSETTO:-0400
+TZNAME:EDT
+DTSTART:19700308T020000
+RRULE:FREQ=YEARLY;BYMONTH=3;BYDAY=2SU
+END:DAYLIGHT
+BEGIN:STANDARD
+TZOFFSETFROM:-0400
+TZOFFSETTO:-0500
+TZNAME:EST
+DTSTART:19701101T020000
+RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
+END:STANDARD
+END:VTIMEZONE
+BEGIN:VEVENT
+UID:arb:104203368@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T150000
+DTEND;TZID=America/New_York:20270401T170000
+SUMMARY:North Hunterdon High School vs Voorhees High School (Varsity Boys
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104203404@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T150000
+DTEND;TZID=America/New_York:20270408T170000
+SUMMARY:North Hunterdon High School vs Delaware Valley Regional H.S. (Var
+ sity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7541116@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Delaware Valley Regional H.S. at North Hunterdon High School (Var
+ sity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104219678@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T150000
+DTEND;TZID=America/New_York:20270420T170000
+SUMMARY:North Hunterdon High School vs Bernards High School (Varsity Boys
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7541125@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Bernards High School at North Hunterdon High School (Varsity Boys
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104219677@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T150000
+DTEND;TZID=America/New_York:20270429T170000
+SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity 
+ Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7541137@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Delaware Valley Regional H.S. vs North Hunterdon High School (Var
+ sity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104203379@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270506T150000
+DTEND;TZID=America/New_York:20270506T170000
+SUMMARY:North Hunterdon High School vs Somerville High School (Varsity Bo
+ ys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7541146@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Bernards High School vs North Hunterdon High School (Varsity Boys
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104219676@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T150000
+DTEND;TZID=America/New_York:20270518T170000
+SUMMARY:North Hunterdon High School vs Gill St. Bernard's School (Varsity
+  Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
+END:VEVENT
+END:VCALENDAR

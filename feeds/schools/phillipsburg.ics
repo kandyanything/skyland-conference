@@ -2238,7 +2238,7 @@ SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:057e8776-c0d4-4b3c-b55e-9592bf9561e5@skyland
+UID:bb:MountSaintMaryAcademy:4419d7ca-29c1-44fc-890a-2503433cb39f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -2248,7 +2248,7 @@ SUMMARY:Mount Saint Mary Academy at Phillipsburg High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:6ad3605d-7759-4bf4-891a-6df701b6870e@skyland
+UID:bb:MountSaintMaryAcademy:770e48c9-29db-464c-848b-b88cdbed76c2@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -2441,20 +2441,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7521005@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T173000
-DTEND;TZID=America/New_York:20261012T193000
-SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
- ity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104515784@skyland-conference
-DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T180000
 DTEND;TZID=America/New_York:20261012T200000
-SUMMARY:Phillipsburg High School vs Bridgewater-Raritan Middle School (Va
- rsity Girls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 6:00 PM
+SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
+ ity Girls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102556825@skyland-conference
@@ -3308,6 +3299,15 @@ DTEND;TZID=America/New_York:20261203T173000
 SUMMARY:Phillipsburg High School vs Watchung Hills Reg High School (Varsi
  ty Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104542886@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Phillipsburg High School vs Voorhees High School (Varsity Boys Bo
+ ys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102295038@skyland-conference
@@ -4966,6 +4966,15 @@ SUMMARY:Phillipsburg High School vs Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104539919@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270324T150000
+DTEND;TZID=America/New_York:20270324T170000
+SUMMARY:Phillipsburg High School at Voorhees High School (Varsity Girls G
+ irls Golf)
+DESCRIPTION:Varsity Girls Girls Golf - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104427721@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
@@ -5132,9 +5141,9 @@ UID:ds:2535:7541117@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
-SUMMARY:Bernards High School vs Phillipsburg High School (Varsity Boys Go
- lf)
-DESCRIPTION:Varsity Boys Golf - Home
+SUMMARY:Bernards High School vs Phillipsburg High School (Varsity Boys Bo
+ ys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102137775@skyland-conference
@@ -5362,8 +5371,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270422
 DTEND;VALUE=DATE:20270423
 SUMMARY:Delaware Valley Regional H.S. at Phillipsburg High School (Varsit
- y Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+ y Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7540872@skyland-conference
@@ -5434,8 +5443,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270429T150000
 DTEND;TZID=America/New_York:20270429T170000
 SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity 
- Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:00 PM
+ Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104401132@skyland-conference
@@ -5541,9 +5550,9 @@ UID:ds:2535:7541138@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270504
 DTEND;VALUE=DATE:20270505
-SUMMARY:Bernards High School at Phillipsburg High School (Varsity Boys Go
- lf)
-DESCRIPTION:Varsity Boys Golf - Away
+SUMMARY:Bernards High School at Phillipsburg High School (Varsity Boys Bo
+ ys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540878@skyland-conference
@@ -5659,7 +5668,7 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
 SUMMARY:Delaware Valley Regional H.S. vs Phillipsburg High School (Varsit
- y Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Home
+ y Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 END:VCALENDAR

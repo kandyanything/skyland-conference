@@ -703,15 +703,6 @@ DESCRIPTION:Varsity Coed Coed Cross Country - Away - 3:30 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7441449@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity G
- irls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:99260933@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -1002,7 +993,7 @@ SUMMARY:Belvidere High School at Not Listed (Varsity Coed Coed Cross Coun
 DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:f1f79cd0-0ad7-48c3-ad9f-08c05b9f0f49@skyland
+UID:bb:MountSaintMaryAcademy:cbc4e9e0-4683-460e-b56d-eced4e305f8e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T120000
@@ -1171,6 +1162,15 @@ DTEND;TZID=America/New_York:20261013T181500
 SUMMARY:Belvidere High School at Central Jersey College Prep Charter Scho
  ol (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7441449@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity G
+ irls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100591352@skyland-conference
@@ -2662,8 +2662,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Varsity B
- oys Golf)
-DESCRIPTION:Varsity Boys Golf - Home
+ oys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102823177@skyland-conference
@@ -2671,8 +2671,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270401
 DTEND;VALUE=DATE:20270402
 SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Varsity B
- oys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+ oys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102812072@skyland-conference
@@ -2707,8 +2707,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T153000
 DTEND;TZID=America/New_York:20270406T173000
 SUMMARY:Belvidere High School vs Rutgers Preparatory School (Varsity Boys
-  Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:30 PM
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102784881@skyland-conference
@@ -2760,9 +2760,9 @@ UID:ds:2666:7541066@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
-SUMMARY:Immaculata High School vs Belvidere High School (Varsity Boys Gol
- f)
-DESCRIPTION:Varsity Boys Golf - Home
+SUMMARY:Immaculata High School vs Belvidere High School (Varsity Boys Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7540624@skyland-conference
@@ -2778,9 +2778,9 @@ UID:arb:102823208@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270408
 DTEND;VALUE=DATE:20270409
-SUMMARY:Belvidere High School at Immaculata High School (Varsity Boys Gol
- f)
-DESCRIPTION:Varsity Boys Golf - Away
+SUMMARY:Belvidere High School at Immaculata High School (Varsity Boys Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102927298@skyland-conference
@@ -2815,8 +2815,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T153000
 DTEND;TZID=America/New_York:20270413T173000
 SUMMARY:Belvidere High School vs College Achieve Central Charter (Varsity
-  Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:30 PM
+  Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102875790@skyland-conference
@@ -2860,8 +2860,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:Belvidere High School at Warren Hills Regional H.S. (Varsity Boys
-  Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102812237@skyland-conference
@@ -2904,8 +2904,9 @@ UID:arb:102823309@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270422T153000
 DTEND;TZID=America/New_York:20270422T173000
-SUMMARY:Belvidere High School vs Manville High School (Varsity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:30 PM
+SUMMARY:Belvidere High School vs Manville High School (Varsity Boys Boys 
+ Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102875841@skyland-conference
@@ -2976,8 +2977,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270427T153000
 DTEND;TZID=America/New_York:20270427T173000
 SUMMARY:Belvidere High School vs South Hunterdon Regional H.S. (Varsity B
- oys Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:30 PM
+ oys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7542682@skyland-conference
@@ -3012,8 +3013,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270427
 DTEND;VALUE=DATE:20270428
 SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity B
- oys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+ oys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102823350@skyland-conference
@@ -3021,8 +3022,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Belvidere High School at Rutgers Preparatory School (Varsity Boys
-  Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102927344@skyland-conference
@@ -3056,9 +3057,9 @@ UID:arb:102823362@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270504T153000
 DTEND;TZID=America/New_York:20270504T173000
-SUMMARY:Belvidere High School vs Immaculata High School (Varsity Boys Gol
- f)
-DESCRIPTION:Varsity Boys Golf - Home - 3:30 PM
+SUMMARY:Belvidere High School vs Immaculata High School (Varsity Boys Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7542684@skyland-conference
@@ -3083,9 +3084,9 @@ UID:ds:2666:7541087@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270504
 DTEND;VALUE=DATE:20270505
-SUMMARY:Immaculata High School at Belvidere High School (Varsity Boys Gol
- f)
-DESCRIPTION:Varsity Boys Golf - Away
+SUMMARY:Immaculata High School at Belvidere High School (Varsity Boys Boy
+ s Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103913324@skyland-conference
@@ -3102,8 +3103,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
 SUMMARY:Belvidere High School at College Achieve Central Charter (Varsity
-  Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+  Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103145980@skyland-conference
@@ -3146,8 +3147,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270511T153000
 DTEND;TZID=America/New_York:20270511T173000
 SUMMARY:Belvidere High School vs Warren Hills Regional H.S. (Varsity Boys
-  Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:30 PM
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103378006@skyland-conference
@@ -3235,8 +3236,9 @@ UID:arb:102823406@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
-SUMMARY:Belvidere High School at Manville High School (Varsity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+SUMMARY:Belvidere High School at Manville High School (Varsity Boys Boys 
+ Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102927601@skyland-conference

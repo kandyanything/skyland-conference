@@ -671,7 +671,7 @@ SUMMARY:Immaculata High School vs Rutgers Preparatory School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:5bfe2717-c399-48f1-a5dd-b322343ca67e@skyland
+UID:bb:MountSaintMaryAcademy:c12c0ca3-c310-4237-81e1-6061881b3167@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T120000
@@ -681,7 +681,7 @@ SUMMARY:Mount Saint Mary Academy at Rutgers Preparatory School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:26ed4cbd-95c4-4681-9896-c58ba87f028d@skyland
+UID:bb:MountSaintMaryAcademy:bf23c176-7505-44dd-b70a-68e6be905288@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T131500
@@ -772,15 +772,6 @@ SUMMARY:Montgomery High School vs Rutgers Preparatory School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7560624@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Bound Brook High School vs Rutgers Preparatory School (Junior Var
- sity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7478128@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -788,6 +779,15 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:Bound Brook High School vs Rutgers Preparatory School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7560624@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Bound Brook High School vs Rutgers Preparatory School (Junior Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7335080@skyland-conference
@@ -1263,8 +1263,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T153000
 DTEND;TZID=America/New_York:20270406T173000
 SUMMARY:Belvidere High School vs Rutgers Preparatory School (Varsity Boys
-  Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:30 PM
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7540620@skyland-conference
@@ -1299,8 +1299,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
 SUMMARY:South Hunterdon Regional H.S. vs Rutgers Preparatory School (Vars
- ity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Home
+ ity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7608320@skyland-conference
@@ -1353,8 +1353,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270420
 DTEND;VALUE=DATE:20270421
 SUMMARY:Immaculata High School at Rutgers Preparatory School (Varsity Boy
- s Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+ s Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7608323@skyland-conference
@@ -1407,8 +1407,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:Belvidere High School at Rutgers Preparatory School (Varsity Boys
-  Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+  Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7542716@skyland-conference
@@ -1434,8 +1434,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
 SUMMARY:South Hunterdon Regional H.S. at Rutgers Preparatory School (Vars
- ity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+ ity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104427670@skyland-conference
@@ -1470,7 +1470,7 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
 SUMMARY:Immaculata High School vs Rutgers Preparatory School (Varsity Boy
- s Golf)
-DESCRIPTION:Varsity Boys Golf - Home
+ s Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 END:VCALENDAR

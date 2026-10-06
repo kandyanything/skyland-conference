@@ -1104,15 +1104,6 @@ SUMMARY:Belvidere High School vs Manville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7336308@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:Bound Brook High School vs Manville High School (Varsity Girls Gi
- rls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7335289@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261015
@@ -1120,6 +1111,15 @@ DTEND;VALUE=DATE:20261016
 SUMMARY:Bound Brook High School at Manville High School (Varsity Boys Boy
  s Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7336308@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Bound Brook High School vs Manville High School (Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7334752@skyland-conference
@@ -2851,6 +2851,15 @@ SUMMARY:Manville High School at Montgomery High School (Varsity Coed Trac
 DESCRIPTION:Varsity Coed Track & Field - Outdoor - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104540044@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270325T150000
+DTEND;TZID=America/New_York:20270325T170000
+SUMMARY:Manville High School at Voorhees High School (Varsity Girls Girls
+  Golf)
+DESCRIPTION:Varsity Girls Girls Golf - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103310586@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270330T110000
@@ -2910,8 +2919,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:South Hunterdon Regional H.S. at Manville High School (Varsity Bo
- ys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+ ys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102800731@skyland-conference
@@ -2972,8 +2981,9 @@ UID:ds:2666:7541069@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270413
 DTEND;VALUE=DATE:20270414
-SUMMARY:Immaculata High School at Manville High School (Varsity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+SUMMARY:Immaculata High School at Manville High School (Varsity Boys Boys
+  Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7542760@skyland-conference
@@ -3052,8 +3062,9 @@ UID:arb:102823309@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270422T153000
 DTEND;TZID=America/New_York:20270422T173000
-SUMMARY:Belvidere High School vs Manville High School (Varsity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Home - 3:30 PM
+SUMMARY:Belvidere High School vs Manville High School (Varsity Boys Boys 
+ Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102800693@skyland-conference
@@ -3124,8 +3135,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270429
 DTEND;VALUE=DATE:20270430
 SUMMARY:South Hunterdon Regional H.S. vs Manville High School (Varsity Bo
- ys Golf)
-DESCRIPTION:Varsity Boys Golf - Home
+ ys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103758713@skyland-conference
@@ -3168,8 +3179,9 @@ UID:ds:2666:7541090@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270506
 DTEND;VALUE=DATE:20270507
-SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Home
+SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Boys
+  Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102800471@skyland-conference
@@ -3275,7 +3287,8 @@ UID:arb:102823406@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270518
 DTEND;VALUE=DATE:20270519
-SUMMARY:Belvidere High School at Manville High School (Varsity Boys Golf)
-DESCRIPTION:Varsity Boys Golf - Away
+SUMMARY:Belvidere High School at Manville High School (Varsity Boys Boys 
+ Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 END:VCALENDAR
