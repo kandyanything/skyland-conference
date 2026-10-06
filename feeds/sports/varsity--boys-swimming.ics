@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2549:7581792@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261203T151500
-DTEND;TZID=America/New_York:20261203T171500
-SUMMARY:Bridgewater-Raritan High School vs The Pingry School (Varsity Boy
- s Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7579967@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T154500
@@ -67,6 +58,15 @@ SUMMARY:Montgomery High School at Hillsborough Athletics (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7581792@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T151500
+DTEND;TZID=America/New_York:20261208T171500
+SUMMARY:Bridgewater-Raritan High School vs The Pingry School (Varsity Boy
+ s Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104183501@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T180000
@@ -74,15 +74,6 @@ DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Warren Hills Regional H.S. vs Gill St. Bernard's School (Varsity 
  Boys Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7581793@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T151500
-DTEND;TZID=America/New_York:20261210T171500
-SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
- s Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7668938@skyland-conference
@@ -177,20 +168,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7581795@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T151500
-DTEND;TZID=America/New_York:20270107T171500
+DTSTART;TZID=America/New_York:20270107T150000
+DTEND;TZID=America/New_York:20270107T170000
 SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
  y Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:15 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7581795@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T151500
-DTEND;TZID=America/New_York:20270107T171500
+DTSTART;TZID=America/New_York:20270107T150000
+DTEND;TZID=America/New_York:20270107T170000
 SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Vars
  ity Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:15 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7633704@skyland-conference
