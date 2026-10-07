@@ -139,24 +139,6 @@ SUMMARY:Manville High School at Bound Brook High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7336341@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:Immaculata High School at Manville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7477959@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Immaculata High School at Manville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:98897659@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
@@ -164,6 +146,15 @@ DTEND;TZID=America/New_York:20260903T180000
 SUMMARY:Manville High School at Mount Saint Mary Academy (Varsity Girls G
  irls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98866114@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Manville High School vs Immaculata High School (Varsity Boys Boys
+  Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7336268@skyland-conference
@@ -175,13 +166,13 @@ SUMMARY:Delaware Valley Regional H.S. vs Manville High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7501165@skyland-conference
+UID:arb:100591042@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T160000
 DTEND;TZID=America/New_York:20260904T180000
-SUMMARY:Immaculata High School at Manville High School (Junior Varsity Bo
+SUMMARY:Manville High School vs Immaculata High School (Junior Varsity Bo
  ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101250735@skyland-conference
@@ -199,15 +190,6 @@ DTEND;TZID=America/New_York:20260904T200000
 SUMMARY:Manville High School at David Brearley High School (Varsity Boys 
  Football)
 DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7334839@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-SUMMARY:Immaculata High School at Manville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7477978@skyland-conference
@@ -479,15 +461,6 @@ SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7335274@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Immaculata High School at Manville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:99106378@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T190000
@@ -625,24 +598,6 @@ SUMMARY:Bound Brook High School at Manville High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7336363@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7334849@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7335278@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -717,13 +672,13 @@ SUMMARY:Manville High School vs South Hunterdon Regional H.S. (Junior Var
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7478084@skyland-conference
+UID:arb:98896242@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Boys
+SUMMARY:Manville High School at Immaculata High School (Varsity Boys Boys
   Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98867493@skyland-conference
@@ -905,15 +860,6 @@ DTEND;VALUE=DATE:20261007
 SUMMARY:Bound Brook High School at Manville High School (Varsity Girls Gi
  rls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7335284@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104108188@skyland-conference
@@ -1740,22 +1686,13 @@ SUMMARY:Manville High School at TBD (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7676518@skyland-conference
+UID:arb:101147307@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
 DTEND;TZID=America/New_York:20261221T180000
-SUMMARY:Bernards High School at Manville High School (Junior Varsity Boys
+SUMMARY:Manville High School vs Bernards High School (Junior Varsity Boys
   Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7676512@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261221T173000
-DTEND;TZID=America/New_York:20261221T193000
-SUMMARY:Bernards High School at Manville High School (Varsity Boys Boys B
- asketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101147308@skyland-conference
@@ -2995,15 +2932,6 @@ SUMMARY:Manville High School vs Voorhees High School (Varsity Girls Softb
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7541069@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270413
-DTEND;VALUE=DATE:20270414
-SUMMARY:Immaculata High School at Manville High School (Varsity Boys Boys
-  Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7542760@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270415T160000
@@ -3191,15 +3119,6 @@ DTEND;VALUE=DATE:20270505
 SUMMARY:South Hunterdon Regional H.S. vs Manville High School (Varsity Bo
  ys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7541090@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270506
-DTEND;VALUE=DATE:20270507
-SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Boys
-  Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102800471@skyland-conference

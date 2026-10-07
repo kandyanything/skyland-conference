@@ -24,24 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2535:7578131@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T173000
-DTEND;TZID=America/New_York:20261208T193000
-SUMMARY:Bernards High School at Hackettstown High School (Junior Varsity 
- Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7669379@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T150000
-DTEND;TZID=America/New_York:20261212T170000
-SUMMARY:Bernards High School at Randolph High School (Junior Varsity Girl
- s Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102084342@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
@@ -69,15 +51,6 @@ SUMMARY:North Hunterdon High School at Bernards High School (Junior Varsi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7613532@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T173000
-DTEND;TZID=America/New_York:20270107T193000
-SUMMARY:Bernards High School vs Immaculata High School (Junior Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102269793@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
@@ -103,23 +76,5 @@ DTEND;TZID=America/New_York:20270121T193000
 SUMMARY:North Hunterdon High School vs Bernards High School (Junior Varsi
  ty Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7576809@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T173000
-DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Bernards High School at Morristown High School (Junior Varsity Gi
- rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7538976@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270218T160000
-DTEND;TZID=America/New_York:20270218T180000
-SUMMARY:Bernards High School at Whippany Park High School (Junior Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

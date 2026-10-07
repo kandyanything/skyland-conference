@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2535:7620860@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Bernards High School at Immaculata High School (Varsity Girls Gir
- ls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7580814@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -140,30 +131,21 @@ SUMMARY:Hunterdon Central Regional H.S. at West Windsor-Plainsboro High S
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7648662@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T160000
-DTEND;TZID=America/New_York:20261216T180000
-SUMMARY:Immaculata High School at West Windsor-Plainsboro High School Sou
- th (Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7620880@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Immaculata High School vs North Hunterdon High School (Varsity Gi
- rls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7580817@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
 SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity G
  irls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104133588@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:North Hunterdon High School at Immaculata High School (Varsity Gi
+ rls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -174,15 +156,6 @@ DTEND;TZID=America/New_York:20261217T203000
 SUMMARY:Voorhees High School at Bernards High School (Varsity Girls Girls
   Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7620883@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Girls G
- irls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7580812@skyland-conference
@@ -203,15 +176,6 @@ SUMMARY:North Hunterdon High School at West Windsor-Plainsboro High Schoo
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7645484@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T163000
-DTEND;TZID=America/New_York:20261222T183000
-SUMMARY:Bernards High School at Hunterdon Central Regional H.S. (Varsity 
- Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7645484@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T163000
@@ -221,22 +185,13 @@ SUMMARY:Hunterdon Central Regional H.S. vs Bernards High School (Varsity
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7580818@skyland-conference
+UID:ds:2741:7580818@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Bernards High School vs Montgomery High School (Varsity Girls Gir
+SUMMARY:Montgomery High School at Bernards High School (Varsity Girls Gir
  ls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7620902@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Immaculata High School vs Voorhees High School (Varsity Girls Gir
- ls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104135711@skyland-conference
@@ -246,6 +201,15 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:North Hunterdon High School vs Somerville High School (Varsity Gi
  rls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104133614@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Voorhees High School at Immaculata High School (Varsity Girls Gir
+ ls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7645485@skyland-conference
@@ -284,31 +248,13 @@ SUMMARY:Hunterdon Central Regional H.S. vs Immaculata High School (Varsit
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7645486@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T163000
-DTEND;TZID=America/New_York:20270107T183000
-SUMMARY:Immaculata High School at Hunterdon Central Regional H.S. (Varsit
- y Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7679759@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T110000
-DTEND;TZID=America/New_York:20270109T130000
-SUMMARY:Bernards High School at West Windsor North/South (Varsity Girls G
- irls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7620932@skyland-conference
+UID:ds:2741:7620932@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Immaculata High School vs Montgomery High School (Varsity Girls G
+SUMMARY:Montgomery High School at Immaculata High School (Varsity Girls G
  irls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104135742@skyland-conference
@@ -327,15 +273,6 @@ DTEND;TZID=America/New_York:20270112T183000
 SUMMARY:Hunterdon Central Regional H.S. at North Hunterdon High School (V
  arsity Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7620935@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Immaculata High School at The Pingry School (Varsity Girls Girls 
- Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7580820@skyland-conference
@@ -374,15 +311,6 @@ SUMMARY:Somerville High School at Hunterdon Central Reg. High School (Var
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7620941@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T160000
-DTEND;TZID=America/New_York:20270119T180000
-SUMMARY:Immaculata High School vs Princeton High School (Varsity Girls Gi
- rls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7580821@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T160000
@@ -419,21 +347,21 @@ SUMMARY:Watchung Hills Regional H.S. at Bernards High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7621017@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Immaculata High School at Ridge High School (Varsity Girls Girls 
- Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7580822@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
 SUMMARY:Montgomery High School vs Voorhees High School (Varsity Girls Gir
  ls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7621017@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Ridge High School vs Immaculata High School (Varsity Girls Girls 
+ Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -444,15 +372,6 @@ DTEND;TZID=America/New_York:20270121T183000
 SUMMARY:Hunterdon Central Regional H.S. vs West Windsor-Plainsboro High S
  chool South (Varsity Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7621021@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T160000
-DTEND;TZID=America/New_York:20270126T180000
-SUMMARY:Immaculata High School vs Watchung Hills Regional H.S. (Varsity G
- irls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104135836@skyland-conference
@@ -489,15 +408,6 @@ DTEND;TZID=America/New_York:20270126T183000
 SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
  y Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7621025@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T160000
-DTEND;TZID=America/New_York:20270128T180000
-SUMMARY:Immaculata High School at West Windsor-Plainsboro High School Nor
- th (Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104169217@skyland-conference

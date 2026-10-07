@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2535:7584892@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Bernards High School vs Delbarton School (Middle School Coed Coed
-  Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7592082@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T161500
@@ -50,15 +41,6 @@ SUMMARY:South Hunterdon Regional H.S. at Pennington Prep (Middle School C
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7585407@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Bernards High School at Dover Middle School (Middle School Coed C
- oed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102406290@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161000
@@ -68,21 +50,21 @@ SUMMARY:Warren Hills Regional H.S. vs Clinton Township Middle School (Mid
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:10 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7508668@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T161500
-DTEND;TZID=America/New_York:20260924T181500
-SUMMARY:Franklin High School at Montgomery High School (Middle School Coe
- d Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7592060@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T161500
 DTEND;TZID=America/New_York:20260924T181500
 SUMMARY:Hillsborough High School vs William Annin Middle School (Middle S
  chool Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7508668@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T161500
+DTEND;TZID=America/New_York:20260924T181500
+SUMMARY:Montgomery High School vs Franklin High School (Middle School Coe
+ d Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -104,15 +86,6 @@ SUMMARY:Warren Hills Regional H.S. vs Hillsborough Middle School (Middle
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:10 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526482@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T161500
-DTEND;TZID=America/New_York:20260930T181500
-SUMMARY:Franklin High School vs Branchburg Middle School (Middle School C
- oed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7508329@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T161500
@@ -131,15 +104,6 @@ SUMMARY:South Hunterdon Regional H.S. vs New Hope (Middle School Coed Coe
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7585642@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Bernards High School vs Morris Plains Borough MS (Middle School C
- oed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7577206@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
@@ -147,24 +111,6 @@ DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:South Hunterdon Regional H.S. at East Amwell Township School (Mid
  dle School Coed Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7585775@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Bernards High School vs Boonton Middle School (Middle School Coed
-  Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7484004@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Franklin High School at Warren Hills Regional School District (Mi
- ddle School Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7508394@skyland-conference
@@ -213,15 +159,6 @@ SUMMARY:South Hunterdon Regional H.S. at Somerville Middle School (Middle
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526041@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T161500
-DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Franklin High School vs JP Case Middle School (Middle School Coed
-  Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7592062@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
@@ -250,15 +187,6 @@ SUMMARY:Gill St. Bernard's School vs Wardlaw-Hartridge School (Middle Sch
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7588852@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Bernards High School vs Black River Middle School (Middle School 
- Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7579668@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -266,15 +194,6 @@ DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:South Hunterdon Regional H.S. at Delaware Township School (Middle
   School Coed Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7526053@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T161500
-DTEND;TZID=America/New_York:20261013T181500
-SUMMARY:Franklin High School at Somerville Middle School (Middle School C
- oed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7508451@skyland-conference
@@ -313,15 +232,6 @@ SUMMARY:South Hunterdon Regional H.S. vs Alexandria Middle School (Middle
 DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526071@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T161500
-DTEND;TZID=America/New_York:20261016T181500
-SUMMARY:Franklin High School vs Clinton Township Middle School (Middle Sc
- hool Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7526071@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T161500
@@ -356,15 +266,6 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Warren Hills Regional H.S. at Branchburg Central Middle School (M
  iddle School Coed Coed Cross Country)
 DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7526093@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T161500
-DTEND;TZID=America/New_York:20261020T181500
-SUMMARY:Franklin High School at Readington Middle School (Middle School C
- oed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7592067@skyland-conference

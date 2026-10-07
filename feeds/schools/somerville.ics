@@ -186,13 +186,13 @@ SUMMARY:Somerville High School vs Immaculate Heart Academy (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7500630@skyland-conference
+UID:arb:100610752@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T100000
 DTEND;TZID=America/New_York:20260828T120000
-SUMMARY:Immaculata High School vs Somerville High School (Varsity Boys Bo
+SUMMARY:Somerville High School at Immaculata High School (Varsity Boys Bo
  ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 10:00 AM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100192885@skyland-conference
@@ -241,13 +241,13 @@ SUMMARY:Somerville High School vs Metuchen High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7563107@skyland-conference
+UID:arb:102909278@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T160000
 DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Gir
+SUMMARY:Somerville High School at Bernards High School (Varsity Girls Gir
  ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101988764@skyland-conference
@@ -277,24 +277,6 @@ SUMMARY:Somerville High School vs Robbinsville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7336200@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260901
-DTEND;VALUE=DATE:20260902
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7441536@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260902T160000
-DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Gir
- ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7441448@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
@@ -313,6 +295,15 @@ SUMMARY:Somerville High School at Hunterdon Central Reg. High School (Var
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:102909391@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260902T160000
+DTEND;TZID=America/New_York:20260902T180000
+SUMMARY:Somerville High School at Franklin High School (Varsity Girls Gir
+ ls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:100619041@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
@@ -329,15 +320,6 @@ DTEND;TZID=America/New_York:20260902T183000
 SUMMARY:Somerville High School vs Governor Livingston High School (Freshm
  an Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7563016@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Bernards High School vs Somerville High School (Junior Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7336323@skyland-conference
@@ -367,13 +349,22 @@ SUMMARY:Somerville High School at Hunterdon Central Reg. High School (Fre
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7562985@skyland-conference
+UID:arb:103039374@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Somerville High School at Bernards High School (Junior Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99059788@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T180000
 DTEND;TZID=America/New_York:20260903T200000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Boys Boys
+SUMMARY:Somerville High School at Bernards High School (Varsity Boys Boys
   Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103695772@skyland-conference
@@ -412,30 +403,12 @@ SUMMARY:Somerville High School vs Piscataway High School (Freshman Boys F
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7334779@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260907
-DTEND;VALUE=DATE:20260908
-SUMMARY:Bernards High School vs Somerville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102510659@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
 DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Somerville High School at TBD (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7577842@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Coed Coed
-  Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7477977@skyland-conference
@@ -719,22 +692,22 @@ SUMMARY:Somerville High School at Middlesex High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7562155@skyland-conference
+UID:arb:102075927@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T163000
 DTEND;TZID=America/New_York:20260914T183000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Fie
+SUMMARY:Somerville High School at Bernards High School (Varsity Girls Fie
  ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7562209@skyland-conference
+UID:arb:102075909@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T180000
 DTEND;TZID=America/New_York:20260914T200000
-SUMMARY:Bernards High School vs Somerville High School (Junior Varsity Gi
+SUMMARY:Somerville High School at Bernards High School (Junior Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7334787@skyland-conference
@@ -764,24 +737,6 @@ SUMMARY:Somerville High School vs Warren Hills Regional H.S. (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7455653@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7526580@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Franklin High School at Somerville High School (Junior Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103741549@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -798,6 +753,24 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Somerville High School at Warren Hills Regional H.S. (Junior Vars
  ity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:101972692@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Somerville High School vs Franklin High School (Junior Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99064483@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Somerville High School vs Franklin High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99058019@skyland-conference
@@ -837,67 +810,31 @@ SUMMARY:Somerville High School vs Franklin High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7441474@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
- ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7563025@skyland-conference
+UID:arb:101972537@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T161500
 DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:Bernards High School at Somerville High School (Junior Varsity Bo
+SUMMARY:Somerville High School vs Bernards High School (Junior Varsity Bo
  ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7478029@skyland-conference
+UID:arb:99058194@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T161500
 DTEND;TZID=America/New_York:20260917T181500
-SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
+SUMMARY:Somerville High School vs Bernards High School (Varsity Boys Boys
   Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7478035@skyland-conference
+UID:arb:98864745@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T163000
 DTEND;TZID=America/New_York:20260917T183000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Gir
+SUMMARY:Somerville High School at Bernards High School (Varsity Girls Gir
  ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7335213@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Bernards High School vs Somerville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7336210@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7334678@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7334790@skyland-conference
@@ -999,13 +936,13 @@ SUMMARY:Somerville High School at Stuart Country Day School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7441537@skyland-conference
+UID:arb:102910020@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Immaculata High School vs Somerville High School (Varsity Girls G
+SUMMARY:Somerville High School at Immaculata High School (Varsity Girls G
  irls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102312503@skyland-conference
@@ -1062,15 +999,6 @@ SUMMARY:[Postponed] Somerville High School at Watchung Hills Reg High Sch
  ool (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7577859@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T161500
-DTEND;TZID=America/New_York:20260922T181500
-SUMMARY:Bernards High School vs Somerville High School (Varsity Coed Coed
-  Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103696466@skyland-conference
@@ -1147,15 +1075,6 @@ DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7334794@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7335221@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -1183,13 +1102,13 @@ SUMMARY:Somerville High School at Princeton Day School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7563055@skyland-conference
+UID:arb:102787802@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T160000
 DTEND;TZID=America/New_York:20260925T180000
-SUMMARY:Bernards High School at Somerville High School (Freshman Boys Boy
+SUMMARY:Somerville High School vs Bernards High School (Freshman Boys Boy
  s Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103066282@skyland-conference
@@ -1267,15 +1186,6 @@ DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 12:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7441435@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Fie
- ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7565614@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -1283,6 +1193,15 @@ DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Montgomery High School vs Somerville High School (Freshman Boys B
  oys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100870858@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Somerville High School vs Franklin High School (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7512271@skyland-conference
@@ -1294,13 +1213,13 @@ SUMMARY:Montgomery High School at Somerville High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526623@skyland-conference
+UID:arb:100870893@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T173000
 DTEND;TZID=America/New_York:20260928T193000
-SUMMARY:Franklin High School at Somerville High School (Junior Varsity Gi
+SUMMARY:Somerville High School vs Franklin High School (Junior Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7334685@skyland-conference
@@ -1364,15 +1283,6 @@ DTEND;TZID=America/New_York:20260929T181500
 SUMMARY:Somerville High School vs Gill St. Bernard's School (Varsity Girl
  s Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7335104@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7335224@skyland-conference
@@ -1571,13 +1481,13 @@ SUMMARY:Bound Brook High School at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7662433@skyland-conference
+UID:arb:104357628@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T140000
 DTEND;TZID=America/New_York:20261003T160000
-SUMMARY:Franklin High School at Somerville High School (Varsity Boys Boys
+SUMMARY:Somerville High School vs Franklin High School (Varsity Boys Boys
   Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104321198@skyland-conference
@@ -1661,15 +1571,6 @@ SUMMARY:Somerville High School vs Delaware Valley Regional H.S. (Junior V
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7334693@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7334805@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261005
@@ -1706,30 +1607,12 @@ SUMMARY:Somerville High School at Watchung Hills Reg High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7335228@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103041496@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
 DTEND;TZID=America/New_York:20261007T180000
 SUMMARY:Somerville High School vs TBD (Varsity Coed Coed Cross Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7441444@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Fie
- ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101253164@skyland-conference
@@ -1751,15 +1634,6 @@ SUMMARY:Gill St. Bernard's School vs Somerville High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7562175@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T161500
-DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Bernards High School at Somerville High School (Varsity Girls Fie
- ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103727577@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
@@ -1769,6 +1643,15 @@ SUMMARY:Somerville High School vs Lawrenceville Prep (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:102301778@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Somerville High School vs Bernards High School (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102910091@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T163000
@@ -1776,15 +1659,6 @@ DTEND;TZID=America/New_York:20261007T183000
 SUMMARY:Somerville High School vs Highland Park High School (Varsity Girl
  s Girls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7562245@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T173000
-DTEND;TZID=America/New_York:20261007T193000
-SUMMARY:Bernards High School at Somerville High School (Junior Varsity Gi
- rls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102301805@skyland-conference
@@ -1805,33 +1679,6 @@ SUMMARY:Somerville High School vs Immaculata High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7455684@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7526586@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Franklin High School vs Somerville High School (Junior Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7441496@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Girls G
- irls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101972543@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -1839,6 +1686,24 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Somerville High School vs Warren Hills Regional H.S. (Junior Vars
  ity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99688279@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Somerville High School at Franklin High School (Junior Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99065127@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Somerville High School at Franklin High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99059643@skyland-conference
@@ -2012,24 +1877,6 @@ SUMMARY:Phillipsburg High School vs Somerville High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Cross Country - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7478124@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Bernards High School at Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7478129@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102302159@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -2057,6 +1904,15 @@ SUMMARY:Somerville High School at Watchung Hills Reg High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:98843475@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Somerville High School vs Bernards High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102302175@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T173000
@@ -2073,15 +1929,6 @@ DTEND;TZID=America/New_York:20261015T200000
 SUMMARY:Somerville High School at Watchung Hills Reg High School (Varsity
   Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7335119@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261015
-DTEND;VALUE=DATE:20261016
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7335239@skyland-conference
@@ -2107,8 +1954,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T180000
 DTEND;TZID=America/New_York:20261016T200000
 SUMMARY:Hunterdon Central Regional H.S. vs Somerville High School (Varsit
- y Girls Girls Cheerleading)
-DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:00 PM
+ y Girls Cheerleading)
+DESCRIPTION:Varsity Girls Cheerleading - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100382422@skyland-conference
@@ -2201,15 +2048,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs Somerville High School (Junior
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7501288@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Immaculata High School vs Somerville High School (Varsity Girls G
- irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103987586@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
@@ -2217,6 +2055,15 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Somerville High School at Hunterdon Central Reg. High School (Jun
  ior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100610497@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Somerville High School at Immaculata High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100192967@skyland-conference
@@ -2291,7 +2138,7 @@ SUMMARY:Somerville High School vs Nottingham High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:c1e9005f-98d2-4f21-be42-13d487f6ed9f@skyland
+UID:bb:MountSaintMaryAcademy:81f2f70a-3a39-41e6-a186-914662e4c4b7@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T120000
@@ -2301,7 +2148,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:2952e3f1-99eb-4a71-931b-d5dfacb931ed@skyland
+UID:bb:MountSaintMaryAcademy:b1e86566-5c94-417b-9b59-3dc4ce59edd6@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T131500
@@ -2482,15 +2329,6 @@ SUMMARY:Bridgewater-Raritan High School vs Somerville High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7441446@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Fie
- ld Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102673926@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T160000
@@ -2498,6 +2336,15 @@ DTEND;TZID=America/New_York:20261026T180000
 SUMMARY:Somerville High School vs The Pennington School (Freshman Boys Bo
  ys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100871307@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Somerville High School at Franklin High School (Varsity Girls Fie
+ ld Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102786980@skyland-conference
@@ -2518,13 +2365,13 @@ SUMMARY:Somerville High School vs Elizabeth High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526626@skyland-conference
+UID:arb:100871317@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T173000
 DTEND;TZID=America/New_York:20261026T193000
-SUMMARY:Franklin High School vs Somerville High School (Junior Varsity Gi
+SUMMARY:Somerville High School at Franklin High School (Junior Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7516633@skyland-conference
@@ -2712,15 +2559,6 @@ SUMMARY:Somerville High School at Summit High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7633692@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Franklin High School vs Somerville High School (Varsity Coed Coed
-  Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7595225@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -2737,6 +2575,15 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Manville High School vs Somerville High School (Varsity Girls Gir
  ls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104202182@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Somerville High School at Franklin High School (Varsity Coed Coed
+  Swimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103438001@skyland-conference
@@ -2802,22 +2649,13 @@ SUMMARY:Somerville High School vs North Brunswick Township High School (V
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7661743@skyland-conference
+UID:arb:104203916@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T143000
 DTEND;TZID=America/New_York:20261215T163000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Boys Bo
+SUMMARY:Somerville High School vs Immaculata High School (Varsity Boys Bo
  ys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7661744@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T143000
-DTEND;TZID=America/New_York:20261215T163000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Girls G
- irls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102268675@skyland-conference
@@ -2937,15 +2775,6 @@ SUMMARY:Somerville High School vs Bernards High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7443882@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T180000
-DTEND;TZID=America/New_York:20261217T200000
-SUMMARY:Bernards High School at Somerville High School (Varsity Girls Gir
- ls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102989545@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T160000
@@ -2980,24 +2809,6 @@ DTEND;TZID=America/New_York:20261218T210000
 SUMMARY:Somerville High School at Central Jersey College Prep Charter Sch
  ool (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7620883@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Girls G
- irls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7620891@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Boys Bo
- ys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103337666@skyland-conference
@@ -3063,15 +2874,6 @@ SUMMARY:Phillipsburg High School vs Somerville High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7674323@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Bernards High School at Somerville High School (Freshman Boys Boy
- s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104135711@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -3090,67 +2892,67 @@ SUMMARY:North Hunterdon High School vs Somerville High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7613528@skyland-conference
+UID:arb:102268685@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Somerville High School vs Bernards High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102260843@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T171500
 DTEND;TZID=America/New_York:20270105T191500
-SUMMARY:Immaculata High School vs Somerville High School (Junior Varsity 
+SUMMARY:Somerville High School at Immaculata High School (Junior Varsity 
  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7676561@skyland-conference
+UID:arb:102268632@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
-SUMMARY:Bernards High School at Somerville High School (Junior Varsity Bo
+SUMMARY:Somerville High School vs Bernards High School (Junior Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7443886@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T180000
-DTEND;TZID=America/New_York:20270105T200000
-SUMMARY:Immaculata High School vs Somerville High School (Varsity Girls G
- irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7448403@skyland-conference
+UID:arb:102268508@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
-SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
+SUMMARY:Somerville High School vs Bernards High School (Varsity Boys Boys
   Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7448435@skyland-conference
+UID:arb:102260778@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
-SUMMARY:Immaculata High School vs Somerville High School (Varsity Girls G
+SUMMARY:Somerville High School at Immaculata High School (Varsity Girls G
  irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526660@skyland-conference
+UID:arb:100981058@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T173000
 DTEND;TZID=America/New_York:20270106T193000
-SUMMARY:Franklin High School vs Somerville High School (Junior Varsity Bo
+SUMMARY:Somerville High School at Franklin High School (Junior Varsity Bo
  ys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526646@skyland-conference
+UID:arb:100981049@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T183000
 DTEND;TZID=America/New_York:20270106T203000
-SUMMARY:Franklin High School vs Somerville High School (Varsity Boys Boys
+SUMMARY:Somerville High School at Franklin High School (Varsity Boys Boys
   Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104522125@skyland-conference
@@ -3450,15 +3252,6 @@ SUMMARY:Somerville High School at Koinonia Academy (Varsity Girls Girls B
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7611928@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T100000
-DTEND;TZID=America/New_York:20270116T120000
-SUMMARY:Immaculata High School at Somerville High School (Freshman Boys B
- oys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102313662@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T110000
@@ -3466,24 +3259,6 @@ DTEND;TZID=America/New_York:20270116T130000
 SUMMARY:Somerville High School at Warren Hills Regional H.S. (Varsity Gir
  ls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7611927@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T113000
-DTEND;TZID=America/New_York:20270116T133000
-SUMMARY:Immaculata High School at Somerville High School (Junior Varsity 
- Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7611926@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T130000
-DTEND;TZID=America/New_York:20270116T150000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7580798@skyland-conference
@@ -3513,15 +3288,6 @@ SUMMARY:Somerville High School at Bernards High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7443897@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T180000
-DTEND;TZID=America/New_York:20270119T200000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Gir
- ls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102084243@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T190000
@@ -3549,58 +3315,49 @@ SUMMARY:Somerville High School vs Bernards High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7674369@skyland-conference
+UID:arb:102268803@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Bernards High School vs Somerville High School (Freshman Boys Boy
- s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7613576@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Immaculata High School at Somerville High School (Junior Varsity 
+SUMMARY:Somerville High School vs Immaculata High School (Junior Varsity 
  Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7676709@skyland-conference
+UID:arb:102084082@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Somerville High School at Bernards High School (Freshman Boys Boy
+ s Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102268778@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
 DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Bernards High School vs Somerville High School (Junior Varsity Bo
+SUMMARY:Somerville High School vs Immaculata High School (Varsity Girls G
+ irls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102083913@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Somerville High School at Bernards High School (Junior Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7448450@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T173000
-DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Girls G
- irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7443901@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T180000
-DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Girls G
- irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7448418@skyland-conference
+UID:arb:102083871@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T190000
 DTEND;TZID=America/New_York:20270121T210000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Boys Boys
+SUMMARY:Somerville High School at Bernards High School (Varsity Boys Boys
   Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102989655@skyland-conference
@@ -3916,24 +3673,6 @@ SUMMARY:Delaware Valley Regional H.S. at Somerville High School (Varsity
 DESCRIPTION:Varsity Girls Softball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7623280@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270403T110000
-DTEND;TZID=America/New_York:20270403T130000
-SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Sof
- tball)
-DESCRIPTION:Varsity Girls Softball - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7623281@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270403T110000
-DTEND;TZID=America/New_York:20270403T130000
-SUMMARY:Franklin High School vs Somerville High School (Junior Varsity Gi
- rls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7541115@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
@@ -3941,15 +3680,6 @@ DTEND;VALUE=DATE:20270407
 SUMMARY:Delaware Valley Regional H.S. vs Somerville High School (Varsity 
  Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7542707@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270406
-DTEND;VALUE=DATE:20270407
-SUMMARY:Franklin High School at Somerville High School (Varsity Boys Base
- ball)
-DESCRIPTION:Varsity Boys Baseball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7540719@skyland-conference
@@ -3961,15 +3691,6 @@ SUMMARY:Montgomery High School vs Somerville High School (Varsity Girls S
 DESCRIPTION:Varsity Girls Softball - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7542782@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
-SUMMARY:Franklin High School vs Somerville High School (Varsity Boys Base
- ball)
-DESCRIPTION:Varsity Boys Baseball - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102880106@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T160000
@@ -3977,33 +3698,6 @@ DTEND;TZID=America/New_York:20270413T180000
 SUMMARY:Somerville High School at Warren Hills Regional H.S. (Varsity Boy
  s Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7540723@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270413
-DTEND;VALUE=DATE:20270414
-SUMMARY:Bernards High School at Somerville High School (Varsity Girls Sof
- tball)
-DESCRIPTION:Varsity Girls Softball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7541122@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
-SUMMARY:Bernards High School vs Somerville High School (Varsity Boys Boys
-  Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7608203@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
-SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Gir
- ls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7541401@skyland-conference
@@ -4141,15 +3835,6 @@ SUMMARY:North Hunterdon High School vs Somerville High School (Varsity Bo
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7541143@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270511
-DTEND;VALUE=DATE:20270512
-SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
-  Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103762388@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270513T163000
@@ -4166,14 +3851,5 @@ DTEND;TZID=America/New_York:20270513T200000
 SUMMARY:Somerville High School at Watchung Hills Reg High School (Junior 
  Varsity Girls Girls Lacrosse)
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7540733@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270514
-SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Sof
- tball)
-DESCRIPTION:Varsity Girls Softball - Home
 END:VEVENT
 END:VCALENDAR

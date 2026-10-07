@@ -24,24 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2535:7620841@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Bernards High School at Immaculata High School (Varsity Boys Boys
-  Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7645397@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T163000
-DTEND;TZID=America/New_York:20261222T183000
-SUMMARY:Bernards High School at Hunterdon Central Regional H.S. (Varsity 
- Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7645397@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T163000
@@ -51,21 +33,12 @@ SUMMARY:Hunterdon Central Regional H.S. vs Bernards High School (Varsity
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7580780@skyland-conference
+UID:ds:2741:7580780@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Bernards High School vs Montgomery High School (Varsity Boys Boys
+SUMMARY:Montgomery High School at Bernards High School (Varsity Boys Boys
   Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7522084@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Bernards High School at West Windsor-Plainsboro High School North
-  (Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

@@ -23,22 +23,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2535:7563107@skyland-conference
+UID:arb:102909278@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260831T160000
 DTEND;TZID=America/New_York:20260831T180000
-SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Gir
+SUMMARY:Somerville High School at Bernards High School (Varsity Girls Gir
  ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7441536@skyland-conference
+UID:arb:102909391@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260902T160000
 DTEND;TZID=America/New_York:20260902T180000
-SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Gir
+SUMMARY:Somerville High School at Franklin High School (Varsity Girls Gir
  ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102513697@skyland-conference
@@ -114,15 +114,6 @@ SUMMARY:Somerville High School vs Franklin High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7441474@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
- ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102909986@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
@@ -132,13 +123,13 @@ SUMMARY:Somerville High School at Stuart Country Day School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7441537@skyland-conference
+UID:arb:102910020@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
 DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Immaculata High School vs Somerville High School (Varsity Girls G
+SUMMARY:Somerville High School at Immaculata High School (Varsity Girls G
  irls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102513969@skyland-conference
@@ -203,14 +194,5 @@ DTEND;TZID=America/New_York:20261008T174500
 SUMMARY:Somerville High School vs Immaculata High School (Varsity Girls G
  irls Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7441496@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Immaculata High School at Somerville High School (Varsity Girls G
- irls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

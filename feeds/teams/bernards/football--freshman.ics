@@ -23,42 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2535:7562030@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T110000
-DTEND;TZID=America/New_York:20260905T130000
-SUMMARY:Bernards High School at Cranford High School (Freshman Boys Footb
- all)
-DESCRIPTION:Freshman Boys Football - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7640103@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Bernards High School at Garfield High School (Freshman Boys Footb
- all)
-DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7667041@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Bernards High School at Garfield High School (Freshman Boys Footb
- all)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7678258@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T090000
-DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Freshman Bo
- ys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:98417574@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T090000
@@ -66,14 +30,5 @@ DTEND;TZID=America/New_York:20261017T110000
 SUMMARY:Watchung Hills Regional H.S. vs Bernards High School (Freshman Bo
  ys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7585826@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261031T093000
-DTEND;TZID=America/New_York:20261031T113000
-SUMMARY:Bernards High School vs Summit High School (Freshman Boys Footbal
- l)
-DESCRIPTION:Freshman Boys Football - Home - 9:30 AM
 END:VEVENT
 END:VCALENDAR
