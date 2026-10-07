@@ -24,12 +24,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:104576827@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270324T160000
+DTEND;TZID=America/New_York:20270324T180000
+SUMMARY:Voorhees High School at Warren Hills Regional H.S. (Varsity Coed 
+ Track & Field - Outdoor)
+DESCRIPTION:Varsity Coed Track & Field - Outdoor - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104443880@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T160000
 DTEND;TZID=America/New_York:20270407T180000
 SUMMARY:Warren Hills Regional H.S. at Watchung Hills Reg High School (Var
  sity Coed Track & Field - Outdoor)
+DESCRIPTION:Varsity Coed Track & Field - Outdoor - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104577272@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:Voorhees High School at Warren Hills Regional H.S. (Varsity Coed 
+ Track & Field - Outdoor)
 DESCRIPTION:Varsity Coed Track & Field - Outdoor - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
