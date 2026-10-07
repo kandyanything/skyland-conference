@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2535:7620860@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Bernards High School at Immaculata High School (Varsity Girls Gir
+ ls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104156568@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T183000
@@ -42,6 +51,15 @@ SUMMARY:Voorhees High School at Bernards High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7645484@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T163000
+DTEND;TZID=America/New_York:20261222T183000
+SUMMARY:Bernards High School at Hunterdon Central Regional H.S. (Varsity 
+ Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7645484@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T163000
@@ -51,13 +69,22 @@ SUMMARY:Hunterdon Central Regional H.S. vs Bernards High School (Varsity
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7580818@skyland-conference
+UID:ds:2535:7580818@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Montgomery High School at Bernards High School (Varsity Girls Gir
+SUMMARY:Bernards High School vs Montgomery High School (Varsity Girls Gir
  ls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7679759@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T110000
+DTEND;TZID=America/New_York:20270109T130000
+SUMMARY:Bernards High School at West Windsor North/South (Varsity Girls G
+ irls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104157932@skyland-conference

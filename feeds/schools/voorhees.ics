@@ -113,13 +113,13 @@ SUMMARY:Voorhees High School vs South Plainfield High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103397657@skyland-conference
+UID:ds:2617:7588358@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260826T153000
 DTEND;TZID=America/New_York:20260826T173000
-SUMMARY:Voorhees High School vs Franklin High School (Varsity Girls Girls
+SUMMARY:Franklin High School at Voorhees High School (Varsity Girls Girls
   Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 3:30 PM
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103397573@skyland-conference
@@ -551,13 +551,22 @@ DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102310533@skyland-conference
+UID:ds:2535:7563018@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T163000
 DTEND;TZID=America/New_York:20260908T183000
-SUMMARY:Voorhees High School vs Bernards High School (Junior Varsity Boys
+SUMMARY:Bernards High School at Voorhees High School (Junior Varsity Boys
   Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7477975@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T163000
+DTEND;TZID=America/New_York:20260908T183000
+SUMMARY:Bernards High School at Voorhees High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98864718@skyland-conference
@@ -569,13 +578,13 @@ SUMMARY:Voorhees High School at Bernards High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:98758765@skyland-conference
+UID:ds:2535:7477982@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T163000
-DTEND;TZID=America/New_York:20260908T183000
-SUMMARY:Voorhees High School vs Bernards High School (Varsity Boys Boys S
- occer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:30 PM
+DTSTART;TZID=America/New_York:20260908T170000
+DTEND;TZID=America/New_York:20260908T190000
+SUMMARY:Bernards High School vs Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102924980@skyland-conference
@@ -605,6 +614,15 @@ DTEND;TZID=America/New_York:20260908T200000
 SUMMARY:Phillipsburg High School vs Voorhees High School (Junior Varsity 
  Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7336203@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260908
+DTEND;VALUE=DATE:20260909
+SUMMARY:Franklin High School at Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7496074@skyland-conference
@@ -724,6 +742,15 @@ DTEND;VALUE=DATE:20260911
 SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7334671@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Franklin High School vs Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103483456@skyland-conference
@@ -854,6 +881,33 @@ SUMMARY:Voorhees High School at Bernards High School (Junior Varsity Girl
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7441459@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Bernards High School at Voorhees High School (Varsity Girls Girls
+  Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7563161@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Bernards High School vs Voorhees High School (Junior Varsity Girl
+ s Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7499555@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Immaculata High School at Voorhees High School (Junior Varsity Gi
+ rls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7523597@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T160000
@@ -888,15 +942,6 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Voorhees High School vs South Hunterdon Regional H.S. (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102405727@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Voorhees High School vs Bernards High School (Varsity Girls Girls
-  Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102402641@skyland-conference
@@ -937,6 +982,15 @@ SUMMARY:Voorhees High School at Watchung Hills Reg High School (Varsity G
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2666:7499395@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T171500
+DTEND;TZID=America/New_York:20260915T191500
+SUMMARY:Immaculata High School at Voorhees High School (Varsity Girls Gir
+ ls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102402609@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T173000
@@ -963,6 +1017,15 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:North Hunterdon High School vs Voorhees High School (Freshman Boy
  s Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526581@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Franklin High School at Voorhees High School (Junior Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7518614@skyland-conference
@@ -1029,6 +1092,15 @@ SUMMARY:Voorhees High School at Ridge High School (Varsity Girls Girls Vo
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7455656@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T163000
+DTEND;TZID=America/New_York:20260917T183000
+SUMMARY:Franklin High School at Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102383886@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T163000
@@ -1045,6 +1117,15 @@ DTEND;TZID=America/New_York:20260917T191500
 SUMMARY:Ridge High School vs Voorhees High School (Varsity Girls Girls Vo
  lleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7334818@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Franklin High School at Voorhees High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7335095@skyland-conference
@@ -1244,6 +1325,15 @@ DTEND;VALUE=DATE:20260923
 SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7335097@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Franklin High School vs Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7496153@skyland-conference
@@ -1556,6 +1646,15 @@ SUMMARY:Delaware Valley Regional H.S. vs Voorhees High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7334686@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260928
+DTEND;VALUE=DATE:20260929
+SUMMARY:Franklin High School at Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102665983@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260928
@@ -1631,13 +1730,13 @@ DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:98909232@skyland-conference
+UID:ds:2535:7478081@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T161500
 DTEND;TZID=America/New_York:20260929T181500
-SUMMARY:Voorhees High School vs Bernards High School (Varsity Girls Girls
+SUMMARY:Bernards High School at Voorhees High School (Varsity Girls Girls
   Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7636511@skyland-conference
@@ -1649,22 +1748,22 @@ SUMMARY:Hunterdon Central Regional H.S. at Voorhees High School (Junior V
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103621815@skyland-conference
+UID:ds:2535:7478089@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T170000
 DTEND;TZID=America/New_York:20260929T190000
-SUMMARY:Voorhees High School at Bernards High School (Junior Varsity Boys
-  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 5:00 PM
+SUMMARY:Bernards High School vs Voorhees High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:98758585@skyland-conference
+UID:ds:2535:7563040@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T170000
 DTEND;TZID=America/New_York:20260929T190000
-SUMMARY:Voorhees High School at Bernards High School (Varsity Boys Boys S
- occer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 5:00 PM
+SUMMARY:Bernards High School vs Voorhees High School (Junior Varsity Boys
+  Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100870742@skyland-conference
@@ -1692,6 +1791,24 @@ DTEND;TZID=America/New_York:20260929T200000
 SUMMARY:Hunterdon Central Regional H.S. at Voorhees High School (Varsity 
  Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7336213@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Franklin High School vs Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7335252@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Franklin High School at Voorhees High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104357339@skyland-conference
@@ -1852,8 +1969,8 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T190000
 DTEND;TZID=America/New_York:20261002T210000
 SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Gi
- rls Cheerleading)
-DESCRIPTION:Varsity Girls Cheerleading - Away - 7:00 PM
+ rls Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99189493@skyland-conference
@@ -1978,6 +2095,15 @@ DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Voorhees High School at Delaware Valley Regional H.S. (Junior Var
  sity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7334833@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104240662@skyland-conference
@@ -2180,6 +2306,15 @@ SUMMARY:Voorhees High School at Hunterdon Central Reg. High School (Varsi
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7441540@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Bernards High School vs Voorhees High School (Varsity Girls Girls
+  Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7336337@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -2187,6 +2322,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Delaware Valley Regional H.S. vs Voorhees High School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7499472@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Immaculata High School vs Voorhees High School (Junior Varsity Gi
+ rls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7441407@skyland-conference
@@ -2225,31 +2369,13 @@ SUMMARY:North Hunterdon High School at Voorhees High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102406254@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Voorhees High School at Bernards High School (Varsity Girls Girls
-  Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:98766851@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Voorhees High School at Immaculata High School (Junior Varsity Gi
- rls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102406274@skyland-conference
+UID:ds:2535:7563206@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T161500
 DTEND;TZID=America/New_York:20261008T181500
-SUMMARY:Voorhees High School vs Bernards High School (Junior Varsity Girl
+SUMMARY:Bernards High School at Voorhees High School (Junior Varsity Girl
  s Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100695701@skyland-conference
@@ -2259,6 +2385,15 @@ DTEND;TZID=America/New_York:20261008T190000
 SUMMARY:Voorhees High School at Immaculata High School (Varsity Girls Gir
  ls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7499471@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T171500
+DTEND;TZID=America/New_York:20261008T191500
+SUMMARY:Immaculata High School vs Voorhees High School (Varsity Girls Gir
+ ls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7517751@skyland-conference
@@ -2286,6 +2421,15 @@ DTEND;VALUE=DATE:20261009
 SUMMARY:Delaware Valley Regional H.S. vs Voorhees High School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7335112@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Franklin High School at Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:fs:GillSt.BernardsSchool:2026-10-09:15:45:Tennis:17@skyland-conference
@@ -2332,13 +2476,13 @@ SUMMARY:Voorhees High School at TBD (Varsity Girls Sideline Cheerleading)
 DESCRIPTION:Varsity Girls Sideline Cheerleading - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99699501@skyland-conference
+UID:ds:2535:7561991@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T190000
 DTEND;TZID=America/New_York:20261009T210000
-SUMMARY:Voorhees High School at Bernards High School (Varsity Boys Footba
+SUMMARY:Bernards High School vs Voorhees High School (Varsity Boys Footba
  ll)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102995751@skyland-conference
@@ -2403,13 +2547,13 @@ SUMMARY:Voorhees High School at Watchung Hills Reg High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103843359@skyland-conference
+UID:ds:2535:7562004@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T163000
 DTEND;TZID=America/New_York:20261012T183000
-SUMMARY:Voorhees High School vs Bernards High School (Junior Varsity Boys
+SUMMARY:Bernards High School at Voorhees High School (Junior Varsity Boys
   Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102568000@skyland-conference
@@ -2581,6 +2725,24 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7455688@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Franklin High School vs Voorhees High School (Varsity Girls Girls
+  Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7526588@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Franklin High School vs Voorhees High School (Junior Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7441542@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -2626,15 +2788,6 @@ SUMMARY:Voorhees High School at Hunterdon Central Reg. High School (Varsi
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102391097@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Voorhees High School at Franklin High School (Junior Varsity Girl
- s Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102336746@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -2642,15 +2795,6 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:Voorhees High School vs Warren Hills Regional H.S. (Junior Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:98865133@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Voorhees High School at Franklin High School (Varsity Girls Girls
-  Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98758873@skyland-conference
@@ -2678,6 +2822,15 @@ DTEND;TZID=America/New_York:20261015T201500
 SUMMARY:Voorhees High School vs Watchung Hills Reg High School (Varsity G
  irls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7335267@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261015
+DTEND;VALUE=DATE:20261016
+SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102403143@skyland-conference
@@ -3441,6 +3594,15 @@ SUMMARY:Bound Brook High School at Voorhees High School (Freshman Boys Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7633699@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Franklin High School at Voorhees High School (Varsity Coed Coed S
+ wimming)
+DESCRIPTION:Varsity Coed Coed Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102269624@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
@@ -3484,6 +3646,15 @@ DTEND;TZID=America/New_York:20261215T193000
 SUMMARY:Voorhees High School at Bernards High School (Junior Varsity Girl
  s Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7443879@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T180000
+DTEND;TZID=America/New_York:20261215T200000
+SUMMARY:Bernards High School vs Voorhees High School (Varsity Girls Girls
+  Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7448458@skyland-conference
@@ -3656,22 +3827,22 @@ SUMMARY:Voorhees High School at Montville Township High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100981041@skyland-conference
+UID:ds:2617:7526659@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T173000
 DTEND;TZID=America/New_York:20261223T193000
-SUMMARY:Voorhees High School at Franklin High School (Junior Varsity Boys
+SUMMARY:Franklin High School vs Voorhees High School (Junior Varsity Boys
   Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100981047@skyland-conference
+UID:ds:2617:7526644@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T183000
 DTEND;TZID=America/New_York:20261223T203000
-SUMMARY:Voorhees High School at Franklin High School (Varsity Boys Boys W
+SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys W
  restling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102110761@skyland-conference
@@ -3728,22 +3899,22 @@ SUMMARY:Hunterdon Central Regional H.S. vs Voorhees High School (Varsity
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104133614@skyland-conference
+UID:ds:2666:7620893@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Voorhees High School at Immaculata High School (Varsity Girls Gir
- ls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+SUMMARY:Immaculata High School vs Voorhees High School (Varsity Boys Boys
+  Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104133604@skyland-conference
+UID:ds:2666:7620902@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Voorhees High School at Immaculata High School (Varsity Boys Boys
-  Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+SUMMARY:Immaculata High School vs Voorhees High School (Varsity Girls Gir
+ ls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102269806@skyland-conference
@@ -3908,6 +4079,15 @@ SUMMARY:Voorhees High School vs Watchung Hills Reg High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2666:7613544@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Immaculata High School vs Voorhees High School (Freshman Girls Gi
+ rls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103990654@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
@@ -3926,13 +4106,13 @@ SUMMARY:Voorhees High School vs College Achieve Central Charter (Junior V
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102260823@skyland-conference
+UID:ds:2666:7613543@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T171500
 DTEND;TZID=America/New_York:20270112T191500
-SUMMARY:Voorhees High School at Immaculata High School (Junior Varsity Gi
+SUMMARY:Immaculata High School vs Voorhees High School (Junior Varsity Gi
  rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:15 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103990693@skyland-conference
@@ -3953,20 +4133,29 @@ SUMMARY:Voorhees High School vs College Achieve Central Charter School (V
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2666:7443893@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T180000
+DTEND;TZID=America/New_York:20270112T200000
+SUMMARY:Immaculata High School vs Voorhees High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7448442@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T190000
+DTEND;TZID=America/New_York:20270112T210000
+SUMMARY:Immaculata High School vs Voorhees High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103990732@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
 SUMMARY:Voorhees High School at Morristown High School (Varsity Girls Gir
- ls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102260782@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T190000
-DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Voorhees High School at Immaculata High School (Varsity Girls Gir
  ls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
@@ -4050,6 +4239,15 @@ DTEND;TZID=America/New_York:20270114T193000
 SUMMARY:Voorhees High School at Bound Brook High School (Junior Varsity B
  oys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7443894@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T180000
+DTEND;TZID=America/New_York:20270114T200000
+SUMMARY:Bernards High School at Voorhees High School (Varsity Girls Girls
+  Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7448473@skyland-conference
@@ -4376,13 +4574,13 @@ SUMMARY:Phillipsburg High School vs Voorhees High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102269778@skyland-conference
+UID:ds:2666:7614041@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T160000
 DTEND;TZID=America/New_York:20270209T180000
-SUMMARY:Voorhees High School vs Immaculata High School (Junior Varsity Gi
+SUMMARY:Immaculata High School at Voorhees High School (Junior Varsity Gi
  rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102150011@skyland-conference
@@ -4394,13 +4592,13 @@ SUMMARY:Voorhees High School at College Achieve Central Charter School (J
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102269855@skyland-conference
+UID:ds:2666:7614042@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T173000
 DTEND;TZID=America/New_York:20270209T193000
-SUMMARY:Voorhees High School vs Immaculata High School (Freshman Girls Gi
+SUMMARY:Immaculata High School at Voorhees High School (Freshman Girls Gi
  rls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102269765@skyland-conference
@@ -4412,6 +4610,15 @@ SUMMARY:Voorhees High School vs Immaculata High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2666:7443908@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T180000
+DTEND;TZID=America/New_York:20270209T200000
+SUMMARY:Immaculata High School at Voorhees High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102150003@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T180000
@@ -4419,6 +4626,15 @@ DTEND;TZID=America/New_York:20270209T200000
 SUMMARY:Voorhees High School at College Achieve Central Charter School (V
  arsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7448457@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270209T190000
+DTEND;TZID=America/New_York:20270209T210000
+SUMMARY:Immaculata High School at Voorhees High School (Varsity Girls Gir
+ ls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103156101@skyland-conference
@@ -4599,6 +4815,15 @@ SUMMARY:Voorhees High School vs Franklin High School (Varsity Boys Boys V
 DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7541114@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Bernards High School at Voorhees High School (Varsity Boys Boys G
+ olf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7540621@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
@@ -4606,6 +4831,15 @@ DTEND;VALUE=DATE:20270407
 SUMMARY:Bound Brook High School vs Voorhees High School (Varsity Girls So
  ftball)
 DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7541715@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Franklin High School at Voorhees High School (Varsity Boys Boys V
+ olleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7542672@skyland-conference
@@ -4822,6 +5056,15 @@ SUMMARY:Bound Brook High School at Voorhees High School (Varsity Girls So
 DESCRIPTION:Varsity Girls Softball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7541725@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys V
+ olleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104541206@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270427T150000
@@ -4876,6 +5119,15 @@ SUMMARY:Voorhees High School vs Watchung Hills Reg High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7541135@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Bernards High School vs Voorhees High School (Varsity Boys Boys G
+ olf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102800701@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270504T160000
@@ -4919,6 +5171,15 @@ DTEND;TZID=America/New_York:20270511T180000
 SUMMARY:Manville High School at Voorhees High School (Varsity Boys Baseba
  ll)
 DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7608210@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Bernards High School vs Voorhees High School (Varsity Girls Girls
+  Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7541148@skyland-conference

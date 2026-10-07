@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2617:7623271@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270324T160000
+DTEND;TZID=America/New_York:20270324T180000
+SUMMARY:Franklin High School at Hillsborough Athletics (Varsity Girls Sof
+ tball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7623271@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270324T160000
@@ -30,6 +39,33 @@ DTEND;TZID=America/New_York:20270324T180000
 SUMMARY:Hillsborough High School vs Franklin High School (Varsity Girls S
  oftball)
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7678543@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270326T160000
+DTEND;TZID=America/New_York:20270326T180000
+SUMMARY:Franklin High School at North Plainfield Public Schools (Varsity 
+ Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7623280@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270403T110000
+DTEND;TZID=America/New_York:20270403T130000
+SUMMARY:Franklin High School vs Somerville High School (Varsity Girls Sof
+ tball)
+DESCRIPTION:Varsity Girls Softball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7540862@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Franklin High School vs Phillipsburg High School (Varsity Girls S
+ oftball)
+DESCRIPTION:Varsity Girls Softball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7540864@skyland-conference
@@ -41,12 +77,47 @@ SUMMARY:Bridgewater-Raritan High School vs Franklin High School (Varsity
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7540867@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Franklin High School vs Immaculata High School (Varsity Girls Sof
+ tball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7540867@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270413
+DTEND;VALUE=DATE:20270414
+SUMMARY:Immaculata High School at Franklin High School (Varsity Girls Sof
+ tball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7540869@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Franklin High School at Ridge High School (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7540869@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270415
 DTEND;VALUE=DATE:20270416
 SUMMARY:Ridge High School vs Franklin High School (Varsity Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7540872@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Franklin High School at Phillipsburg High School (Varsity Girls S
+ oftball)
+DESCRIPTION:Varsity Girls Softball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7540874@skyland-conference
@@ -58,6 +129,32 @@ SUMMARY:Bridgewater-Raritan High School at Franklin High School (Varsity
 DESCRIPTION:Varsity Girls Softball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7540874@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Franklin High School vs Bridgewater-Raritan High School (Varsity 
+ Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7659781@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T160000
+DTEND;TZID=America/New_York:20270430T180000
+SUMMARY:Franklin High School at Middlesex High School (Varsity Girls Soft
+ ball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7540879@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Franklin High School vs Ridge High School (Varsity Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7540879@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270504
@@ -66,12 +163,30 @@ SUMMARY:Ridge High School at Franklin High School (Varsity Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7661795@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270511T160000
+DTEND;TZID=America/New_York:20270511T180000
+SUMMARY:Franklin High School vs South Hunterdon Regional H.S. (Varsity Gi
+ rls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7661795@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270511T160000
 DTEND;TZID=America/New_York:20270511T180000
 SUMMARY:South Hunterdon Regional H.S. at Franklin High School (Varsity Gi
  rls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7540877@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T160000
+DTEND;TZID=America/New_York:20270513T180000
+SUMMARY:Franklin High School at Immaculata High School (Varsity Girls Sof
+ tball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

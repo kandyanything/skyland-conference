@@ -24,6 +24,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2535:7608199@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7608203@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Bernards High School vs Somerville High School (Varsity Girls Gir
+ ls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7608205@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Bernards High School vs Mount Saint Mary Academy (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103845277@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270429T163000
@@ -31,5 +58,23 @@ DTEND;TZID=America/New_York:20270429T183000
 SUMMARY:North Hunterdon High School vs Bernards High School (Varsity Girl
  s Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7608208@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270429
+DTEND;VALUE=DATE:20270430
+SUMMARY:Bernards High School at North Hunterdon High School (Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7608210@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Bernards High School vs Voorhees High School (Varsity Girls Girls
+  Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
 END:VEVENT
 END:VCALENDAR

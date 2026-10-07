@@ -24,13 +24,40 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:102075909@skyland-conference
+UID:ds:2535:7562201@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260831T173000
+DTEND;TZID=America/New_York:20260831T193000
+SUMMARY:Bernards High School at Whippany Park High School (Junior Varsity
+  Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7562209@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T180000
 DTEND;TZID=America/New_York:20260914T200000
-SUMMARY:Somerville High School at Bernards High School (Junior Varsity Gi
+SUMMARY:Bernards High School vs Somerville High School (Junior Varsity Gi
  rls Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 6:00 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7562221@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T174500
+DTEND;TZID=America/New_York:20260916T194500
+SUMMARY:Bernards High School at Franklin High School (Junior Varsity Girl
+ s Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7555338@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T163000
+DTEND;TZID=America/New_York:20260924T183000
+SUMMARY:Bernards High School at Hillsborough Athletics (Junior Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7555338@skyland-conference
@@ -42,13 +69,40 @@ SUMMARY:Hillsborough High School vs Bernards High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7523027@skyland-conference
+UID:ds:2535:7523027@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T103000
 DTEND;TZID=America/New_York:20260926T123000
-SUMMARY:Ridge High School vs Bernards High School (Junior Varsity Girls F
+SUMMARY:Bernards High School at Ridge High School (Junior Varsity Girls F
  ield Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 10:30 AM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7653822@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T180000
+DTEND;TZID=America/New_York:20260928T200000
+SUMMARY:Bernards High School vs Mount Saint Mary Academy (Junior Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7661980@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T174500
+DTEND;TZID=America/New_York:20261002T194500
+SUMMARY:Bernards High School vs Mountain Lakes High School (Junior Varsit
+ y Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7562245@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T173000
+DTEND;TZID=America/New_York:20261007T193000
+SUMMARY:Bernards High School at Somerville High School (Junior Varsity Gi
+ rls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102301805@skyland-conference
@@ -60,6 +114,24 @@ SUMMARY:Somerville High School vs Bernards High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:40 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7562249@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T113000
+DTEND;TZID=America/New_York:20261010T133000
+SUMMARY:Bernards High School vs Westfield High School (Junior Varsity Gir
+ ls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7562256@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T180000
+DTEND;TZID=America/New_York:20261015T200000
+SUMMARY:Bernards High School at West Morris Central High School (Junior V
+ arsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:bb:MountSaintMaryAcademy:165b7f63-6f10-4a0a-b596-401b0d8ab80c@skyland
  -conference
 DTSTAMP:20250801T000000Z
@@ -68,5 +140,14 @@ DTEND;TZID=America/New_York:20261026T153000
 SUMMARY:Mount Saint Mary Academy vs Bernards High School (Junior Varsity 
  Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7562272@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T174500
+DTEND;TZID=America/New_York:20261026T194500
+SUMMARY:Bernards High School at Mount Saint Mary Academy (Junior Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:45 PM
 END:VEVENT
 END:VCALENDAR
