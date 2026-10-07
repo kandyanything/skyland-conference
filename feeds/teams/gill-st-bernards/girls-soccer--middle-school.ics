@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-10-07:15:30:Soccer:9@skyland-conference
+UID:fs:GillSt.BernardsSchool:2026-10-07:15:30:Soccer:0@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T153000
 DTEND;TZID=America/New_York:20261007T173000
@@ -33,7 +33,7 @@ SUMMARY:Gill St. Bernard's School vs Newark Academy (Middle School Girls
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-10-10:09:00:Soccer:24@skyland-conference
+UID:fs:GillSt.BernardsSchool:2026-10-10:09:00:Soccer:15@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
 DTEND;TZID=America/New_York:20261010T110000
@@ -41,5 +41,14 @@ SUMMARY:[Cancelled] Gill St. Bernard's School vs Wardlaw-Hartridge School
   (Middle School Girls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 9:00 AM
 STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-10-13:15:30:Soccer:20@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T153000
+DTEND;TZID=America/New_York:20261013T173000
+SUMMARY:Gill St. Bernard's School vs Morristown-Beard School (Middle Scho
+ ol Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 3:30 PM
 END:VEVENT
 END:VCALENDAR
