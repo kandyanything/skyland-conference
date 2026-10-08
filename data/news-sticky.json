@@ -1,0 +1,24 @@
+{
+  "_comment": "Hand-picked articles pinned to the TOP of the news area. This file is never rewritten by the news bot, unlike data/news.json, which is rebuilt from scratch every three hours - so an article added here stays put instead of rotating off within a day. Each entry reserves its own slot, so the day's scraped news cannot push it off. To add one, copy the example out of _example into the sticky list and fill it in. To take one down early, delete it or change 'until' to a past date.",
+  "_fields": {
+    "title": "required - shown as the headline",
+    "url": "required - where the card links to",
+    "date": "YYYY-MM-DD, shown on the card",
+    "image": "full https url to the article's picture; omit for no image",
+    "excerpt": "one or two sentences shown under the headline",
+    "outlet": "publication name, e.g. TAPinto or NJ.com",
+    "school": "optional, which member school it concerns",
+    "until": "LAST day it shows, YYYY-MM-DD. It disappears by itself the next day. Omit to keep it until removed by hand."
+  },
+  "_example": {
+    "title": "Headline exactly as published",
+    "url": "https://www.example.com/the-article",
+    "date": "2026-10-07",
+    "image": "https://www.example.com/photo.jpg",
+    "excerpt": "One or two sentences about what happened.",
+    "outlet": "TAPinto",
+    "school": "Example High School",
+    "until": "2026-10-23"
+  },
+  "sticky": []
+}

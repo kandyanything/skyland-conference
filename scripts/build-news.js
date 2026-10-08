@@ -605,6 +605,27 @@ async function main() {
     for (const c of candidates) if (!byUrl.has(c.url)) byUrl.set(c.url, c);
     const fresh = [...byUrl.values()];
 
+    /* ---- curated "sticky" articles ----
+       data/news-sticky.json is hand-edited and is NOT rewritten by this script.
+       Anything in it is placed at the top of the feed and reserves its own slot,
+       so the day's scraped news cannot push it off. `until` is the last day it
+       shows; after that this build drops it. */
+    let sticky = [];
+    try {
+        const rawSticky = JSON.parse(fs.readFileSync(path.join(ROOT, 'data', 'news-sticky.json'), 'utf8'));
+        const today = new Date().toISOString().slice(0, 10);
+        for (const a of (rawSticky.sticky || [])) {
+            if (!a || !a.title || !a.url) continue;
+            if (a.until && String(a.until) < today) {
+                console.log(`  sticky expired ${a.until}, dropping: ${a.title}`);
+                continue;
+            }
+            sticky.push({ ...a, sticky: true });
+        }
+        if (sticky.length) console.log(`  ${sticky.length} sticky article(s) pinned to the top`);
+    } catch (e) {
+        if (e.code !== 'ENOENT') console.log(`  news-sticky.json unreadable: ${e.message}`);
+    }
     // ---- merge with existing (keep previously fetched images / previews) ----
     let existing = [];
     try {
@@ -662,10 +683,14 @@ async function main() {
         }
         return out;
     }
-    const sorted = dedupe([...merged.values()])
+    const stickyUrls = new Set(sticky.map(a => a.url));
+    const scraped = dedupe([...merged.values()])
+        .filter(n => !stickyUrls.has(n.url))        // never show a sticky article twice
         .filter(n => n.date)
         .sort((a, b) => (b.date || '').localeCompare(a.date || ''))
-        .slice(0, MAX_ITEMS);
+        
+        .slice(0, Math.max(0, MAX_ITEMS - sticky.length));
+    const sorted = [...sticky, ...scraped];
 
     console.log(`${sorted.length} articles in output (max ${MAX_ITEMS})`);
 
