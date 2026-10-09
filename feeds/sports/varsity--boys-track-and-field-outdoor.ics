@@ -1,9 +1,9 @@
 BEGIN:VCALENDAR
 VERSION:2.0
-PRODID:-//AthlitIQ//Super Essex Conference//EN
+PRODID:-//AthlitIQ//Skyland Conference//EN
 CALSCALE:GREGORIAN
 METHOD:PUBLISH
-X-WR-CALNAME:Super Essex Conference — Varsity Boys Track & Field - Outdoor
+X-WR-CALNAME:Skyland Conference — Varsity Boys Track & Field - Outdoor
 X-WR-TIMEZONE:America/New_York
 BEGIN:VTIMEZONE
 TZID:America/New_York
@@ -23,12 +23,30 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:101044022@super-essex-conference
+UID:arb:104643402@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Bloomfield High School vs Verona High School (Varsity Boys Boys T
- rack & Field - Outdoor)
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Somerville High School vs TBD (Varsity Boys Boys Track & Field - 
+ Outdoor)
+DESCRIPTION:Varsity Boys Boys Track & Field - Outdoor - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104643369@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Somerville High School vs TBD (Varsity Boys Boys Track & Field - 
+ Outdoor)
+DESCRIPTION:Varsity Boys Boys Track & Field - Outdoor - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104643418@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270324T160000
+DTEND;TZID=America/New_York:20270324T180000
+SUMMARY:Somerville High School vs TBD (Varsity Boys Boys Track & Field - 
+ Outdoor)
 DESCRIPTION:Varsity Boys Boys Track & Field - Outdoor - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
