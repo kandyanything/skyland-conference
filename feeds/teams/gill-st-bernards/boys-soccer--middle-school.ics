@@ -24,12 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-10-10:09:00:Soccer:8@skyland-conference
+UID:fs:GillSt.BernardsSchool:2026-10-10:09:00:Soccer:5@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T090000
 DTEND;TZID=America/New_York:20261010T110000
 SUMMARY:Gill St. Bernard's School vs Wardlaw-Hartridge School (Middle Sch
  ool Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-10-15:15:30:Soccer:23@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T153000
+DTEND;TZID=America/New_York:20261015T173000
+SUMMARY:Gill St. Bernard's School vs Oratory Prep School (Middle School B
+ oys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 3:30 PM
 END:VEVENT
 END:VCALENDAR
