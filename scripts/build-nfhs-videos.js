@@ -26,6 +26,21 @@ const fs = require('fs');
 const path = require('path');
 const zlib = require('zlib');
 
+// NFHS puts the event name in an aria-label, so it arrives HTML-escaped:
+// "Saint Peter&#39;s Prep" rather than the real apostrophe. Nothing decoded it,
+// and the renderers set textContent, so the raw entity was printed on screen.
+function decodeEntities(s) {
+    return String(s || '')
+        .replace(/&#([0-9]+);/g, (_, n) => String.fromCharCode(Number(n)))
+        .replace(/&#x([0-9a-fA-F]+);/g, (_, n) => String.fromCharCode(parseInt(n, 16)))
+        .split('&quot;').join('"')
+        .split('&apos;').join("'")
+        .split('&lt;').join('<')
+        .split('&gt;').join('>')
+        .split('&nbsp;').join(' ')
+        .split('&amp;').join('&');   // last, so &amp;#39; cannot double-decode
+}
+
 const ROOT = path.join(__dirname, '..');
 const UA = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 '
     + '(KHTML, like Gecko) Chrome/126.0 Safari/537.36';
@@ -162,7 +177,7 @@ const words = s => String(s).toLowerCase().replace(/[^a-z0-9]+/g, ' ').split(' '
             if (when > new Date() || when < cutoff) continue;      // past 6 weeks only
             byGame.set(id, {
                 id, url: `https://www.nfhsnetwork.com${href}`,
-                title: label.replace(/\s+/g, ' ').trim(), date: iso, school: s.name,
+                title: decodeEntities(label).replace(/\s+/g, ' ').trim(), date: iso, school: s.name,
                 sport: cardSport(html, c.index),
             });
             added++;
