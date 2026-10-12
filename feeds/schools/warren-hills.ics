@@ -2010,14 +2010,6 @@ SUMMARY:Warren Hills Regional H.S. vs Hackettstown High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104517475@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Warren Hills Regional H.S. vs TBD (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102406464@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
@@ -2034,6 +2026,15 @@ DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Warren Hills Regional H.S. at Bridgewater-Raritan High School (Fr
  eshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104513149@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Warren Hills Regional H.S. vs Sparta High School (Varsity Girls F
+ ield Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104290500@skyland-conference
@@ -2053,15 +2054,6 @@ SUMMARY:[Canceled] Warren Hills Regional H.S. at Watchung Hills Reg High
  School (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104513149@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
-SUMMARY:Warren Hills Regional H.S. vs Sparta High School (Varsity Girls F
- ield Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102336746@skyland-conference
@@ -2104,9 +2096,10 @@ UID:arb:99068679@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T163000
 DTEND;TZID=America/New_York:20261015T183000
-SUMMARY:Warren Hills Regional H.S. at South Hunterdon Regional H.S. (Juni
- or Varsity Girls Girls Soccer)
+SUMMARY:[Canceled] Warren Hills Regional H.S. at South Hunterdon Regional
+  H.S. (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100871171@skyland-conference
@@ -2535,29 +2528,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104203015@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T161500
-DTEND;TZID=America/New_York:20261208T181500
+DTSTART;TZID=America/New_York:20261208T181000
+DTEND;TZID=America/New_York:20261208T201000
 SUMMARY:Warren Hills Regional H.S. vs Gill St. Bernard's School (Varsity 
  Coed Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104183527@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T180000
-DTEND;TZID=America/New_York:20261208T200000
-SUMMARY:Warren Hills Regional H.S. vs Gill St. Bernard's School (Varsity 
- Girls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104183501@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T180000
-DTEND;TZID=America/New_York:20261208T200000
-SUMMARY:Warren Hills Regional H.S. vs Gill St. Bernard's School (Varsity 
- Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 6:00 PM
+DESCRIPTION:Varsity Coed Coed Swimming - Home - 6:10 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104186236@skyland-conference
@@ -2846,15 +2821,6 @@ DTEND;TZID=America/New_York:20261222T180000
 SUMMARY:Warren Hills Regional H.S. at Franklin High School (Varsity Boys 
  Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104183667@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261222
-DTEND;VALUE=DATE:20261223
-SUMMARY:Warren Hills Regional H.S. at Franklin High School (Varsity Coed 
- Coed Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102270474@skyland-conference
