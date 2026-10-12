@@ -1909,9 +1909,10 @@ UID:arb:102351422@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T160000
 DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Somerville High School at Whippany Park High School (Freshman Boy
- s Boys Soccer)
+SUMMARY:[Canceled] Somerville High School at Whippany Park High School (F
+ reshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101972544@skyland-conference
@@ -1942,6 +1943,15 @@ DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:103696676@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T090000
+DTEND;TZID=America/New_York:20261013T110000
+SUMMARY:Somerville High School at Phillipsburg High School (Varsity Girls
+  Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104111047@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T161500
@@ -1951,24 +1961,6 @@ SUMMARY:Somerville High School vs Princeton High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102554059@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T163000
-DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Somerville High School at Elizabeth High School (Junior Varsity G
- irls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102553989@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T163000
-DTEND;TZID=America/New_York:20261013T183000
-SUMMARY:Somerville High School at Elizabeth High School (Varsity Girls Gi
- rls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7681114@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T180000
@@ -1976,6 +1968,15 @@ DTEND;TZID=America/New_York:20261013T200000
 SUMMARY:Bridgewater-Raritan High School vs Somerville High School (Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103694021@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T210000
+DTEND;TZID=America/New_York:20261013T230000
+SUMMARY:Somerville High School at Phillipsburg High School (Varsity Boys 
+ Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 9:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7335115@skyland-conference
@@ -1994,24 +1995,6 @@ DTEND;VALUE=DATE:20261014
 SUMMARY:Hillsborough High School at Somerville High School (Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:103696676@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:Phillipsburg High School vs Somerville High School (Varsity Girls
-  Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:103694021@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:Phillipsburg High School vs Somerville High School (Varsity Boys 
- Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7684645@skyland-conference
@@ -2138,6 +2121,24 @@ DTEND;TZID=America/New_York:20261017T110000
 SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Freshm
  an Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104680494@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Somerville High School vs Montgomery High School (Junior Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104680484@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Somerville High School vs Montgomery High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100192980@skyland-conference
@@ -2302,7 +2303,7 @@ SUMMARY:Somerville High School vs Nottingham High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:802af045-be12-4bba-9b8c-7d0d90ad02a6@skyland
+UID:bb:MountSaintMaryAcademy:34ca97c1-8636-45e8-bd48-810229b41a79@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T120000
@@ -2312,7 +2313,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:681f4e65-30bc-48c6-a294-db6456b9d426@skyland
+UID:bb:MountSaintMaryAcademy:25f0a5e6-9b08-49ce-a449-518801136c27@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T131500
