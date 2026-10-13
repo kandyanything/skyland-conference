@@ -206,11 +206,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104513051@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261014
-DTEND;VALUE=DATE:20261015
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Phillipsburg High School vs Pope John XXIII High School (Varsity 
  Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100871055@skyland-conference

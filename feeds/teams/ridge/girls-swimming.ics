@@ -23,22 +23,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2549:7429752@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T143000
+DTEND;TZID=America/New_York:20261215T163000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Gir
+ ls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7429754@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
+DTSTART;TZID=America/New_York:20261222T150000
+DTEND;TZID=America/New_York:20261222T170000
 SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
  s Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7429754@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261217
-DTEND;VALUE=DATE:20261218
+DTSTART;TZID=America/New_York:20261222T150000
+DTEND;TZID=America/New_York:20261222T170000
 SUMMARY:Ridge High School at Hillsborough Athletics (Varsity Girls Girls 
  Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7579865@skyland-conference
@@ -52,10 +61,28 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7429759@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270114
-DTEND;VALUE=DATE:20270115
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:Ridge High School at The Pingry School (Varsity Girls Girls Swimm
  ing)
-DESCRIPTION:Varsity Girls Girls Swimming - Away
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7690707@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T151500
+DTEND;TZID=America/New_York:20270119T171500
+SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Varsity Girls 
+ Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7690714@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+ Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
