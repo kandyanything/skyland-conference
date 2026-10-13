@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2741:7579855@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T160000
+DTEND;TZID=America/New_York:20261204T180000
+SUMMARY:Montgomery High School vs The Pingry School (Varsity Girls Girls 
+ Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7677425@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T150000
@@ -48,15 +57,6 @@ DTEND;VALUE=DATE:20261218
 SUMMARY:Montgomery High School vs The Pingry School (Varsity Girls Girls 
  Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7579855@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Montgomery High School vs The Pingry School (Varsity Girls Girls 
- Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7429759@skyland-conference

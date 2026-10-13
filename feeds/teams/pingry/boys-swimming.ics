@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2741:7579889@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T160000
+DTEND;TZID=America/New_York:20261204T180000
+SUMMARY:Montgomery High School vs The Pingry School (Varsity Boys Boys Sw
+ imming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7581792@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T151500
@@ -30,15 +39,6 @@ DTEND;TZID=America/New_York:20261208T171500
 SUMMARY:Bridgewater-Raritan High School vs The Pingry School (Varsity Boy
  s Boys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7579889@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Montgomery High School vs The Pingry School (Varsity Boys Boys Sw
- imming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7596464@skyland-conference
