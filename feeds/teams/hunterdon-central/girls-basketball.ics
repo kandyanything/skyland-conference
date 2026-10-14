@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2665:7693782@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T133000
+DTEND;TZID=America/New_York:20261210T153000
+SUMMARY:Hunterdon Central Regional H.S. vs Sparta High School (Freshman G
+ irls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 1:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7608110@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T163000
@@ -67,6 +76,33 @@ DTEND;TZID=America/New_York:20261217T200000
 SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
  l (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7693895@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T103000
+DTEND;TZID=America/New_York:20261219T123000
+SUMMARY:Hunterdon Central Regional H.S. vs Voorhees High School (Junior V
+ arsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7693896@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T103000
+DTEND;TZID=America/New_York:20261219T123000
+SUMMARY:Hunterdon Central Regional H.S. vs Voorhees High School (Freshman
+  Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 10:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7693894@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261219T120000
+DTEND;TZID=America/New_York:20261219T140000
+SUMMARY:Hunterdon Central Regional H.S. vs Voorhees High School (Varsity 
+ Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7655077@skyland-conference
