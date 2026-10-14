@@ -2538,7 +2538,7 @@ SUMMARY:Phillipsburg High School vs Voorhees High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Cross Country - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:d216b4d3-4de9-4fbb-99ed-b14036350bb1@skyland
+UID:bb:MountSaintMaryAcademy:4f89c3da-6173-4014-b0e4-a3e4df7daea3@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -2548,7 +2548,7 @@ SUMMARY:Mount Saint Mary Academy at Voorhees High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:5e01168e-9c5a-45f5-b878-1b5910c35978@skyland
+UID:bb:MountSaintMaryAcademy:50a515bf-c387-47b6-9c0a-81f962173699@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T120000
@@ -2664,7 +2664,7 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:1554bb40-f919-4370-bb8b-7fb5eaa1d921@skyland
+UID:bb:MountSaintMaryAcademy:8975dde9-6234-4245-b85f-31a4122154c2@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T120000
@@ -2994,6 +2994,15 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Voorhees High School at Gill St. Bernard's School (Varsity Girls 
  Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-10-19:16:15:Soccer:19@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T161500
+DTEND;TZID=America/New_York:20261019T181500
+SUMMARY:Gill St. Bernard's School vs Voorhees High School (Varsity Girls 
+ Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7521008@skyland-conference
@@ -3960,6 +3969,15 @@ SUMMARY:Hunterdon Central Regional H.S. vs Voorhees High School (Varsity
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2545:7692920@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Bound Brook High School at Voorhees High School (Junior Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7620893@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -3978,15 +3996,6 @@ SUMMARY:Immaculata High School vs Voorhees High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102269806@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Voorhees High School vs Bound Brook High School (Junior Varsity G
- irls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102083717@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T163000
@@ -3996,13 +4005,13 @@ SUMMARY:Belvidere High School vs Voorhees High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102269741@skyland-conference
+UID:ds:2545:7448436@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
-SUMMARY:Voorhees High School vs Bound Brook High School (Varsity Girls Gi
+SUMMARY:Bound Brook High School at Voorhees High School (Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7443887@skyland-conference
@@ -4428,6 +4437,15 @@ SUMMARY:Voorhees High School at Warren Hills Regional H.S. (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2545:7692924@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Bound Brook High School vs Voorhees High School (Junior Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2741:7580804@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -4446,22 +4464,13 @@ SUMMARY:Montgomery High School vs Voorhees High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102085490@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Voorhees High School at Bound Brook High School (Junior Varsity G
- irls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102085484@skyland-conference
+UID:ds:2545:7448451@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
 DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Voorhees High School at Bound Brook High School (Varsity Girls Gi
+SUMMARY:Bound Brook High School vs Voorhees High School (Varsity Girls Gi
  rls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7443902@skyland-conference
