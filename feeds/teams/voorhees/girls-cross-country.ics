@@ -60,17 +60,17 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102658949@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261031
-DTEND;VALUE=DATE:20261101
-SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home
+DTSTART;TZID=America/New_York:20261031T130000
+DTEND;TZID=America/New_York:20261031T150000
+SUMMARY:Voorhees High School at TBD (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102659029@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Home
+DTSTART;TZID=America/New_York:20261107T123000
+DTEND;TZID=America/New_York:20261107T143000
+SUMMARY:Voorhees High School at TBD (Varsity Girls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 12:30 PM
 END:VEVENT
 END:VCALENDAR
