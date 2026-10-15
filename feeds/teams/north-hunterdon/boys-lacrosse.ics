@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2830:7696788@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T053000
+DTEND;TZID=America/New_York:20270407T073000
+SUMMARY:Ridge High School vs North Hunterdon High School (Junior Varsity 
+ Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7696787@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
+SUMMARY:Ridge High School vs North Hunterdon High School (Varsity Boys Bo
+ ys Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104102953@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270413T163000
