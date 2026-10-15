@@ -404,14 +404,14 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104518547@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;TZID=America/New_York:20261017T130000
+DTEND;TZID=America/New_York:20261017T150000
 SUMMARY:Phillipsburg High School vs Delaware Valley Regional H.S. (Varsit
  y Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home
+DESCRIPTION:Varsity Girls Field Hockey - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:547a8f83-f300-4682-80cd-ba4e029da877@skyland
+UID:bb:MountSaintMaryAcademy:f3395696-40e8-4724-a86f-fdc46e97f2a9@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T120000
@@ -421,7 +421,7 @@ SUMMARY:Mount Saint Mary Academy at Delaware Valley Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e4cdc5c6-a707-48bd-96ed-5e2452275536@skyland
+UID:bb:MountSaintMaryAcademy:2173473a-ea08-405e-ab99-33d15c69bc0b@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T131500

@@ -2823,11 +2823,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104518547@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261017
-DTEND;VALUE=DATE:20261018
+DTSTART;TZID=America/New_York:20261017T130000
+DTEND;TZID=America/New_York:20261017T150000
 SUMMARY:Phillipsburg High School vs Delaware Valley Regional H.S. (Varsit
  y Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home
+DESCRIPTION:Varsity Girls Field Hockey - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104770553@skyland-conference
@@ -2898,9 +2898,10 @@ UID:arb:103671252@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
 DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Phillipsburg High School vs Warren Hills Regional H.S. (Junior Va
- rsity Girls Girls Soccer)
+SUMMARY:[Postponed] Phillipsburg High School vs Warren Hills Regional H.S
+ . (Junior Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98767270@skyland-conference
