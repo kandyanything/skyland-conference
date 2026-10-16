@@ -3060,16 +3060,6 @@ DESCRIPTION:Freshman Girls Field Hockey - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-10-15:16:00:Volleyball:3@skyland-confer
- ence
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Gill St. Bernard's School vs Ridge High School (Varsity Girls Gir
- ls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7541208@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T161500
@@ -3084,15 +3074,6 @@ DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T180000
 DTEND;TZID=America/New_York:20261015T200000
 SUMMARY:Ridge High School vs Gill St. Bernard's School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-10-15:18:00:Soccer:4@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T180000
-DTEND;TZID=America/New_York:20261015T200000
-SUMMARY:Gill St. Bernard's School vs Ridge High School (Varsity Girls Gir
  ls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
@@ -3179,7 +3160,7 @@ DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:68bc5f9e-29ce-4f28-bb04-9d85234d0de7@skyland
+UID:bb:MountSaintMaryAcademy:ad90a7b9-1032-441b-be35-13bfd5a8f8fc@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T080000
@@ -4726,6 +4707,15 @@ SUMMARY:Ridge High School vs Belvidere High School (Varsity Girls Girls B
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2830:7698406@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270117T183000
+DTEND;TZID=America/New_York:20270117T203000
+SUMMARY:Ridge High School vs Oratory Prep School (Varsity Boys Boys Baske
+ tball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7690650@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T151500
@@ -5264,6 +5254,24 @@ DTEND;TZID=America/New_York:20270128T200000
 SUMMARY:Ridge High School vs Hillsborough Athletics (Varsity Boys Boys Ba
  sketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7698408@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T190000
+DTEND;TZID=America/New_York:20270128T210000
+SUMMARY:Bernards High School vs Ridge High School (Varsity Boys Boys Swim
+ ming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7698409@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T190000
+DTEND;TZID=America/New_York:20270128T210000
+SUMMARY:Bernards High School vs Ridge High School (Varsity Girls Girls Sw
+ imming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7625911@skyland-conference
