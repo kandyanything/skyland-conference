@@ -2420,24 +2420,6 @@ SUMMARY:Bound Brook High School vs Delaware Valley Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7334739@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:Delaware Valley Regional H.S. vs Bound Brook High School (Varsity
-  Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7334831@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:Delaware Valley Regional H.S. at Franklin High School (Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7335163@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261001
@@ -2445,6 +2427,15 @@ DTEND;VALUE=DATE:20261002
 SUMMARY:Delaware Valley Regional H.S. at Mount Saint Mary Academy (Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7334739@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Delaware Valley Regional H.S. vs Bound Brook High School (Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7335257@skyland-conference
@@ -2463,6 +2454,15 @@ DTEND;VALUE=DATE:20261002
 SUMMARY:Delaware Valley Regional H.S. at Bound Brook High School (Varsity
   Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7334831@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Delaware Valley Regional H.S. at Franklin High School (Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7334831@skyland-conference
@@ -2537,15 +2537,6 @@ SUMMARY:Phillipsburg High School at Delaware Valley Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7482341@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T190000
-DTEND;TZID=America/New_York:20261002T210000
-SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Bo
- ys Football)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7565406@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261002T190000
@@ -2553,6 +2544,15 @@ DTEND;TZID=America/New_York:20261002T210000
 SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Gi
  rls Girls Cheerleading)
 DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7482341@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261002T190000
+DTEND;TZID=America/New_York:20261002T210000
+SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Bo
+ ys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99189493@skyland-conference
@@ -2672,15 +2672,6 @@ SUMMARY:Somerville High School vs Delaware Valley Regional H.S. (Junior V
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7334743@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:Delaware Valley Regional H.S. vs Belvidere High School (Varsity G
- irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7334835@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261005
@@ -2690,22 +2681,13 @@ SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7559925@skyland-conference
+UID:ds:2586:7334743@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Delaware Valley Regional H.S. vs College Achieve Central Charter 
- School (Junior Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7667954@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T160000
-DTEND;TZID=America/New_York:20261006T180000
-SUMMARY:Delaware Valley Regional H.S. at Lenape Valley Regional High Scho
- ol (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Delaware Valley Regional H.S. vs Belvidere High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7673712@skyland-conference
@@ -2717,6 +2699,24 @@ SUMMARY:Delaware Valley Regional H.S. at Pope John XXIII High School (Var
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7667954@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Delaware Valley Regional H.S. at Lenape Valley Regional High Scho
+ ol (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7559925@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T160000
+DTEND;TZID=America/New_York:20261006T180000
+SUMMARY:Delaware Valley Regional H.S. vs College Achieve Central Charter 
+ School (Junior Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7559924@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T173000
@@ -2726,15 +2726,6 @@ SUMMARY:Delaware Valley Regional H.S. vs College Achieve Central Charter
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7335165@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:Delaware Valley Regional H.S. vs Gill St. Bernard's School (Varsi
- ty Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7335259@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261006
@@ -2742,6 +2733,15 @@ DTEND;VALUE=DATE:20261007
 SUMMARY:Delaware Valley Regional H.S. at Phillipsburg High School (Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7335165@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Delaware Valley Regional H.S. vs Gill St. Bernard's School (Varsi
+ ty Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7441433@skyland-conference
@@ -2915,6 +2915,15 @@ SUMMARY:Hillsborough High School vs Delaware Valley Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7336306@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (V
+ arsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7335168@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261008
@@ -2931,15 +2940,6 @@ DTEND;VALUE=DATE:20261009
 SUMMARY:Delaware Valley Regional H.S. vs Voorhees High School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7336306@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (V
- arsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7335168@skyland-conference
@@ -3068,15 +3068,6 @@ SUMMARY:Delaware Valley Regional H.S. vs Manville High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7441430@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Delaware Valley Regional H.S. at South Hunterdon Regional H.S. (V
- arsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7689193@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -3093,6 +3084,15 @@ DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Delaware Valley Regional H.S. at Hunterdon Central Regional H.S. 
  (Freshman Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7441430@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Delaware Valley Regional H.S. at South Hunterdon Regional H.S. (V
+ arsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7689193@skyland-conference
@@ -3149,15 +3149,6 @@ SUMMARY:Bound Brook High School at Delaware Valley Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7335172@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:Delaware Valley Regional H.S. vs Bound Brook High School (Varsity
-  Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7335265@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261013
@@ -3165,6 +3156,15 @@ DTEND;VALUE=DATE:20261014
 SUMMARY:Delaware Valley Regional H.S. at Franklin High School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7335172@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Delaware Valley Regional H.S. vs Bound Brook High School (Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7335265@skyland-conference
@@ -3176,15 +3176,6 @@ SUMMARY:Franklin High School vs Delaware Valley Regional H.S. (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7593112@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Delaware Valley Regional H.S. vs Montgomery High School (Freshman
-  Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7689200@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
@@ -3192,6 +3183,15 @@ DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Delaware Valley Regional H.S. vs Hunterdon Central Regional H.S. 
  (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7593112@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Delaware Valley Regional H.S. vs Montgomery High School (Freshman
+  Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7689200@skyland-conference
@@ -3221,15 +3221,6 @@ SUMMARY:Bound Brook High School at Delaware Valley Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7478122@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Delaware Valley Regional H.S. vs Bound Brook High School (Varsity
-  Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7495202@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -3246,6 +3237,15 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:Delaware Valley Regional H.S. at Phillipsburg High School (Junior
   Varsity Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7478122@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Delaware Valley Regional H.S. vs Bound Brook High School (Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7502247@skyland-conference
@@ -3294,12 +3294,12 @@ SUMMARY:Warren Hills Regional H.S. at Delaware Valley Regional H.S. (Vars
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7334751@skyland-conference
+UID:ds:2586:7336309@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-SUMMARY:Delaware Valley Regional H.S. vs Mount Saint Mary Academy (Varsit
- y Girls Girls Soccer)
+SUMMARY:Delaware Valley Regional H.S. vs College Achieve Central Charter 
+ School (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
@@ -3321,12 +3321,12 @@ SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7336309@skyland-conference
+UID:ds:2586:7334751@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261015
 DTEND;VALUE=DATE:20261016
-SUMMARY:Delaware Valley Regional H.S. vs College Achieve Central Charter 
- School (Varsity Girls Girls Soccer)
+SUMMARY:Delaware Valley Regional H.S. vs Mount Saint Mary Academy (Varsit
+ y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
@@ -3340,15 +3340,6 @@ DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7465920@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T190000
-DTEND;TZID=America/New_York:20261016T210000
-SUMMARY:Delaware Valley Regional H.S. vs North Plainfield Public Schools 
- (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7544523@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T190000
@@ -3358,13 +3349,13 @@ SUMMARY:Delaware Valley Regional H.S. vs North Plainfield Public Schools
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7495205@skyland-conference
+UID:ds:2586:7465920@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T110000
-DTEND;TZID=America/New_York:20261017T130000
-SUMMARY:Delaware Valley Regional H.S. at Rutgers Preparatory School (Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Delaware Valley Regional H.S. vs North Plainfield Public Schools 
+ (Varsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7498544@skyland-conference
@@ -3376,6 +3367,15 @@ SUMMARY:Delaware Valley Regional H.S. at Rutgers Preparatory School (Juni
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7495205@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T110000
+DTEND;TZID=America/New_York:20261017T130000
+SUMMARY:Delaware Valley Regional H.S. at Rutgers Preparatory School (Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7420106@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T120000
@@ -3383,15 +3383,6 @@ DTEND;TZID=America/New_York:20261017T140000
 SUMMARY:Delaware Valley Regional H.S. at Hopewell Valley Central School (
  Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7420352@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T120000
-DTEND;TZID=America/New_York:20261017T140000
-SUMMARY:Delaware Valley Regional H.S. at Hopewell Valley Central School (
- Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7696300@skyland-conference
@@ -3412,7 +3403,7 @@ SUMMARY:Phillipsburg High School vs Delaware Valley Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Field Hockey - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:bcdb6ab0-0343-498c-824e-22aca077e51a@skyland
+UID:bb:MountSaintMaryAcademy:5bb41812-c041-4ad7-9eb4-8070d96c9d8c@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T120000
@@ -3422,7 +3413,7 @@ SUMMARY:Mount Saint Mary Academy at Delaware Valley Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:065426d1-b677-4d99-b9c5-37e39b6cb20d@skyland
+UID:bb:MountSaintMaryAcademy:4c580b20-1dd0-43db-9c5f-8d7877d7430e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T131500
@@ -3450,15 +3441,6 @@ SUMMARY:Delaware Valley Regional H.S. at North Plainfield Public Schools
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7502291@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Delaware Valley Regional H.S. at The Pingry School (Freshman Girl
- s Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7560817@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
@@ -3466,6 +3448,15 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Delaware Valley Regional H.S. vs The Pingry School (Junior Varsit
  y Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7502291@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Delaware Valley Regional H.S. at The Pingry School (Freshman Girl
+ s Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7502289@skyland-conference
@@ -3486,7 +3477,7 @@ SUMMARY:Delaware Valley Regional H.S. at Gill St. Bernard's School (Varsi
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e6d5e15b-b367-4cba-b463-a5eb762ff1c9@skyland
+UID:bb:MountSaintMaryAcademy:109368e3-b8ad-4ceb-bb91-1634113d75eb@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T120000
@@ -3496,15 +3487,6 @@ SUMMARY:Mount Saint Mary Academy vs Delaware Valley Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7478133@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Delaware Valley Regional H.S. at Mount Saint Mary Academy (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7553583@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
@@ -3512,6 +3494,15 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Delaware Valley Regional H.S. vs Franklin High School (Junior Var
  sity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7478133@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Delaware Valley Regional H.S. at Mount Saint Mary Academy (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7553583@skyland-conference
@@ -3606,6 +3597,15 @@ SUMMARY:Delaware Valley Regional H.S. at Bridgewater-Raritan High School
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7560956@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T160000
+DTEND;TZID=America/New_York:20261022T180000
+SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
+ trict (Freshman Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7498547@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
@@ -3622,15 +3622,6 @@ DTEND;TZID=America/New_York:20261022T180000
 SUMMARY:Delaware Valley Regional H.S. vs Manville High School (Junior Var
  sity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7560956@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
- trict (Freshman Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100591585@skyland-conference
@@ -3705,21 +3696,21 @@ SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7335182@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261022
-DTEND;VALUE=DATE:20261023
-SUMMARY:Delaware Valley Regional H.S. vs Manville High School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7336315@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261022
 DTEND;VALUE=DATE:20261023
 SUMMARY:Delaware Valley Regional H.S. vs Belvidere High School (Varsity G
  irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7335182@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261022
+DTEND;VALUE=DATE:20261023
+SUMMARY:Delaware Valley Regional H.S. vs Manville High School (Varsity Gi
+ rls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
@@ -3831,15 +3822,6 @@ SUMMARY:Belvidere High School vs Delaware Valley Regional H.S. (Varsity B
 DESCRIPTION:Varsity Boys Football - Home - 1:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7495377@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7498645@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T160000
@@ -3847,6 +3829,15 @@ DTEND;TZID=America/New_York:20261026T180000
 SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Junior Var
  sity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7495377@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100256000@skyland-conference
