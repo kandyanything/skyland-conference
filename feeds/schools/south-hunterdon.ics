@@ -1886,11 +1886,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7624523@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T161500
-DTEND;TZID=America/New_York:20261019T181500
-SUMMARY:South Hunterdon Regional H.S. vs TBD (Middle School Girls Girls S
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:South Hunterdon Regional H.S. at TBD (Middle School Girls Girls S
  occer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7441450@skyland-conference
@@ -2055,15 +2055,6 @@ SUMMARY:South Hunterdon Regional H.S. vs Bound Brook Middle School (Middl
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7624514@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:South Hunterdon Regional H.S. at TBD (Middle School Girls Girls S
- occer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:99060654@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
@@ -2071,6 +2062,15 @@ DTEND;TZID=America/New_York:20261022T180000
 SUMMARY:Belvidere High School vs South Hunterdon Regional H.S. (Varsity B
  oys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7624514@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T161500
+DTEND;TZID=America/New_York:20261022T181500
+SUMMARY:South Hunterdon Regional H.S. vs TBD (Middle School Girls Girls S
+ occer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99069077@skyland-conference
