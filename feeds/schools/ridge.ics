@@ -2692,6 +2692,15 @@ SUMMARY:Ridge High School at Chatham High School (Varsity Girls Girls Ten
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2830:7599136@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Ridge High School vs Watchung Hills Regional H.S. (Junior Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7441407@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -2717,15 +2726,6 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Ridge High School vs Phillipsburg High School (Junior Varsity Gir
  ls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7599136@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Ridge High School vs Watchung Hills Regional H.S. (Junior Varsity
-  Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103579111@skyland-conference
@@ -3160,7 +3160,7 @@ DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ad7521fb-642b-4436-8eba-79c4d925ea59@skyland
+UID:bb:MountSaintMaryAcademy:546501ab-63de-4062-a900-7798fc4c9caf@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T080000
@@ -3386,15 +3386,6 @@ SUMMARY:Franklin High School at Ridge High School (Junior Varsity Boys Bo
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7476314@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261022T160000
-DTEND;TZID=America/New_York:20261022T180000
-SUMMARY:Ridge High School at Old Bridge High School (Freshman Boys Footba
- ll)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7684767@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261022T160000
@@ -3448,15 +3439,6 @@ SUMMARY:Bernards High School vs Ridge High School (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7476325@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Ridge High School at Old Bridge High School (Junior Varsity Boys 
- Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7599067@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T160000
@@ -3464,6 +3446,15 @@ DTEND;TZID=America/New_York:20261026T180000
 SUMMARY:Ridge High School vs Warren Hills Regional School District (Fresh
  man Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7476325@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Ridge High School at Old Bridge High School (Junior Varsity Boys 
+ Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7567413@skyland-conference
@@ -3538,24 +3529,6 @@ SUMMARY:Ridge High School vs James Caldwell High School (Varsity Girls Fi
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7477969@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T160000
-DTEND;TZID=America/New_York:20261028T180000
-SUMMARY:Ridge High School vs Phillipsburg High School (Varsity Boys Boys 
- Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7502170@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T160000
-DTEND;TZID=America/New_York:20261028T180000
-SUMMARY:Ridge High School vs Jefferson Township High School (Varsity Girl
- s Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7518868@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T160000
@@ -3574,13 +3547,22 @@ SUMMARY:Ridge High School vs Phillipsburg High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7518604@skyland-conference
+UID:ds:2830:7502170@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T173000
-DTEND;TZID=America/New_York:20261028T193000
-SUMMARY:Ridge High School vs Jefferson Township High School (Freshman Gir
- ls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Home - 5:30 PM
+DTSTART;TZID=America/New_York:20261028T160000
+DTEND;TZID=America/New_York:20261028T180000
+SUMMARY:Ridge High School vs Jefferson Township High School (Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7477969@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T160000
+DTEND;TZID=America/New_York:20261028T180000
+SUMMARY:Ridge High School vs Phillipsburg High School (Varsity Boys Boys 
+ Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7502308@skyland-conference
@@ -3590,6 +3572,15 @@ DTEND;TZID=America/New_York:20261028T193000
 SUMMARY:Ridge High School vs Jefferson Township High School (Junior Varsi
  ty Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7518604@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T173000
+DTEND;TZID=America/New_York:20261028T193000
+SUMMARY:Ridge High School vs Jefferson Township High School (Freshman Gir
+ ls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7536522@skyland-conference
