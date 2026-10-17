@@ -24,13 +24,21 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-10-16:15:30:Soccer:0@skyland-conference
+UID:fs:GillSt.BernardsSchool:2026-10-21:15:45:Soccer:16@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T153000
-DTEND;TZID=America/New_York:20261016T173000
-SUMMARY:[Cancelled] Gill St. Bernard's School vs Peck School (Middle Scho
- ol Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Home - 3:30 PM
-STATUS:CANCELLED
+DTSTART;TZID=America/New_York:20261021T154500
+DTEND;TZID=America/New_York:20261021T174500
+SUMMARY:Gill St. Bernard's School vs Golda Och Academy (formerly Solomon 
+ Schechter Day School) (Middle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-10-22:15:15:Soccer:21@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261022T151500
+DTEND;TZID=America/New_York:20261022T171500
+SUMMARY:Gill St. Bernard's School vs Newark Academy (Middle School Girls 
+ Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Home - 3:15 PM
 END:VEVENT
 END:VCALENDAR
