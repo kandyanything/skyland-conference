@@ -26,11 +26,20 @@ END:VTIMEZONE
 BEGIN:VEVENT
 UID:arb:100999449@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T173000
-DTEND;TZID=America/New_York:20261216T193000
+DTSTART;TZID=America/New_York:20261216T170000
+DTEND;TZID=America/New_York:20261216T190000
 SUMMARY:Somerville High School at Voorhees High School (Junior Varsity Bo
  ys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104844766@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T170000
+DTEND;TZID=America/New_York:20261221T190000
+SUMMARY:Voorhees High School vs Chatham High School (Junior Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7526659@skyland-conference
@@ -49,6 +58,15 @@ DTEND;TZID=America/New_York:20270104T190000
 SUMMARY:Hunterdon Central Regional H.S. vs Voorhees High School (Junior V
  arsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104844771@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T170000
+DTEND;TZID=America/New_York:20270104T190000
+SUMMARY:Voorhees High School at Hunterdon Central Reg. High School (Junio
+ r Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100997175@skyland-conference
