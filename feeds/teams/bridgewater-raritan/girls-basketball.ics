@@ -24,85 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2549:7654731@skyland-conference
+UID:arb:100734303@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
 DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Bridgewater-Raritan High School at Manville High School (Varsity 
- Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7689502@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T160000
-DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Bridgewater-Raritan High School at Manville High School (Junior V
- arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7655773@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T160000
-DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Bridgewater-Raritan High School vs Princeton Day School (Varsity 
+SUMMARY:Manville High School vs Bridgewater-Raritan High School (Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7689509@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T160000
-DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Bridgewater-Raritan High School vs Princeton Day School (Junior V
- arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7689522@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T100000
-DTEND;TZID=America/New_York:20261212T120000
-SUMMARY:Bridgewater-Raritan High School vs West Morris Mendham High Schoo
- l (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7611989@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T160000
-DTEND;TZID=America/New_York:20261215T180000
-SUMMARY:Bridgewater-Raritan High School at Hackettstown High School (Fres
- hman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7448292@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T180000
-DTEND;TZID=America/New_York:20261215T200000
-SUMMARY:Bridgewater-Raritan High School at Rutgers Preparatory School (Va
- rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7694104@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T163000
-DTEND;TZID=America/New_York:20261217T183000
-SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
- . (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7694229@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T163000
-DTEND;TZID=America/New_York:20261217T183000
-SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
- . (Freshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7694104@skyland-conference
@@ -123,15 +51,6 @@ SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7448297@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T180000
-DTEND;TZID=America/New_York:20261217T200000
-SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
- . (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7448297@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T180000
@@ -141,58 +60,31 @@ SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7544055@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T113000
-DTEND;TZID=America/New_York:20261219T133000
-SUMMARY:Bridgewater-Raritan High School vs Middlesex High School (Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7654699@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T173000
-DTEND;TZID=America/New_York:20261222T193000
-SUMMARY:Bridgewater-Raritan High School at West Morris Mendham High Schoo
- l (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7448302@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T180000
-DTEND;TZID=America/New_York:20270105T200000
-SUMMARY:Bridgewater-Raritan High School vs Gill St. Bernard's School (Var
- sity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7665176@skyland-conference
+UID:ds:2830:7665176@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
+SUMMARY:Ridge High School at Bridgewater-Raritan High School (Junior Vars
  ity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7665177@skyland-conference
+UID:ds:2830:7665177@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Freshman Gi
+SUMMARY:Ridge High School at Bridgewater-Raritan High School (Freshman Gi
  rls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7448307@skyland-conference
+UID:ds:2830:7448307@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
-SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
+SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Gir
  ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103410250@skyland-conference
@@ -204,15 +96,6 @@ SUMMARY:Warren Hills Regional H.S. vs Bridgewater-Raritan High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7655348@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T113000
-DTEND;TZID=America/New_York:20270109T133000
-SUMMARY:Bridgewater-Raritan High School at Watchung Hills Regional H.S. (
- Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103410244@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T113000
@@ -222,67 +105,22 @@ SUMMARY:Warren Hills Regional H.S. vs Bridgewater-Raritan High School (Va
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7448312@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T180000
-DTEND;TZID=America/New_York:20270112T200000
-SUMMARY:Bridgewater-Raritan High School vs Mount Saint Mary Academy (Vars
- ity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7623516@skyland-conference
+UID:ds:2617:7623516@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T160000
 DTEND;TZID=America/New_York:20270113T180000
-SUMMARY:Bridgewater-Raritan High School at Franklin High School (Junior V
+SUMMARY:Franklin High School vs Bridgewater-Raritan High School (Junior V
  arsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7448317@skyland-conference
+UID:ds:2617:7448317@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T180000
 DTEND;TZID=America/New_York:20270113T200000
-SUMMARY:Bridgewater-Raritan High School at Franklin High School (Varsity 
+SUMMARY:Franklin High School vs Bridgewater-Raritan High School (Varsity 
  Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7448324@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T180000
-DTEND;TZID=America/New_York:20270119T200000
-SUMMARY:Bridgewater-Raritan High School at The Pingry School (Varsity Gir
- ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7448331@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T180000
-DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
- y Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7448331@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T180000
-DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Vars
- ity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7655803@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T113000
-DTEND;TZID=America/New_York:20270123T133000
-SUMMARY:Bridgewater-Raritan High School vs Princeton High School (Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101705531@skyland-conference
@@ -303,15 +141,6 @@ SUMMARY:Watchung Hills Regional H.S. at Bridgewater-Raritan High School (
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7448338@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T180000
-DTEND;TZID=America/New_York:20270126T200000
-SUMMARY:Bridgewater-Raritan High School at Watchung Hills Regional H.S. (
- Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:102265288@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
@@ -330,111 +159,39 @@ SUMMARY:Phillipsburg High School vs Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7448345@skyland-conference
+UID:arb:102265146@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T190000
 DTEND;TZID=America/New_York:20270128T210000
-SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
+SUMMARY:Phillipsburg High School vs Bridgewater-Raritan High School (Vars
  ity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7509598@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T160000
-DTEND;TZID=America/New_York:20270204T180000
-SUMMARY:Bridgewater-Raritan High School at South Plainfield High School (
- Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7486986@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T173000
-DTEND;TZID=America/New_York:20270204T193000
-SUMMARY:Bridgewater-Raritan High School at South Plainfield High School (
- Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7582858@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T160000
-DTEND;TZID=America/New_York:20270209T180000
-SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Junior
-  Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7448352@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270209T173000
-DTEND;TZID=America/New_York:20270209T193000
-SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Varsit
- y Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7613403@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T160000
-DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Bridgewater-Raritan High School vs Immaculata High School (Freshm
- an Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7613402@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T173000
-DTEND;TZID=America/New_York:20270211T193000
-SUMMARY:Bridgewater-Raritan High School vs Immaculata High School (Junior
-  Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7613401@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T190000
-DTEND;TZID=America/New_York:20270211T210000
-SUMMARY:Bridgewater-Raritan High School vs Immaculata High School (Varsit
- y Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7605912@skyland-conference
+UID:ds:2666:7613403@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270213T100000
-DTEND;TZID=America/New_York:20270213T120000
-SUMMARY:Bridgewater-Raritan High School vs Governor Livingston High Schoo
- l (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Immaculata High School at Bridgewater-Raritan High School (Freshm
+ an Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7605911@skyland-conference
+UID:ds:2666:7613402@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270213T113000
-DTEND;TZID=America/New_York:20270213T133000
-SUMMARY:Bridgewater-Raritan High School vs Governor Livingston High Schoo
- l (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:Immaculata High School at Bridgewater-Raritan High School (Junior
+  Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7655381@skyland-conference
+UID:ds:2666:7613401@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270218T170000
-DTEND;TZID=America/New_York:20270218T190000
-SUMMARY:Bridgewater-Raritan High School at Spotswood High School (Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7659104@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270220T113000
-DTEND;TZID=America/New_York:20270220T133000
-SUMMARY:Bridgewater-Raritan High School vs Allentown High School (Varsity
-  Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
+DTSTART;TZID=America/New_York:20270211T190000
+DTEND;TZID=America/New_York:20270211T210000
+SUMMARY:Immaculata High School at Bridgewater-Raritan High School (Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 END:VCALENDAR

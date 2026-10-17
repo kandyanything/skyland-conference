@@ -23,24 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2741:7580814@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Montgomery High School vs The Pingry School (Varsity Girls Girls 
- Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7639866@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Montgomery High School vs Princeton High School (Varsity Girls Gi
- rls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7689263@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T090000
@@ -50,31 +32,13 @@ SUMMARY:Bernards High School vs Montgomery High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7580816@skyland-conference
+UID:ds:2830:7580816@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T160000
 DTEND;TZID=America/New_York:20261214T180000
-SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
  Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7580817@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity G
- irls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7580812@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T160000
-DTEND;TZID=America/New_York:20261222T180000
-SUMMARY:Montgomery High School vs West Windsor-Plainsboro High School Nor
- th (Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7580818@skyland-conference
@@ -95,31 +59,31 @@ SUMMARY:Immaculata High School vs Montgomery High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7580820@skyland-conference
+UID:arb:104314812@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Montgomery High School vs North Hunterdon High School (Varsity Gi
+SUMMARY:North Hunterdon High School at Montgomery High School (Varsity Gi
  rls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7580821@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T160000
-DTEND;TZID=America/New_York:20270119T180000
-SUMMARY:Montgomery High School at Somerville High School (Varsity Girls G
- irls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7580822@skyland-conference
+UID:arb:104836713@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T160000
+DTEND;TZID=America/New_York:20270119T180000
+SUMMARY:Somerville High School vs Montgomery High School (Varsity Girls G
+ irls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104314826@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Montgomery High School vs Voorhees High School (Varsity Girls Gir
+SUMMARY:Voorhees High School at Montgomery High School (Varsity Girls Gir
  ls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7645491@skyland-conference
@@ -129,14 +93,5 @@ DTEND;TZID=America/New_York:20270126T183000
 SUMMARY:Hunterdon Central Regional H.S. vs Montgomery High School (Varsit
  y Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7645491@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T163000
-DTEND;TZID=America/New_York:20270126T183000
-SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
- y Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:30 PM
 END:VEVENT
 END:VCALENDAR
