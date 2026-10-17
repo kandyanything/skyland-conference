@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2549:7653765@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T160000
+DTEND;TZID=America/New_York:20261211T180000
+SUMMARY:Bridgewater-Raritan High School at Delaware Valley Regional H.S. 
+ (Junior Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7653765@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
@@ -33,13 +42,13 @@ SUMMARY:Delaware Valley Regional H.S. vs Bridgewater-Raritan High School
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7623285@skyland-conference
+UID:ds:2549:7623285@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
-SUMMARY:Immaculata High School vs Bridgewater-Raritan High School (Junior
+SUMMARY:Bridgewater-Raritan High School at Immaculata High School (Junior
   Varsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7653776@skyland-conference
@@ -51,13 +60,13 @@ SUMMARY:Bernards High School at Bridgewater-Raritan High School (Junior V
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7653787@skyland-conference
+UID:ds:2549:7653787@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T150000
 DTEND;TZID=America/New_York:20261223T170000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
  ity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 3:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100980947@skyland-conference

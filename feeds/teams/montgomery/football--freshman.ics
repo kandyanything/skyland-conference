@@ -23,6 +23,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2741:7484619@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260819T100000
+DTEND;TZID=America/New_York:20260819T120000
+SUMMARY:Montgomery High School at Linden High School (Freshman Boys Footb
+ all)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7512259@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Montgomery High School at Old Bridge High School (Freshman Boys F
+ ootball)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7512260@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T180000
+DTEND;TZID=America/New_York:20260914T200000
+SUMMARY:Montgomery High School vs Watchung Hills Regional H.S. (Freshman 
+ Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:98417564@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T180000
@@ -30,6 +57,15 @@ DTEND;TZID=America/New_York:20260914T200000
 SUMMARY:Watchung Hills Regional H.S. at Montgomery High School (Freshman 
  Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7493016@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Montgomery High School at Colonia High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100192978@skyland-conference
@@ -51,12 +87,39 @@ SUMMARY:Hunterdon Central Regional H.S. at Montgomery High School (Freshm
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:99739410@skyland-conference
+UID:ds:2741:7512263@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T090000
+DTEND;TZID=America/New_York:20261010T110000
+SUMMARY:Montgomery High School vs Hunterdon Central Regional H.S. (Freshm
+ an Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7512264@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T180000
 DTEND;TZID=America/New_York:20261019T200000
-SUMMARY:North Hunterdon High School at Montgomery High School (Freshman B
+SUMMARY:Montgomery High School vs North Hunterdon High School (Freshman B
  oys Football)
-DESCRIPTION:Freshman Boys Football - Away - 6:00 PM
+DESCRIPTION:Freshman Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7512265@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Hillsborough High School vs Montgomery High School (Freshman Boys
+  Football)
+DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7512265@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Montgomery High School at Hillsborough Athletics (Freshman Boys F
+ ootball)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR

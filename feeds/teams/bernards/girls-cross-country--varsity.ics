@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2653:7596617@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T041500
+DTEND;TZID=America/New_York:20260908T061500
+SUMMARY:Hillsborough High School at Bernards High School (Varsity Girls G
+ irls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:15 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7577842@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Hillsborough High School at Bernards High School (Varsity Girls G
+ irls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7575999@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T161500
@@ -33,6 +51,15 @@ SUMMARY:Bernards High School vs Hillsborough Athletics (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7575999@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T161500
+DTEND;TZID=America/New_York:20260908T181500
+SUMMARY:Hillsborough High School at Bernards High School (Varsity Girls G
+ irls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7576002@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260915T161500
@@ -40,6 +67,15 @@ DTEND;TZID=America/New_York:20260915T181500
 SUMMARY:Bernards High School vs Hillsborough Athletics (Varsity Girls Gir
  ls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7577855@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T161500
+DTEND;TZID=America/New_York:20260915T181500
+SUMMARY:Hillsborough High School at Bernards High School (Varsity Girls G
+ irls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103696466@skyland-conference

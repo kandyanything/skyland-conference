@@ -23,13 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2830:7608133@skyland-conference
+UID:ds:2741:7608133@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
  Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7608136@skyland-conference
@@ -39,5 +39,50 @@ DTEND;VALUE=DATE:20270416
 SUMMARY:Hunterdon Central Regional H.S. vs Montgomery High School (Varsit
  y Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7608136@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7608139@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Montgomery High School at The Pingry School (Varsity Girls Girls 
+ Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7608142@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T160000
+DTEND;TZID=America/New_York:20270429T180000
+SUMMARY:Hillsborough High School at Montgomery High School (Varsity Girls
+  Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7608142@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T160000
+DTEND;TZID=America/New_York:20270429T180000
+SUMMARY:Montgomery High School vs Hillsborough Athletics (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7608145@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T160000
+DTEND;TZID=America/New_York:20270513T180000
+SUMMARY:Bridgewater-Raritan High School vs Montgomery High School (Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR

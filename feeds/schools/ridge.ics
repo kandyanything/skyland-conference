@@ -257,6 +257,24 @@ SUMMARY:Ridge High School at Pope John XXIII High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7441527@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T160000
+DTEND;TZID=America/New_York:20260901T180000
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+ Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7508024@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260901T160000
+DTEND;TZID=America/New_York:20260901T180000
+SUMMARY:Montgomery High School at Ridge High School (Junior Varsity Girls
+  Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7441411@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260901T160000
@@ -264,24 +282,6 @@ DTEND;TZID=America/New_York:20260901T180000
 SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Varsity Girls 
  Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7441527@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260901T160000
-DTEND;TZID=America/New_York:20260901T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
- Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7508024@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260901T160000
-DTEND;TZID=America/New_York:20260901T180000
-SUMMARY:Ridge High School vs Montgomery High School (Junior Varsity Girls
-  Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98737190@skyland-conference
@@ -392,22 +392,22 @@ SUMMARY:Ridge High School at Fair Lawn High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7441469@skyland-conference
+UID:ds:2549:7441469@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Gir
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Gir
  ls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7533717@skyland-conference
+UID:ds:2549:7533717@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
 DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
  ity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7518607@skyland-conference
@@ -446,13 +446,13 @@ SUMMARY:Warren Hills Regional H.S. vs Ridge High School (Freshman Girls G
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7441402@skyland-conference
+UID:ds:2741:7441402@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T163000
 DTEND;TZID=America/New_York:20260903T183000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Field 
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Field 
  Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102333358@skyland-conference
@@ -482,13 +482,13 @@ SUMMARY:Warren Hills Regional H.S. at Ridge High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7501956@skyland-conference
+UID:ds:2741:7501956@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T180000
 DTEND;TZID=America/New_York:20260903T200000
-SUMMARY:Ridge High School at Montgomery High School (Junior Varsity Girls
+SUMMARY:Montgomery High School vs Ridge High School (Junior Varsity Girls
   Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 6:00 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7334695@skyland-conference
@@ -554,6 +554,15 @@ SUMMARY:Ridge High School vs Sayreville Public Schools (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Football - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7334697@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260907
+DTEND;VALUE=DATE:20260908
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7334697@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260907
@@ -599,49 +608,49 @@ SUMMARY:Ridge High School at Gill St. Bernard's School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7516727@skyland-conference
+UID:ds:2549:7516727@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T154500
 DTEND;TZID=America/New_York:20260909T174500
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
  ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 3:45 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7518869@skyland-conference
+UID:ds:2549:7477983@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Junior Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7518914@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Freshman Bo
- ys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7477983@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
  s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7477990@skyland-conference
+UID:ds:2549:7477990@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
 DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Gir
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
  ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7518869@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7518914@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Freshman Bo
+ ys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7508757@skyland-conference
@@ -678,6 +687,24 @@ DTEND;TZID=America/New_York:20260910T173000
 SUMMARY:Ridge High School at Voorhees High School (Varsity Girls Field Ho
  ckey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7441526@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
+ s Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7540020@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Hillsborough High School at Ridge High School (Junior Varsity Gir
+ ls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7441526@skyland-conference
@@ -795,6 +822,15 @@ DTEND;TZID=America/New_York:20260910T200000
 SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Varsity Boy
  s Football)
 DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7334861@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260910
+DTEND;VALUE=DATE:20260911
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7334699@skyland-conference
@@ -1123,6 +1159,42 @@ SUMMARY:Ridge High School at Gill St. Bernard's School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7478019@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Boys 
+ Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7518652@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Hillsborough High School vs Ridge High School (Junior Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7518871@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Hillsborough High School at Ridge High School (Junior Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7518916@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Hillsborough High School at Ridge High School (Freshman Boys Boys
+  Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7573247@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -1195,6 +1267,15 @@ SUMMARY:Ridge High School vs Hillsborough Athletics (Varsity Boys Boys So
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7508763@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T163000
+DTEND;TZID=America/New_York:20260916T183000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Gir
+ ls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7508763@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T163000
@@ -1240,6 +1321,15 @@ SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7478024@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T180000
+DTEND;TZID=America/New_York:20260916T200000
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7523025@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T180000
@@ -1258,22 +1348,22 @@ SUMMARY:Ridge High School at Hillsborough Athletics (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7441501@skyland-conference
+UID:ds:2741:7441501@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Girls Girls 
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Girls 
  Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7508130@skyland-conference
+UID:ds:2741:7508130@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
 DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Ridge High School at Montgomery High School (Junior Varsity Girls
+SUMMARY:Montgomery High School vs Ridge High School (Junior Varsity Girls
   Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7518614@skyland-conference
@@ -1339,6 +1429,15 @@ SUMMARY:Ridge High School at The Pingry School (Junior Varsity Girls Fiel
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7335127@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7335127@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260917
@@ -1374,31 +1473,31 @@ SUMMARY:Watchung Hills Regional H.S. vs Ridge High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7504734@skyland-conference
+UID:ds:2549:7504734@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T180000
 DTEND;TZID=America/New_York:20260918T200000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
  s Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
+DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7504748@skyland-conference
+UID:ds:2549:7504748@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T180000
 DTEND;TZID=America/New_York:20260918T200000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Gir
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
  ls Girls Cheerleading)
-DESCRIPTION:Varsity Girls Girls Cheerleading - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7476308@skyland-conference
+UID:ds:2549:7476308@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T090000
 DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Freshman Bo
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Freshman Bo
  ys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7557725@skyland-conference
@@ -1473,13 +1572,22 @@ SUMMARY:Ridge High School at Morristown High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7522356@skyland-conference
+UID:ds:2549:7522356@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
 DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
  ity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7334867@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7334867@skyland-conference
@@ -1500,6 +1608,24 @@ SUMMARY:Ridge High School vs Phillipsburg High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7441525@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
+ ls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7533721@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
+ ity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7499421@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -1509,15 +1635,6 @@ SUMMARY:Immaculata High School vs Ridge High School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7441525@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Gir
- ls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7441404@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -1525,15 +1642,6 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Ridge High School vs Watchung Hills Regional H.S. (Varsity Girls 
  Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7533721@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Junior Vars
- ity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98739029@skyland-conference
@@ -1579,6 +1687,15 @@ DTEND;TZID=America/New_York:20260922T193000
 SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Junior Varsity
   Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7335195@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260922
+DTEND;VALUE=DATE:20260923
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7335129@skyland-conference
@@ -1698,6 +1815,15 @@ SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7508769@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260923T163000
+DTEND;TZID=America/New_York:20260923T183000
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Girls Gymn
+ astics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7551987@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260923T163000
@@ -1777,6 +1903,15 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Boy
  s Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7334707@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7335196@skyland-conference
@@ -1948,13 +2083,31 @@ SUMMARY:Ridge High School vs Warren Hills Regional School District (Varsi
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7441398@skyland-conference
+UID:ds:2653:7441485@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T160000
 DTEND;TZID=America/New_York:20260929T180000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Girls Field 
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Girls Girl
+ s Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7540028@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Hillsborough High School vs Ridge High School (Junior Varsity Gir
+ ls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7441398@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260929T160000
+DTEND;TZID=America/New_York:20260929T180000
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Field 
  Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7441485@skyland-conference
@@ -2020,13 +2173,13 @@ SUMMARY:Ridge High School at Warren Hills Regional School District (Varsi
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7517746@skyland-conference
+UID:ds:2741:7517746@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260929T173000
 DTEND;TZID=America/New_York:20260929T193000
-SUMMARY:Ridge High School vs Montgomery High School (Junior Varsity Girls
+SUMMARY:Montgomery High School at Ridge High School (Junior Varsity Girls
   Field Hockey)
-DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102899830@skyland-conference
@@ -2046,40 +2199,40 @@ SUMMARY:Ridge High School at The Pingry School (Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7518875@skyland-conference
+UID:ds:2741:7518875@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
 DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Ridge High School vs Montgomery High School (Junior Varsity Boys 
+SUMMARY:Montgomery High School at Ridge High School (Junior Varsity Boys 
  Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7518909@skyland-conference
+UID:ds:2741:7518909@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
 DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Ridge High School vs Montgomery High School (Freshman Boys Boys S
+SUMMARY:Montgomery High School at Ridge High School (Freshman Boys Boys S
  occer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7496395@skyland-conference
+UID:ds:2741:7501509@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
 DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Boys Boys So
- ccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7501509@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Ridge High School at Montgomery High School (Junior Varsity Girls
+SUMMARY:Montgomery High School vs Ridge High School (Junior Varsity Girls
   Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7496395@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys So
+ ccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7508779@skyland-conference
@@ -2091,13 +2244,13 @@ SUMMARY:Ridge High School vs Watchung Hills Regional H.S. (Varsity Girls
 DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7499209@skyland-conference
+UID:ds:2741:7499209@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T170000
 DTEND;TZID=America/New_York:20260930T190000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
  Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 5:00 PM
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7664955@skyland-conference
@@ -2181,6 +2334,15 @@ SUMMARY:Bernards High School at Ridge High School (Varsity Girls Girls So
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7335201@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7335135@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261001
@@ -2251,6 +2413,15 @@ DTEND;TZID=America/New_York:20261003T110000
 SUMMARY:Ridge High School at Livingston High School (Freshman Girls Girls
   Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7595230@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T100000
+DTEND;TZID=America/New_York:20261003T120000
+SUMMARY:Hillsborough High School vs Ridge High School (Freshman Boys Boys
+  Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7595230@skyland-conference
@@ -2433,6 +2604,15 @@ SUMMARY:Watchung Hills Regional H.S. vs Ridge High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7335137@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7335203@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261006
@@ -2477,13 +2657,13 @@ SUMMARY:Ridge High School vs The Pingry School (Junior Varsity Girls Girl
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7501166@skyland-conference
+UID:ds:2741:7501166@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T163000
 DTEND;TZID=America/New_York:20261007T183000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Girls Gymnas
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Gymnas
  tics)
-DESCRIPTION:Varsity Girls Gymnastics - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7636461@skyland-conference
@@ -2807,13 +2987,13 @@ SUMMARY:Ridge High School vs Bernards High School (Varsity Girls Girls So
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7536985@skyland-conference
+UID:ds:2549:7536985@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
 DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
  ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7567422@skyland-conference
@@ -2952,6 +3132,15 @@ SUMMARY:Voorhees High School vs Ridge High School (Junior Varsity Girls G
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7522351@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T170000
+DTEND;TZID=America/New_York:20261016T190000
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Boys Footb
+ all)
+DESCRIPTION:Varsity Boys Football - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7522351@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T170000
@@ -2981,6 +3170,15 @@ SUMMARY:Mount Saint Mary Academy at Ridge High School (Varsity Girls Fiel
 DESCRIPTION:Varsity Girls Field Hockey - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7558723@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261017T090000
+DTEND;TZID=America/New_York:20261017T110000
+SUMMARY:Hillsborough High School at Ridge High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7558723@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261017T090000
@@ -2990,13 +3188,22 @@ SUMMARY:Ridge High School vs Hillsborough Athletics (Freshman Boys Footba
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7567395@skyland-conference
+UID:ds:2549:7567395@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
 DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Coe
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Coe
  d Unified Sports Soccer)
-DESCRIPTION:Varsity Coed Unified Sports Soccer - Home - 4:00 PM
+DESCRIPTION:Varsity Coed Unified Sports Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7476324@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Hillsborough High School at Ridge High School (Junior Varsity Boy
+ s Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7537640@skyland-conference
@@ -3062,6 +3269,15 @@ SUMMARY:Ridge High School vs Hopewell Valley Central School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7555907@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T183000
+DTEND;TZID=America/New_York:20261019T203000
+SUMMARY:Hillsborough High School at Ridge High School (Freshman Boys Foot
+ ball)
+DESCRIPTION:Freshman Boys Football - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7555907@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T183000
@@ -3069,6 +3285,15 @@ DTEND;TZID=America/New_York:20261019T203000
 SUMMARY:Ridge High School vs Hillsborough Athletics (Freshman Boys Footba
  ll)
 DESCRIPTION:Freshman Boys Football - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7665217@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7511426@skyland-conference
@@ -3096,15 +3321,6 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Ridge High School at Manville High School (Junior Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7665217@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Junior Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7511285@skyland-conference
@@ -3268,6 +3484,24 @@ SUMMARY:Ridge High School vs Rutgers Preparatory School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7504868@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T163000
+DTEND;TZID=America/New_York:20261027T183000
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
+ Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7504869@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T163000
+DTEND;TZID=America/New_York:20261027T183000
+SUMMARY:Montgomery High School vs Ridge High School (Freshman Girls Girls
+  Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7550286@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T163000
@@ -3277,31 +3511,13 @@ SUMMARY:Ridge High School vs James Caldwell High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7504868@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T163000
-DTEND;TZID=America/New_York:20261027T183000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
- Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7504869@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T163000
-DTEND;TZID=America/New_York:20261027T183000
-SUMMARY:Ridge High School at Montgomery High School (Freshman Girls Girls
-  Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7504870@skyland-conference
+UID:ds:2741:7504870@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T173000
 DTEND;TZID=America/New_York:20261027T193000
-SUMMARY:Ridge High School at Montgomery High School (Junior Varsity Girls
+SUMMARY:Montgomery High School vs Ridge High School (Junior Varsity Girls
   Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7521302@skyland-conference
@@ -3654,40 +3870,40 @@ SUMMARY:Ridge High School at Ewing High School (Varsity Boys Boys Basketb
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7580771@skyland-conference
+UID:ds:2741:7580771@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T160000
 DTEND;TZID=America/New_York:20261214T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Boys Boys Fe
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Boys Boys Fe
  ncing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7580816@skyland-conference
+UID:ds:2741:7580816@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261214T160000
 DTEND;TZID=America/New_York:20261214T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
  Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7429752@skyland-conference
+UID:ds:2549:7429752@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T143000
 DTEND;TZID=America/New_York:20261215T163000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Gir
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Gir
  ls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:30 PM
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7596492@skyland-conference
+UID:ds:2549:7596492@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T143000
 DTEND;TZID=America/New_York:20261215T163000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
  s Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:30 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7611987@skyland-conference
@@ -3708,13 +3924,13 @@ SUMMARY:Ridge High School vs Gill St. Bernard's School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7690727@skyland-conference
+UID:ds:2549:7690727@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T171000
 DTEND;TZID=America/New_York:20261215T191000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
  s Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 5:10 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:10 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7611986@skyland-conference
@@ -3879,6 +4095,24 @@ SUMMARY:Ridge High School vs Pascack Valley High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7429754@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T150000
+DTEND;TZID=America/New_York:20261222T170000
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
+ s Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7690617@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T150000
+DTEND;TZID=America/New_York:20261222T170000
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Boys Boys 
+ Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7429754@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T150000
@@ -3924,22 +4158,22 @@ SUMMARY:Ridge High School vs West Morris Central High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7653787@skyland-conference
+UID:ds:2549:7653787@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T150000
 DTEND;TZID=America/New_York:20261223T170000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
  ity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 3:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7653678@skyland-conference
+UID:ds:2549:7653678@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T163000
 DTEND;TZID=America/New_York:20261223T183000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
  s Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 4:30 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7665062@skyland-conference
@@ -4032,6 +4266,15 @@ SUMMARY:Ridge High School vs Mount Saint Mary Academy (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7690774@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T171000
+DTEND;TZID=America/New_York:20270105T191000
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Coed Coed 
+ Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Away - 5:10 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7690774@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T171000
@@ -4104,40 +4347,40 @@ SUMMARY:Immaculata High School vs Ridge High School (Varsity Boys Boys Wr
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7579865@skyland-conference
+UID:ds:2741:7579865@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T143000
 DTEND;TZID=America/New_York:20270107T163000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Girls Girls 
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Girls 
  Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 2:30 PM
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7579890@skyland-conference
+UID:ds:2741:7579890@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T143000
 DTEND;TZID=America/New_York:20270107T163000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Boys Boys Sw
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Sw
  imming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:30 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7665176@skyland-conference
+UID:ds:2549:7665176@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
  ity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7665177@skyland-conference
+UID:ds:2549:7665177@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Freshman Gi
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Freshman Gi
  rls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104168401@skyland-conference
@@ -4167,22 +4410,22 @@ SUMMARY:Watchung Hills Regional H.S. at Ridge High School (Varsity Coed C
 DESCRIPTION:Varsity Coed Coed Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7448214@skyland-conference
+UID:ds:2549:7448307@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Boys Boys Ba
- sketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
+ ls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7448307@skyland-conference
+UID:ds:2741:7448214@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Gir
- ls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Ba
+ sketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7626118@skyland-conference
@@ -4356,6 +4599,15 @@ SUMMARY:Ridge High School at Phillipsburg High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7665281@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T161500
+DTEND;TZID=America/New_York:20270114T181500
+SUMMARY:Hillsborough High School at Ridge High School (Junior Varsity Gir
+ ls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7665281@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
@@ -4381,6 +4633,24 @@ DTEND;TZID=America/New_York:20270114T193000
 SUMMARY:Ridge High School at Phillipsburg High School (Junior Varsity Boy
  s Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7443808@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T180000
+DTEND;TZID=America/New_York:20270114T200000
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
+ s Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7665282@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T180000
+DTEND;TZID=America/New_York:20270114T200000
+SUMMARY:Hillsborough High School at Ridge High School (Freshman Girls Gir
+ ls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7443808@skyland-conference
@@ -4662,13 +4932,13 @@ SUMMARY:Ridge High School at Phillipsburg High School (Freshman Girls Gir
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7665974@skyland-conference
+UID:ds:2549:7665974@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T161500
 DTEND;TZID=America/New_York:20270121T181500
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
  ity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102265231@skyland-conference
@@ -4680,6 +4950,24 @@ SUMMARY:Phillipsburg High School vs Ridge High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7448231@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T180000
+DTEND;TZID=America/New_York:20270121T200000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7665975@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T180000
+DTEND;TZID=America/New_York:20270121T200000
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Freshman Bo
+ ys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7443821@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T180000
@@ -4687,24 +4975,6 @@ DTEND;TZID=America/New_York:20270121T200000
 SUMMARY:Ridge High School vs Phillipsburg High School (Varsity Girls Girl
  s Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7448231@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T180000
-DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7665975@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T180000
-DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Freshman Bo
- ys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7448334@skyland-conference
@@ -4716,22 +4986,22 @@ SUMMARY:Ridge High School at Phillipsburg High School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7690635@skyland-conference
+UID:ds:2741:7690635@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
 DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Boys Boys Sw
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Boys Boys Sw
  imming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7690714@skyland-conference
+UID:ds:2741:7690714@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
 DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
  Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7594351@skyland-conference
@@ -4779,6 +5049,15 @@ SUMMARY:Ridge High School vs Millburn High School (Varsity Boys Boys Bask
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7690789@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T151500
+DTEND;TZID=America/New_York:20270125T171500
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Coed Coed 
+ Ice Hockey)
+DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 3:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7690789@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T151500
@@ -4788,13 +5067,13 @@ SUMMARY:Ridge High School at Hillsborough Athletics (Varsity Boys Boys Ic
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7582846@skyland-conference
+UID:ds:2741:7582846@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
-SUMMARY:Ridge High School vs Montgomery High School (Junior Varsity Girls
+SUMMARY:Montgomery High School at Ridge High School (Junior Varsity Girls
   Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104135836@skyland-conference
@@ -4842,6 +5121,15 @@ SUMMARY:Ridge High School vs Kittatinny Regional High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7448339@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T180000
+DTEND;TZID=America/New_York:20270126T200000
+SUMMARY:Montgomery High School at Ridge High School (Varsity Girls Girls 
+ Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7443826@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T180000
@@ -4858,15 +5146,6 @@ DTEND;TZID=America/New_York:20270126T200000
 SUMMARY:Ridge High School at Gill St. Bernard's School (Varsity Boys Boys
   Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7448339@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T180000
-DTEND;TZID=America/New_York:20270126T200000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Girls Girls 
- Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7650361@skyland-conference
@@ -4948,6 +5227,15 @@ DTEND;TZID=America/New_York:20270128T180000
 SUMMARY:Somerville High School at Ridge High School (Varsity Boys Boys Fe
  ncing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7448241@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T180000
+DTEND;TZID=America/New_York:20270128T200000
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7443831@skyland-conference
@@ -5111,13 +5399,13 @@ SUMMARY:Ridge High School at Morris Knolls High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7690797@skyland-conference
+UID:ds:2549:7690797@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270205T154000
 DTEND;TZID=America/New_York:20270205T174000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
  s Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:40 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:40 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7613399@skyland-conference
@@ -5246,31 +5534,31 @@ SUMMARY:Ridge High School at The Pingry School (Varsity Boys Boys Basketb
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7564312@skyland-conference
+UID:ds:2741:7564312@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T160000
 DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Ridge High School vs Montgomery High School (Junior Varsity Boys 
+SUMMARY:Montgomery High School at Ridge High School (Junior Varsity Boys 
  Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7564313@skyland-conference
+UID:ds:2741:7564313@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T160000
 DTEND;TZID=America/New_York:20270211T180000
-SUMMARY:Ridge High School vs Montgomery High School (Freshman Boys Boys B
+SUMMARY:Montgomery High School at Ridge High School (Freshman Boys Boys B
  asketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7564311@skyland-conference
+UID:ds:2741:7564311@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T180000
 DTEND;TZID=America/New_York:20270211T200000
-SUMMARY:Ridge High School vs Montgomery High School (Varsity Boys Boys Ba
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Ba
  sketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7665245@skyland-conference
@@ -5498,22 +5786,31 @@ SUMMARY:Ridge High School at The Pingry School (Junior Varsity Boys Boys
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7608133@skyland-conference
+UID:ds:2741:7608133@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls 
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
  Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7541740@skyland-conference
+UID:ds:2549:7541740@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T173000
 DTEND;TZID=America/New_York:20270401T193000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
  s Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away - 5:30 PM
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7541160@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
+ s Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7540860@skyland-conference
@@ -5586,6 +5883,24 @@ DTEND;TZID=America/New_York:20270406T180000
 SUMMARY:Ridge High School vs Franklin High School (Varsity Boys Boys Trac
  k and Field)
 DESCRIPTION:Varsity Boys Boys Track and Field - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7540863@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Gir
+ ls Softball)
+DESCRIPTION:Varsity Girls Softball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7541743@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Boys 
+ Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7542733@skyland-conference
@@ -5694,6 +6009,15 @@ SUMMARY:Hunterdon Central Regional H.S. vs Ridge High School (Varsity Boy
 DESCRIPTION:Varsity Boys Baseball - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7541166@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Go
+ lf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7541166@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270408
@@ -5728,6 +6052,15 @@ DTEND;TZID=America/New_York:20270410T133000
 SUMMARY:Ridge High School vs Northern Highlands Regional High School (Jun
  ior Varsity Boys Boys Lacrosse)
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7690528@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T160000
+DTEND;TZID=America/New_York:20270413T180000
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Boys 
+ Track and Field)
+DESCRIPTION:Varsity Boys Boys Track and Field - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7690528@skyland-conference
@@ -5766,22 +6099,22 @@ SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Varsity Boys B
 DESCRIPTION:Varsity Boys Baseball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7696842@skyland-conference
+UID:ds:2549:7696842@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T161500
 DTEND;TZID=America/New_York:20270414T181500
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
  s Boys Lacrosse)
-DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7696843@skyland-conference
+UID:ds:2549:7696843@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T173000
 DTEND;TZID=America/New_York:20270414T193000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
  ity Boys Boys Lacrosse)
-DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103385666@skyland-conference
@@ -5817,6 +6150,15 @@ DTEND;VALUE=DATE:20270416
 SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Boy
  s Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7541483@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270415
+DTEND;VALUE=DATE:20270416
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Boys Boys Te
+ nnis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7540869@skyland-conference
@@ -5934,6 +6276,24 @@ SUMMARY:Ridge High School at Gill St. Bernard's School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7541750@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
+ s Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7541174@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Boys Boys 
+ Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7542738@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270420
@@ -5979,6 +6339,24 @@ SUMMARY:Ridge High School vs Immaculata High School (Varsity Boys Basebal
 DESCRIPTION:Varsity Boys Baseball - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7540873@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T160000
+DTEND;TZID=America/New_York:20270422T180000
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
+ ls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7608137@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T160000
+DTEND;TZID=America/New_York:20270422T180000
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7542798@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270422T160000
@@ -5988,22 +6366,13 @@ SUMMARY:Immaculata High School vs Ridge High School (Varsity Boys Basebal
 DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7540873@skyland-conference
+UID:ds:2653:7541753@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270422T160000
-DTEND;TZID=America/New_York:20270422T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Gir
- ls Softball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7608137@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270422T160000
-DTEND;TZID=America/New_York:20270422T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Gir
- ls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Boys Boys 
+ Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7541486@skyland-conference
@@ -6041,13 +6410,22 @@ SUMMARY:Ridge High School vs Shawnee High School (Junior Varsity Boys Boy
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7542741@skyland-conference
+UID:ds:2549:7542741@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270427T160000
 DTEND;TZID=America/New_York:20270427T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Boy
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
  s Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7696914@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T163000
+DTEND;TZID=America/New_York:20270427T183000
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Boys 
+ Lacrosse)
+DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7696914@skyland-conference
@@ -6059,6 +6437,15 @@ SUMMARY:Ridge High School vs Hillsborough Athletics (Varsity Boys Boys La
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7696915@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T173000
+DTEND;TZID=America/New_York:20270427T193000
+SUMMARY:Hillsborough High School at Ridge High School (Junior Varsity Boy
+ s Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7696915@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270427T173000
@@ -6066,6 +6453,24 @@ DTEND;TZID=America/New_York:20270427T193000
 SUMMARY:Ridge High School vs Hillsborough Athletics (Junior Varsity Boys 
  Boys Lacrosse)
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7541181@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
+ s Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7541488@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Boys 
+ Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7541755@skyland-conference
@@ -6193,13 +6598,13 @@ SUMMARY:Ridge High School vs Ocean City High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7541187@skyland-conference
+UID:ds:2741:7541187@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270504T160000
 DTEND;TZID=America/New_York:20270504T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Boys Boys Go
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Boys Boys Go
  lf)
-DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Golf - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103386968@skyland-conference
@@ -6255,6 +6660,24 @@ SUMMARY:Franklin High School vs Ridge High School (Varsity Girls Softball)
 DESCRIPTION:Varsity Girls Softball - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7542746@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7541493@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270504
+DTEND;VALUE=DATE:20270505
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Te
+ nnis)
+DESCRIPTION:Varsity Boys Boys Tennis - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7540879@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270504
@@ -6288,6 +6711,15 @@ DTEND;VALUE=DATE:20270505
 SUMMARY:Ridge High School vs Hillsborough Athletics (Varsity Boys Basebal
  l)
 DESCRIPTION:Varsity Boys Baseball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7541478@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270506
+DTEND;VALUE=DATE:20270507
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Boys Boys 
+ Tennis)
+DESCRIPTION:Varsity Boys Boys Tennis - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7541190@skyland-conference
@@ -6326,6 +6758,15 @@ SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7542801@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270511
+DTEND;VALUE=DATE:20270512
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
+ s Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7542801@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270511
@@ -6333,6 +6774,33 @@ DTEND;VALUE=DATE:20270512
 SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Varsity Boy
  s Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7541195@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Boys 
+ Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7542806@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7608144@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
+ s Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7541195@skyland-conference

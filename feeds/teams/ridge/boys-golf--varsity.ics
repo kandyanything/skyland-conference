@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2549:7541160@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270401
+DTEND;VALUE=DATE:20270402
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Boy
+ s Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7541160@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270401
@@ -37,6 +46,15 @@ DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
 DTEND;VALUE=DATE:20270407
 SUMMARY:Ridge High School at The Pingry School (Varsity Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7541166@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270408
+DTEND;VALUE=DATE:20270409
+SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Go
+ lf)
 DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
@@ -76,6 +94,15 @@ SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7541174@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Hillsborough High School vs Ridge High School (Varsity Boys Boys 
+ Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7541174@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270420
@@ -83,6 +110,15 @@ DTEND;VALUE=DATE:20270421
 SUMMARY:Ridge High School at Hillsborough Athletics (Varsity Boys Boys Go
  lf)
 DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7541181@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270427
+DTEND;VALUE=DATE:20270428
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
+ s Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7541181@skyland-conference
@@ -102,13 +138,13 @@ SUMMARY:Ridge High School vs The Pingry School (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7541187@skyland-conference
+UID:ds:2741:7541187@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270504T160000
 DTEND;TZID=America/New_York:20270504T180000
-SUMMARY:Ridge High School at Montgomery High School (Varsity Boys Boys Go
+SUMMARY:Montgomery High School vs Ridge High School (Varsity Boys Boys Go
  lf)
-DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Golf - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7541190@skyland-conference
@@ -136,6 +172,15 @@ DTEND;TZID=America/New_York:20270511T180000
 SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Varsity Boy
  s Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7541195@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270513
+DTEND;VALUE=DATE:20270514
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Boys Boys 
+ Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7541195@skyland-conference
