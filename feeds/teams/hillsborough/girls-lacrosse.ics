@@ -68,13 +68,22 @@ SUMMARY:Hillsborough High School at Montgomery High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7608144@skyland-conference
+UID:ds:2653:7700591@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270514
+DTSTART;TZID=America/New_York:20270505T160000
+DTEND;TZID=America/New_York:20270505T180000
 SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
  s Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7700592@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T173000
+DTEND;TZID=America/New_York:20270505T193000
+SUMMARY:Hillsborough High School vs Ridge High School (Junior Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7660654@skyland-conference

@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2830:7696728@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270316T173000
-DTEND;TZID=America/New_York:20270316T193000
-SUMMARY:Ridge High School vs Summit High School (Junior Varsity Girls Gir
- ls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7673433@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270318T173000
@@ -53,11 +44,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7670198@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270327T100000
-DTEND;TZID=America/New_York:20270327T120000
+DTSTART;TZID=America/New_York:20270327T113000
+DTEND;TZID=America/New_York:20270327T133000
 SUMMARY:Ridge High School at Summit High School (Junior Varsity Girls Gir
  ls Lacrosse)
-DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 10:00 AM
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7700588@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270430T173000
+DTEND;TZID=America/New_York:20270430T193000
+SUMMARY:Ridge High School at New Providence High School (Junior Varsity G
+ irls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7699691@skyland-conference
@@ -67,6 +67,33 @@ DTEND;TZID=America/New_York:20270504T200000
 SUMMARY:Bernards High School at Ridge High School (Junior Varsity Girls G
  irls Lacrosse)
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7700592@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T173000
+DTEND;TZID=America/New_York:20270505T193000
+SUMMARY:Hillsborough High School vs Ridge High School (Junior Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7700592@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T173000
+DTEND;TZID=America/New_York:20270505T193000
+SUMMARY:Ridge High School at Hillsborough Athletics (Junior Varsity Girls
+  Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7700599@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270508T113000
+DTEND;TZID=America/New_York:20270508T133000
+SUMMARY:Ridge High School vs Northern Highlands Regional High School (Jun
+ ior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7673431@skyland-conference
