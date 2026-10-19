@@ -446,10 +446,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7626085@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261107T090000
-DTEND;TZID=America/New_York:20261107T110000
+DTSTART;TZID=America/New_York:20261107T110000
+DTEND;TZID=America/New_York:20261107T130000
 SUMMARY:Hillsborough High School vs TBD (Varsity Girls Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Home - 9:00 AM
+DESCRIPTION:Varsity Girls Gymnastics - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102738457@skyland-conference
@@ -458,5 +458,21 @@ DTSTART;VALUE=DATE:20261107
 DTEND;VALUE=DATE:20261108
 SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Girls Gymnastics)
 DESCRIPTION:Varsity Girls Gymnastics - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7701353@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261112T161500
+DTEND;TZID=America/New_York:20261112T181500
+SUMMARY:Hillsborough High School at TBD (Varsity Girls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7701364@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261114T094500
+DTEND;TZID=America/New_York:20261114T114500
+SUMMARY:Hillsborough High School at TBD (Varsity Girls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 9:45 AM
 END:VEVENT
 END:VCALENDAR
