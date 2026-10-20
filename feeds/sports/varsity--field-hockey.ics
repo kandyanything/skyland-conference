@@ -2389,7 +2389,7 @@ SUMMARY:Somerville High School vs Wayne Hills High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:cddeff7c-30d7-4b5a-ba3a-720f4721e9ec@skyland
+UID:bb:MountSaintMaryAcademy:5df73469-6ac0-4035-9184-968cdbe91c73@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T114500
@@ -2397,6 +2397,15 @@ DTEND;TZID=America/New_York:20261021T134500
 SUMMARY:Mount Saint Mary Academy vs Blair Academy (Varsity Girls Field Ho
  ckey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 11:45 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:103540915@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T153000
+DTEND;TZID=America/New_York:20261021T173000
+SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7420400@skyland-conference
@@ -2424,15 +2433,6 @@ DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Belvidere High School at Boonton High School (Varsity Girls Field
   Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:103540915@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:North Hunterdon High School vs Phillipsburg High School (Varsity 
- Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7580749@skyland-conference
@@ -2489,7 +2489,7 @@ SUMMARY:North Hunterdon High School vs Kingsway Regional High School (Var
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ae588f8b-a07b-447c-9506-520adf48db4d@skyland
+UID:bb:MountSaintMaryAcademy:717f16b9-8566-4b17-b927-c179b50d30a8@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261023T120000
@@ -2586,7 +2586,7 @@ SUMMARY:Voorhees High School vs TBD (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:f305e30d-c321-49fc-8b71-141ae93f296c@skyland
+UID:bb:MountSaintMaryAcademy:3b4270f3-ec98-4f0f-a29d-14c01eb725bf@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T121500
@@ -2686,7 +2686,7 @@ SUMMARY:Ridge High School vs James Caldwell High School (Varsity Girls Fi
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:43e5a4fe-ceb1-4a6c-a697-c4947b8c8227@skyland
+UID:bb:MountSaintMaryAcademy:6a46bceb-3c0c-4fb2-b8b0-7f4c8a850c3d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T113000
@@ -2705,7 +2705,7 @@ SUMMARY:Delaware Valley Regional H.S. at Governor Livingston High School
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:283f3e77-f9ad-498a-ab9a-dbf66a707215@skyland
+UID:bb:MountSaintMaryAcademy:43cd70d5-ec3b-4e92-a508-95faebcb2ff3@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T120000
@@ -2815,12 +2815,28 @@ SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7703194@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:Hillsborough High School vs TBD (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102658274@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Voorhees High School vs TBD (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7703195@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261104
+DTEND;VALUE=DATE:20261105
+SUMMARY:Hillsborough High School at TBD (Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102658303@skyland-conference
