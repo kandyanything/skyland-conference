@@ -417,11 +417,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102402405@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261021
-DTEND;VALUE=DATE:20261022
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Voorhees High School vs Warren Hills Regional H.S. (Varsity Girls
   Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102402422@skyland-conference
