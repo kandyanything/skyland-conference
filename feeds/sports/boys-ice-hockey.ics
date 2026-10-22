@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2549:7709343@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261125T153000
+DTEND;TZID=America/New_York:20261125T173000
+SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
+ . (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7709343@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261125T153000
+DTEND;TZID=America/New_York:20261125T173000
+SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
+ l (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104490986@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261130T151500
@@ -39,6 +57,15 @@ DTEND;TZID=America/New_York:20261130T213000
 SUMMARY:Ridge High School at Morris Knolls High School (Varsity Boys Boys
   Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7709346@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261201T151500
+DTEND;TZID=America/New_York:20261201T171500
+SUMMARY:Hunterdon Central Regional H.S. vs Mount Olive High School (Varsi
+ ty Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7569631@skyland-conference
@@ -636,6 +663,15 @@ SUMMARY:Ridge High School at Hillside Avenue School (Varsity Boys Boys Ic
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2665:7709334@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270129T184500
+DTEND;TZID=America/New_York:20270129T204500
+SUMMARY:Hunterdon Central Regional H.S. at Marlboro High School (Varsity 
+ Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102785004@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T151500
@@ -706,6 +742,15 @@ DTEND;TZID=America/New_York:20270205T174000
 SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
  s Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:40 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7709337@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270205T201500
+DTEND;TZID=America/New_York:20270205T221500
+SUMMARY:Hunterdon Central Regional H.S. at North Hunterdon High School (V
+ arsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103967349@skyland-conference
