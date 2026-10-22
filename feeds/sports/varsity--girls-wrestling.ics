@@ -513,11 +513,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102424937@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270111
-DTEND;VALUE=DATE:20270112
+DTSTART;TZID=America/New_York:20270111T180000
+DTEND;TZID=America/New_York:20270111T200000
 SUMMARY:Manville High School at Parsippany Regional (Varsity Girls Girls 
  Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7684722@skyland-conference
@@ -735,6 +735,15 @@ SUMMARY:Hunterdon Central Regional H.S. at Mount Olive High School (Varsi
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:102425037@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T180000
+DTEND;TZID=America/New_York:20270125T200000
+SUMMARY:Manville High School at Parsippany Regional (Varsity Girls Girls 
+ Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103399424@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T180000
@@ -746,19 +755,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:103399435@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270125T190000
-DTEND;TZID=America/New_York:20270125T210000
+DTSTART;TZID=America/New_York:20270125T183000
+DTEND;TZID=America/New_York:20270125T203000
 SUMMARY:Somerville High School vs TBD (Varsity Girls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102425037@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270125
-DTEND;VALUE=DATE:20270126
-SUMMARY:Manville High School at Parsippany Regional (Varsity Girls Girls 
- Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7684738@skyland-conference
@@ -823,12 +823,30 @@ SUMMARY:Montgomery High School at North Hunterdon High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:104990486@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T093000
+DTEND;TZID=America/New_York:20270130T113000
+SUMMARY:Manville High School at North Hunterdon High School (Varsity Girl
+ s Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104716661@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T091500
 DTEND;TZID=America/New_York:20270131T111500
 SUMMARY:Belvidere High School at TBD (Varsity Girls Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:15 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:104992226@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270131T180000
+DTEND;TZID=America/New_York:20270131T200000
+SUMMARY:Somerville High School at Franklin High School (Varsity Girls Gir
+ ls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103012240@skyland-conference
@@ -882,15 +900,6 @@ DTSTART;TZID=America/New_York:20270203T180000
 DTEND;TZID=America/New_York:20270203T200000
 SUMMARY:Phillipsburg High School at Warren Hills Regional H.S. (Varsity G
  irls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:104239810@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T180000
-DTEND;TZID=America/New_York:20270204T200000
-SUMMARY:Manville High School at North Hunterdon High School (Varsity Girl
- s Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT

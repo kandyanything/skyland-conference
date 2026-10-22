@@ -95,11 +95,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102424937@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270111
-DTEND;VALUE=DATE:20270112
+DTSTART;TZID=America/New_York:20270111T180000
+DTEND;TZID=America/New_York:20270111T200000
 SUMMARY:Manville High School at Parsippany Regional (Varsity Girls Girls 
  Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101846519@skyland-conference
@@ -140,19 +140,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102425037@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270125
-DTEND;VALUE=DATE:20270126
+DTSTART;TZID=America/New_York:20270125T180000
+DTEND;TZID=America/New_York:20270125T200000
 SUMMARY:Manville High School at Parsippany Regional (Varsity Girls Girls 
  Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:104239810@skyland-conference
+UID:arb:104990486@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270204T180000
-DTEND;TZID=America/New_York:20270204T200000
+DTSTART;TZID=America/New_York:20270130T093000
+DTEND;TZID=America/New_York:20270130T113000
 SUMMARY:Manville High School at North Hunterdon High School (Varsity Girl
  s Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:30 AM
 END:VEVENT
 END:VCALENDAR
