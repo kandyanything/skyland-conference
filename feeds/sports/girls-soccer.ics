@@ -7553,7 +7553,7 @@ SUMMARY:Warren Hills Regional H.S. at Hackettstown High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:54b81941-b08c-4ffc-a4e2-54d868d16474@skyland
+UID:bb:MountSaintMaryAcademy:255e0c8e-37c8-42b2-82ea-42ceeaefc8dd@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261026T120000
@@ -7561,15 +7561,6 @@ DTEND;TZID=America/New_York:20261026T140000
 SUMMARY:Mount Saint Mary Academy at Jonathan Dayton (Varsity Girls Girls 
  Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7555842@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Bridgewater-Raritan High School vs Somerville High School (Junior
-  Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7495377@skyland-conference
@@ -7587,6 +7578,15 @@ DTSTART;TZID=America/New_York:20261026T160000
 DTEND;TZID=America/New_York:20261026T180000
 SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Junior Var
  sity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102981618@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261026T160000
+DTEND;TZID=America/New_York:20261026T180000
+SUMMARY:Somerville High School at Bridgewater-Raritan High School (Junior
+  Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -7646,24 +7646,6 @@ SUMMARY:North Hunterdon High School at Millburn High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7692828@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T151500
-DTEND;TZID=America/New_York:20261027T171500
-SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (V
- arsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2665:7692829@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T151500
-DTEND;TZID=America/New_York:20261027T171500
-SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (J
- unior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104837400@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T151500
@@ -7698,6 +7680,24 @@ DTEND;TZID=America/New_York:20261027T180000
 SUMMARY:Hillsborough High School vs The Pingry School (Varsity Girls Girl
  s Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7692828@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (V
+ arsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7692829@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (J
+ unior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7501294@skyland-conference
@@ -7828,7 +7828,7 @@ SUMMARY:Montgomery High School vs The Lawrenceville School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:d370930b-ae1b-476f-a5cb-1221d5a649fd@skyland
+UID:bb:MountSaintMaryAcademy:4536aecd-681d-4479-ab9c-b6d6a3c276e8@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T113000
@@ -8000,7 +8000,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Hillsborough High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-10-31:11:00:Soccer:11@skyland-conference
+UID:fs:GillSt.BernardsSchool:2026-10-31:11:00:Soccer:12@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261031T110000
 DTEND;TZID=America/New_York:20261031T130000
@@ -8035,8 +8035,8 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102738629@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
 SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT

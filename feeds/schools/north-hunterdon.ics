@@ -3106,24 +3106,6 @@ SUMMARY:North Hunterdon High School at Voorhees High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Football - Away - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7692828@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T151500
-DTEND;TZID=America/New_York:20261027T171500
-SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (V
- arsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2665:7692829@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T151500
-DTEND;TZID=America/New_York:20261027T171500
-SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (J
- unior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 3:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104837400@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T151500
@@ -3149,6 +3131,24 @@ DTEND;TZID=America/New_York:20261027T180000
 SUMMARY:Delaware Valley Regional H.S. vs North Hunterdon High School (Var
  sity Girls Girls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7692828@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (V
+ arsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7692829@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (J
+ unior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104619179@skyland-conference
@@ -3274,11 +3274,30 @@ DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105070108@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T160000
+DTEND;TZID=America/New_York:20261030T180000
+SUMMARY:North Hunterdon High School at Kearny High School (Freshman Boys 
+ Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105070031@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261030T160000
+DTEND;TZID=America/New_York:20261030T180000
+SUMMARY:North Hunterdon High School at Kearny High School (Junior Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103302356@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T160000
 DTEND;TZID=America/New_York:20261030T180000
-SUMMARY:North Hunterdon High School at TBD (Varsity Girls Gymnastics)
+SUMMARY:North Hunterdon High School at Hunterdon Central Reg. High School
+  (Varsity Girls Gymnastics)
 DESCRIPTION:Varsity Girls Gymnastics - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3462,13 +3481,13 @@ SUMMARY:North Hunterdon High School vs Chatham High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103561592@skyland-conference
+UID:ds:2549:7723531@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261204T190000
 DTEND;TZID=America/New_York:20261204T210000
-SUMMARY:North Hunterdon High School at Bridgewater-Raritan High School (V
+SUMMARY:Bridgewater-Raritan High School vs North Hunterdon High School (V
  arsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104539904@skyland-conference
@@ -3973,13 +3992,13 @@ SUMMARY:North Hunterdon High School vs Delaware Valley Regional H.S. (Var
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103094418@skyland-conference
+UID:ds:2549:7723593@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T201500
 DTEND;TZID=America/New_York:20261218T221500
-SUMMARY:North Hunterdon High School vs Bridgewater-Raritan High School (V
+SUMMARY:Bridgewater-Raritan High School at North Hunterdon High School (V
  arsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 8:15 PM
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102898920@skyland-conference
@@ -4186,6 +4205,15 @@ DTEND;TZID=America/New_York:20270104T210000
 SUMMARY:North Hunterdon High School vs Warren Hills Regional H.S. (Varsit
  y Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7723342@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Bernards High School vs North Hunterdon High School (Junior Varsi
+ ty Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104135711@skyland-conference

@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2653:7723526@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T173000
+DTEND;TZID=America/New_York:20261216T193000
+SUMMARY:Hillsborough High School vs Perth Amboy High School (Varsity Girl
+ s Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7723548@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T140000
+DTEND;TZID=America/New_York:20261223T160000
+SUMMARY:Hillsborough High School vs Princeton High School (Varsity Girls 
+ Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7684012@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261230T090000
@@ -30,6 +48,15 @@ DTEND;TZID=America/New_York:20261230T110000
 SUMMARY:Hillsborough High School vs Montgomery High School (Varsity Girls
   Girls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7723557@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Hillsborough High School vs Franklin High School (Varsity Girls G
+ irls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7569407@skyland-conference
@@ -43,11 +70,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7684722@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T163000
-DTEND;TZID=America/New_York:20270113T183000
+DTSTART;TZID=America/New_York:20270113T173000
+DTEND;TZID=America/New_York:20270113T193000
 SUMMARY:Hillsborough High School vs Hunterdon Central Regional H.S. (Vars
  ity Girls Girls Wrestling)
-DESCRIPTION:Varsity Girls Girls Wrestling - Home - 4:30 PM
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101846358@skyland-conference
@@ -57,5 +84,14 @@ DTEND;TZID=America/New_York:20270122T201500
 SUMMARY:Manville High School vs Hillsborough High School (Varsity Girls G
  irls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7723644@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T100000
+DTEND;TZID=America/New_York:20270123T120000
+SUMMARY:Hillsborough High School vs Roselle Park High School (Varsity Gir
+ ls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 10:00 AM
 END:VEVENT
 END:VCALENDAR
