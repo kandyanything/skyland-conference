@@ -1387,9 +1387,9 @@ UID:arb:102761038@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T190000
 DTEND;TZID=America/New_York:20261030T210000
-SUMMARY:Manville High School at Shore Regional High School (Varsity Boys 
+SUMMARY:Manville High School vs Shore Regional High School (Varsity Boys 
  Football)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101339255@skyland-conference
@@ -1398,6 +1398,14 @@ DTSTART;TZID=America/New_York:20261031T090000
 DTEND;TZID=America/New_York:20261031T110000
 SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105063407@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Manville High School at TBD (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102827651@skyland-conference
@@ -1412,16 +1420,8 @@ UID:arb:102827670@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
-SUMMARY:Manville High School vs TBD (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102827564@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261106
-DTEND;VALUE=DATE:20261107
-SUMMARY:Manville High School vs TBD (Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
+SUMMARY:Manville High School at TBD (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101339257@skyland-conference
@@ -1430,14 +1430,6 @@ DTSTART;TZID=America/New_York:20261107T210000
 DTEND;TZID=America/New_York:20261107T230000
 SUMMARY:Manville High School at TBD (Varsity Coed Coed Cross Country)
 DESCRIPTION:Varsity Coed Coed Cross Country - Away - 9:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:102827601@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Manville High School vs TBD (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103359282@skyland-conference
