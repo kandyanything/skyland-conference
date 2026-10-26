@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2549:7725327@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261221T160000
+DTEND;TZID=America/New_York:20261221T180000
+SUMMARY:Bridgewater-Raritan High School vs Randolph High School (Varsity 
+ Coed Unified Sports Basketball)
+DESCRIPTION:Varsity Coed Unified Sports Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7725333@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Bridgewater-Raritan High School vs Bloomfield High School (Varsit
+ y Coed Unified Sports Basketball)
+DESCRIPTION:Varsity Coed Unified Sports Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7644094@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T154500
@@ -39,5 +57,23 @@ DTEND;TZID=America/New_York:20270111T174500
 SUMMARY:Montgomery High School at Hillsborough Athletics (Varsity Coed Un
  ified Sports Basketball)
 DESCRIPTION:Varsity Coed Unified Sports Basketball - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7725344@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:Bridgewater-Raritan High School vs TBA NJ (Varsity Coed Unified S
+ ports Basketball)
+DESCRIPTION:Varsity Coed Unified Sports Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7724963@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270219T110000
+DTEND;TZID=America/New_York:20270219T130000
+SUMMARY:Bridgewater-Raritan High School at Monroe Township School Distric
+ t (Varsity Coed Unified Sports Basketball)
+DESCRIPTION:Varsity Coed Unified Sports Basketball - Away - 11:00 AM
 END:VEVENT
 END:VCALENDAR
