@@ -4730,7 +4730,7 @@ SUMMARY:Ridge High School vs James Caldwell High School (Varsity Girls Fi
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:5c111162-0b50-4c77-b109-fe4c5c1c597f@skyland
+UID:bb:MountSaintMaryAcademy:32d8d326-9ba9-4689-b51e-b4b71cc12b71@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T113000
@@ -4776,7 +4776,7 @@ SUMMARY:Delaware Valley Regional H.S. at Governor Livingston High School
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:acf1b8da-c5df-42d6-85a9-c3e177275dd8@skyland
+UID:bb:MountSaintMaryAcademy:64f1b46c-282d-4edb-8016-39741fe2188d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T120000
@@ -4786,7 +4786,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:41682148-25b8-461b-9d9f-2db65aed054c@skyland
+UID:bb:MountSaintMaryAcademy:a6ec7954-5516-47a1-86ac-f33a563f1a45@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T131500
@@ -4861,15 +4861,6 @@ DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7525947@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T163000
-DTEND;TZID=America/New_York:20261029T183000
-SUMMARY:Franklin High School vs North Warren Regional H.S. (Varsity Girls
-  Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103877359@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T163000
@@ -4878,6 +4869,15 @@ SUMMARY:[Canceled] Somerville High School vs Academy of St. Elizabeth (Ju
  nior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 4:30 PM
 STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7525947@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T170000
+DTEND;TZID=America/New_York:20261029T190000
+SUMMARY:Franklin High School vs North Warren Regional H.S. (Varsity Girls
+  Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102302197@skyland-conference
@@ -4963,20 +4963,21 @@ SUMMARY:Somerville High School at Academy of St. Elizabeth (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102738311@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261102T160000
-DTEND;TZID=America/New_York:20261102T180000
-SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7703194@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261102T160000
 DTEND;TZID=America/New_York:20261102T180000
 SUMMARY:Hillsborough High School vs TBD (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:102738311@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261102T160000
+DTEND;TZID=America/New_York:20261102T180000
+SUMMARY:Watchung Hills Regional H.S. at Morris Knolls High School (Varsit
+ y Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102658274@skyland-conference
