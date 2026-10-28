@@ -261,9 +261,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105118671@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
-SUMMARY:North Hunterdon High School vs TBD (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home
+DTSTART;TZID=America/New_York:20261103T163000
+DTEND;TZID=America/New_York:20261103T183000
+SUMMARY:North Hunterdon High School vs Parsippany Hills High School (Vars
+ ity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 4:30 PM
 END:VEVENT
 END:VCALENDAR
