@@ -2522,7 +2522,7 @@ SUMMARY:Somerville High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:9e1ce561-feec-4e14-a6e8-2befa802e771@skyland
+UID:bb:MountSaintMaryAcademy:8b205f09-7920-492e-b762-6359bc2117ca@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T120000
@@ -2532,7 +2532,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:7cc35ab2-9048-48b5-be3a-ad4cc5ef4f6b@skyland
+UID:bb:MountSaintMaryAcademy:544ba14f-f36a-4ee5-96f7-87befc3d5c3e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T131500
@@ -4524,6 +4524,15 @@ SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105159597@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:Somerville High School vs Hunterdon Central Reg. High School (Jun
+ ior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7731431@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270211T173000
@@ -4531,6 +4540,15 @@ DTEND;TZID=America/New_York:20270211T193000
 SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Varsit
  y Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105159588@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
+SUMMARY:Somerville High School vs Hunterdon Central Reg. High School (Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104748510@skyland-conference
@@ -4675,6 +4693,15 @@ DTEND;TZID=America/New_York:20270413T180000
 SUMMARY:Somerville High School at Warren Hills Regional H.S. (Varsity Boy
  s Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7731937@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T173000
+DTEND;TZID=America/New_York:20270413T193000
+SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Junior
+  Varsity Boys Boys Lacrosse)
+DESCRIPTION:Junior Varsity Boys Boys Lacrosse - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7540723@skyland-conference
@@ -4945,5 +4972,23 @@ DTEND;TZID=America/New_York:20270517T180000
 SUMMARY:Hunterdon Central Regional H.S. vs Somerville High School (Junior
   Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7731870@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T160000
+DTEND;TZID=America/New_York:20270518T180000
+SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7731909@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T173000
+DTEND;TZID=America/New_York:20270518T193000
+SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Junior
+  Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
 END:VEVENT
 END:VCALENDAR
