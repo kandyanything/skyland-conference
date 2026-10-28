@@ -4044,21 +4044,21 @@ SUMMARY:Hillsborough High School at Old Bridge High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7723338@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261104T140000
+DTEND;TZID=America/New_York:20261104T160000
+SUMMARY:Hillsborough High School at Princeton High School (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7703195@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261104
 DTEND;VALUE=DATE:20261105
 SUMMARY:Hillsborough High School at TBD (Varsity Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7723338@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
-SUMMARY:Hillsborough High School at Princeton High School (Varsity Boys B
- oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7626085@skyland-conference
@@ -4076,6 +4076,14 @@ DTEND;VALUE=DATE:20261108
 SUMMARY:Hillsborough High School at TBD (Varsity Girls Girls Cross Countr
  y)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7731553@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261107
+DTEND;VALUE=DATE:20261108
+SUMMARY:Hillsborough High School at TBD (Varsity Boys Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7701353@skyland-conference
@@ -5411,7 +5419,7 @@ SUMMARY:Hillsborough High School at Old Bridge High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:11e88fdf-0244-4d92-b299-67e8c60e7c14@skyland
+UID:bb:MountSaintMaryAcademy:9e38afc0-7328-4e69-9e85-00f63615c55a@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T113000
@@ -5421,7 +5429,7 @@ SUMMARY:Mount Saint Mary Academy vs Hillsborough High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:db6c7bc5-d3ec-44ee-bdfa-e525be81a665@skyland
+UID:bb:MountSaintMaryAcademy:4627c794-d7af-414d-ac49-703a756b794c@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T130000
