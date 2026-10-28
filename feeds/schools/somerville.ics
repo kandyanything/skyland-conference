@@ -2522,7 +2522,7 @@ SUMMARY:Somerville High School at TBD (Varsity Boys Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:c45396f7-14bd-4589-a38b-8c152bfce759@skyland
+UID:bb:MountSaintMaryAcademy:c9d4c8ea-2638-456d-b8b0-fa22149242fc@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T120000
@@ -2532,7 +2532,7 @@ SUMMARY:Mount Saint Mary Academy at Somerville High School (Varsity Girls
 DESCRIPTION:Varsity Girls Field Hockey - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0d69837e-0ee0-49ce-93b4-4ec3c3609007@skyland
+UID:bb:MountSaintMaryAcademy:c34a6404-8365-4450-a9b6-fea2c184339f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T131500
@@ -2674,11 +2674,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105117918@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261103
-DTEND;VALUE=DATE:20261104
+DTSTART;TZID=America/New_York:20261103T163000
+DTEND;TZID=America/New_York:20261103T183000
 SUMMARY:Somerville High School at West Morris Central High School (Varsit
  y Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103696817@skyland-conference
@@ -4190,6 +4190,15 @@ DTEND;TZID=America/New_York:20270125T210000
 SUMMARY:Bridgewater-Raritan High School at Somerville High School (Varsit
  y Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7730580@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270125T190000
+DTEND;TZID=America/New_York:20270125T210000
+SUMMARY:Bridgewater-Raritan High School at Somerville High School (Varsit
+ y Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104836751@skyland-conference
