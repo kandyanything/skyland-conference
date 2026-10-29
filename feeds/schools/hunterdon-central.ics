@@ -4487,7 +4487,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Rumson-Fair Haven Regional Hig
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:3e9f96e5-b1c3-4625-b619-ae09be59576d@skyland
+UID:bb:MountSaintMaryAcademy:48166d5d-8c3b-46e7-a117-524e8b659089@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T113000
@@ -4497,7 +4497,7 @@ SUMMARY:Mount Saint Mary Academy vs Hunterdon Central Regional H.S. (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:2191bbc7-f2db-40ec-b395-5fa3f43af589@skyland
+UID:bb:MountSaintMaryAcademy:000a0d71-6b5e-43b0-b9d8-9934c2086316@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T130000
@@ -9097,15 +9097,6 @@ SUMMARY:Hunterdon Central Regional H.S. at Immaculata High School (Varsit
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7731794@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270429T160000
-DTEND;TZID=America/New_York:20270429T180000
-SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Gir
- ls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7726554@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270429T160000
@@ -9115,13 +9106,22 @@ SUMMARY:Immaculata High School vs Hunterdon Central Regional H.S. (Varsit
 DESCRIPTION:Varsity Boys Boys Lacrosse - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2665:7731794@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T170000
+DTEND;TZID=America/New_York:20270429T190000
+SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7731794@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270429T160000
-DTEND;TZID=America/New_York:20270429T180000
+DTSTART;TZID=America/New_York:20270429T170000
+DTEND;TZID=America/New_York:20270429T190000
 SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Gir
  ls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7541757@skyland-conference
