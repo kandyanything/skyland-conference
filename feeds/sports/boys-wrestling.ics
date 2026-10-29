@@ -514,15 +514,6 @@ SUMMARY:Ridge High School vs Phillipsburg High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100999449@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T170000
-DTEND;TZID=America/New_York:20261216T190000
-SUMMARY:Somerville High School at Voorhees High School (Junior Varsity Bo
- ys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100997044@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T173000
@@ -530,6 +521,15 @@ DTEND;TZID=America/New_York:20261216T193000
 SUMMARY:Manville High School vs Warren Hills Regional H.S. (Junior Varsit
  y Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100999449@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T173000
+DTEND;TZID=America/New_York:20261216T193000
+SUMMARY:Somerville High School at Voorhees High School (Junior Varsity Bo
+ ys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100676824@skyland-conference
@@ -622,6 +622,15 @@ SUMMARY:North Hunterdon High School at Southern Regional High School (Var
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:100999455@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T183000
+DTEND;TZID=America/New_York:20261216T203000
+SUMMARY:Somerville High School at Voorhees High School (Varsity Boys Boys
+  Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7526642@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T190000
@@ -665,15 +674,6 @@ DTEND;TZID=America/New_York:20261216T210000
 SUMMARY:Manville High School vs Warren Hills Regional H.S. (Varsity Boys 
  Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:100999455@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T190000
-DTEND;TZID=America/New_York:20261216T210000
-SUMMARY:Somerville High School at Voorhees High School (Varsity Boys Boys
-  Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7706528@skyland-conference
@@ -2162,6 +2162,15 @@ SUMMARY:Belvidere High School vs The Pingry School (Junior Varsity Boys B
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7653687@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T183000
+DTEND;TZID=America/New_York:20270113T203000
+SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
+ ity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7671903@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T183000
@@ -2189,12 +2198,12 @@ SUMMARY:Ridge High School vs Long Branch High School (Varsity Boys Boys W
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100998062@skyland-conference
+UID:arb:100999426@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T183000
 DTEND;TZID=America/New_York:20270113T203000
-SUMMARY:Phillipsburg High School vs Bridgewater-Raritan High School (Vars
- ity Boys Boys Wrestling)
+SUMMARY:Voorhees High School vs Bernards High School (Varsity Boys Boys W
+ restling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2204,15 +2213,6 @@ DTSTART;TZID=America/New_York:20270113T190000
 DTEND;TZID=America/New_York:20270113T210000
 SUMMARY:Bernards High School at Voorhees High School (Varsity Boys Boys W
  restling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7653687@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T190000
-DTEND;TZID=America/New_York:20270113T210000
-SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
- ity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2635,21 +2635,21 @@ SUMMARY:Hillsborough High School at Delaware Valley Regional H.S. (Varsit
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2666:7623303@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T183000
+DTEND;TZID=America/New_York:20270120T203000
+SUMMARY:Immaculata High School at Phillipsburg High School (Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7666117@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T183000
 DTEND;TZID=America/New_York:20270120T203000
 SUMMARY:Ridge High School vs North Hunterdon High School (Varsity Boys Bo
  ys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:arb:100998107@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T183000
-DTEND;TZID=America/New_York:20270120T203000
-SUMMARY:Phillipsburg High School vs Immaculata High School (Varsity Boys 
- Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2686,15 +2686,6 @@ DTSTART;TZID=America/New_York:20270120T190000
 DTEND;TZID=America/New_York:20270120T210000
 SUMMARY:Bridgewater-Raritan High School at Manville High School (Varsity 
  Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7623303@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T190000
-DTEND;TZID=America/New_York:20270120T210000
-SUMMARY:Immaculata High School at Phillipsburg High School (Varsity Boys 
- Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
