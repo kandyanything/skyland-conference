@@ -269,10 +269,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105117541@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261102
-DTEND;VALUE=DATE:20261103
+DTSTART;TZID=America/New_York:20261102T140000
+DTEND;TZID=America/New_York:20261102T160000
 SUMMARY:Phillipsburg High School vs Hunterdon Central Reg. High School (V
  arsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Home
+DESCRIPTION:Varsity Girls Field Hockey - Home - 2:00 PM
 END:VEVENT
 END:VCALENDAR
