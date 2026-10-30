@@ -4055,10 +4055,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7703195@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261104
-DTEND;VALUE=DATE:20261105
+DTSTART;TZID=America/New_York:20261104T163000
+DTEND;TZID=America/New_York:20261104T183000
 SUMMARY:Hillsborough High School at TBD (Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7626085@skyland-conference
@@ -5480,6 +5480,14 @@ DTEND;TZID=America/New_York:20270115T180000
 SUMMARY:Hillsborough High School vs Montgomery High School (Girls (MS - V
  ARSITY) Basketball)
 DESCRIPTION:Girls (MS - VARSITY) Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7736441@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T090000
+DTEND;TZID=America/New_York:20270116T110000
+SUMMARY:Hillsborough High School vs TBD (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102176799@skyland-conference

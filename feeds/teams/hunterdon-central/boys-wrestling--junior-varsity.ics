@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2665:7671970@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T170000
+DTEND;TZID=America/New_York:20261209T190000
+SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Junior
+  Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7671971@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T173000
+DTEND;TZID=America/New_York:20261214T193000
+SUMMARY:Hunterdon Central Regional H.S. at North Hunterdon High School (J
+ unior Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7671972@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T170000
@@ -31,6 +49,15 @@ DTEND;TZID=America/New_York:20261222T190000
 SUMMARY:Delaware Valley Regional H.S. at Hunterdon Central Regional H.S. 
  (Junior Varsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7671972@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T170000
+DTEND;TZID=America/New_York:20261222T190000
+SUMMARY:Hunterdon Central Regional H.S. vs Delaware Valley Regional H.S. 
+ (Junior Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7671973@skyland-conference
