@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-12-09:17:30:Basketball:8@skyland-confer
+UID:fs:GillSt.BernardsSchool:2026-12-09:17:30:Basketball:7@skyland-confer
  ence
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T173000
@@ -32,6 +32,16 @@ DTEND;TZID=America/New_York:20261209T193000
 SUMMARY:Gill St. Bernard's School vs Northern Valley Regional High School
   Demarest (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-12-13:14:30:Basketball:9@skyland-confer
+ ence
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T143000
+DTEND;TZID=America/New_York:20261213T163000
+SUMMARY:Gill St. Bernard's School vs Manasquan High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7443775@skyland-conference
@@ -43,7 +53,7 @@ SUMMARY:Ridge High School at Gill St. Bernard's School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:294655e8-d207-41b3-86de-33a169741e8a@skyland
+UID:bb:MountSaintMaryAcademy:cbf8c66f-1787-4303-b3e4-1123ab718b5a@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T123000
