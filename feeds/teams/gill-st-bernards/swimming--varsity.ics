@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-12-08:18:00:Swimming:6@skyland-conferen
+UID:fs:GillSt.BernardsSchool:2026-12-08:18:00:Swimming:4@skyland-conferen
  ce
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T180000
@@ -32,5 +32,15 @@ DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Gill St. Bernard's School vs Warren Hills Regional H.S. (Varsity 
  Swimming)
 DESCRIPTION:Varsity Swimming - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-12-15:16:00:Swimming:8@skyland-conferen
+ ce
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Gill St. Bernard's School vs Franklin High School (Varsity Swimmi
+ ng)
+DESCRIPTION:Varsity Swimming - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
