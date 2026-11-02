@@ -160,18 +160,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7540869@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
+DTSTART;TZID=America/New_York:20270415T040000
+DTEND;TZID=America/New_York:20270415T060000
 SUMMARY:Franklin High School at Ridge High School (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7540869@skyland-conference
+UID:ds:2617:7738985@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
-SUMMARY:Ridge High School vs Franklin High School (Varsity Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
+SUMMARY:Franklin High School at Ridge High School (Junior Varsity Girls S
+ oftball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7540872@skyland-conference
