@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2653:7737384@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261204T160000
+DTEND;TZID=America/New_York:20261204T180000
+SUMMARY:Hillsborough High School at William Annin Middle School (Boys (MS
+  - JV) Basketball)
+DESCRIPTION:Boys (MS - JV) Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7648097@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T170000
@@ -41,13 +50,21 @@ SUMMARY:Hillsborough High School at Warren Township Middle School (Boys (
 DESCRIPTION:Boys (MS - JV) Basketball - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7737399@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261214T160000
+DTEND;TZID=America/New_York:20261214T180000
+SUMMARY:Hillsborough High School at Alexander Batcho Intermediate School 
+ (Boys (MS - JV) Basketball)
+DESCRIPTION:Boys (MS - JV) Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7648153@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T170000
 DTEND;TZID=America/New_York:20261215T190000
-SUMMARY:Hillsborough High School at Branchburg Middle School (Boys (MS - 
- JV) Basketball)
-DESCRIPTION:Boys (MS - JV) Basketball - Away - 5:00 PM
+SUMMARY:Hillsborough High School vs TBD (Boys (MS - JV) Basketball)
+DESCRIPTION:Boys (MS - JV) Basketball - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7648514@skyland-conference
@@ -59,21 +76,13 @@ SUMMARY:Hillsborough High School vs Clinton Township Middle School (Boys
 DESCRIPTION:Boys (MS - JV) Basketball - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7652956@skyland-conference
+UID:ds:2653:7653356@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
 DTEND;TZID=America/New_York:20261221T180000
-SUMMARY:Hillsborough High School at Franklin High School (Boys (MS - JV) 
+SUMMARY:Hillsborough High School vs Franklin High School (Boys (MS - JV) 
  Basketball)
-DESCRIPTION:Boys (MS - JV) Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7648518@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T170000
-DTEND;TZID=America/New_York:20261222T190000
-SUMMARY:Hillsborough High School at TBD (Boys (MS - JV) Basketball)
-DESCRIPTION:Boys (MS - JV) Basketball - Away - 5:00 PM
+DESCRIPTION:Boys (MS - JV) Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7653379@skyland-conference

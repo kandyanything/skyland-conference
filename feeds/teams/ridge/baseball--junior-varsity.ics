@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2830:7737515@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270318T160000
+DTEND;TZID=America/New_York:20270318T180000
+SUMMARY:Ridge High School at Sayreville Public Schools (Junior Varsity Bo
+ ys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104427718@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270403T110000
@@ -40,5 +49,14 @@ DTEND;TZID=America/New_York:20270429T180000
 SUMMARY:Ridge High School at New Providence High School (Junior Varsity B
  oys Baseball)
 DESCRIPTION:Junior Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7737519@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270519T160000
+DTEND;TZID=America/New_York:20270519T180000
+SUMMARY:Ridge High School vs Sayreville Public Schools (Junior Varsity Bo
+ ys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 END:VCALENDAR
