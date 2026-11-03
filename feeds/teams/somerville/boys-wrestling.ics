@@ -23,15 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2877:7595225@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:South Hunterdon Regional H.S. vs Somerville High School (Varsity 
- Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104996437@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T180000
@@ -39,6 +30,15 @@ DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Somerville High School at South Hunterdon Regional H.S. (Junior V
  arsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7595225@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T203000
+SUMMARY:South Hunterdon Regional H.S. vs Somerville High School (Varsity 
+ Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104996404@skyland-conference

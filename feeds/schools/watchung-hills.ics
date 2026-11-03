@@ -3719,19 +3719,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:103468390@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
+DTSTART;TZID=America/New_York:20261107T100000
+DTEND;TZID=America/New_York:20261107T120000
 SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Coed Coed Cross Coun
  try)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102738457@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261107
-DTEND;VALUE=DATE:20261108
-SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Girls Gymnastics)
-DESCRIPTION:Varsity Girls Gymnastics - Home
+DTSTART;TZID=America/New_York:20261107T230000
+DTEND;TZID=America/New_York:20261107T010000
+SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Girls Gymnastics)
+DESCRIPTION:Varsity Girls Gymnastics - Away - 11:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102284875@skyland-conference
@@ -4289,6 +4289,16 @@ DTEND;TZID=America/New_York:20261215T210000
 SUMMARY:Watchung Hills Regional H.S. at Montville Township High School (V
  arsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:3da37e1b-ab65-492e-b2e6-96b8f623ab3b@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T113000
+DTEND;TZID=America/New_York:20261216T133000
+SUMMARY:Mount Saint Mary Academy vs Watchung Hills Regional H.S. (Varsity
+  Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104462742@skyland-conference
@@ -5802,7 +5812,7 @@ SUMMARY:Watchung Hills Regional H.S. at Hunterdon Central Reg. High Schoo
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:80c3ff13-08f3-4fb4-b6ad-0b13dd40ae91@skyland
+UID:bb:MountSaintMaryAcademy:bc305c5a-494b-48cd-84e9-f85ea0d32ea4@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T113000
@@ -5812,7 +5822,7 @@ SUMMARY:Mount Saint Mary Academy vs Watchung Hills Regional H.S. (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:4652ebb8-458f-4c0e-a5d2-dee9f5ca9b4e@skyland
+UID:bb:MountSaintMaryAcademy:53dda5ce-bbc4-4ab4-af3c-0d9493f56503@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T130000
@@ -7702,6 +7712,33 @@ DTEND;VALUE=DATE:20270514
 SUMMARY:Immaculata High School vs Watchung Hills Regional H.S. (Varsity B
  oys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105290787@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T160000
+DTEND;TZID=America/New_York:20270517T180000
+SUMMARY:Watchung Hills Regional H.S. at Scotch Plains-Fanwood High School
+  (Junior Varsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105290786@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T160000
+DTEND;TZID=America/New_York:20270517T180000
+SUMMARY:Watchung Hills Regional H.S. at Scotch Plains-Fanwood High School
+  (Freshman Boys Boys Volleyball)
+DESCRIPTION:Freshman Boys Boys Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105290784@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270517T173000
+DTEND;TZID=America/New_York:20270517T193000
+SUMMARY:Watchung Hills Regional H.S. at Scotch Plains-Fanwood High School
+  (Varsity Boys Boys Volleyball)
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7541200@skyland-conference

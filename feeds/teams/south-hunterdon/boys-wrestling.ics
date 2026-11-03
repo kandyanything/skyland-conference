@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2877:7595225@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:South Hunterdon Regional H.S. vs Somerville High School (Varsity 
- Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104996437@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T180000
@@ -40,6 +31,15 @@ DTEND;TZID=America/New_York:20261208T200000
 SUMMARY:Somerville High School at South Hunterdon Regional H.S. (Junior V
  arsity Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7595225@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T203000
+SUMMARY:South Hunterdon Regional H.S. vs Somerville High School (Varsity 
+ Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104996404@skyland-conference
@@ -78,13 +78,13 @@ SUMMARY:South Hunterdon Regional H.S. at Bound Brook High School (Varsity
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7692555@skyland-conference
+UID:ds:2877:7739609@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T161500
-DTEND;TZID=America/New_York:20261222T181500
-SUMMARY:South Hunterdon Regional H.S. vs Middlesex High School (Varsity B
+DTSTART;TZID=America/New_York:20261221T183000
+DTEND;TZID=America/New_York:20261221T203000
+SUMMARY:South Hunterdon Regional H.S. vs Belvidere High School (Varsity B
  oys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:15 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7567473@skyland-conference
@@ -132,6 +132,41 @@ SUMMARY:South Hunterdon Regional H.S. at West Morris Mendham High School
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2877:7739657@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270104T183000
+DTEND;TZID=America/New_York:20270104T203000
+SUMMARY:South Hunterdon Regional H.S. vs West Windsor-Plainsboro High Sch
+ ool North (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7739661@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:South Hunterdon Regional H.S. at The Pingry School (Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7739793@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270109
+DTEND;VALUE=DATE:20270110
+SUMMARY:South Hunterdon Regional H.S. at TBD (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7739719@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270120
+DTEND;VALUE=DATE:20270121
+SUMMARY:South Hunterdon Regional H.S. at New Egypt High School (Varsity B
+ oys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7692692@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T170000
@@ -166,5 +201,22 @@ DTEND;TZID=America/New_York:20270125T200000
 SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (V
  arsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7739778@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T183000
+DTEND;TZID=America/New_York:20270204T203000
+SUMMARY:South Hunterdon Regional H.S. vs Princeton High School (Varsity B
+ oys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7739786@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270213
+DTEND;VALUE=DATE:20270214
+SUMMARY:South Hunterdon Regional H.S. at TBD (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 END:VCALENDAR

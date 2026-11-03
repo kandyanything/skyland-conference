@@ -24,6 +24,16 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:54c55506-1582-4fff-9bf2-526f781692ef@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T113000
+DTEND;TZID=America/New_York:20261208T133000
+SUMMARY:Mount Saint Mary Academy at Hunterdon Central Regional H.S. (Vars
+ ity Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7688692@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T153000
@@ -31,6 +41,16 @@ DTEND;TZID=America/New_York:20261208T173000
 SUMMARY:Hunterdon Central Regional H.S. vs Mount Saint Mary Academy (Vars
  ity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:3da37e1b-ab65-492e-b2e6-96b8f623ab3b@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T113000
+DTEND;TZID=America/New_York:20261216T133000
+SUMMARY:Mount Saint Mary Academy vs Watchung Hills Regional H.S. (Varsity
+  Girls Girls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104462742@skyland-conference
@@ -51,6 +71,16 @@ SUMMARY:North Hunterdon High School at Mount Saint Mary Academy (Varsity
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:e377126b-976d-4f87-b3d9-8f9df0e67b5b@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T093000
+DTEND;TZID=America/New_York:20270112T113000
+SUMMARY:Mount Saint Mary Academy vs Bernards High School (Varsity Girls G
+ irls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7706472@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270112
@@ -58,5 +88,25 @@ DTEND;VALUE=DATE:20270113
 SUMMARY:Bernards High School at Mount Saint Mary Academy (Varsity Girls G
  irls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:40ea68da-b064-4e80-8df4-0c58bf5390c5@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270116T041500
+DTEND;TZID=America/New_York:20270116T061500
+SUMMARY:Mount Saint Mary Academy at MULTIPLE OPPONENTS (Varsity Girls Gir
+ ls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:15 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:bb:MountSaintMaryAcademy:af18f957-d3c8-44f2-8f0d-3ec8d3a15a23@skyland
+ -conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270130T100000
+DTEND;TZID=America/New_York:20270130T120000
+SUMMARY:Mount Saint Mary Academy at MULTIPLE OPPONENTS (Varsity Girls Gir
+ ls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR
