@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2877:7740193@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T160000
+DTEND;TZID=America/New_York:20261202T180000
+SUMMARY:South Hunterdon Regional H.S. at William Annin Middle School (Mid
+ dle School Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7706484@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T161500
@@ -40,6 +49,24 @@ DTEND;TZID=America/New_York:20261216T180000
 SUMMARY:Bound Brook High School at South Hunterdon Regional H.S. (Middle 
  School Coed Coed Wrestling)
 DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7740196@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T160000
+DTEND;TZID=America/New_York:20261216T180000
+SUMMARY:South Hunterdon Regional H.S. vs Bound Brook Middle School (Middl
+ e School Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7740366@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T160000
+DTEND;TZID=America/New_York:20261222T180000
+SUMMARY:South Hunterdon Regional H.S. vs Von E. Mauger Middle School (Mid
+ dle School Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7733146@skyland-conference
@@ -60,6 +87,42 @@ SUMMARY:South Hunterdon Regional H.S. at Hillsborough Athletics (Middle S
 DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2877:7740219@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T160000
+DTEND;TZID=America/New_York:20270108T180000
+SUMMARY:South Hunterdon Regional H.S. at J P Case Middle School (Middle S
+ chool Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7740221@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:South Hunterdon Regional H.S. at Alexander Batcho Intermediate Sc
+ hool (Middle School Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7740227@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T160000
+DTEND;TZID=America/New_York:20270115T180000
+SUMMARY:South Hunterdon Regional H.S. vs Branchburg Middle School (Middle
+  School Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7740230@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T160000
+DTEND;TZID=America/New_York:20270119T180000
+SUMMARY:South Hunterdon Regional H.S. at Timberlane Middle School (Middle
+  School Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7677443@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -76,5 +139,14 @@ DTEND;TZID=America/New_York:20270121T180000
 SUMMARY:South Hunterdon Regional H.S. at Franklin High School (Middle Sch
  ool Coed Coed Wrestling)
 DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7740273@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270131
+DTEND;VALUE=DATE:20270201
+SUMMARY:South Hunterdon Regional H.S. at TBD (Middle School Coed Coed Wre
+ stling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Away
 END:VEVENT
 END:VCALENDAR
