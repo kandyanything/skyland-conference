@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2877:7743471@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T110000
+DTEND;TZID=America/New_York:20261212T130000
+SUMMARY:South Hunterdon Regional H.S. vs Hamilton West High School (Junio
+ r Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7574733@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
@@ -60,6 +69,15 @@ SUMMARY:South Hunterdon Regional H.S. vs Delaware Valley Regional H.S. (J
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2877:7574927@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:South Hunterdon Regional H.S. at Warren Hills Regional School Dis
+ trict (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102270767@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T163000
@@ -67,15 +85,6 @@ DTEND;TZID=America/New_York:20270106T183000
 SUMMARY:Warren Hills Regional H.S. vs South Hunterdon Regional H.S. (Juni
  or Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7574927@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T160000
-DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:South Hunterdon Regional H.S. at Warren Hills Regional School Dis
- trict (Junior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7574934@skyland-conference
@@ -186,6 +195,15 @@ SUMMARY:Manville High School at South Hunterdon Regional H.S. (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2877:7743506@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270211T160000
+DTEND;TZID=America/New_York:20270211T180000
+SUMMARY:South Hunterdon Regional H.S. at Sussex County Technical High Sch
+ ool (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7576152@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270217T160000
@@ -193,5 +211,14 @@ DTEND;TZID=America/New_York:20270217T180000
 SUMMARY:South Hunterdon Regional H.S. at Central Jersey College Prep Char
  ter School (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7743511@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270219
+DTEND;VALUE=DATE:20270220
+SUMMARY:South Hunterdon Regional H.S. at Pemberton Township High School (
+ Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away
 END:VEVENT
 END:VCALENDAR

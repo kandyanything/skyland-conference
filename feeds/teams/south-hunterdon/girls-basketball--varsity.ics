@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2877:7743310@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:South Hunterdon Regional H.S. at Stuart Country Day School (Varsi
+ ty Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7627299@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
@@ -105,6 +114,15 @@ SUMMARY:South Hunterdon Regional H.S. vs Delaware Valley Regional H.S. (V
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2877:7448504@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T173000
+DTEND;TZID=America/New_York:20270106T193000
+SUMMARY:South Hunterdon Regional H.S. at Warren Hills Regional School Dis
+ trict (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102270728@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T180000
@@ -112,15 +130,6 @@ DTEND;TZID=America/New_York:20270106T200000
 SUMMARY:Warren Hills Regional H.S. vs South Hunterdon Regional H.S. (Vars
  ity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7448504@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T173000
-DTEND;TZID=America/New_York:20270107T193000
-SUMMARY:South Hunterdon Regional H.S. at Warren Hills Regional School Dis
- trict (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7443956@skyland-conference
@@ -323,11 +332,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7737423@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270211T160000
-DTEND;TZID=America/New_York:20270211T180000
+DTSTART;TZID=America/New_York:20270211T173000
+DTEND;TZID=America/New_York:20270211T193000
 SUMMARY:South Hunterdon Regional H.S. at Sussex County Technical High Sch
  ool (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7737429@skyland-conference
