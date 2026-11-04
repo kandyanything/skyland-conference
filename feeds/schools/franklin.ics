@@ -3859,7 +3859,7 @@ SUMMARY:Franklin High School vs Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:3d0080aa-28c6-4378-a1c5-58c16d62ef45@skyland
+UID:bb:MountSaintMaryAcademy:1a3af298-7e89-48e5-992a-9bb24fc4c25f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T113000
@@ -3869,7 +3869,7 @@ SUMMARY:Mount Saint Mary Academy vs Franklin High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:378d8e1a-dcc6-43df-8959-fe0ec7a8d476@skyland
+UID:bb:MountSaintMaryAcademy:de0fbba7-c4be-4912-bae7-46ff81eed7f6@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T130000
@@ -4597,6 +4597,15 @@ SUMMARY:Franklin High School vs Montgomery High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7701951@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
+SUMMARY:Franklin High School at Ewing High School (Junior Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102048900@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -4622,6 +4631,24 @@ DTEND;TZID=America/New_York:20270123T110000
 SUMMARY:Manville High School at Franklin High School (Varsity Boys Boys W
  restling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7701946@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T113000
+DTEND;TZID=America/New_York:20270123T133000
+SUMMARY:Franklin High School at Ewing High School (Varsity Boys Boys Bask
+ etball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7701948@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T113000
+DTEND;TZID=America/New_York:20270123T133000
+SUMMARY:Franklin High School at Ewing High School (Freshman Boys Boys Bas
+ ketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7589205@skyland-conference
@@ -5000,22 +5027,22 @@ SUMMARY:Franklin High School at New Brunswick High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7562620@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270208
-DTEND;VALUE=DATE:20270209
-SUMMARY:Franklin High School vs Morris Catholic High School (Varsity Girl
- s Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7562844@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270208
-DTEND;VALUE=DATE:20270209
+DTSTART;TZID=America/New_York:20270208T163000
+DTEND;TZID=America/New_York:20270208T183000
 SUMMARY:Franklin High School vs Morris Catholic High School (Junior Varsi
  ty Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7562620@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270208T180000
+DTEND;TZID=America/New_York:20270208T200000
+SUMMARY:Franklin High School vs Morris Catholic High School (Varsity Girl
+ s Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7526671@skyland-conference
