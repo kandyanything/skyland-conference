@@ -113,11 +113,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:104996404@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T190000
-DTEND;TZID=America/New_York:20261208T210000
+DTSTART;TZID=America/New_York:20261208T183000
+DTEND;TZID=America/New_York:20261208T203000
 SUMMARY:Somerville High School at South Hunterdon Regional H.S. (Varsity 
  Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104543787@skyland-conference
@@ -1080,15 +1080,6 @@ SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100999189@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261223T170000
-DTEND;TZID=America/New_York:20261223T190000
-SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Junior Va
- rsity Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103343234@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T170000
@@ -1125,13 +1116,13 @@ SUMMARY:Bernards High School vs Manville High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100999183@skyland-conference
+UID:arb:100999189@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261223T180000
 DTEND;TZID=America/New_York:20261223T200000
-SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Varsity B
- oys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Junior Va
+ rsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100999113@skyland-conference
@@ -1150,6 +1141,15 @@ DTEND;TZID=America/New_York:20261223T203000
 SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys W
  restling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100999183@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T183000
+DTEND;TZID=America/New_York:20261223T203000
+SUMMARY:Belvidere High School at South Hunterdon Regional H.S. (Varsity B
+ oys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7706376@skyland-conference
@@ -2696,6 +2696,15 @@ SUMMARY:Montgomery High School vs Woodbridge High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2877:7739719@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T180000
+DTEND;TZID=America/New_York:20270120T200000
+SUMMARY:South Hunterdon Regional H.S. at New Egypt High School (Varsity B
+ oys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:100968278@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T180000
@@ -2793,15 +2802,6 @@ DTEND;TZID=America/New_York:20270120T210000
 SUMMARY:Voorhees High School at Warren Hills Regional H.S. (Varsity Boys 
  Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7739719@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270120
-DTEND;VALUE=DATE:20270121
-SUMMARY:South Hunterdon Regional H.S. at New Egypt High School (Varsity B
- oys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102061388@skyland-conference
@@ -3787,7 +3787,8 @@ UID:arb:104026648@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T120000
 DTEND;TZID=America/New_York:20270130T140000
-SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Boys Boys Wrestling)
+SUMMARY:Watchung Hills Regional H.S. vs Somerville High School (Varsity B
+ oys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -3804,7 +3805,8 @@ UID:arb:104026654@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T140000
 DTEND;TZID=America/New_York:20270130T160000
-SUMMARY:Watchung Hills Regional H.S. vs TBD (Varsity Boys Boys Wrestling)
+SUMMARY:Watchung Hills Regional H.S. vs Somerville High School (Varsity B
+ oys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
