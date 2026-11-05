@@ -3654,6 +3654,24 @@ SUMMARY:North Hunterdon High School at Ridge High School (Varsity Girls C
 DESCRIPTION:Varsity Girls Competitive Cheerleading - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7744527@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261109T170000
+DTEND;TZID=America/New_York:20261109T190000
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Girls Fiel
+ d Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7744527@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261109T170000
+DTEND;TZID=America/New_York:20261109T190000
+SUMMARY:Ridge High School vs Hillsborough Athletics (Varsity Girls Field 
+ Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7700637@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261130T193000
@@ -3715,6 +3733,15 @@ DTEND;TZID=America/New_York:20261207T180000
 SUMMARY:Ridge High School vs Morris Catholic High School (Junior Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7579952@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261207
+DTEND;VALUE=DATE:20261208
+SUMMARY:Ridge High School vs Morris Catholic High School (Freshman Boys B
+ oys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7664959@skyland-conference
@@ -3806,6 +3833,15 @@ SUMMARY:Ridge High School vs Randolph High School (Varsity Girls Girls Ic
 DESCRIPTION:Varsity Girls Girls Ice Hockey - Home - 5:40 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2830:7556300@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T053000
+DTEND;TZID=America/New_York:20261210T073000
+SUMMARY:Ridge High School vs Delaware Valley Regional H.S. (Junior Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7645380@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
@@ -3822,6 +3858,15 @@ DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Gir
  ls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7556298@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Ridge High School vs Delaware Valley Regional H.S. (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7645380@skyland-conference
@@ -3844,11 +3889,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7556298@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
+DTSTART;TZID=America/New_York:20261210T180000
+DTEND;TZID=America/New_York:20261210T200000
 SUMMARY:Delaware Valley Regional H.S. at Ridge High School (Varsity Girls
   Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7556300@skyland-conference
@@ -3858,24 +3903,6 @@ DTEND;VALUE=DATE:20261211
 SUMMARY:Delaware Valley Regional H.S. at Ridge High School (Junior Varsit
  y Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7556298@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:Ridge High School vs Delaware Valley Regional H.S. (Varsity Girls
-  Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7556300@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261210
-DTEND;VALUE=DATE:20261211
-SUMMARY:Ridge High School vs Delaware Valley Regional H.S. (Junior Varsit
- y Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7664991@skyland-conference
@@ -4381,7 +4408,7 @@ SUMMARY:Ridge High School vs Arthur L Johnson High School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:825e4553-4a42-47ac-abbc-1c9331b53d81@skyland
+UID:bb:MountSaintMaryAcademy:c78db472-446a-4556-b5fc-21b23b1e99c3@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T123000
@@ -4391,7 +4418,7 @@ SUMMARY:Mount Saint Mary Academy at Ridge High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:61497243-b8c1-4b71-8f6f-88d2ca5af2c1@skyland
+UID:bb:MountSaintMaryAcademy:df7a0dab-d354-4c6d-9053-43289b9db575@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T140000
