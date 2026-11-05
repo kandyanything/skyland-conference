@@ -364,6 +364,15 @@ SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (V
 DESCRIPTION:Varsity Girls Girls Cross Country - Home - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2877:7510471@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:South Hunterdon Regional H.S. at Warren County Tech High (Varsity
+  Coed Coed Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7441442@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T160000
@@ -380,15 +389,6 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:South Hunterdon Regional H.S. vs Middlesex High School (Junior Va
  rsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7510471@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:South Hunterdon Regional H.S. at Warren County Tech High (Varsity
-  Coed Coed Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7334725@skyland-conference
@@ -474,15 +474,6 @@ SUMMARY:Immaculata High School vs South Hunterdon Regional H.S. (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7335272@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:South Hunterdon Regional H.S. at Immaculata High School (Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7335147@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260915
@@ -490,6 +481,15 @@ DTEND;VALUE=DATE:20260916
 SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (V
  arsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7335272@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:South Hunterdon Regional H.S. at Immaculata High School (Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7336356@skyland-conference
@@ -672,15 +672,6 @@ SUMMARY:Immaculata High School at South Hunterdon Regional H.S. (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7334847@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:South Hunterdon Regional H.S. vs Immaculata High School (Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7334731@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260921
@@ -688,6 +679,15 @@ DTEND;VALUE=DATE:20260922
 SUMMARY:South Hunterdon Regional H.S. at Manville High School (Varsity Gi
  rls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7334847@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:South Hunterdon Regional H.S. vs Immaculata High School (Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7478046@skyland-conference
@@ -872,24 +872,6 @@ SUMMARY:Bound Brook High School vs South Hunterdon Regional H.S. (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7335158@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity G
- irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7335278@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:South Hunterdon Regional H.S. vs Manville High School (Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7334733@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -906,6 +888,24 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:South Hunterdon Regional H.S. at Bound Brook High School (Varsity
   Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7335158@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7335278@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:South Hunterdon Regional H.S. vs Manville High School (Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7568460@skyland-conference
