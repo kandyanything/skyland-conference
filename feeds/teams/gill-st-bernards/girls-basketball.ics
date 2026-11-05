@@ -24,7 +24,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-12-09:16:00:Basketball:5@skyland-confer
+UID:fs:GillSt.BernardsSchool:2026-12-09:16:00:Basketball:4@skyland-confer
  ence
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
@@ -34,7 +34,7 @@ SUMMARY:Gill St. Bernard's School vs Northern Valley Regional High School
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-12-09:17:30:Basketball:6@skyland-confer
+UID:fs:GillSt.BernardsSchool:2026-12-09:17:30:Basketball:5@skyland-confer
  ence
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T173000
@@ -42,6 +42,16 @@ DTEND;TZID=America/New_York:20261209T193000
 SUMMARY:Gill St. Bernard's School vs Northern Valley Regional High School
   Demarest (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:fs:GillSt.BernardsSchool:2026-12-13:14:30:Basketball:11@skyland-confe
+ rence
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T143000
+DTEND;TZID=America/New_York:20261213T163000
+SUMMARY:Gill St. Bernard's School vs Manasquan High School (Varsity Girls
+  Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7665015@skyland-conference
@@ -62,7 +72,7 @@ SUMMARY:Ridge High School at Gill St. Bernard's School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0cd0d6d0-9468-4385-9509-d2961637b59c@skyland
+UID:bb:MountSaintMaryAcademy:3186fa1c-c3be-4230-b5e6-1227f69e80a4@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T110000
@@ -72,7 +82,7 @@ SUMMARY:Mount Saint Mary Academy at Gill St. Bernard's School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:7fbe2fd8-6769-4eac-bb79-8268ecca5356@skyland
+UID:bb:MountSaintMaryAcademy:ea9f85c9-f562-4557-aa41-9f0029b2a17c@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T123000
