@@ -2175,15 +2175,6 @@ SUMMARY:Watchung Hills Regional H.S. at Kearny High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7336280@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:Bound Brook High School at Manville High School (Varsity Girls Gi
- rls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7335149@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260915
@@ -2191,6 +2182,15 @@ DTEND;VALUE=DATE:20260916
 SUMMARY:Bound Brook High School vs Mount Saint Mary Academy (Varsity Girl
  s Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7336280@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Bound Brook High School at Manville High School (Varsity Girls Gi
+ rls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7335090@skyland-conference
@@ -3625,21 +3625,21 @@ SUMMARY:Bound Brook High School at Manville High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7335156@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Bound Brook High School at Gill St. Bernard's School (Varsity Gir
- ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7336292@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Bound Brook High School at College Achieve Central Charter School
   (Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7335156@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Bound Brook High School at Gill St. Bernard's School (Varsity Gir
+ ls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
@@ -3724,15 +3724,6 @@ SUMMARY:Hunterdon Central Regional H.S. at Immaculata High School (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7335069@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Immaculata High School vs Hunterdon Central Regional H.S. (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7334657@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -3740,6 +3731,15 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:Immaculata High School at The Pingry School (Varsity Girls Girls 
  Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7335069@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Immaculata High School vs Hunterdon Central Regional H.S. (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7334707@skyland-conference
@@ -4257,7 +4257,7 @@ SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7336296@skyland-conference
+UID:ds:2586:7335161@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
@@ -4266,7 +4266,7 @@ SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7335161@skyland-conference
+UID:ds:2586:7336296@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
@@ -5674,15 +5674,6 @@ SUMMARY:Bernards High School at Phillipsburg High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7334744@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261008
-DTEND;VALUE=DATE:20261009
-SUMMARY:Bound Brook High School vs Gill St. Bernard's School (Varsity Gir
- ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7335170@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261008
@@ -5690,6 +5681,15 @@ DTEND;VALUE=DATE:20261009
 SUMMARY:Bound Brook High School at Mount Saint Mary Academy (Varsity Girl
  s Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7334744@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261008
+DTEND;VALUE=DATE:20261009
+SUMMARY:Bound Brook High School vs Gill St. Bernard's School (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7336305@skyland-conference
@@ -8129,25 +8129,6 @@ DTSTART;VALUE=DATE:20261103
 DTEND;VALUE=DATE:20261104
 SUMMARY:Voorhees High School vs TBD (Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:1788b751-7f9d-4bdc-9cc4-02bc3b1d42d5@skyland
- -conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261105T090000
-DTEND;TZID=America/New_York:20261105T110000
-SUMMARY:Mount Saint Mary Academy at The Pingry School (Varsity Girls Girl
- s Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:fs:GillSt.BernardsSchool:2026-11-05:12:00:Soccer:0@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261105T120000
-DTEND;TZID=America/New_York:20261105T140000
-SUMMARY:Gill St. Bernard's School vs Wardlaw-Hartridge School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7739655@skyland-conference
