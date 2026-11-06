@@ -1768,6 +1768,15 @@ SUMMARY:Franklin High School at Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7526260@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Franklin High School at Readington Middle School (Middle School G
+ irls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7526560@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
@@ -1784,15 +1793,6 @@ DTEND;TZID=America/New_York:20261005T180000
 SUMMARY:Franklin High School at JP Case Middle School (Middle School Girl
  s Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7526260@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Franklin High School at Readington Middle School (Middle School G
- irls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7441440@skyland-conference
@@ -1848,15 +1848,6 @@ SUMMARY:Franklin High School vs Mount Saint Mary Academy (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7334693@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7334833@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261005
@@ -1864,6 +1855,15 @@ DTEND;VALUE=DATE:20261006
 SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys S
  occer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7334693@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7553591@skyland-conference
@@ -3869,7 +3869,7 @@ SUMMARY:Franklin High School vs Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:fdc50cca-0dfe-4e91-ad3e-c2f86d032903@skyland
+UID:bb:MountSaintMaryAcademy:d3947be2-c913-4b5b-9966-a1f6113d7c49@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T113000
@@ -3879,7 +3879,7 @@ SUMMARY:Mount Saint Mary Academy vs Franklin High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:c27845c9-efa1-4254-b822-c4409660139f@skyland
+UID:bb:MountSaintMaryAcademy:f9f456d2-f495-447d-91b3-b5a9dfbb24be@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T130000
