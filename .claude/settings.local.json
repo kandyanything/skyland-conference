@@ -1,0 +1,21 @@
+{
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:bignorthconferencenj.org)",
+      "WebFetch(domain:www.thebignorthconference.org)",
+      "WebFetch(domain:ridgewoodathletics.digitalsports.com)",
+      "Bash(DEST=\"c:/Users/ScottRosenberg/OneDrive - PlayOn Sports/Desktop/big-north-conference\")",
+      "Bash(SRC=\"c:/Users/ScottRosenberg/OneDrive - PlayOn Sports/Desktop/nwjerseyac-new\")",
+      "Bash(__NEW_LINE_7cbfe88fdb3868d5__ mkdir:*)",
+      "Bash(mkdir -p \"$DEST/.github/workflows\")",
+      "Bash(mkdir -p \"$DEST/admin\")",
+      "Bash('DEST=c:/Users/ScottRosenberg/OneDrive - PlayOn Sports/Desktop/big-north-conference' grep -rl \"NJAC\\\\|njac\\\\|nwjerseyac\\\\|Northwest Jersey\\\\|#12275a\\\\|njac-logo\" $DEST --include=*.html --include=*.css --include=*.json --include=*.js --include=*.yml)",
+      "Bash(DEST=\"c:/Users/ScottRosenberg/OneDrive - PlayOn Sports/Desktop/big-north-conference\" echo \"=== calendar.html ===\")",
+      "Read(//c/Users/ScottRosenberg/OneDrive - PlayOn Sports/Desktop/big-north-conference/$DEST/**)",
+      "Read(//c/Users/ScottRosenberg/OneDrive - PlayOn Sports/Desktop/big-north-conference/**)",
+      "Skill(update-config)",
+      "Bash(start cmd:*)"
+    ],
+    "defaultMode": "bypassPermissions"
+  }
+}
