@@ -1031,15 +1031,6 @@ SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Boy
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7544022@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260912T080000
-DTEND;TZID=America/New_York:20260912T100000
-SUMMARY:Hunterdon Central Regional H.S. at TBA NJ (Varsity Boys Boys Cros
- s Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 8:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7544092@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260912T080000
@@ -1047,6 +1038,15 @@ DTEND;TZID=America/New_York:20260912T100000
 SUMMARY:Hunterdon Central Regional H.S. at TBA NJ (Varsity Girls Girls Cr
  oss Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 8:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7544022@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260912T080000
+DTEND;TZID=America/New_York:20260912T100000
+SUMMARY:Hunterdon Central Regional H.S. at TBA NJ (Varsity Boys Boys Cros
+ s Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7476307@skyland-conference
@@ -1283,15 +1283,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs Ridge High School (Freshman Gi
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7573247@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Hunterdon Central Regional H.S. vs Ridge High School (Junior Vars
- ity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7501394@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -1317,6 +1308,15 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Hunterdon Central Regional H.S. at Montgomery High School (Freshm
  an Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7573247@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Ridge High School (Junior Vars
+ ity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7499589@skyland-conference
@@ -1472,15 +1472,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7334653@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
- Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7334864@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260917
@@ -1488,6 +1479,15 @@ DTEND;VALUE=DATE:20260918
 SUMMARY:Hunterdon Central Regional H.S. at Gill St. Bernard's School (Var
  sity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7334653@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
+ Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7621034@skyland-conference
@@ -4235,7 +4235,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Bishop Eustace Prep School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:711ae1e7-d5c7-4cf1-94ac-173f4cebe6fd@skyland
+UID:bb:MountSaintMaryAcademy:fb373e09-006e-4cae-a970-bd6e0ce02b1b@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T113000
@@ -4569,7 +4569,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Rumson-Fair Haven Regional Hig
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:d367e6ad-3a66-4ed2-bcfd-34c437dde204@skyland
+UID:bb:MountSaintMaryAcademy:32ec5d6e-48cd-42a4-be62-2111f8ff3f87@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T113000
@@ -4579,7 +4579,7 @@ SUMMARY:Mount Saint Mary Academy vs Hunterdon Central Regional H.S. (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:59508f87-950d-4a5d-a684-44ce3a0e123a@skyland
+UID:bb:MountSaintMaryAcademy:5015960b-4a86-49e0-a32d-69856f3289dd@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T130000
