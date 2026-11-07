@@ -1355,15 +1355,6 @@ SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Gir
 DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7516539@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T163000
-DTEND;TZID=America/New_York:20260916T183000
-SUMMARY:Bridgewater-Raritan High School vs Blair Academy (Varsity Girls G
- irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7505320@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T163000
@@ -1371,6 +1362,15 @@ DTEND;TZID=America/New_York:20260916T183000
 SUMMARY:Bridgewater-Raritan High School at Blair Academy (Varsity Boys Bo
  ys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7516539@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T163000
+DTEND;TZID=America/New_York:20260916T183000
+SUMMARY:Bridgewater-Raritan High School vs Blair Academy (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7441482@skyland-conference
@@ -1445,6 +1445,15 @@ SUMMARY:Bridgewater-Raritan High School vs Roxbury High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7334676@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7335093@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260917
@@ -1461,15 +1470,6 @@ DTEND;VALUE=DATE:20260918
 SUMMARY:Bridgewater-Raritan High School vs Gill St. Bernard's School (Var
  sity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7334676@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7335093@skyland-conference
@@ -5475,7 +5475,7 @@ SUMMARY:Bridgewater-Raritan High School vs TBA NJ (Varsity Coed Unified S
 DESCRIPTION:Varsity Coed Unified Sports Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:7ea4a72a-08c6-4bc4-aa30-53aba935c04b@skyland
+UID:bb:MountSaintMaryAcademy:440a2b95-84cd-4948-ab9c-ac58d6b1490f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T110000
@@ -5485,7 +5485,7 @@ SUMMARY:Mount Saint Mary Academy at Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:9e0143f1-166d-4673-91d7-5d750c69599f@skyland
+UID:bb:MountSaintMaryAcademy:e6f363d1-bb22-4c4d-9d47-b9ab8e4434f8@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T123000
