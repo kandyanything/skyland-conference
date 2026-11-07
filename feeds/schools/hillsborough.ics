@@ -2417,42 +2417,6 @@ SUMMARY:Hillsborough High School at Colonia High School (Freshman Boys Fo
 DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7596349@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Hillsborough High School vs Delaware Valley Regional H.S. (Freshm
- an Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7596576@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Hillsborough High School vs The Hun School (Girls (MS - JV) Field
-  Hockey)
-DESCRIPTION:Girls (MS - JV) Field Hockey - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7585973@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Hillsborough High School vs The Pingry School (Girls (MS - VARSIT
- Y) Soccer)
-DESCRIPTION:Girls (MS - VARSITY) Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7565292@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Hillsborough High School at Bound Brook High School (Boys (MS - J
- V) Soccer)
-DESCRIPTION:Boys (MS - JV) Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7585986@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T160000
@@ -2480,6 +2444,42 @@ SUMMARY:Hillsborough High School at Colonia High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7565292@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillsborough High School at Bound Brook High School (Boys (MS - J
+ V) Soccer)
+DESCRIPTION:Boys (MS - JV) Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7596349@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillsborough High School vs Delaware Valley Regional H.S. (Freshm
+ an Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7596576@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillsborough High School vs The Hun School (Girls (MS - JV) Field
+  Hockey)
+DESCRIPTION:Girls (MS - JV) Field Hockey - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7585973@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T160000
+DTEND;TZID=America/New_York:20261005T180000
+SUMMARY:Hillsborough High School vs The Pingry School (Girls (MS - VARSIT
+ Y) Soccer)
+DESCRIPTION:Girls (MS - VARSITY) Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7565356@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T161500
@@ -2489,15 +2489,6 @@ SUMMARY:Hillsborough High School vs Bound Brook High School (Girls (MS -
 DESCRIPTION:Girls (MS - JV) Soccer - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7334804@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:Hillsborough High School at Watchung Hills Regional H.S. (Varsity
-  Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7334691@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261005
@@ -2505,6 +2496,15 @@ DTEND;VALUE=DATE:20261006
 SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Vars
  ity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7334804@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Hillsborough High School at Watchung Hills Regional H.S. (Varsity
+  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7662169@skyland-conference
@@ -2606,13 +2606,13 @@ SUMMARY:Hillsborough High School at Voorhees High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7579463@skyland-conference
+UID:ds:2653:7659051@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
 DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Hillsborough High School at South Hunterdon Regional H.S. (Girls 
- (MS - JV) Field Hockey)
-DESCRIPTION:Girls (MS - JV) Field Hockey - Away - 4:00 PM
+SUMMARY:Hillsborough High School vs Montclair Kimberley Academy (Girls (M
+ S - VARSITY) Field Hockey)
+DESCRIPTION:Girls (MS - VARSITY) Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7585974@skyland-conference
@@ -2624,22 +2624,13 @@ SUMMARY:Hillsborough High School at William Annin Middle School (Girls (M
 DESCRIPTION:Girls (MS - VARSITY) Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7677339@skyland-conference
+UID:ds:2653:7579463@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
 DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Hillsborough High School at Rutgers Preparatory School (Junior Va
- rsity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7659051@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Hillsborough High School vs Montclair Kimberley Academy (Girls (M
- S - VARSITY) Field Hockey)
-DESCRIPTION:Girls (MS - VARSITY) Field Hockey - Home - 4:00 PM
+SUMMARY:Hillsborough High School at South Hunterdon Regional H.S. (Girls 
+ (MS - JV) Field Hockey)
+DESCRIPTION:Girls (MS - JV) Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7585987@skyland-conference
@@ -2651,6 +2642,15 @@ SUMMARY:Hillsborough High School vs William Annin Middle School (Boys (MS
 DESCRIPTION:Boys (MS - VARSITY) Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7677339@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Hillsborough High School at Rutgers Preparatory School (Junior Va
+ rsity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7577572@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
@@ -2660,15 +2660,6 @@ SUMMARY:Hillsborough High School at Alexander Batcho Intermediate School
 DESCRIPTION:Boys (MS - JV) Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7576012@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T161500
-DTEND;TZID=America/New_York:20261007T181500
-SUMMARY:Hillsborough High School at TBD (Varsity Girls Girls Cross Countr
- y)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7577597@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T161500
@@ -2676,6 +2667,15 @@ DTEND;TZID=America/New_York:20261007T181500
 SUMMARY:Hillsborough High School vs Alexander Batcho Intermediate School 
  (Girls (MS - JV) Soccer)
 DESCRIPTION:Girls (MS - JV) Soccer - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7576012@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T161500
+DTEND;TZID=America/New_York:20261007T181500
+SUMMARY:Hillsborough High School at TBD (Varsity Girls Girls Cross Countr
+ y)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7596727@skyland-conference
@@ -3093,15 +3093,6 @@ SUMMARY:Warren Hills Regional H.S. vs Hillsborough High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7576016@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T100000
-DTEND;TZID=America/New_York:20261013T120000
-SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Gir
- ls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7638627@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T100000
@@ -3109,6 +3100,15 @@ DTEND;TZID=America/New_York:20261013T120000
 SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Boy
  s Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7576016@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T100000
+DTEND;TZID=America/New_York:20261013T120000
+SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Gir
+ ls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7681630@skyland-conference
@@ -3228,15 +3228,6 @@ SUMMARY:Hillsborough High School at Hunterdon Central Regional H.S. (Vars
 DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7628293@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Hillsborough High School vs Hunterdon Central Regional H.S. (Vars
- ity Coed Unified Sports Soccer)
-DESCRIPTION:Varsity Coed Unified Sports Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7577599@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -3244,6 +3235,15 @@ DTEND;TZID=America/New_York:20261015T180000
 SUMMARY:Hillsborough High School at Somerville Middle School (Girls (MS -
   JV) Soccer)
 DESCRIPTION:Girls (MS - JV) Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7628293@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Hillsborough High School vs Hunterdon Central Regional H.S. (Vars
+ ity Coed Unified Sports Soccer)
+DESCRIPTION:Varsity Coed Unified Sports Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7585989@skyland-conference
@@ -3830,6 +3830,24 @@ SUMMARY:Hillsborough High School at Stuart Country Day School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7477970@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Hillsborough High School vs The Pingry School (Varsity Girls Girl
+ s Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7664593@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261027T160000
+DTEND;TZID=America/New_York:20261027T180000
+SUMMARY:Hillsborough High School at Readington Middle School (Middle Scho
+ ol Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7686142@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261027T160000
@@ -3846,24 +3864,6 @@ DTEND;TZID=America/New_York:20261027T180000
 SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Vars
  ity Coed Unified Sports Soccer)
 DESCRIPTION:Varsity Coed Unified Sports Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7664593@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Hillsborough High School at Readington Middle School (Middle Scho
- ol Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7477970@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261027T160000
-DTEND;TZID=America/New_York:20261027T180000
-SUMMARY:Hillsborough High School vs The Pingry School (Varsity Girls Girl
- s Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7638654@skyland-conference
@@ -5683,7 +5683,7 @@ SUMMARY:Hillsborough High School at Old Bridge High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e0a275c6-e32b-4eb9-8d09-25a14d0d5035@skyland
+UID:bb:MountSaintMaryAcademy:3eb8891e-f1aa-406a-9be4-43db82ea3437@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T113000
@@ -5693,7 +5693,7 @@ SUMMARY:Mount Saint Mary Academy vs Hillsborough High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:2e543314-0864-49dd-9eb4-06c6b10878e7@skyland
+UID:bb:MountSaintMaryAcademy:6fc0f6f9-16da-452f-8e08-3234d7e48d86@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T130000
