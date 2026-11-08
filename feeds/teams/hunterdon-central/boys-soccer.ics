@@ -231,15 +231,6 @@ SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7478007@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T154500
-DTEND;TZID=America/New_York:20260911T174500
-SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7518915@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T154500
@@ -247,6 +238,15 @@ DTEND;TZID=America/New_York:20260911T174500
 SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Freshman Bo
  ys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7478007@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T154500
+DTEND;TZID=America/New_York:20260911T174500
+SUMMARY:Ridge High School at Hunterdon Central Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7334862@skyland-conference
@@ -823,5 +823,14 @@ DTEND;TZID=America/New_York:20261107T160000
 SUMMARY:Hunterdon Central Regional H.S. at Manalapan High School (Varsity
   Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7751967@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261111T170000
+DTEND;TZID=America/New_York:20261111T190000
+SUMMARY:Hunterdon Central Regional H.S. vs East Brunswick High School (Va
+ rsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 5:00 PM
 END:VEVENT
 END:VCALENDAR
