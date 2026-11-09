@@ -23,33 +23,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2535:7576398@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260817T100000
-DTEND;TZID=America/New_York:20260817T120000
-SUMMARY:Bernards High School at Kinnelon High School (Varsity Boys Footba
- ll)
-DESCRIPTION:Varsity Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7553084@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260817T100000
-DTEND;TZID=America/New_York:20260817T120000
-SUMMARY:Bound Brook High School at Abraham Clark HS (Varsity Boys Footbal
- l)
-DESCRIPTION:Varsity Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7506258@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260817T100000
-DTEND;TZID=America/New_York:20260817T120000
-SUMMARY:Bridgewater-Raritan High School vs DePaul Catholic High School (V
- arsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7460300@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260817T100000
@@ -284,14 +257,6 @@ SUMMARY:Franklin High School at Teaneck High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7497781@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260820T100000
-DTEND;TZID=America/New_York:20260820T120000
-SUMMARY:Bernards High School at Butler High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7499906@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260820T100000
@@ -318,13 +283,13 @@ SUMMARY:Watchung Hills Regional H.S. vs TBD (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7499287@skyland-conference
+UID:arb:100223296@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260820T170000
 DTEND;TZID=America/New_York:20260820T190000
-SUMMARY:Bridgewater-Raritan High School vs Somerville High School (Varsit
+SUMMARY:Somerville High School at Bridgewater-Raritan High School (Varsit
  y Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 5:00 PM
+DESCRIPTION:Varsity Boys Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7481424@skyland-conference
@@ -407,15 +372,6 @@ SUMMARY:Belvidere High School vs Hopatcong High School (Varsity Boys Foot
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7529427@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260822T100000
-DTEND;TZID=America/New_York:20260822T120000
-SUMMARY:Bound Brook High School vs Point Pleasant Beach High School (Vars
- ity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103193592@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260822T100000
@@ -470,48 +426,12 @@ SUMMARY:Ridge High School at Arthur L Johnson High School (Freshman Boys
 DESCRIPTION:Freshman Boys Football - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7475940@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T100000
-DTEND;TZID=America/New_York:20260828T120000
-SUMMARY:Bridgewater-Raritan High School vs Woodbridge High School (Junior
-  Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7447644@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T153000
 DTEND;TZID=America/New_York:20260828T173000
 SUMMARY:Franklin High School vs Ewing High School (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7499767@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T180000
-DTEND;TZID=America/New_York:20260828T200000
-SUMMARY:Bernards High School at Rutherford High School (Varsity Boys Foot
- ball)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7548032@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T180000
-DTEND;TZID=America/New_York:20260828T200000
-SUMMARY:Bound Brook High School at North Warren Regional H.S. (Varsity Bo
- ys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7424191@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260828T180000
-DTEND;TZID=America/New_York:20260828T200000
-SUMMARY:Bridgewater-Raritan High School at Woodbridge High School (Varsit
- y Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7523864@skyland-conference
@@ -640,15 +560,6 @@ DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7545654@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260829T100000
-DTEND;TZID=America/New_York:20260829T120000
-SUMMARY:Bernards High School vs Rutherford High School (Junior Varsity Bo
- ys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100054310@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260829T110000
@@ -656,24 +567,6 @@ DTEND;TZID=America/New_York:20260829T130000
 SUMMARY:Manville High School at Keansburg High School (Varsity Boys Footb
  all)
 DESCRIPTION:Varsity Boys Football - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7587968@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T100000
-DTEND;TZID=America/New_York:20260831T120000
-SUMMARY:Bridgewater-Raritan High School vs Woodbridge High School (Freshm
- an Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503302@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260831T113000
-DTEND;TZID=America/New_York:20260831T133000
-SUMMARY:Bridgewater-Raritan High School vs Woodbridge High School (Junior
-  Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7528337@skyland-conference
@@ -831,15 +724,6 @@ SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Varsit
 DESCRIPTION:Varsity Boys Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7529777@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T180000
-DTEND;TZID=America/New_York:20260903T200000
-SUMMARY:Bound Brook High School vs Jonathan Dayton High School (Varsity B
- oys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7575616@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T180000
@@ -865,15 +749,6 @@ DTEND;TZID=America/New_York:20260903T203000
 SUMMARY:Voorhees High School at New Providence High School (Varsity Boys 
  Football)
 DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7574755@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T190000
-DTEND;TZID=America/New_York:20260903T210000
-SUMMARY:Bound Brook High School at Jonathan Dayton High School (Varsity B
- oys Football)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7460270@skyland-conference
@@ -930,15 +805,6 @@ SUMMARY:Warren Hills Regional H.S. at Morris Hills High School (Varsity B
 DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7561850@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260904T190000
-DTEND;TZID=America/New_York:20260904T210000
-SUMMARY:Bernards High School vs Cranford High School (Varsity Boys Footba
- ll)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7499928@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260904T190000
@@ -990,24 +856,6 @@ DTSTART;TZID=America/New_York:20260905T090000
 DTEND;TZID=America/New_York:20260905T110000
 SUMMARY:Watchung Hills Regional H.S. at TBD (Freshman Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503305@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T090000
-DTEND;TZID=America/New_York:20260905T110000
-SUMMARY:Bridgewater-Raritan High School vs Saint Joseph High School (Juni
- or Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503407@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T090000
-DTEND;TZID=America/New_York:20260905T110000
-SUMMARY:Bridgewater-Raritan High School vs Saint Joseph High School (Fres
- hman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7528358@skyland-conference
@@ -1071,24 +919,6 @@ DTEND;TZID=America/New_York:20260905T120000
 SUMMARY:Warren Hills Regional H.S. vs Morris Hills High School (Junior Va
  rsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7562030@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T110000
-DTEND;TZID=America/New_York:20260905T130000
-SUMMARY:Bernards High School at Cranford High School (Freshman Boys Footb
- all)
-DESCRIPTION:Freshman Boys Football - Away - 11:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7499308@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260905T130000
-DTEND;TZID=America/New_York:20260905T150000
-SUMMARY:Bridgewater-Raritan High School at Saint Joseph High School (Vars
- ity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7495188@skyland-conference
@@ -1218,15 +1048,6 @@ SUMMARY:North Hunterdon High School at Somerville High School (Varsity Bo
 DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7531729@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T190000
-DTEND;TZID=America/New_York:20260910T210000
-SUMMARY:Bernards High School vs Governor Livingston High School (Varsity 
- Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7508491@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T190000
@@ -1252,15 +1073,6 @@ DTEND;TZID=America/New_York:20260910T210000
 SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Varsity B
  oys Football)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7502888@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T160000
-DTEND;TZID=America/New_York:20260911T180000
-SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
- y Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7502888@skyland-conference
@@ -1299,15 +1111,6 @@ SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Boy
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7553085@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T190000
-DTEND;TZID=America/New_York:20260911T210000
-SUMMARY:Bound Brook High School at Manville High School (Varsity Boys Foo
- tball)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7499941@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T190000
@@ -1324,6 +1127,15 @@ DTEND;TZID=America/New_York:20260911T210000
 SUMMARY:Belvidere High School at Dunellen High School (Varsity Boys Footb
  all)
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99106269@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T190000
+DTEND;TZID=America/New_York:20260911T210000
+SUMMARY:Manville High School vs Bound Brook High School (Varsity Boys Foo
+ tball)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101459152@skyland-conference
@@ -1362,15 +1174,6 @@ SUMMARY:Delaware Valley Regional H.S. at Hillside High School (Varsity Bo
 DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7503397@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T153000
-DTEND;TZID=America/New_York:20260914T173000
-SUMMARY:Bridgewater-Raritan High School at Hillsborough Athletics (Freshm
- an Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7503397@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260914T153000
@@ -1378,15 +1181,6 @@ DTEND;TZID=America/New_York:20260914T173000
 SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Fres
  hman Boys Football)
 DESCRIPTION:Freshman Boys Football - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7553114@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T160000
-DTEND;TZID=America/New_York:20260914T180000
-SUMMARY:Bound Brook High School vs Manville High School (Junior Varsity B
- oys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7526559@skyland-conference
@@ -1433,6 +1227,15 @@ SUMMARY:[Canceled] Belvidere High School vs Dunellen High School (Junior
  Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 STATUS:CANCELLED
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99260931@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T160000
+DTEND;TZID=America/New_York:20260914T180000
+SUMMARY:Manville High School at Bound Brook High School (Junior Varsity B
+ oys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101672677@skyland-conference
@@ -1487,24 +1290,6 @@ DTEND;TZID=America/New_York:20260914T180000
 SUMMARY:Watchung Hills Regional H.S. at Montgomery High School (Junior Va
  rsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7531959@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T163000
-DTEND;TZID=America/New_York:20260914T183000
-SUMMARY:Bernards High School at Governor Livingston High School (Junior V
- arsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503306@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260914T170000
-DTEND;TZID=America/New_York:20260914T190000
-SUMMARY:Bridgewater-Raritan High School at Hillsborough Athletics (Junior
-  Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7482429@skyland-conference
@@ -1589,24 +1374,6 @@ DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7481647@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T180000
-DTEND;TZID=America/New_York:20260918T200000
-SUMMARY:Bound Brook High School vs South Hunterdon Regional H.S. (Varsity
-  Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7504734@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T180000
-DTEND;TZID=America/New_York:20260918T200000
-SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Boy
- s Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7484941@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260918T180000
@@ -1614,6 +1381,15 @@ DTEND;TZID=America/New_York:20260918T200000
 SUMMARY:Montgomery High School vs Colonia High School (Varsity Boys Footb
  all)
 DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7504734@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260918T180000
+DTEND;TZID=America/New_York:20260918T200000
+SUMMARY:Ridge High School at Bridgewater-Raritan High School (Varsity Boy
+ s Football)
+DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7481647@skyland-conference
@@ -1632,15 +1408,6 @@ DTEND;TZID=America/New_York:20260918T203000
 SUMMARY:Somerville High School vs Watchung Hills Reg High School (Varsity
   Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7461041@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260918T190000
-DTEND;TZID=America/New_York:20260918T210000
-SUMMARY:Bernards High School vs South Plainfield High School (Varsity Boy
- s Football)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7464248@skyland-conference
@@ -1724,15 +1491,6 @@ SUMMARY:Warren Hills Regional H.S. at Delaware Valley Regional H.S. (Vars
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7476308@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T090000
-DTEND;TZID=America/New_York:20260919T110000
-SUMMARY:Bridgewater-Raritan High School at Ridge High School (Freshman Bo
- ys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7551087@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T090000
@@ -1748,6 +1506,15 @@ DTSTART;TZID=America/New_York:20260919T090000
 DTEND;TZID=America/New_York:20260919T110000
 SUMMARY:Hunterdon Central Regional H.S. vs North Hunterdon High School (F
  reshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7476308@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T090000
+DTEND;TZID=America/New_York:20260919T110000
+SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Freshman Bo
+ ys Football)
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
@@ -1767,15 +1534,6 @@ DTEND;TZID=America/New_York:20260919T110000
 SUMMARY:Somerville High School at Watchung Hills Reg High School (Freshma
  n Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7626025@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T093000
-DTEND;TZID=America/New_York:20260919T113000
-SUMMARY:Bernards High School vs South Plainfield High School (Junior Vars
- ity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7493016@skyland-conference
@@ -1823,15 +1581,6 @@ SUMMARY:Franklin High School vs Sayreville Public Schools (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Home - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7522356@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260921T160000
-DTEND;TZID=America/New_York:20260921T180000
-SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
- ity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7481796@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260921T160000
@@ -1857,6 +1606,15 @@ DTEND;TZID=America/New_York:20260921T180000
 SUMMARY:Montgomery High School at Colonia High School (Junior Varsity Boy
  s Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7522356@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260921T160000
+DTEND;TZID=America/New_York:20260921T180000
+SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Junior Vars
+ ity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:99597216@skyland-conference
@@ -1995,24 +1753,6 @@ SUMMARY:Ridge High School vs Elizabeth High School (Varsity Boys Football)
 DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7468524@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T190000
-DTEND;TZID=America/New_York:20260925T210000
-SUMMARY:Bernards High School at Delaware Valley Regional H.S. (Varsity Bo
- ys Football)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7553086@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T190000
-DTEND;TZID=America/New_York:20260925T210000
-SUMMARY:Bound Brook High School at Belvidere High School (Varsity Boys Fo
- otball)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7468524@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T190000
@@ -2046,6 +1786,15 @@ DTSTART;TZID=America/New_York:20260925T190000
 DTEND;TZID=America/New_York:20260925T210000
 SUMMARY:South Hunterdon Regional H.S. vs Manville High School (Varsity Bo
  ys Football)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:98156212@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T190000
+DTEND;TZID=America/New_York:20260925T210000
+SUMMARY:Belvidere High School vs Bound Brook High School (Varsity Boys Fo
+ otball)
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2113,24 +1862,6 @@ DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7640103@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T100000
-DTEND;TZID=America/New_York:20260926T120000
-SUMMARY:Bernards High School at Garfield High School (Freshman Boys Footb
- all)
-DESCRIPTION:Freshman Boys Football - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7657798@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260926T130000
-DTEND;TZID=America/New_York:20260926T150000
-SUMMARY:Bridgewater-Raritan High School at Westfield High School (Varsity
-  Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:99740531@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260926T130000
@@ -2148,15 +1879,6 @@ SUMMARY:[Canceled] Phillipsburg High School vs TBD (Freshman Boys Footbal
  l)
 DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503398@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Bridgewater-Raritan High School vs Westfield High School (Freshma
- n Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7467916@skyland-conference
@@ -2269,15 +1991,6 @@ SUMMARY:Ridge High School at Elizabeth High School (Junior Varsity Boys F
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7482430@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T163000
-DTEND;TZID=America/New_York:20260928T183000
-SUMMARY:Bernards High School vs Delaware Valley Regional H.S. (Junior Var
- sity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7482430@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T163000
@@ -2313,15 +2026,6 @@ SUMMARY:[Canceled] Phillipsburg High School vs TBD (Junior Varsity Boys F
  ootball)
 DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
 STATUS:CANCELLED
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503307@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T173000
-DTEND;TZID=America/New_York:20260928T193000
-SUMMARY:Bridgewater-Raritan High School vs Westfield High School (Junior 
- Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7394539@skyland-conference
@@ -2368,33 +2072,6 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Franklin High School vs Piscataway High School (Middle School Boy
  s Football)
 DESCRIPTION:Middle School Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7667041@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Bernards High School at Garfield High School (Freshman Boys Footb
- all)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7413458@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T180000
-DTEND;TZID=America/New_York:20261002T200000
-SUMMARY:Bound Brook High School vs Highland Park High School (Varsity Boy
- s Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7466647@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261002T180000
-DTEND;TZID=America/New_York:20261002T200000
-SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
- . (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7484943@skyland-conference
@@ -2514,15 +2191,6 @@ SUMMARY:Watchung Hills Regional H.S. vs Summit High School (Varsity Boys
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7503304@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261002
-DTEND;VALUE=DATE:20261003
-SUMMARY:Bridgewater-Raritan High School at Hunterdon Central Regional H.S
- . (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7503304@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261002
@@ -2577,15 +2245,6 @@ SUMMARY:Somerville High School at Cranford High School (Freshman Boys Foo
 DESCRIPTION:Freshman Boys Football - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7561989@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T140000
-DTEND;TZID=America/New_York:20261003T160000
-SUMMARY:Bernards High School at Hillside High School (Varsity Boys Footba
- ll)
-DESCRIPTION:Varsity Boys Football - Away - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7460277@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T140000
@@ -2593,24 +2252,6 @@ DTEND;TZID=America/New_York:20261003T160000
 SUMMARY:Franklin High School at Piscataway High School (Varsity Boys Foot
  ball)
 DESCRIPTION:Varsity Boys Football - Away - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7413230@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Bound Brook High School at Highland Park High School (Junior Vars
- ity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503396@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T160000
-DTEND;TZID=America/New_York:20261005T180000
-SUMMARY:Bridgewater-Raritan High School at Hunterdon Central Regional H.S
- . (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7482431@skyland-conference
@@ -2740,15 +2381,6 @@ SUMMARY:Ridge High School at Phillipsburg High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Football - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7528343@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T180000
-DTEND;TZID=America/New_York:20261005T200000
-SUMMARY:Bridgewater-Raritan High School at Hunterdon Central Regional H.S
- . (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7528343@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T180000
@@ -2756,15 +2388,6 @@ DTEND;TZID=America/New_York:20261005T200000
 SUMMARY:Hunterdon Central Regional H.S. vs Bridgewater-Raritan High Schoo
  l (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7562003@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T181500
-DTEND;TZID=America/New_York:20261005T201500
-SUMMARY:Bernards High School vs Hillside High School (Junior Varsity Boys
-  Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 6:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101845953@skyland-conference
@@ -2855,33 +2478,6 @@ SUMMARY:Somerville High School vs Sayreville Public Schools (Varsity Boys
 DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7561991@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T190000
-DTEND;TZID=America/New_York:20261009T210000
-SUMMARY:Bernards High School vs Voorhees High School (Varsity Boys Footba
- ll)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7553087@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T190000
-DTEND;TZID=America/New_York:20261009T210000
-SUMMARY:Bound Brook High School at Dunellen High School (Varsity Boys Foo
- tball)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503206@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T190000
-DTEND;TZID=America/New_York:20261009T210000
-SUMMARY:Bridgewater-Raritan High School at Union High School (Varsity Boy
- s Football)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7481690@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T190000
@@ -2906,6 +2502,15 @@ DTSTART;TZID=America/New_York:20261009T190000
 DTEND;TZID=America/New_York:20261009T210000
 SUMMARY:North Hunterdon High School at Watchung Hills Reg High School (Va
  rsity Boys Football)
+DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:99699501@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T190000
+DTEND;TZID=America/New_York:20261009T210000
+SUMMARY:Voorhees High School at Bernards High School (Varsity Boys Footba
+ ll)
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -2970,24 +2575,6 @@ DTEND;TZID=America/New_York:20261010T143000
 SUMMARY:Immaculata High School at West Morris Central High School (Freshm
  an Boys Football)
 DESCRIPTION:Freshman Boys Football - Away - 12:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7553116@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Bound Brook High School vs Dunellen High School (Junior Varsity B
- oys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503399@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T160000
-DTEND;TZID=America/New_York:20261012T180000
-SUMMARY:Bridgewater-Raritan High School vs Union High School (Freshman Bo
- ys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7526561@skyland-conference
@@ -3090,15 +2677,6 @@ SUMMARY:Warren Hills Regional H.S. at Roxbury High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7562004@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T163000
-DTEND;TZID=America/New_York:20261012T183000
-SUMMARY:Bernards High School at Voorhees High School (Junior Varsity Boys
-  Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100195119@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261012T163000
@@ -3109,13 +2687,13 @@ DESCRIPTION:Junior Varsity Boys Football - Away - 4:30 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7503308@skyland-conference
+UID:arb:103843359@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261012T173000
-DTEND;TZID=America/New_York:20261012T193000
-SUMMARY:Bridgewater-Raritan High School vs Union High School (Junior Vars
- ity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
+DTSTART;TZID=America/New_York:20261012T163000
+DTEND;TZID=America/New_York:20261012T183000
+SUMMARY:Voorhees High School vs Bernards High School (Junior Varsity Boys
+  Football)
+DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7557174@skyland-conference
@@ -3163,15 +2741,6 @@ SUMMARY:Immaculata High School at Morris Knolls High School (Freshman Boy
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7564696@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T170000
-DTEND;TZID=America/New_York:20261016T190000
-SUMMARY:Bernards High School at J F Kennedy Memorial High School (Varsity
-  Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7522351@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T170000
@@ -3217,15 +2786,6 @@ SUMMARY:Franklin High School at South Brunswick High School (Varsity Boys
 DESCRIPTION:Varsity Boys Football - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7543199@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T180000
-DTEND;TZID=America/New_York:20261016T200000
-SUMMARY:Bound Brook High School vs Middlesex High School (Varsity Boys Fo
- otball)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100382422@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T180000
@@ -3233,15 +2793,6 @@ DTEND;TZID=America/New_York:20261016T200000
 SUMMARY:Somerville High School at Hunterdon Central Reg. High School (Var
  sity Boys Football)
 DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503229@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261016T190000
-DTEND;TZID=America/New_York:20261016T210000
-SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
- ity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7465920@skyland-conference
@@ -3280,6 +2831,15 @@ SUMMARY:Belvidere High School at North Warren Regional H.S. (Varsity Boys
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:98156246@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261016T190000
+DTEND;TZID=America/New_York:20261016T210000
+SUMMARY:Phillipsburg High School vs Bridgewater-Raritan High School (Vars
+ ity Boys Football)
+DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:99189497@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261016T190000
@@ -3296,15 +2856,6 @@ DTEND;TZID=America/New_York:20261016T210000
 SUMMARY:Warren Hills Regional H.S. at Randolph High School (Varsity Boys 
  Football)
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7678258@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261017T090000
-DTEND;TZID=America/New_York:20261017T110000
-SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Freshman Bo
- ys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7558723@skyland-conference
@@ -3368,24 +2919,6 @@ DTEND;TZID=America/New_York:20261017T150000
 SUMMARY:Watchung Hills Regional H.S. at Plainfield High School (Varsity B
  oys Football)
 DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7562005@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Bernards High School vs J F Kennedy Memorial High School (Junior 
- Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503400@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Fres
- hman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7482438@skyland-conference
@@ -3469,6 +3002,15 @@ SUMMARY:Manville High School vs Hillside High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:100223420@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Phillipsburg High School at Bridgewater-Raritan High School (Fres
+ hman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103417569@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
@@ -3505,13 +3047,13 @@ SUMMARY:Somerville High School vs Hunterdon Central Reg. High School (Jun
 DESCRIPTION:Junior Varsity Boys Football - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7503309@skyland-conference
+UID:arb:100223404@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T173000
 DTEND;TZID=America/New_York:20261019T193000
-SUMMARY:Bridgewater-Raritan High School vs Phillipsburg High School (Juni
+SUMMARY:Phillipsburg High School at Bridgewater-Raritan High School (Juni
  or Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Football - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7512264@skyland-conference
@@ -3548,24 +3090,6 @@ DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Franklin High School at Perth Amboy High School (Middle School Bo
  ys Football)
 DESCRIPTION:Middle School Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7553111@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T180000
-DTEND;TZID=America/New_York:20261023T200000
-SUMMARY:Bound Brook High School vs Sussex County Technical High School (V
- arsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7503253@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261023T180000
-DTEND;TZID=America/New_York:20261023T200000
-SUMMARY:Bridgewater-Raritan High School vs Watchung Hills Regional H.S. (
- Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7460281@skyland-conference
@@ -3685,15 +3209,6 @@ SUMMARY:Warren Hills Regional H.S. vs Hackettstown High School (Varsity B
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7503401@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T090000
-DTEND;TZID=America/New_York:20261024T110000
-SUMMARY:Bridgewater-Raritan High School at Watchung Hills Regional H.S. (
- Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:100192981@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T090000
@@ -3712,14 +3227,6 @@ SUMMARY:Watchung Hills Regional H.S. vs Bridgewater-Raritan High School (
 DESCRIPTION:Freshman Boys Football - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7549098@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261024T130000
-DTEND;TZID=America/New_York:20261024T150000
-SUMMARY:Bernards High School at Summit High School (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7482368@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261024T133000
@@ -3736,15 +3243,6 @@ DTEND;TZID=America/New_York:20261024T153000
 SUMMARY:Belvidere High School vs Delaware Valley Regional H.S. (Varsity B
  oys Football)
 DESCRIPTION:Varsity Boys Football - Home - 1:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7562024@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261026T160000
-DTEND;TZID=America/New_York:20261026T180000
-SUMMARY:Bernards High School vs Summit High School (Junior Varsity Boys F
- ootball)
-DESCRIPTION:Junior Varsity Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7526563@skyland-conference
@@ -3893,12 +3391,12 @@ SUMMARY:Franklin High School vs Plainfield High School (Middle School Boy
 DESCRIPTION:Middle School Boys Football - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7689669@skyland-conference
+UID:ds:2830:7689669@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T160000
 DTEND;TZID=America/New_York:20261029T180000
-SUMMARY:Bernards High School vs Ridge High School (Freshman Boys Football)
-DESCRIPTION:Freshman Boys Football - Home - 4:00 PM
+SUMMARY:Ridge High School at Bernards High School (Freshman Boys Football)
+DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7721356@skyland-conference
@@ -3908,15 +3406,6 @@ DTEND;TZID=America/New_York:20261029T190000
 SUMMARY:Hillsborough High School at Allentown High School (Varsity Boys F
  ootball)
 DESCRIPTION:Varsity Boys Football - Away - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7727217@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T180000
-DTEND;TZID=America/New_York:20261029T200000
-SUMMARY:Bound Brook High School vs New Brunswick High School (Varsity Boy
- s Football)
-DESCRIPTION:Varsity Boys Football - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7723095@skyland-conference
@@ -3946,16 +3435,7 @@ SUMMARY:South Hunterdon Regional H.S. vs North Warren Regional H.S. (Vars
 DESCRIPTION:Varsity Boys Football - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7722973@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T180000
-DTEND;TZID=America/New_York:20261030T200000
-SUMMARY:Bridgewater-Raritan High School at Passaic County Technical Insti
- tute (Varsity Boys Football)
-DESCRIPTION:Varsity Boys Football - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7722774@skyland-conference
+UID:ds:2617:7722797@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261030T183000
 DTEND;TZID=America/New_York:20261030T203000
@@ -3979,15 +3459,6 @@ DTEND;TZID=America/New_York:20261030T203000
 SUMMARY:Belvidere High School at New Milford High School (Varsity Boys Fo
  otball)
 DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7723102@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261030T190000
-DTEND;TZID=America/New_York:20261030T210000
-SUMMARY:Bernards High School vs Hanover Park High School (Varsity Boys Fo
- otball)
-DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7722907@skyland-conference
@@ -4078,15 +3549,6 @@ DTEND;TZID=America/New_York:20261102T200000
 SUMMARY:Phillipsburg High School vs Southern Lehigh High School (Junior V
  arsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7737339@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261106T183000
-DTEND;TZID=America/New_York:20261106T203000
-SUMMARY:Bernards High School at Hoboken High School (Varsity Boys Footbal
- l)
-DESCRIPTION:Varsity Boys Football - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7736753@skyland-conference

@@ -24,15 +24,6 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2535:7690983@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T183000
-DTEND;TZID=America/New_York:20261208T203000
-SUMMARY:Bernards High School at Madison High School (Varsity Boys Boys Sw
- imming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 6:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:104203438@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
@@ -40,33 +31,6 @@ DTEND;TZID=America/New_York:20261215T180000
 SUMMARY:Phillipsburg High School vs Bernards High School (Varsity Boys Bo
  ys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7736045@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T160000
-DTEND;TZID=America/New_York:20261216T180000
-SUMMARY:Bernards High School at Phillipsburg High School (Varsity Boys Bo
- ys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7735972@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T143000
-DTEND;TZID=America/New_York:20261222T163000
-SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Varsity Boy
- s Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7688644@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T153000
-DTEND;TZID=America/New_York:20270107T173000
-SUMMARY:Bernards High School vs Hunterdon Central Regional H.S. (Varsity 
- Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7688644@skyland-conference
@@ -78,30 +42,21 @@ SUMMARY:Hunterdon Central Regional H.S. at Bernards High School (Varsity
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7706469@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270112
-DTEND;VALUE=DATE:20270113
-SUMMARY:Bernards High School at Mount Saint Mary Academy (Varsity Boys Bo
- ys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7710217@skyland-conference
+UID:arb:104990369@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T144500
 DTEND;TZID=America/New_York:20270114T164500
-SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
+SUMMARY:Somerville High School vs Bernards High School (Varsity Boys Boys
   Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:45 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7698408@skyland-conference
+UID:ds:2830:7698408@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T190000
 DTEND;TZID=America/New_York:20270128T210000
-SUMMARY:Bernards High School vs Ridge High School (Varsity Boys Boys Swim
+SUMMARY:Ridge High School at Bernards High School (Varsity Boys Boys Swim
  ming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 7:00 PM
 END:VEVENT
 END:VCALENDAR
