@@ -359,10 +359,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7737435@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270219
-DTEND;VALUE=DATE:20270220
+DTSTART;TZID=America/New_York:20270219T173000
+DTEND;TZID=America/New_York:20270219T193000
 SUMMARY:South Hunterdon Regional H.S. at Pemberton Township High School (
  Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 END:VCALENDAR
