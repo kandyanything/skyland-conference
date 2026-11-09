@@ -203,21 +203,21 @@ SUMMARY:Bernards High School vs Delaware Valley Regional H.S. (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7335213@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Bernards High School vs Somerville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7334788@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Bernards High School vs North Hunterdon High School (Varsity Boys
   Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7335213@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Bernards High School vs Somerville High School (Varsity Boys Boys
+  Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
@@ -534,5 +534,14 @@ DTEND;TZID=America/New_York:20261107T160000
 SUMMARY:Bernards High School vs West Morris Central High School (Varsity 
  Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7755035@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261111T180000
+DTEND;TZID=America/New_York:20261111T200000
+SUMMARY:Bernards High School at Harrison High School (Varsity Boys Boys S
+ occer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 6:00 PM
 END:VEVENT
 END:VCALENDAR
