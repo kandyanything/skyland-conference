@@ -24,13 +24,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2830:7739562@skyland-conference
+UID:ds:2549:7576682@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T161500
+DTEND;TZID=America/New_York:20270402T181500
+SUMMARY:Bridgewater-Raritan High School vs Roxbury High School (Junior Va
+ rsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7739562@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T160000
 DTEND;TZID=America/New_York:20270406T180000
-SUMMARY:Ridge High School vs Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School at Ridge High School (Junior Vars
  ity Girls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7722565@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270410T100000
+DTEND;TZID=America/New_York:20270410T120000
+SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
+ . (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7722565@skyland-conference
@@ -42,12 +60,30 @@ SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
 DESCRIPTION:Junior Varsity Girls Softball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7739569@skyland-conference
+UID:ds:2549:7672327@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T163000
+DTEND;TZID=America/New_York:20270415T183000
+SUMMARY:Bridgewater-Raritan High School at North Brunswick Township High 
+ School (Junior Varsity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7739569@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270422T160000
 DTEND;TZID=America/New_York:20270422T180000
-SUMMARY:Ridge High School at Bridgewater-Raritan High School (Junior Vars
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
  ity Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7630315@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270510T160000
+DTEND;TZID=America/New_York:20270510T180000
+SUMMARY:Bridgewater-Raritan High School at Hunterdon Central Regional H.S
+ . (Junior Varsity Girls Softball)
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT

@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2617:7526658@skyland-conference
+UID:ds:2535:7526658@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
-SUMMARY:Franklin High School at Bernards High School (Junior Varsity Boys
+SUMMARY:Bernards High School vs Franklin High School (Junior Varsity Boys
   Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7653776@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T164500
+DTEND;TZID=America/New_York:20261218T184500
+SUMMARY:Bernards High School at Bridgewater-Raritan High School (Junior V
+ arsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 4:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103343234@skyland-conference
@@ -42,6 +51,24 @@ SUMMARY:Manville High School at Bernards High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7734609@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261223T180000
+DTEND;TZID=America/New_York:20261223T200000
+SUMMARY:Bernards High School vs Manville High School (Junior Varsity Boys
+  Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7734619@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T180000
+DTEND;TZID=America/New_York:20270106T200000
+SUMMARY:Bernards High School vs Warren Hills Regional School District (Ju
+ nior Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:100980313@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T180000
@@ -51,13 +78,13 @@ SUMMARY:Warren Hills Regional H.S. at Bernards High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7666083@skyland-conference
+UID:ds:2535:7666083@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
-SUMMARY:Ridge High School vs Bernards High School (Junior Varsity Boys Bo
+SUMMARY:Bernards High School at Ridge High School (Junior Varsity Boys Bo
  ys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100999435@skyland-conference
@@ -69,12 +96,21 @@ SUMMARY:Voorhees High School vs Bernards High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100999098@skyland-conference
+UID:ds:2535:7753995@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T183000
 DTEND;TZID=America/New_York:20270120T203000
-SUMMARY:Somerville High School vs Bernards High School (Junior Varsity Bo
+SUMMARY:Bernards High School at Somerville High School (Junior Varsity Bo
  ys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:30 PM
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7734884@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T180000
+DTEND;TZID=America/New_York:20270127T200000
+SUMMARY:Bernards High School vs The Pingry School (Junior Varsity Boys Bo
+ ys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 END:VCALENDAR
