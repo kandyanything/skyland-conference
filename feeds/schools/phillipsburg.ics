@@ -643,24 +643,6 @@ SUMMARY:Phillipsburg High School vs Montgomery High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7499561@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7501366@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Montgomery High School vs Phillipsburg High School (Junior Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7477987@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -677,6 +659,24 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Montgomery High School at Phillipsburg High School (Freshman Boys
   Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7501366@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Montgomery High School vs Phillipsburg High School (Junior Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499561@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7477988@skyland-conference
@@ -2449,15 +2449,6 @@ SUMMARY:Phillipsburg High School vs Warren Hills Regional H.S. (Varsity C
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7576016@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T100000
-DTEND;TZID=America/New_York:20261013T120000
-SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Gir
- ls Girls Cross Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7638627@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T100000
@@ -2465,6 +2456,15 @@ DTEND;TZID=America/New_York:20261013T120000
 SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Boy
  s Boys Cross Country)
 DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7576016@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T100000
+DTEND;TZID=America/New_York:20261013T120000
+SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Gir
+ ls Girls Cross Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7544096@skyland-conference
@@ -5096,15 +5096,6 @@ SUMMARY:Phillipsburg High School at Franklin High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7722884@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T171500
-DTEND;TZID=America/New_York:20270128T191500
-SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Juni
- or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7526670@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T171500
@@ -5114,13 +5105,13 @@ SUMMARY:Franklin High School vs Phillipsburg High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:102265220@skyland-conference
+UID:ds:2549:7722884@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
-SUMMARY:Phillipsburg High School vs Bridgewater-Raritan High School (Juni
+SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Juni
  or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102151703@skyland-conference
