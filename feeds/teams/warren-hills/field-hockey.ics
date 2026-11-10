@@ -465,10 +465,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105474152@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261111
-DTEND;VALUE=DATE:20261112
+DTSTART;TZID=America/New_York:20261111T170000
+DTEND;TZID=America/New_York:20261111T190000
 SUMMARY:Warren Hills Regional H.S. at West Morris Central High School (Va
  rsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away
+DESCRIPTION:Varsity Girls Field Hockey - Away - 5:00 PM
 END:VEVENT
 END:VCALENDAR
