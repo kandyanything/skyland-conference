@@ -23,22 +23,31 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:103380057@skyland-conference
+UID:ds:2617:7541713@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:North Hunterdon High School at Franklin High School (Varsity Boys
-  Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7541713@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270401
-DTEND;VALUE=DATE:20270402
 SUMMARY:Franklin High School vs North Hunterdon High School (Varsity Boys
   Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7756174@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T170000
+DTEND;TZID=America/New_York:20270401T190000
+SUMMARY:Franklin High School vs North Hunterdon High School (Junior Varsi
+ ty Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7756175@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T010000
+DTEND;TZID=America/New_York:20270406T030000
+SUMMARY:Franklin High School at Voorhees High School (Junior Varsity Boys
+  Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 1:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103406039@skyland-conference
@@ -61,11 +70,29 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7541716@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
 SUMMARY:Franklin High School vs College Achieve Central Charter School (V
  arsity Boys Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7756176@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270408T170000
+DTEND;TZID=America/New_York:20270408T190000
+SUMMARY:Franklin High School vs College Achieve Central Charter School (J
+ unior Varsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7756177@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270413T010000
+DTEND;TZID=America/New_York:20270413T030000
+SUMMARY:Bound Brook High School vs Franklin High School (Junior Varsity B
+ oys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 1:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7541718@skyland-conference
@@ -86,6 +113,15 @@ SUMMARY:Franklin High School at Bound Brook High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7756178@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T010000
+DTEND;TZID=America/New_York:20270420T030000
+SUMMARY:Franklin High School at North Hunterdon High School (Junior Varsi
+ ty Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 1:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103406001@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270420T160000
@@ -104,22 +140,31 @@ SUMMARY:Franklin High School at North Hunterdon High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103380077@skyland-conference
+UID:ds:2617:7541725@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270422T160000
 DTEND;TZID=America/New_York:20270422T180000
-SUMMARY:Voorhees High School at Franklin High School (Varsity Boys Boys V
- olleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7541725@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270422
-DTEND;VALUE=DATE:20270423
 SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys V
  olleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7756179@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T170000
+DTEND;TZID=America/New_York:20270422T190000
+SUMMARY:Franklin High School vs Voorhees High School (Junior Varsity Boys
+  Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7756180@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T010000
+DTEND;TZID=America/New_York:20270427T030000
+SUMMARY:Franklin High School at College Achieve Central Charter School (J
+ unior Varsity Boys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 1:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7541726@skyland-conference
@@ -133,19 +178,19 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7541728@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270429
-DTEND;VALUE=DATE:20270430
+DTSTART;TZID=America/New_York:20270429T160000
+DTEND;TZID=America/New_York:20270429T180000
 SUMMARY:Bound Brook High School at Franklin High School (Varsity Boys Boy
  s Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7541728@skyland-conference
+UID:ds:2545:7756181@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270429
-DTEND;VALUE=DATE:20270430
-SUMMARY:Franklin High School vs Bound Brook High School (Varsity Boys Boy
- s Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home
+DTSTART;TZID=America/New_York:20270429T170000
+DTEND;TZID=America/New_York:20270429T190000
+SUMMARY:Bound Brook High School at Franklin High School (Junior Varsity B
+ oys Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 5:00 PM
 END:VEVENT
 END:VCALENDAR

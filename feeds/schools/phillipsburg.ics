@@ -643,15 +643,6 @@ SUMMARY:Phillipsburg High School vs Montgomery High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7499561@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7501366@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -659,6 +650,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Montgomery High School vs Phillipsburg High School (Junior Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499561@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7477987@skyland-conference
@@ -4118,6 +4118,15 @@ SUMMARY:Phillipsburg High School vs Somerville High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105485051@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Phillipsburg High School at Warren County Technical School (Varsi
+ ty Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102152242@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T163000
@@ -4968,7 +4977,7 @@ SUMMARY:Phillipsburg High School at West Essex High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a6aea784-b3ee-4d4a-8f9f-fe3c9148afc1@skyland
+UID:bb:MountSaintMaryAcademy:200bd21e-6e0e-476c-b131-6fef162dde69@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T113000
@@ -4978,7 +4987,7 @@ SUMMARY:Mount Saint Mary Academy vs Phillipsburg High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:021132dc-e294-4ba0-b2b1-f6aef5daad81@skyland
+UID:bb:MountSaintMaryAcademy:c4f21383-8424-4923-bee1-05eed9f1587e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T130000
@@ -5264,6 +5273,15 @@ DTEND;TZID=America/New_York:20270201T173000
 SUMMARY:Hunterdon Central Regional H.S. at Phillipsburg High School (Vars
  ity Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105485852@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270202T160000
+DTEND;TZID=America/New_York:20270202T180000
+SUMMARY:Phillipsburg High School vs Warren County Technical School (Varsi
+ ty Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102313732@skyland-conference
@@ -5734,6 +5752,15 @@ SUMMARY:Franklin High School vs Phillipsburg High School (Varsity Girls S
 DESCRIPTION:Varsity Girls Softball - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7756211@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270406
+DTEND;VALUE=DATE:20270407
+SUMMARY:Franklin High School vs Phillipsburg High School (Junior Varsity 
+ Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104870782@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270407T163000
@@ -6017,6 +6044,15 @@ SUMMARY:Franklin High School at Phillipsburg High School (Varsity Boys Ba
 DESCRIPTION:Varsity Boys Baseball - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7756186@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270420
+DTEND;VALUE=DATE:20270421
+SUMMARY:Franklin High School at Phillipsburg High School (Junior Varsity 
+ Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7541406@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270422
@@ -6051,6 +6087,24 @@ DTEND;VALUE=DATE:20270423
 SUMMARY:Franklin High School vs Phillipsburg High School (Varsity Boys Ba
  seball)
 DESCRIPTION:Varsity Boys Baseball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7756190@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Franklin High School vs Phillipsburg High School (Junior Varsity 
+ Boys Baseball)
+DESCRIPTION:Junior Varsity Boys Baseball - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7756215@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Franklin High School at Phillipsburg High School (Junior Varsity 
+ Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104427684@skyland-conference

@@ -24,22 +24,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:arb:103380057@skyland-conference
+UID:ds:2617:7541713@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270401T160000
 DTEND;TZID=America/New_York:20270401T180000
-SUMMARY:North Hunterdon High School at Franklin High School (Varsity Boys
-  Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7541713@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270401
-DTEND;VALUE=DATE:20270402
 SUMMARY:Franklin High School vs North Hunterdon High School (Varsity Boys
   Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103406039@skyland-conference
@@ -62,11 +53,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7541716@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
 SUMMARY:Franklin High School vs College Achieve Central Charter School (V
  arsity Boys Boys Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7541718@skyland-conference
@@ -105,22 +96,13 @@ SUMMARY:Franklin High School at North Hunterdon High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Volleyball - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:103380077@skyland-conference
+UID:ds:2617:7541725@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270422T160000
 DTEND;TZID=America/New_York:20270422T180000
-SUMMARY:Voorhees High School at Franklin High School (Varsity Boys Boys V
- olleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7541725@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270422
-DTEND;VALUE=DATE:20270423
 SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys V
  olleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home
+DESCRIPTION:Varsity Boys Boys Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7541726@skyland-conference
@@ -134,19 +116,10 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7541728@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270429
-DTEND;VALUE=DATE:20270430
+DTSTART;TZID=America/New_York:20270429T160000
+DTEND;TZID=America/New_York:20270429T180000
 SUMMARY:Bound Brook High School at Franklin High School (Varsity Boys Boy
  s Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7541728@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270429
-DTEND;VALUE=DATE:20270430
-SUMMARY:Franklin High School vs Bound Brook High School (Varsity Boys Boy
- s Volleyball)
-DESCRIPTION:Varsity Boys Boys Volleyball - Home
+DESCRIPTION:Varsity Boys Boys Volleyball - Away - 4:00 PM
 END:VEVENT
 END:VCALENDAR
