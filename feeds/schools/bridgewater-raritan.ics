@@ -1004,6 +1004,15 @@ SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7499145@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T143000
+DTEND;TZID=America/New_York:20260911T163000
+SUMMARY:Bridgewater-Raritan High School vs Montgomery High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7496350@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T143000
@@ -1029,15 +1038,6 @@ DTEND;TZID=America/New_York:20260911T163000
 SUMMARY:Bridgewater-Raritan High School vs Montgomery High School (Junior
   Varsity Girls Girls Soccer)
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 2:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7499145@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T143000
-DTEND;TZID=America/New_York:20260911T163000
-SUMMARY:Bridgewater-Raritan High School vs Montgomery High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7502888@skyland-conference
@@ -1175,15 +1175,6 @@ SUMMARY:Hillsborough High School vs Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Boys Football - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7334863@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-SUMMARY:Bridgewater-Raritan High School vs The Pingry School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7334673@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260914
@@ -1193,13 +1184,13 @@ SUMMARY:Bridgewater-Raritan High School at Voorhees High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7516778@skyland-conference
+UID:ds:2549:7334863@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260915T160000
-DTEND;TZID=America/New_York:20260915T180000
-SUMMARY:Bridgewater-Raritan High School vs Madison High School (Freshman 
- Girls Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Bridgewater-Raritan High School vs The Pingry School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7508115@skyland-conference
@@ -1218,6 +1209,15 @@ DTEND;TZID=America/New_York:20260915T180000
 SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
  . (Junior Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7516778@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260915T160000
+DTEND;TZID=America/New_York:20260915T180000
+SUMMARY:Bridgewater-Raritan High School vs Madison High School (Freshman 
+ Girls Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7521296@skyland-conference
@@ -5466,7 +5466,7 @@ SUMMARY:Bridgewater-Raritan High School vs TBA NJ (Varsity Coed Unified S
 DESCRIPTION:Varsity Coed Unified Sports Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:c30feb32-9e26-4443-b55b-cb07c38c6874@skyland
+UID:bb:MountSaintMaryAcademy:2e6ad170-95a6-449f-8f90-c20bf34e2544@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T110000
@@ -5476,7 +5476,7 @@ SUMMARY:Mount Saint Mary Academy at Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:de3948a0-fb93-4616-bb86-3cef47184583@skyland
+UID:bb:MountSaintMaryAcademy:00814e38-59d2-41e4-a803-126992a271e0@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T123000

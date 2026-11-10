@@ -1776,15 +1776,6 @@ SUMMARY:South Hunterdon Regional H.S. vs Delaware Valley Regional H.S. (V
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7516733@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T143000
-DTEND;TZID=America/New_York:20260911T163000
-SUMMARY:Bridgewater-Raritan High School vs Montgomery High School (Junior
-  Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 2:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7499145@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T143000
@@ -1792,6 +1783,15 @@ DTEND;TZID=America/New_York:20260911T163000
 SUMMARY:Bridgewater-Raritan High School vs Montgomery High School (Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7516733@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T143000
+DTEND;TZID=America/New_York:20260911T163000
+SUMMARY:Bridgewater-Raritan High School vs Montgomery High School (Junior
+  Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7478001@skyland-conference
@@ -2175,15 +2175,6 @@ SUMMARY:Watchung Hills Regional H.S. at Kearny High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7335149@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:Bound Brook High School vs Mount Saint Mary Academy (Varsity Girl
- s Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7336280@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260915
@@ -2191,6 +2182,15 @@ DTEND;VALUE=DATE:20260916
 SUMMARY:Bound Brook High School at Manville High School (Varsity Girls Gi
  rls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7335149@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Bound Brook High School vs Mount Saint Mary Academy (Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7335090@skyland-conference
@@ -2609,21 +2609,21 @@ SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7334728@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7335151@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260917
 DTEND;VALUE=DATE:20260918
 SUMMARY:Delaware Valley Regional H.S. at Bound Brook High School (Varsity
   Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7334728@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
+ rls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
@@ -3487,13 +3487,13 @@ SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7434403@skyland-conference
+UID:ds:2653:7582869@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Hillsborough High School vs Randolph High School (Varsity Girls G
- irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Hillsborough High School vs Randolph High School (Freshman Girls 
+ Girls Soccer)
+DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7434404@skyland-conference
@@ -3505,13 +3505,13 @@ SUMMARY:Hillsborough High School vs Randolph High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7582869@skyland-conference
+UID:ds:2653:7434403@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Hillsborough High School vs Randolph High School (Freshman Girls 
- Girls Soccer)
-DESCRIPTION:Freshman Girls Girls Soccer - Home - 4:00 PM
+SUMMARY:Hillsborough High School vs Randolph High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:98899080@skyland-conference
@@ -3679,15 +3679,6 @@ SUMMARY:Delaware Valley Regional H.S. vs Gill St. Bernard's School (Varsi
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7334682@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Franklin High School at Bridgewater-Raritan High School (Varsity 
- Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7335101@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -3695,6 +3686,15 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:Franklin High School vs North Hunterdon High School (Varsity Girl
  s Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7334682@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Franklin High School at Bridgewater-Raritan High School (Varsity 
+ Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7335100@skyland-conference
@@ -3778,15 +3778,6 @@ SUMMARY:Ridge High School at Montgomery High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7335158@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity G
- irls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7334733@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -3794,6 +3785,15 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:South Hunterdon Regional H.S. vs Mount Saint Mary Academy (Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7335158@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:South Hunterdon Regional H.S. at Belvidere High School (Varsity G
+ irls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7625736@skyland-conference
