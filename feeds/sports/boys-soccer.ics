@@ -2094,15 +2094,6 @@ SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7496350@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260911T143000
-DTEND;TZID=America/New_York:20260911T163000
-SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7496352@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260911T143000
@@ -2110,6 +2101,15 @@ DTEND;TZID=America/New_York:20260911T163000
 SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Freshm
  an Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7496350@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260911T143000
+DTEND;TZID=America/New_York:20260911T163000
+SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7478007@skyland-conference
@@ -2652,15 +2652,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs Bridgewater-Raritan High Schoo
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7336355@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260915
-DTEND;VALUE=DATE:20260916
-SUMMARY:Immaculata High School at Bound Brook High School (Varsity Boys B
- oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7335272@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260915
@@ -2668,6 +2659,15 @@ DTEND;VALUE=DATE:20260916
 SUMMARY:Immaculata High School vs South Hunterdon Regional H.S. (Varsity 
  Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7336355@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260915
+DTEND;VALUE=DATE:20260916
+SUMMARY:Immaculata High School at Bound Brook High School (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7335212@skyland-conference
@@ -4122,15 +4122,6 @@ SUMMARY:Franklin High School at Hunterdon Central Regional H.S. (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7434126@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Hillsborough High School at Randolph High School (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7434195@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -4138,6 +4129,15 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Hillsborough High School at Randolph High School (Junior Varsity 
  Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7434126@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Hillsborough High School at Randolph High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7526602@skyland-conference
@@ -4248,21 +4248,21 @@ SUMMARY:Warren Hills Regional H.S. at Bernards High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7334794@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
-  Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7335219@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
  s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7334794@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
+  Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
@@ -6058,6 +6058,14 @@ SUMMARY:Voorhees High School vs Warren Hills Regional H.S. (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7470809@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261005T163000
+DTEND;TZID=America/New_York:20261005T183000
+SUMMARY:Franklin High School at Passaic Charter (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7526610@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T163000
@@ -6065,14 +6073,6 @@ DTEND;TZID=America/New_York:20261005T183000
 SUMMARY:Franklin High School at Passaic Charter (Junior Varsity Boys Boys
   Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7470809@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261005T163000
-DTEND;TZID=America/New_York:20261005T183000
-SUMMARY:Franklin High School at Passaic Charter (Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7334803@skyland-conference
