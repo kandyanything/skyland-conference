@@ -2356,15 +2356,6 @@ SUMMARY:Hillsborough High School vs Phillipsburg High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7478116@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7478119@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T100000
@@ -2372,6 +2363,15 @@ DTEND;TZID=America/New_York:20261010T120000
 SUMMARY:Hillsborough High School vs Phillipsburg High School (Varsity Gir
  ls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7478116@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104662251@skyland-conference
@@ -2449,15 +2449,6 @@ SUMMARY:Phillipsburg High School vs Warren Hills Regional H.S. (Varsity C
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7638627@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T100000
-DTEND;TZID=America/New_York:20261013T120000
-SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Boy
- s Boys Cross Country)
-DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7576016@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T100000
@@ -2465,6 +2456,15 @@ DTEND;TZID=America/New_York:20261013T120000
 SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Gir
  ls Girls Cross Country)
 DESCRIPTION:Varsity Girls Girls Cross Country - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7638627@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T100000
+DTEND;TZID=America/New_York:20261013T120000
+SUMMARY:Hillsborough High School at Phillipsburg High School (Varsity Boy
+ s Boys Cross Country)
+DESCRIPTION:Varsity Boys Boys Cross Country - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7544096@skyland-conference
@@ -3618,6 +3618,15 @@ SUMMARY:Phillipsburg High School at Somerville High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7429410@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T153000
+DTEND;TZID=America/New_York:20261210T173000
+SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
+ ity Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103889631@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
@@ -3625,15 +3634,6 @@ DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Phillipsburg High School vs Pope John XXIII High School (Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7429410@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T161500
-DTEND;TZID=America/New_York:20261210T181500
-SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
- ity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7620162@skyland-conference
@@ -4977,7 +4977,7 @@ SUMMARY:Phillipsburg High School at West Essex High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0b4f2a82-b784-4422-a7fd-0875095189d0@skyland
+UID:bb:MountSaintMaryAcademy:7661b608-5f87-46d1-b5a8-c0ca3d22d142@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T113000
@@ -4987,7 +4987,7 @@ SUMMARY:Mount Saint Mary Academy vs Phillipsburg High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:aaff8554-a089-4d76-b1d0-d862d979ee4e@skyland
+UID:bb:MountSaintMaryAcademy:f36ba2f8-f375-479e-954c-4b11604d7d65@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T130000
