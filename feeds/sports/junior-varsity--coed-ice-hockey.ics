@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2741:7758125@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261213T154500
+DTEND;TZID=America/New_York:20261213T174500
+SUMMARY:Montgomery High School at Governor Livingston High School (Junior
+  Varsity Coed Coed Ice Hockey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 3:45 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7693653@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T174500
@@ -30,15 +39,6 @@ DTEND;TZID=America/New_York:20261213T194500
 SUMMARY:Hillsborough High School at Watchung Hills Regional H.S. (Junior 
  Varsity Coed Coed Ice Hockey)
 DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 5:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7757583@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261223T175000
-DTEND;TZID=America/New_York:20261223T195000
-SUMMARY:Montgomery High School at Randolph High School (Junior Varsity Co
- ed Coed Ice Hockey)
-DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 5:50 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7693660@skyland-conference
