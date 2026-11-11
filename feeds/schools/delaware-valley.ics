@@ -1384,15 +1384,6 @@ SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (V
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7493105@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Delaware Valley Regional H.S. at Montgomery High School (Freshman
-  Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7493104@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
@@ -1400,6 +1391,15 @@ DTEND;TZID=America/New_York:20260917T180000
 SUMMARY:Delaware Valley Regional H.S. vs Montgomery High School (Junior V
  arsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7493105@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Delaware Valley Regional H.S. at Montgomery High School (Freshman
+  Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7478032@skyland-conference
@@ -1483,6 +1483,15 @@ SUMMARY:Delaware Valley Regional H.S. vs Phillipsburg High School (Varsit
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7334728@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7335151@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260917
@@ -1499,15 +1508,6 @@ DTEND;VALUE=DATE:20260918
 SUMMARY:Delaware Valley Regional H.S. at Bernards High School (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7334728@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7565391@skyland-conference
@@ -1537,15 +1537,6 @@ SUMMARY:Warren Hills Regional H.S. at Delaware Valley Regional H.S. (Vars
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7415546@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T100000
-DTEND;TZID=America/New_York:20260919T120000
-SUMMARY:Delaware Valley Regional H.S. at Hopewell Valley Central School (
- Junior Varsity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7496317@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T100000
@@ -1562,6 +1553,15 @@ DTEND;TZID=America/New_York:20260919T120000
 SUMMARY:Delaware Valley Regional H.S. at Hopewell Valley Central School (
  Varsity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7415546@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T100000
+DTEND;TZID=America/New_York:20260919T120000
+SUMMARY:Delaware Valley Regional H.S. at Hopewell Valley Central School (
+ Junior Varsity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7495310@skyland-conference
@@ -2023,6 +2023,15 @@ SUMMARY:Delaware Valley Regional H.S. vs Bernards High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7511845@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
+ trict (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7511839@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -2039,15 +2048,6 @@ DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
  trict (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7511845@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
- trict (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102407150@skyland-conference
@@ -4324,6 +4324,24 @@ SUMMARY:Delaware Valley Regional H.S. at College Achieve Central Charter
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7758565@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261212
+DTEND;VALUE=DATE:20261213
+SUMMARY:Delaware Valley Regional H.S. at Old Bridge High School (Varsity 
+ Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7758568@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Delaware Valley Regional H.S. at North Hunterdon High School (Var
+ sity Girls Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102270464@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
@@ -4333,6 +4351,15 @@ SUMMARY:Warren Hills Regional H.S. vs Delaware Valley Regional H.S. (Fres
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7758175@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T163000
+DTEND;TZID=America/New_York:20261215T183000
+SUMMARY:Delaware Valley Regional H.S. vs Manville High School (Junior Var
+ sity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:101193666@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T163000
@@ -4340,6 +4367,15 @@ DTEND;TZID=America/New_York:20261215T183000
 SUMMARY:Manville High School at Delaware Valley Regional H.S. (Junior Var
  sity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7758386@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T173000
+DTEND;TZID=America/New_York:20261215T193000
+SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
+ trict (Junior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102270447@skyland-conference
@@ -4441,6 +4477,24 @@ SUMMARY:North Hunterdon High School vs Delaware Valley Regional H.S. (Fre
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7758373@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T163000
+DTEND;TZID=America/New_York:20261217T183000
+SUMMARY:Delaware Valley Regional H.S. vs College Achieve Central Charter 
+ School (Junior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7758368@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T173000
+DTEND;TZID=America/New_York:20261217T193000
+SUMMARY:Delaware Valley Regional H.S. at North Hunterdon High School (Jun
+ ior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102264410@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T173000
@@ -4448,15 +4502,6 @@ DTEND;TZID=America/New_York:20261217T193000
 SUMMARY:North Hunterdon High School vs Delaware Valley Regional H.S. (Jun
  ior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7448402@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T180000
-DTEND;TZID=America/New_York:20261217T200000
-SUMMARY:Delaware Valley Regional H.S. at North Hunterdon High School (Var
- sity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7448498@skyland-conference
@@ -4468,6 +4513,15 @@ SUMMARY:Delaware Valley Regional H.S. vs College Achieve Central Charter
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7448402@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T190000
+DTEND;TZID=America/New_York:20261217T210000
+SUMMARY:Delaware Valley Regional H.S. at North Hunterdon High School (Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102264292@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
@@ -4475,6 +4529,15 @@ DTEND;TZID=America/New_York:20261217T210000
 SUMMARY:North Hunterdon High School vs Delaware Valley Regional H.S. (Var
  sity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7758577@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T170000
+DTEND;TZID=America/New_York:20261218T190000
+SUMMARY:Delaware Valley Regional H.S. vs Hackettstown High School (Junior
+  Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7532097@skyland-conference

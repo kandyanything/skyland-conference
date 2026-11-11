@@ -4170,6 +4170,15 @@ SUMMARY:Bridgewater-Raritan High School vs West Morris Mendham High Schoo
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7577207@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T153000
+DTEND;TZID=America/New_York:20261203T173000
+SUMMARY:Franklin High School vs Bridgewater-Raritan High School (Varsity 
+ Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7577207@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T161500
@@ -4177,15 +4186,6 @@ DTEND;TZID=America/New_York:20261203T181500
 SUMMARY:Bridgewater-Raritan High School at Franklin High School (Varsity 
  Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7577207@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261203T161500
-DTEND;TZID=America/New_York:20261203T181500
-SUMMARY:Franklin High School vs Bridgewater-Raritan High School (Varsity 
- Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7723531@skyland-conference
@@ -4577,11 +4577,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7448292@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T180000
-DTEND;TZID=America/New_York:20261215T200000
+DTSTART;TZID=America/New_York:20261215T173000
+DTEND;TZID=America/New_York:20261215T193000
 SUMMARY:Bridgewater-Raritan High School at Rutgers Preparatory School (Va
  rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7623285@skyland-conference
@@ -4962,13 +4962,13 @@ SUMMARY:Bridgewater-Raritan High School at Northern Highlands Regional Hi
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 6:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7627121@skyland-conference
+UID:ds:2549:7723487@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261228T100000
-DTEND;TZID=America/New_York:20261228T120000
-SUMMARY:Bridgewater-Raritan High School vs Hamilton West High School (Var
- sity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 10:00 AM
+DTSTART;TZID=America/New_York:20261228T080000
+DTEND;TZID=America/New_York:20261228T100000
+SUMMARY:Bridgewater-Raritan High School at Hamilton West High School (Jun
+ ior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 8:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7722848@skyland-conference
@@ -4978,6 +4978,24 @@ DTEND;TZID=America/New_York:20261228T120000
 SUMMARY:Bridgewater-Raritan High School vs TBA NJ (Varsity Girls Girls Ba
  sketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7758369@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T100000
+DTEND;TZID=America/New_York:20261228T120000
+SUMMARY:Bridgewater-Raritan High School at Hamilton West High School (Var
+ sity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7758328@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T140000
+DTEND;TZID=America/New_York:20261228T160000
+SUMMARY:Bridgewater-Raritan High School at St Thomas Aquinas High School 
+ (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7693230@skyland-conference
@@ -5484,6 +5502,15 @@ SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Varsit
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7758552@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270111T160000
+DTEND;TZID=America/New_York:20270111T180000
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Coe
+ d Unified Sports Basketball)
+DESCRIPTION:Varsity Coed Unified Sports Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2741:7757557@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
@@ -5493,7 +5520,7 @@ SUMMARY:Montgomery High School vs Bridgewater-Raritan High School (Varsit
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:36d0d611-8e90-4c87-a73e-5a5a86fcde02@skyland
+UID:bb:MountSaintMaryAcademy:644043cb-fda6-4010-bf32-6ab3ddf6c7cf@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T110000
@@ -5503,7 +5530,7 @@ SUMMARY:Mount Saint Mary Academy at Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:f8ab850d-7be0-403c-98d6-ce1eb74acd01@skyland
+UID:bb:MountSaintMaryAcademy:69761c19-fd8a-4f02-85df-ec187952816b@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T123000

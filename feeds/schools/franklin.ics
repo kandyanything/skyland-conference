@@ -1848,15 +1848,6 @@ SUMMARY:Franklin High School vs Mount Saint Mary Academy (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7334693@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261005
-DTEND;VALUE=DATE:20261006
-SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
- ls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7334833@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261005
@@ -1864,6 +1855,15 @@ DTEND;VALUE=DATE:20261006
 SUMMARY:Franklin High School vs Voorhees High School (Varsity Boys Boys S
  occer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7334693@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261005
+DTEND;VALUE=DATE:20261006
+SUMMARY:Franklin High School at Somerville High School (Varsity Girls Gir
+ ls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7553591@skyland-conference
@@ -1904,15 +1904,6 @@ DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7484004@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261006T161500
-DTEND;TZID=America/New_York:20261006T181500
-SUMMARY:Franklin High School at Warren Hills Regional School District (Mi
- ddle School Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7673177@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261006T161500
@@ -1920,6 +1911,15 @@ DTEND;TZID=America/New_York:20261006T181500
 SUMMARY:Franklin High School at Gill St. Bernard's School (Varsity Girls 
  Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7484004@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261006T161500
+DTEND;TZID=America/New_York:20261006T181500
+SUMMARY:Franklin High School at Warren Hills Regional School District (Mi
+ ddle School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7526001@skyland-conference
@@ -1940,15 +1940,6 @@ SUMMARY:Bridgewater-Raritan High School vs Franklin High School (Varsity
 DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7335260@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261006
-DTEND;VALUE=DATE:20261007
-SUMMARY:Franklin High School vs Rutgers Preparatory School (Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7335108@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261006
@@ -1956,6 +1947,15 @@ DTEND;VALUE=DATE:20261007
 SUMMARY:Franklin High School at Bridgewater-Raritan High School (Varsity 
  Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7335260@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261006
+DTEND;VALUE=DATE:20261007
+SUMMARY:Franklin High School vs Rutgers Preparatory School (Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7441433@skyland-conference
@@ -2919,6 +2919,15 @@ SUMMARY:Franklin High School at Belvidere High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Bowling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7577207@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T153000
+DTEND;TZID=America/New_York:20261203T173000
+SUMMARY:Franklin High School vs Bridgewater-Raritan High School (Varsity 
+ Coed Coed Bowling)
+DESCRIPTION:Varsity Coed Coed Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7577207@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T161500
@@ -2926,15 +2935,6 @@ DTEND;TZID=America/New_York:20261203T181500
 SUMMARY:Bridgewater-Raritan High School at Franklin High School (Varsity 
  Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7577207@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261203T161500
-DTEND;TZID=America/New_York:20261203T181500
-SUMMARY:Franklin High School vs Bridgewater-Raritan High School (Varsity 
- Coed Coed Bowling)
-DESCRIPTION:Varsity Coed Coed Bowling - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7742540@skyland-conference
@@ -3868,7 +3868,7 @@ SUMMARY:Franklin High School vs Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:bd37eb80-36e0-4f31-9383-74a29b5bc135@skyland
+UID:bb:MountSaintMaryAcademy:c8c90036-08a1-479f-a7fc-746f6f9c5c8d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T113000
@@ -3878,7 +3878,7 @@ SUMMARY:Mount Saint Mary Academy vs Franklin High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:548ae95c-be99-4f7f-aa0e-e9541eeaa4d8@skyland
+UID:bb:MountSaintMaryAcademy:85615a14-4b26-4ae4-9f84-84fc5de0ae2e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T130000
@@ -4343,6 +4343,15 @@ DTEND;TZID=America/New_York:20270114T200000
 SUMMARY:Franklin High School at Gill St. Bernard's School (Varsity Boys B
  oys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105517200@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270115T173000
+DTEND;TZID=America/New_York:20270115T193000
+SUMMARY:Warren Hills Regional H.S. vs Franklin High School (Junior Varsit
+ y Girls Girls Wrestling)
+DESCRIPTION:Junior Varsity Girls Girls Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102313628@skyland-conference
