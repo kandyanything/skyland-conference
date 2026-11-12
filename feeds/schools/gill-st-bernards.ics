@@ -1289,7 +1289,7 @@ SUMMARY:Gill St. Bernard's School vs Vernon High School (Varsity Ice Hock
 DESCRIPTION:Varsity Ice Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:f1ac6261-32d5-4bc9-adf9-242821e4bb01@skyland
+UID:bb:MountSaintMaryAcademy:cd5eb53d-affd-478b-bbbb-d0d3ec5f8d61@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T110000
@@ -1299,7 +1299,7 @@ SUMMARY:Mount Saint Mary Academy at Gill St. Bernard's School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e1e9a219-c940-48e4-8189-124492aa6a82@skyland
+UID:bb:MountSaintMaryAcademy:e5fda4ff-881e-4e1d-a552-c3a9e45d905a@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T123000
@@ -1759,6 +1759,15 @@ SUMMARY:Manville High School at Gill St. Bernard's School (Varsity Girls
 DESCRIPTION:Varsity Girls Softball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7542693@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T160000
+DTEND;TZID=America/New_York:20270406T180000
+SUMMARY:Montgomery High School at Gill St. Bernard's School (Varsity Boys
+  Baseball)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7541435@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
@@ -1768,22 +1777,13 @@ SUMMARY:Franklin High School at Gill St. Bernard's School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Tennis - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7542693@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270406
-DTEND;VALUE=DATE:20270407
-SUMMARY:Montgomery High School at Gill St. Bernard's School (Varsity Boys
-  Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7542773@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270408
-DTEND;VALUE=DATE:20270409
+DTSTART;TZID=America/New_York:20270408T160000
+DTEND;TZID=America/New_York:20270408T180000
 SUMMARY:Montgomery High School vs Gill St. Bernard's School (Varsity Boys
   Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102812162@skyland-conference

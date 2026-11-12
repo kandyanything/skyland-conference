@@ -1597,7 +1597,7 @@ SUMMARY:Belvidere High School vs The Pingry School (Varsity Boys Boys Wre
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:9b2fdb80-955f-472b-9d37-b49900d8e459@skyland
+UID:bb:MountSaintMaryAcademy:58b508ea-85b9-40d5-9fac-ffad4829d0a7@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T113000
@@ -1607,7 +1607,7 @@ SUMMARY:Mount Saint Mary Academy vs The Pingry School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:282c3f3b-123b-4028-8a33-5d48ddd80738@skyland
+UID:bb:MountSaintMaryAcademy:06c2184c-1445-42f9-bd23-5294b3864dc8@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T130000
@@ -2323,6 +2323,15 @@ SUMMARY:Ridge High School at The Pingry School (Varsity Boys Boys Tennis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7542699@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T160000
+DTEND;TZID=America/New_York:20270427T180000
+SUMMARY:Montgomery High School at The Pingry School (Varsity Boys Basebal
+ l)
+DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7540983@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270427
@@ -2339,15 +2348,6 @@ DTEND;VALUE=DATE:20270428
 SUMMARY:Hillsborough High School at The Pingry School (Varsity Boys Boys 
  Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7542699@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270427
-DTEND;VALUE=DATE:20270428
-SUMMARY:Montgomery High School at The Pingry School (Varsity Boys Basebal
- l)
-DESCRIPTION:Varsity Boys Baseball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7608140@skyland-conference
@@ -2450,11 +2450,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7542779@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270511
-DTEND;VALUE=DATE:20270512
+DTSTART;TZID=America/New_York:20270511T180000
+DTEND;TZID=America/New_York:20270511T200000
 SUMMARY:Montgomery High School vs The Pingry School (Varsity Boys Basebal
  l)
-DESCRIPTION:Varsity Boys Baseball - Home
+DESCRIPTION:Varsity Boys Baseball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103066224@skyland-conference
