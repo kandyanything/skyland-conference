@@ -3789,11 +3789,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:105531191@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261114
-DTEND;VALUE=DATE:20261115
+DTSTART;TZID=America/New_York:20261114T130000
+DTEND;TZID=America/New_York:20261114T150000
 SUMMARY:Watchung Hills Regional H.S. vs Westfield High School (Varsity Bo
  ys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105454953@skyland-conference
@@ -4335,7 +4335,7 @@ SUMMARY:Watchung Hills Regional H.S. at Montville Township High School (V
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:405407d4-605c-4861-a452-fb51f108d92c@skyland
+UID:bb:MountSaintMaryAcademy:f8b5beb7-5e38-4055-b1bb-d74c5143d88a@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T113000
@@ -5874,7 +5874,7 @@ SUMMARY:Watchung Hills Regional H.S. at Hunterdon Central Reg. High Schoo
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:2041345c-9afd-4191-8029-a39ca9ad22df@skyland
+UID:bb:MountSaintMaryAcademy:29973e9b-8282-46e2-83ab-3ba646a3738f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T113000
@@ -5884,7 +5884,7 @@ SUMMARY:Mount Saint Mary Academy vs Watchung Hills Regional H.S. (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e025caff-3bfd-40a7-bdf0-83b6d948cb4f@skyland
+UID:bb:MountSaintMaryAcademy:ebb78b91-bc45-4b04-a8cc-a795eab9cbf9@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T130000
