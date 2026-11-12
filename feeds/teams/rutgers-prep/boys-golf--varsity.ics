@@ -24,6 +24,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:105546942@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T153000
+DTEND;TZID=America/New_York:20270401T173000
+SUMMARY:Warren Hills Regional H.S. at Rutgers Preparatory School (Varsity
+  Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102823192@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270406T153000
@@ -49,6 +58,15 @@ DTEND;VALUE=DATE:20270421
 SUMMARY:Immaculata High School at Rutgers Preparatory School (Varsity Boy
  s Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105547478@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270427T153000
+DTEND;TZID=America/New_York:20270427T173000
+SUMMARY:Warren Hills Regional H.S. vs Rutgers Preparatory School (Varsity
+  Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102823350@skyland-conference
