@@ -672,15 +672,6 @@ SUMMARY:Bound Brook High School vs Montgomery High School (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7441483@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Hillsborough High School at Montgomery High School (Varsity Girls
-  Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7508095@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -688,6 +679,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Hillsborough High School vs Montgomery High School (Junior Varsit
  y Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7441483@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Hillsborough High School at Montgomery High School (Varsity Girls
+  Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7441400@skyland-conference
@@ -1509,21 +1509,21 @@ SUMMARY:Montgomery High School at Hillsborough Athletics (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7497562@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T120000
-DTEND;TZID=America/New_York:20260919T140000
-SUMMARY:Montgomery High School at Hackettstown High School (Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7544992@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T120000
 DTEND;TZID=America/New_York:20260919T140000
 SUMMARY:Montgomery High School at St Thomas Aquinas High School (Varsity 
  Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7497562@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T120000
+DTEND;TZID=America/New_York:20260919T140000
+SUMMARY:Montgomery High School at Hackettstown High School (Varsity Boys 
+ Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -1536,15 +1536,6 @@ SUMMARY:Montgomery High School at Colonia High School (Junior Varsity Boy
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7334704@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260921
-DTEND;VALUE=DATE:20260922
-SUMMARY:Montgomery High School vs Warren Hills Regional School District (
- Varsity Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7334793@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260921
@@ -1552,6 +1543,15 @@ DTEND;VALUE=DATE:20260922
 SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity B
  oys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7334704@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260921
+DTEND;VALUE=DATE:20260922
+SUMMARY:Montgomery High School vs Warren Hills Regional School District (
+ Varsity Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7441406@skyland-conference
@@ -1734,13 +1734,13 @@ SUMMARY:Hillsborough High School at Montgomery High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7441499@skyland-conference
+UID:ds:2741:7614442@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Montgomery High School at Hillsborough Athletics (Varsity Girls G
- irls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+SUMMARY:Montgomery High School vs Hillsborough Athletics (Middle School G
+ irls Field Hockey)
+DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7508143@skyland-conference
@@ -1752,13 +1752,13 @@ SUMMARY:Montgomery High School vs Hillsborough Athletics (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7614442@skyland-conference
+UID:ds:2741:7441499@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
 DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Montgomery High School vs Hillsborough Athletics (Middle School G
- irls Field Hockey)
-DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
+SUMMARY:Montgomery High School at Hillsborough Athletics (Varsity Girls G
+ irls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7508668@skyland-conference
@@ -2106,15 +2106,6 @@ SUMMARY:Montgomery High School at Ridge High School (Freshman Boys Boys S
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7508978@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:Montgomery High School at South Hunterdon Regional H.S. (Middle S
- chool Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7496353@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -2131,6 +2122,15 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:Montgomery High School at Ridge High School (Junior Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7508978@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:Montgomery High School at South Hunterdon Regional H.S. (Middle S
+ chool Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7501509@skyland-conference
@@ -7044,6 +7044,15 @@ SUMMARY:Montgomery High School at TBA NJ (Varsity Boys Boys Indoor Track)
 DESCRIPTION:Varsity Boys Boys Indoor Track - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7763621@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T170000
+DTEND;TZID=America/New_York:20270204T190000
+SUMMARY:Montgomery High School vs Holy Cross High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2741:7583118@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270204T173000
@@ -7051,6 +7060,15 @@ DTEND;TZID=America/New_York:20270204T193000
 SUMMARY:Montgomery High School vs Hamilton West High School (Varsity Girl
  s Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7763611@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270204T190000
+DTEND;TZID=America/New_York:20270204T210000
+SUMMARY:Montgomery High School vs Holy Cross High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7582650@skyland-conference
