@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2586:7583544@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260817T173000
+DTEND;TZID=America/New_York:20260817T193000
+SUMMARY:Delaware Valley Regional H.S. vs Somerville High School (Junior V
+ arsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7555399@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260828T173000
+DTEND;TZID=America/New_York:20260828T193000
+SUMMARY:Delaware Valley Regional H.S. vs Hillsborough Athletics (Junior V
+ arsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7555399@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260828T173000
@@ -33,12 +51,30 @@ SUMMARY:Hillsborough High School at Delaware Valley Regional H.S. (Junior
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7583557@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T173000
+DTEND;TZID=America/New_York:20260909T193000
+SUMMARY:Delaware Valley Regional H.S. vs Somerville High School (Junior V
+ arsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:100869622@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T173000
 DTEND;TZID=America/New_York:20260909T193000
 SUMMARY:Somerville High School at Delaware Valley Regional H.S. (Junior V
  arsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7526618@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260914T173000
+DTEND;TZID=America/New_York:20260914T193000
+SUMMARY:Delaware Valley Regional H.S. at Franklin High School (Junior Var
+ sity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -51,6 +87,15 @@ SUMMARY:Franklin High School vs Delaware Valley Regional H.S. (Junior Var
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7480049@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T143000
+DTEND;TZID=America/New_York:20260919T163000
+SUMMARY:Delaware Valley Regional H.S. vs Cranford High School (Junior Var
+ sity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 2:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:100870886@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261005T173000
@@ -60,12 +105,48 @@ SUMMARY:Somerville High School vs Delaware Valley Regional H.S. (Junior V
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2586:7526621@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T173000
+DTEND;TZID=America/New_York:20261007T193000
+SUMMARY:Delaware Valley Regional H.S. vs Franklin High School (Junior Var
+ sity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2617:7526621@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T173000
 DTEND;TZID=America/New_York:20261007T193000
 SUMMARY:Franklin High School at Delaware Valley Regional H.S. (Junior Var
  sity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7674486@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T173000
+DTEND;TZID=America/New_York:20261008T193000
+SUMMARY:Delaware Valley Regional H.S. at Mount Saint Mary Academy (Junior
+  Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7701628@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T173000
+DTEND;TZID=America/New_York:20261019T193000
+SUMMARY:Delaware Valley Regional H.S. vs Mount Saint Mary Academy (Junior
+  Varsity Girls Field Hockey)
+DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7534062@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T173000
+DTEND;TZID=America/New_York:20261028T193000
+SUMMARY:Delaware Valley Regional H.S. at Governor Livingston High School 
+ (Junior Varsity Girls Field Hockey)
 DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 5:30 PM
 END:VEVENT
 END:VCALENDAR
