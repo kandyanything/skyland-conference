@@ -481,15 +481,6 @@ SUMMARY:Bernards High School vs Somerville High School (Varsity Coed Coed
 DESCRIPTION:Varsity Coed Coed Cross Country - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7563154@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Junior Vars
- ity Girls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7563760@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -497,6 +488,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Bernards High School vs Delaware Valley Regional H.S. (Freshman G
  irls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7563154@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Junior Vars
+ ity Girls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7563760@skyland-conference
@@ -860,15 +860,6 @@ SUMMARY:Bernards High School vs Somerville High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7334785@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7334700@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260914
@@ -876,6 +867,15 @@ DTEND;VALUE=DATE:20260915
 SUMMARY:Bernards High School vs Ridge High School (Varsity Girls Girls So
  ccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7334785@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7334700@skyland-conference
@@ -4525,7 +4525,7 @@ SUMMARY:Bernards High School at Jonathan Dayton High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:af0b9c99-1924-4c0a-8de5-7fb0daaf3cc0@skyland
+UID:bb:MountSaintMaryAcademy:429d8b89-fd2b-4abf-a9e4-75d7e581271f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T093000
