@@ -240,21 +240,21 @@ SUMMARY:Immaculata High School at Watchung Hills Regional H.S. (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7334837@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-SUMMARY:Immaculata High School vs South Hunterdon Regional H.S. (Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7336346@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Immaculata High School vs College Achieve Central Charter School 
  (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7334837@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Immaculata High School vs South Hunterdon Regional H.S. (Varsity 
+ Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
@@ -674,24 +674,6 @@ SUMMARY:Bound Brook High School vs Immaculata High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7478033@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Immaculata High School vs Rutgers Preparatory School (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7499416@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Immaculata High School at Stuart Country Day School (Varsity Girl
- s Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7441495@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
@@ -708,6 +690,24 @@ DTEND;TZID=America/New_York:20260917T180000
 SUMMARY:Immaculata High School at Pope John XXIII High School (Freshman B
  oys Football)
 DESCRIPTION:Freshman Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7478033@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Immaculata High School vs Rutgers Preparatory School (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7499416@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Immaculata High School at Stuart Country Day School (Varsity Girl
+ s Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7499417@skyland-conference
@@ -945,6 +945,15 @@ SUMMARY:Hunterdon Central Regional H.S. at Immaculata High School (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2666:7334657@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Immaculata High School at The Pingry School (Varsity Girls Girls 
+ Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7334849@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -961,15 +970,6 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Boys
   Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7334657@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Immaculata High School at The Pingry School (Varsity Girls Girls 
- Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7335069@skyland-conference
@@ -2613,7 +2613,7 @@ SUMMARY:Immaculata High School at University of Delaware (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a84db982-b16d-4555-b4fc-6d6896585de7@skyland
+UID:bb:MountSaintMaryAcademy:b5a80677-f69c-4f36-a2c1-1e251d4fa5d7@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T063000
@@ -2623,7 +2623,7 @@ SUMMARY:Mount Saint Mary Academy at Immaculata High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:f2342051-402b-40ea-84ca-ddbf7521702c@skyland
+UID:bb:MountSaintMaryAcademy:c112300c-d612-447d-8363-7bfd0b3c4858@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T080000
