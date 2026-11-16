@@ -23,6 +23,15 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:arb:105618978@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270422
+DTEND;VALUE=DATE:20270423
+SUMMARY:Manville High School at Hillsborough High School (Varsity Girls G
+ irls Golf)
+DESCRIPTION:Varsity Girls Girls Golf - Away
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104541206@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270427T150000
@@ -30,5 +39,14 @@ DTEND;TZID=America/New_York:20270427T170000
 SUMMARY:Voorhees High School vs Hillsborough High School (Varsity Girls G
  irls Golf)
 DESCRIPTION:Varsity Girls Girls Golf - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105619701@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270503
+DTEND;VALUE=DATE:20270504
+SUMMARY:Manville High School vs Hillsborough High School (Varsity Girls G
+ irls Golf)
+DESCRIPTION:Varsity Girls Girls Golf - Home
 END:VEVENT
 END:VCALENDAR
