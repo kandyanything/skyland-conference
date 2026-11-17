@@ -2023,15 +2023,6 @@ SUMMARY:Delaware Valley Regional H.S. vs Bernards High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7511845@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T160000
-DTEND;TZID=America/New_York:20260928T180000
-SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
- trict (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7511839@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
@@ -2048,6 +2039,15 @@ DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
  trict (Junior Varsity Boys Football)
 DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7511845@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260928T160000
+DTEND;TZID=America/New_York:20260928T180000
+SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
+ trict (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102407150@skyland-conference
@@ -4092,11 +4092,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7558840@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T160000
-DTEND;TZID=America/New_York:20261207T180000
+DTSTART;TZID=America/New_York:20261207T173000
+DTEND;TZID=America/New_York:20261207T193000
 SUMMARY:Delaware Valley Regional H.S. vs Hamilton East High School (Varsi
  ty Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7556293@skyland-conference
@@ -6333,11 +6333,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7540726@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
 SUMMARY:Delaware Valley Regional H.S. vs Montgomery High School (Varsity 
  Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7540726@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
+SUMMARY:Montgomery High School at Delaware Valley Regional H.S. (Varsity 
+ Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7541123@skyland-conference
@@ -6365,15 +6374,6 @@ DTEND;VALUE=DATE:20270416
 SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
  trict (Varsity Girls Girls Lacrosse)
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7540726@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
-SUMMARY:Montgomery High School at Delaware Valley Regional H.S. (Varsity 
- Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7542762@skyland-conference
@@ -6558,11 +6558,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7540736@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270504
-DTEND;VALUE=DATE:20270505
+DTSTART;TZID=America/New_York:20270504T160000
+DTEND;TZID=America/New_York:20270504T180000
 SUMMARY:Delaware Valley Regional H.S. at Montgomery High School (Varsity 
  Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Away
+DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7540736@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270504T160000
+DTEND;TZID=America/New_York:20270504T180000
+SUMMARY:Montgomery High School vs Delaware Valley Regional H.S. (Varsity 
+ Girls Softball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7541137@skyland-conference
@@ -6581,15 +6590,6 @@ DTEND;VALUE=DATE:20270505
 SUMMARY:Delaware Valley Regional H.S. at Voorhees High School (Varsity Bo
  ys Baseball)
 DESCRIPTION:Varsity Boys Baseball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7540736@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270504
-DTEND;VALUE=DATE:20270505
-SUMMARY:Montgomery High School vs Delaware Valley Regional H.S. (Varsity 
- Girls Softball)
-DESCRIPTION:Varsity Girls Softball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104401394@skyland-conference
