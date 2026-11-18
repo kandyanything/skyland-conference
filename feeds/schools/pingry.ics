@@ -915,15 +915,6 @@ SUMMARY:Bound Brook High School vs The Pingry School (Middle School Girls
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7540029@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Ridge High School vs The Pingry School (Junior Varsity Girls Girl
- s Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7441528@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
@@ -931,6 +922,15 @@ DTEND;TZID=America/New_York:20261007T180000
 SUMMARY:Ridge High School at The Pingry School (Varsity Girls Girls Tenni
  s)
 DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7540029@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Ridge High School vs The Pingry School (Junior Varsity Girls Girl
+ s Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7561271@skyland-conference
@@ -1615,7 +1615,7 @@ SUMMARY:Belvidere High School vs The Pingry School (Varsity Boys Boys Wre
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0edef59f-086a-4771-82c7-3cfdebc45640@skyland
+UID:bb:MountSaintMaryAcademy:6756c94c-9745-4979-ac5a-532c757037e3@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T113000
@@ -1625,7 +1625,7 @@ SUMMARY:Mount Saint Mary Academy vs The Pingry School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0a112606-5da9-4303-8d64-81c4a32e755b@skyland
+UID:bb:MountSaintMaryAcademy:21c1bcc2-f016-4a0d-aaac-8d0c02f6e652@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T130000
@@ -2146,6 +2146,24 @@ DTEND;VALUE=DATE:20270402
 SUMMARY:Montgomery High School at The Pingry School (Varsity Boys Boys Te
  nnis)
 DESCRIPTION:Varsity Boys Boys Tennis - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105676668@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T160000
+DTEND;TZID=America/New_York:20270402T180000
+SUMMARY:Warren Hills Regional H.S. vs The Pingry School (Junior Varsity G
+ irls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105676601@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T160000
+DTEND;TZID=America/New_York:20270402T180000
+SUMMARY:Warren Hills Regional H.S. vs The Pingry School (Varsity Girls So
+ ftball)
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104436440@skyland-conference
