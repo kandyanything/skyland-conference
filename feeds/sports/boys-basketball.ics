@@ -167,15 +167,6 @@ SUMMARY:Ridge High School vs Morris Catholic High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7599364@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T160000
-DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Ridge High School vs Morris Catholic High School (Junior Varsity 
- Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7562859@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
@@ -183,6 +174,15 @@ DTEND;TZID=America/New_York:20261207T180000
 SUMMARY:Ridge High School vs Morris Catholic High School (Varsity Boys Bo
  ys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7599364@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Ridge High School vs Morris Catholic High School (Junior Varsity 
+ Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7570894@skyland-conference
@@ -670,15 +670,6 @@ SUMMARY:Bridgewater-Raritan High School at Saint Joseph Regional High Sch
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7653114@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261210T160000
-DTEND;TZID=America/New_York:20261210T180000
-SUMMARY:Franklin High School at Clinton Township Middle School (MS-A Boys
-  Boys Basketball)
-DESCRIPTION:MS-A Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7640803@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
@@ -695,6 +686,15 @@ DTEND;TZID=America/New_York:20261210T180000
 SUMMARY:Franklin High School vs Hackensack High School (Varsity Boys Boys
   Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7653114@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261210T160000
+DTEND;TZID=America/New_York:20261210T180000
+SUMMARY:Franklin High School at Clinton Township Middle School (MS-A Boys
+  Boys Basketball)
+DESCRIPTION:MS-A Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7611802@skyland-conference
@@ -2021,24 +2021,6 @@ SUMMARY:Bound Brook High School at Koinonia Academy (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7611996@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T100000
-DTEND;TZID=America/New_York:20261219T120000
-SUMMARY:Delaware Valley Regional H.S. vs Immaculata High School (Freshman
-  Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2666:7611996@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261219T100000
-DTEND;TZID=America/New_York:20261219T120000
-SUMMARY:Immaculata High School at Delaware Valley Regional H.S. (Freshman
-  Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7572139@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T100000
@@ -2480,15 +2462,6 @@ SUMMARY:Bridgewater-Raritan High School at Somerville High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7558872@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T173000
-DTEND;TZID=America/New_York:20261222T193000
-SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (V
- arsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7611851@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
@@ -2496,15 +2469,6 @@ DTEND;TZID=America/New_York:20261222T193000
 SUMMARY:Immaculata High School vs Vernon Township High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7558872@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261222T173000
-DTEND;TZID=America/New_York:20261222T193000
-SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (V
- arsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105343991@skyland-conference
@@ -2541,6 +2505,24 @@ DTEND;TZID=America/New_York:20261222T193000
 SUMMARY:Watchung Hills Regional H.S. vs Lakeland Regional High School (Va
  rsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7558872@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T180000
+DTEND;TZID=America/New_York:20261222T200000
+SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7558872@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261222T180000
+DTEND;TZID=America/New_York:20261222T200000
+SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (V
+ arsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7723419@skyland-conference
@@ -2669,15 +2651,6 @@ SUMMARY:Franklin High School at Bayonne High School (Varsity Boys Boys Ba
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7723487@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261228T080000
-DTEND;TZID=America/New_York:20261228T100000
-SUMMARY:Bridgewater-Raritan High School at Hamilton West High School (Jun
- ior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 8:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7574883@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T093000
@@ -2685,15 +2658,6 @@ DTEND;TZID=America/New_York:20261228T113000
 SUMMARY:Montgomery High School vs St Thomas Aquinas High School (Junior V
  arsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 9:30 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7758369@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261228T100000
-DTEND;TZID=America/New_York:20261228T120000
-SUMMARY:Bridgewater-Raritan High School at Hamilton West High School (Var
- sity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7563000@skyland-conference
@@ -3304,15 +3268,6 @@ SUMMARY:Bound Brook High School vs Manville High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7653430@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T171500
-DTEND;TZID=America/New_York:20270105T191500
-SUMMARY:Franklin High School at William Annin Middle School (MS-B Boys Bo
- ys Basketball)
-DESCRIPTION:MS-B Boys Boys Basketball - Away - 5:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2617:7526664@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T171500
@@ -3320,6 +3275,15 @@ DTEND;TZID=America/New_York:20270105T191500
 SUMMARY:Franklin High School vs Hillsborough Athletics (Junior Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7653430@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T171500
+DTEND;TZID=America/New_York:20270105T191500
+SUMMARY:Franklin High School at William Annin Middle School (MS-B Boys Bo
+ ys Basketball)
+DESCRIPTION:MS-B Boys Boys Basketball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7526664@skyland-conference
