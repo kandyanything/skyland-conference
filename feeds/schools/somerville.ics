@@ -963,15 +963,6 @@ DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 11:30 AM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7551187@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T130000
-DTEND;TZID=America/New_York:20260919T150000
-SUMMARY:Hillsborough High School vs Somerville High School (Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7551392@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T130000
@@ -979,6 +970,15 @@ DTEND;TZID=America/New_York:20260919T150000
 SUMMARY:Hillsborough High School vs Somerville High School (Junior Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551187@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T130000
+DTEND;TZID=America/New_York:20260919T150000
+SUMMARY:Hillsborough High School vs Somerville High School (Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102571294@skyland-conference
@@ -1492,15 +1492,6 @@ SUMMARY:Somerville High School at Delaware Valley Regional H.S. (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7334689@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:Hillsborough High School vs Somerville High School (Varsity Girls
-  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7334802@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261001
@@ -1508,6 +1499,15 @@ DTEND;VALUE=DATE:20261002
 SUMMARY:Hillsborough High School at Somerville High School (Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7334689@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Hillsborough High School vs Somerville High School (Varsity Girls
+  Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100871446@skyland-conference
@@ -3143,7 +3143,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Somerville High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7443882@skyland-conference
+UID:ds:2535:7448431@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T180000
 DTEND;TZID=America/New_York:20261217T200000
@@ -3769,15 +3769,6 @@ SUMMARY:Manville High School vs Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7710217@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T144500
-DTEND;TZID=America/New_York:20270114T164500
-SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
-  Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7710224@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T144500
@@ -3785,6 +3776,15 @@ DTEND;TZID=America/New_York:20270114T164500
 SUMMARY:Bernards High School at Somerville High School (Varsity Girls Gir
  ls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7710217@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T144500
+DTEND;TZID=America/New_York:20270114T164500
+SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
+  Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7692923@skyland-conference
@@ -3805,15 +3805,6 @@ SUMMARY:North Hunterdon High School vs Somerville High School (Freshman B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7645417@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T163000
-DTEND;TZID=America/New_York:20270114T183000
-SUMMARY:Hunterdon Central Regional H.S. vs Somerville High School (Varsit
- y Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7645488@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T163000
@@ -3821,6 +3812,15 @@ DTEND;TZID=America/New_York:20270114T183000
 SUMMARY:Hunterdon Central Regional H.S. vs Somerville High School (Varsit
  y Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7645417@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T163000
+DTEND;TZID=America/New_York:20270114T183000
+SUMMARY:Hunterdon Central Regional H.S. vs Somerville High School (Varsit
+ y Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104315452@skyland-conference
@@ -4739,6 +4739,15 @@ SUMMARY:Montgomery High School vs Somerville High School (Varsity Girls S
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7770355@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T160000
+DTEND;TZID=America/New_York:20270406T180000
+SUMMARY:Montgomery High School vs Somerville High School (Junior Varsity 
+ Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2586:7541115@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
@@ -4953,6 +4962,15 @@ DTEND;TZID=America/New_York:20270422T180000
 SUMMARY:Montgomery High School at Somerville High School (Varsity Girls S
  oftball)
 DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7770430@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T160000
+DTEND;TZID=America/New_York:20270422T180000
+SUMMARY:Montgomery High School at Somerville High School (Junior Varsity 
+ Girls Softball)
+DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104219688@skyland-conference

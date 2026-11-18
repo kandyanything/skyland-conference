@@ -410,15 +410,6 @@ SUMMARY:Bernards High School at Hillsborough Athletics (Freshman Boys Boy
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7551399@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Bernards High School at Hillsborough Athletics (Junior Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7551195@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -426,6 +417,15 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Bernards High School at Hillsborough Athletics (Varsity Boys Boys
   Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7551399@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Bernards High School at Hillsborough Athletics (Junior Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7551399@skyland-conference
@@ -437,15 +437,6 @@ SUMMARY:Hillsborough High School vs Bernards High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7551195@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Hillsborough High School vs Bernards High School (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7551400@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -453,6 +444,15 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Hillsborough High School vs Bernards High School (Freshman Boys B
  oys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551195@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Hillsborough High School vs Bernards High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7335216@skyland-conference
@@ -518,21 +518,21 @@ SUMMARY:Warren Hills Regional H.S. at Bernards High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7335219@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7334794@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
 DTEND;VALUE=DATE:20260925
 SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
   Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7335219@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
@@ -644,15 +644,6 @@ SUMMARY:Watchung Hills Regional H.S. at Bernards High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7334800@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261001
-DTEND;VALUE=DATE:20261002
-SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7335225@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261001
@@ -660,6 +651,15 @@ DTEND;VALUE=DATE:20261002
 SUMMARY:Bernards High School at Hillsborough Athletics (Varsity Boys Boys
   Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7334800@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261001
+DTEND;VALUE=DATE:20261002
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7335225@skyland-conference
@@ -743,15 +743,6 @@ SUMMARY:Bernards High School vs Mendham Township Middle School (Middle Sc
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7498481@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T163000
-DTEND;TZID=America/New_York:20261008T183000
-SUMMARY:Bernards High School at Delaware Valley Regional H.S. (Junior Var
- sity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7478106@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T163000
@@ -759,6 +750,15 @@ DTEND;TZID=America/New_York:20261008T183000
 SUMMARY:Bernards High School at Delaware Valley Regional H.S. (Varsity Bo
  ys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7498481@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T163000
+DTEND;TZID=America/New_York:20261008T183000
+SUMMARY:Bernards High School at Delaware Valley Regional H.S. (Junior Var
+ sity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7478106@skyland-conference
@@ -797,15 +797,6 @@ SUMMARY:Montgomery High School at Bernards High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7623484@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T160000
-DTEND;TZID=America/New_York:20261009T180000
-SUMMARY:Bernards High School at North Plainfield Public Schools (Freshman
-  Boys Boys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7588089@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
@@ -813,6 +804,15 @@ DTEND;TZID=America/New_York:20261009T180000
 SUMMARY:Bernards High School at Briarcliff MS (Middle School Boys Boys So
  ccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7623484@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T160000
+DTEND;TZID=America/New_York:20261009T180000
+SUMMARY:Bernards High School at North Plainfield Public Schools (Freshman
+  Boys Boys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7668566@skyland-conference

@@ -618,6 +618,15 @@ SUMMARY:South Hunterdon Regional H.S. at Montgomery High School (Middle S
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2741:7496404@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261003T140000
+DTEND;TZID=America/New_York:20261003T160000
+SUMMARY:Montgomery High School at Livingston High School (Freshman Boys B
+ oys Soccer)
+DESCRIPTION:Freshman Boys Boys Soccer - Away - 2:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2741:7496402@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261003T140000
@@ -634,15 +643,6 @@ DTEND;TZID=America/New_York:20261003T160000
 SUMMARY:Montgomery High School at Livingston High School (Junior Varsity 
  Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 2:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7496404@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261003T140000
-DTEND;TZID=America/New_York:20261003T160000
-SUMMARY:Montgomery High School at Livingston High School (Freshman Boys B
- oys Soccer)
-DESCRIPTION:Freshman Boys Boys Soccer - Away - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7503506@skyland-conference
@@ -752,15 +752,6 @@ SUMMARY:Montgomery High School at Hillsborough Athletics (Middle School B
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7565623@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261013T160000
-DTEND;TZID=America/New_York:20261013T180000
-SUMMARY:Montgomery High School vs The Pingry School (Freshman Boys Boys S
- occer)
-DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7680880@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261013T160000
@@ -768,6 +759,15 @@ DTEND;TZID=America/New_York:20261013T180000
 SUMMARY:Montgomery High School at Gill St. Bernard's School (Varsity Boys
   Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7565623@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261013T160000
+DTEND;TZID=America/New_York:20261013T180000
+SUMMARY:Montgomery High School vs The Pingry School (Freshman Boys Boys S
+ occer)
+DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7335235@skyland-conference
@@ -797,15 +797,6 @@ SUMMARY:Montgomery High School at William Annin Middle School (Middle Sch
 DESCRIPTION:Middle School Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7499608@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261015T160000
-DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Hillsborough High School at Montgomery High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7499508@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
@@ -815,13 +806,22 @@ SUMMARY:Hillsborough High School at Montgomery High School (Freshman Boys
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7499608@skyland-conference
+UID:ds:2653:7499608@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Montgomery High School vs Hillsborough Athletics (Junior Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Hillsborough High School at Montgomery High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7584003@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261015T160000
+DTEND;TZID=America/New_York:20261015T180000
+SUMMARY:Montgomery High School vs Bridgewater-Raritan Middle School (Midd
+ le School Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7499508@skyland-conference
@@ -833,13 +833,13 @@ SUMMARY:Montgomery High School vs Hillsborough Athletics (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7584003@skyland-conference
+UID:ds:2741:7499608@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261015T160000
 DTEND;TZID=America/New_York:20261015T180000
-SUMMARY:Montgomery High School vs Bridgewater-Raritan Middle School (Midd
- le School Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+SUMMARY:Montgomery High School vs Hillsborough Athletics (Junior Varsity 
+ Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7496423@skyland-conference
@@ -869,15 +869,6 @@ SUMMARY:Montgomery High School vs Somerville High School (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7499610@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261019T160000
-DTEND;TZID=America/New_York:20261019T180000
-SUMMARY:Montgomery High School at Princeton Day School (Junior Varsity Bo
- ys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7512257@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261019T160000
@@ -885,6 +876,15 @@ DTEND;TZID=America/New_York:20261019T180000
 SUMMARY:Montgomery High School vs Branchburg Middle School (Middle School
   Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7499610@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261019T160000
+DTEND;TZID=America/New_York:20261019T180000
+SUMMARY:Montgomery High School at Princeton Day School (Junior Varsity Bo
+ ys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7496430@skyland-conference

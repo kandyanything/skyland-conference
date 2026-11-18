@@ -23,13 +23,13 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2830:7562859@skyland-conference
+UID:ds:2830:7757845@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
 DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Ridge High School vs Morris Catholic High School (Varsity Boys Bo
- ys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+SUMMARY:Ridge High School vs Morris Catholic High School (Freshman Boys B
+ oys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7599364@skyland-conference
@@ -41,13 +41,13 @@ SUMMARY:Ridge High School vs Morris Catholic High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7757845@skyland-conference
+UID:ds:2830:7562859@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
 DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Ridge High School vs Morris Catholic High School (Freshman Boys B
- oys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+SUMMARY:Ridge High School vs Morris Catholic High School (Varsity Boys Bo
+ ys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7665384@skyland-conference
@@ -166,15 +166,6 @@ SUMMARY:Ridge High School vs Scotch Plains-Fanwood High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7740752@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261228T120000
-DTEND;TZID=America/New_York:20261228T140000
-SUMMARY:Ridge High School vs Middletown North High School (Freshman Boys 
- Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7740756@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T120000
@@ -182,6 +173,15 @@ DTEND;TZID=America/New_York:20261228T140000
 SUMMARY:Ridge High School vs Middletown North High School (Junior Varsity
   Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7740752@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261228T120000
+DTEND;TZID=America/New_York:20261228T140000
+SUMMARY:Ridge High School vs Middletown North High School (Freshman Boys 
+ Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7665959@skyland-conference
@@ -229,15 +229,6 @@ SUMMARY:Montgomery High School at Ridge High School (Varsity Boys Boys Ba
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7747895@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T180000
-DTEND;TZID=America/New_York:20270107T200000
-SUMMARY:Ridge High School vs Saint Joseph High School (Varsity Boys Boys 
- Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7747897@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
@@ -245,6 +236,15 @@ DTEND;TZID=America/New_York:20270107T200000
 SUMMARY:Ridge High School vs Saint Joseph High School (Freshman Boys Boys
   Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7747895@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T180000
+DTEND;TZID=America/New_York:20270107T200000
+SUMMARY:Ridge High School vs Saint Joseph High School (Varsity Boys Boys 
+ Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7666236@skyland-conference
@@ -328,15 +328,6 @@ SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7448227@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T180000
-DTEND;TZID=America/New_York:20270119T200000
-SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7645591@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T180000
@@ -346,13 +337,13 @@ SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7448227@skyland-conference
+UID:ds:2665:7448227@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T180000
 DTEND;TZID=America/New_York:20270119T200000
-SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Boy
+SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Boy
  s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7645591@skyland-conference
@@ -362,6 +353,15 @@ DTEND;TZID=America/New_York:20270119T200000
 SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Freshman Bo
  ys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7448227@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T180000
+DTEND;TZID=America/New_York:20270119T200000
+SUMMARY:Ridge High School vs Hunterdon Central Regional H.S. (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7665975@skyland-conference
