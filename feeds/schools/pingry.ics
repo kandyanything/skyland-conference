@@ -915,15 +915,6 @@ SUMMARY:Bound Brook High School vs The Pingry School (Middle School Girls
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7441528@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261007T160000
-DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Ridge High School at The Pingry School (Varsity Girls Girls Tenni
- s)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7540029@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
@@ -931,6 +922,15 @@ DTEND;TZID=America/New_York:20261007T180000
 SUMMARY:Ridge High School vs The Pingry School (Junior Varsity Girls Girl
  s Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7441528@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261007T160000
+DTEND;TZID=America/New_York:20261007T180000
+SUMMARY:Ridge High School at The Pingry School (Varsity Girls Girls Tenni
+ s)
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7561271@skyland-conference
@@ -1489,6 +1489,24 @@ SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7706446@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Bernards High School at The Pingry School (Varsity Girls Girls Fe
+ ncing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7698482@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Bernards High School at The Pingry School (Varsity Boys Boys Fenc
+ ing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7739661@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270106
@@ -1496,24 +1514,6 @@ DTEND;VALUE=DATE:20270107
 SUMMARY:South Hunterdon Regional H.S. at The Pingry School (Varsity Boys 
  Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7698482@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T160000
-DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Bernards High School at The Pingry School (Varsity Boys Boys Fenc
- ing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7706446@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T160000
-DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Bernards High School at The Pingry School (Varsity Girls Girls Fe
- ncing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7448212@skyland-conference
@@ -1570,7 +1570,7 @@ SUMMARY:Ridge High School vs The Pingry School (Junior Varsity Girls Girl
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7443801@skyland-conference
+UID:ds:2830:7448314@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T180000
 DTEND;TZID=America/New_York:20270112T200000
@@ -1615,7 +1615,7 @@ SUMMARY:Belvidere High School vs The Pingry School (Varsity Boys Boys Wre
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:099f2969-bc57-4f10-a346-e2f929b2e452@skyland
+UID:bb:MountSaintMaryAcademy:d4165c16-60e7-4cc5-911d-0faf04078efc@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T113000
@@ -1625,7 +1625,7 @@ SUMMARY:Mount Saint Mary Academy vs The Pingry School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:cf13db7a-415f-4153-b259-980e267c015e@skyland
+UID:bb:MountSaintMaryAcademy:b84cf142-905b-42e7-b8a1-dbbdbd5abcf5@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T130000
