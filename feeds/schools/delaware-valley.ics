@@ -2005,15 +2005,6 @@ SUMMARY:Bernards High School at Delaware Valley Regional H.S. (Varsity Bo
 DESCRIPTION:Varsity Boys Football - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7565400@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260925T190000
-DTEND;TZID=America/New_York:20260925T210000
-SUMMARY:Delaware Valley Regional H.S. vs Bernards High School (Varsity Gi
- rls Girls Cheerleading)
-DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7468524@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260925T190000
@@ -2023,13 +2014,22 @@ SUMMARY:Delaware Valley Regional H.S. vs Bernards High School (Varsity Bo
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7467916@skyland-conference
+UID:ds:2586:7565400@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260925T190000
+DTEND;TZID=America/New_York:20260925T210000
+SUMMARY:Delaware Valley Regional H.S. vs Bernards High School (Varsity Gi
+ rls Girls Cheerleading)
+DESCRIPTION:Varsity Girls Girls Cheerleading - Home - 7:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7511845@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
- trict (Junior Varsity Boys Football)
-DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
+ trict (Freshman Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7511839@skyland-conference
@@ -2041,13 +2041,13 @@ SUMMARY:Delaware Valley Regional H.S. vs Warren Hills Regional School Dis
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7511845@skyland-conference
+UID:ds:2586:7467916@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T160000
 DTEND;TZID=America/New_York:20260928T180000
 SUMMARY:Delaware Valley Regional H.S. at Warren Hills Regional School Dis
- trict (Freshman Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
+ trict (Junior Varsity Boys Football)
+DESCRIPTION:Junior Varsity Boys Football - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102407150@skyland-conference
@@ -2231,15 +2231,6 @@ SUMMARY:Delaware Valley Regional H.S. vs Bound Brook High School (Varsity
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7335161@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260929
-DTEND;VALUE=DATE:20260930
-SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
- rls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7335254@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260929
@@ -2250,6 +2241,15 @@ DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7336296@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260929
+DTEND;VALUE=DATE:20260930
+SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
+ rls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7335161@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
@@ -2825,15 +2825,6 @@ SUMMARY:Delaware Valley Regional H.S. at Hillsborough Athletics (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7502237@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Hillsborough High School at Delaware Valley Regional H.S. (Freshm
- an Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7502236@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -2841,6 +2832,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Hillsborough High School vs Delaware Valley Regional H.S. (Junior
   Varsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7502237@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Hillsborough High School at Delaware Valley Regional H.S. (Freshm
+ an Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7478112@skyland-conference
@@ -5314,15 +5314,6 @@ SUMMARY:Watchung Hills Regional H.S. vs Delaware Valley Regional H.S. (Ju
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7576145@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T173000
-DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (J
- unior Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7705925@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
@@ -5330,6 +5321,15 @@ DTEND;TZID=America/New_York:20270121T193000
 SUMMARY:Delaware Valley Regional H.S. at Watchung Hills Regional H.S. (Ju
  nior Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7576145@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (J
+ unior Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7576145@skyland-conference
@@ -5350,15 +5350,6 @@ SUMMARY:Watchung Hills Regional H.S. vs Delaware Valley Regional H.S. (Va
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7448420@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T180000
-DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Delaware Valley Regional H.S. at Watchung Hills Regional H.S. (Va
- rsity Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7443967@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T180000
@@ -5366,6 +5357,15 @@ DTEND;TZID=America/New_York:20270121T200000
 SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (V
  arsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7448420@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T180000
+DTEND;TZID=America/New_York:20270121T200000
+SUMMARY:Delaware Valley Regional H.S. at Watchung Hills Regional H.S. (Va
+ rsity Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7443967@skyland-conference
