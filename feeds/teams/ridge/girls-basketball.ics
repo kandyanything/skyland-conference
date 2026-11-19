@@ -86,15 +86,6 @@ SUMMARY:Ridge High School at Millburn High School (Junior Varsity Girls G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7664990@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261212T120000
-DTEND;TZID=America/New_York:20261212T140000
-SUMMARY:Ridge High School at Millburn High School (Varsity Girls Girls Ba
- sketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7764392@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T120000
@@ -102,6 +93,15 @@ DTEND;TZID=America/New_York:20261212T140000
 SUMMARY:Ridge High School at Millburn High School (Freshman Girls Girls B
  asketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 12:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7664990@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261212T120000
+DTEND;TZID=America/New_York:20261212T140000
+SUMMARY:Ridge High School at Millburn High School (Varsity Girls Girls Ba
+ sketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:fs:GillSt.BernardsSchool:2026-12-15:16:00:Basketball:12@skyland-confe
@@ -205,7 +205,7 @@ SUMMARY:Ridge High School vs South Brunswick High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:d42457fc-11ca-4d75-a84b-372709b318df@skyland
+UID:bb:MountSaintMaryAcademy:aafa68de-93b9-44a3-8241-68d42be30f53@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T123000
@@ -215,7 +215,7 @@ SUMMARY:Mount Saint Mary Academy at Ridge High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:b4188ca7-e419-4b9f-afdb-c285e409b832@skyland
+UID:bb:MountSaintMaryAcademy:1d594905-7bb1-49c2-9b00-0328a921db43@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T140000
@@ -252,15 +252,6 @@ SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7665177@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T173000
-DTEND;TZID=America/New_York:20270107T193000
-SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Freshman Gi
- rls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7448307@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
@@ -268,6 +259,15 @@ DTEND;TZID=America/New_York:20270107T193000
 SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Varsity Gir
  ls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7665177@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T173000
+DTEND;TZID=America/New_York:20270107T193000
+SUMMARY:Bridgewater-Raritan High School vs Ridge High School (Freshman Gi
+ rls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7665276@skyland-conference
@@ -513,7 +513,7 @@ SUMMARY:Ridge High School at Rutgers Preparatory School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7448344@skyland-conference
+UID:ds:2830:7443831@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T180000
 DTEND;TZID=America/New_York:20270128T200000
