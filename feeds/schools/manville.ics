@@ -744,7 +744,7 @@ SUMMARY:Bound Brook High School vs Manville High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7335161@skyland-conference
+UID:ds:2586:7336296@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
@@ -753,7 +753,7 @@ SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7336296@skyland-conference
+UID:ds:2586:7335161@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260929
 DTEND;VALUE=DATE:20260930
@@ -3329,6 +3329,14 @@ SUMMARY:Manville High School at Rutgers Preparatory School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105698329@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270410T110000
+DTEND;TZID=America/New_York:20270410T130000
+SUMMARY:Manville High School vs Newton High School (Varsity Boys Baseball)
+DESCRIPTION:Varsity Boys Baseball - Home - 11:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7540631@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270410
@@ -3463,6 +3471,15 @@ SUMMARY:Manville High School at Koinonia Academy (Varsity Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105698407@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T100000
+DTEND;TZID=America/New_York:20270417T120000
+SUMMARY:Manville High School vs Princeton High School (Varsity Boys Baseb
+ all)
+DESCRIPTION:Varsity Boys Baseball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:102800677@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270417
@@ -3537,11 +3554,11 @@ END:VEVENT
 BEGIN:VEVENT
 UID:arb:102800749@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270422T160000
-DTEND;TZID=America/New_York:20270422T180000
+DTSTART;TZID=America/New_York:20270422T183000
+DTEND;TZID=America/New_York:20270422T203000
 SUMMARY:Manville High School at Delaware Valley Regional H.S. (Varsity Bo
  ys Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
+DESCRIPTION:Varsity Boys Baseball - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7542765@skyland-conference
@@ -3715,6 +3732,15 @@ SUMMARY:Manville High School vs Rutgers Preparatory School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
+UID:arb:105698481@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270505T160000
+DTEND;TZID=America/New_York:20270505T180000
+SUMMARY:Manville High School vs Dunellen High School (Varsity Boys Baseba
+ ll)
+DESCRIPTION:Varsity Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:105619527@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270505
@@ -3874,5 +3900,14 @@ DTEND;TZID=America/New_York:20270518T180000
 SUMMARY:Montgomery High School vs Manville High School (Varsity Girls Sof
  tball)
 DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:105699440@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270522T110000
+DTEND;TZID=America/New_York:20270522T130000
+SUMMARY:Manville High School vs Roselle Park High School (Varsity Boys Ba
+ seball)
+DESCRIPTION:Varsity Boys Baseball - Home - 11:00 AM
 END:VEVENT
 END:VCALENDAR
