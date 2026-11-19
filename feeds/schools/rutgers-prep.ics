@@ -167,15 +167,6 @@ SUMMARY:Hillsborough High School vs Rutgers Preparatory School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7441534@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Ridge High School vs Rutgers Preparatory School (Varsity Girls Gi
- rls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7540019@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -183,6 +174,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Ridge High School at Rutgers Preparatory School (Junior Varsity G
  irls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7441534@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Ridge High School vs Rutgers Preparatory School (Varsity Girls Gi
+ rls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7555506@skyland-conference
@@ -1248,15 +1248,6 @@ SUMMARY:Franklin High School vs Rutgers Preparatory School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7694234@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Hunterdon Central Regional H.S. vs Rutgers Preparatory School (Fr
- eshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7694109@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -1266,13 +1257,22 @@ SUMMARY:Hunterdon Central Regional H.S. vs Rutgers Preparatory School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7448330@skyland-conference
+UID:ds:2665:7694234@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Rutgers Preparatory School (Fr
+ eshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7443817@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T180000
 DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Hunterdon Central Regional H.S. vs Rutgers Preparatory School (Va
+SUMMARY:Hunterdon Central Regional H.S. at Rutgers Preparatory School (Va
  rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7641407@skyland-conference
@@ -1329,7 +1329,7 @@ SUMMARY:Ridge High School at Rutgers Preparatory School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7443831@skyland-conference
+UID:ds:2830:7448344@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T180000
 DTEND;TZID=America/New_York:20270128T200000
@@ -1356,7 +1356,7 @@ SUMMARY:Montgomery High School vs Rutgers Preparatory School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:b1498c28-8239-4500-be92-90cb578abb3c@skyland
+UID:bb:MountSaintMaryAcademy:28240c14-0227-49c0-8d67-5a17eda9c78c@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270209T130000
