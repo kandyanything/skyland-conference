@@ -643,15 +643,6 @@ SUMMARY:Phillipsburg High School vs Montgomery High School (Junior Varsit
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 2:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7501366@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Montgomery High School vs Phillipsburg High School (Junior Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7499561@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -659,6 +650,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Montgomery High School at Phillipsburg High School (Junior Varsit
  y Boys Boys Soccer)
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7501366@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Montgomery High School vs Phillipsburg High School (Junior Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7477987@skyland-conference
@@ -2338,24 +2338,6 @@ SUMMARY:Hillsborough High School at Phillipsburg High School (Freshman Bo
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7551433@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Hillsborough High School at Phillipsburg High School (Junior Vars
- ity Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7552644@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261010T100000
-DTEND;TZID=America/New_York:20261010T120000
-SUMMARY:Hillsborough High School vs Phillipsburg High School (Junior Vars
- ity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7478116@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261010T100000
@@ -2372,6 +2354,24 @@ DTEND;TZID=America/New_York:20261010T120000
 SUMMARY:Hillsborough High School vs Phillipsburg High School (Varsity Gir
  ls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551433@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Hillsborough High School at Phillipsburg High School (Junior Vars
+ ity Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7552644@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261010T100000
+DTEND;TZID=America/New_York:20261010T120000
+SUMMARY:Hillsborough High School vs Phillipsburg High School (Junior Vars
+ ity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104662251@skyland-conference
@@ -4995,7 +4995,7 @@ SUMMARY:Phillipsburg High School at West Essex High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ff535c6c-6768-4cc5-9a35-b13adf2083a2@skyland
+UID:bb:MountSaintMaryAcademy:7da2e59a-05b1-43e6-9854-b15e016ad99f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T113000
@@ -5005,7 +5005,7 @@ SUMMARY:Mount Saint Mary Academy vs Phillipsburg High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:cad995c5-3547-4b71-8458-f6d7d00b62f4@skyland
+UID:bb:MountSaintMaryAcademy:5c96a395-40fe-486b-89af-bd786401d974@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T130000
