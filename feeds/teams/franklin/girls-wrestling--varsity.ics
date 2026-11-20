@@ -24,6 +24,33 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2617:7682461@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261230T100000
+DTEND;TZID=America/New_York:20261230T120000
+SUMMARY:Franklin High School at Elizabeth High School (Varsity Girls Girl
+ s Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7723557@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Franklin High School at Hillsborough Athletics (Varsity Girls Gir
+ ls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7723557@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Hillsborough High School vs Franklin High School (Varsity Girls G
+ irls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:105583674@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T183000
@@ -31,6 +58,15 @@ DTEND;TZID=America/New_York:20270106T203000
 SUMMARY:Somerville High School at Franklin High School (Varsity Girls Gir
  ls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7765680@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T163000
+DTEND;TZID=America/New_York:20270108T183000
+SUMMARY:Franklin High School at East Brunswick High School (Varsity Girls
+  Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102313628@skyland-conference
@@ -51,6 +87,15 @@ SUMMARY:Manville High School at Franklin High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2617:7689747@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T173000
+DTEND;TZID=America/New_York:20270127T193000
+SUMMARY:Franklin High School vs Woodbridge High School (Varsity Girls Gir
+ ls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104992226@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270131T180000
@@ -58,5 +103,14 @@ DTEND;TZID=America/New_York:20270131T200000
 SUMMARY:Somerville High School at Franklin High School (Varsity Girls Gir
  ls Wrestling)
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7753771@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270206T100000
+DTEND;TZID=America/New_York:20270206T120000
+SUMMARY:Franklin High School at New Brunswick High School (Varsity Girls 
+ Girls Wrestling)
+DESCRIPTION:Varsity Girls Girls Wrestling - Away - 10:00 AM
 END:VEVENT
 END:VCALENDAR

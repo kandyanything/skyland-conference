@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2617:7756175@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270406T010000
+DTEND;TZID=America/New_York:20270406T030000
+SUMMARY:Franklin High School at Voorhees High School (Junior Varsity Boys
+  Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Away - 1:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7756179@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T170000
+DTEND;TZID=America/New_York:20270422T190000
+SUMMARY:Franklin High School vs Voorhees High School (Junior Varsity Boys
+  Boys Volleyball)
+DESCRIPTION:Junior Varsity Boys Boys Volleyball - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:105657183@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270511T181500
