@@ -240,21 +240,21 @@ SUMMARY:Immaculata High School at Watchung Hills Regional H.S. (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7334837@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260903
-DTEND;VALUE=DATE:20260904
-SUMMARY:Immaculata High School vs South Hunterdon Regional H.S. (Varsity 
- Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7336346@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260903
 DTEND;VALUE=DATE:20260904
 SUMMARY:Immaculata High School vs College Achieve Central Charter School 
  (Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7334837@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260903
+DTEND;VALUE=DATE:20260904
+SUMMARY:Immaculata High School vs South Hunterdon Regional H.S. (Varsity 
+ Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
@@ -402,13 +402,13 @@ SUMMARY:Immaculata High School at Rutgers Preparatory School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7441494@skyland-conference
+UID:ds:2666:7441494@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
 DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Franklin High School vs Immaculata High School (Varsity Girls Gir
+SUMMARY:Immaculata High School at Franklin High School (Varsity Girls Gir
  ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7477997@skyland-conference
@@ -510,15 +510,6 @@ SUMMARY:Hunterdon Central Regional H.S. at Immaculata High School (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7334842@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260914
-DTEND;VALUE=DATE:20260915
-SUMMARY:Immaculata High School at Bound Brook High School (Varsity Boys B
- oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7334651@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260914
@@ -526,6 +517,15 @@ DTEND;VALUE=DATE:20260915
 SUMMARY:Immaculata High School vs Hunterdon Central Regional H.S. (Varsit
  y Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7334842@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260914
+DTEND;VALUE=DATE:20260915
+SUMMARY:Immaculata High School at Bound Brook High School (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7441462@skyland-conference
@@ -999,15 +999,6 @@ SUMMARY:Immaculata High School vs West Morris Mendham High School (Varsit
 DESCRIPTION:Varsity Boys Football - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7478072@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260928T154500
-DTEND;TZID=America/New_York:20260928T174500
-SUMMARY:Hillsborough High School vs Immaculata High School (Varsity Girls
-  Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7478072@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260928T154500
@@ -1398,13 +1389,13 @@ SUMMARY:Immaculata High School vs Manville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7441472@skyland-conference
+UID:ds:2666:7441472@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261007T160000
 DTEND;TZID=America/New_York:20261007T180000
-SUMMARY:Franklin High School at Immaculata High School (Varsity Girls Gir
+SUMMARY:Immaculata High School vs Franklin High School (Varsity Girls Gir
  ls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102909535@skyland-conference
@@ -1947,15 +1938,6 @@ SUMMARY:Immaculata High School vs Arthur L Johnson High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7500962@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T160000
-DTEND;TZID=America/New_York:20261028T180000
-SUMMARY:Hillsborough High School vs Immaculata High School (Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7500962@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T160000
@@ -2487,15 +2469,6 @@ SUMMARY:Immaculata High School at University of Delaware (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7611991@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T154500
-DTEND;TZID=America/New_York:20261217T174500
-SUMMARY:Hillsborough High School at Immaculata High School (Freshman Boys
-  Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 3:45 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7611991@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T154500
@@ -2512,15 +2485,6 @@ DTEND;TZID=America/New_York:20261217T180000
 SUMMARY:Bound Brook High School vs Immaculata High School (Junior Varsity
   Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7626087@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Hillsborough High School vs Immaculata High School (Freshman Girl
- s Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7626087@skyland-conference
@@ -2550,15 +2514,6 @@ SUMMARY:Immaculata High School vs North Hunterdon High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7611990@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T171500
-DTEND;TZID=America/New_York:20261217T191500
-SUMMARY:Hillsborough High School at Immaculata High School (Junior Varsit
- y Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7611990@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T171500
@@ -2586,15 +2541,6 @@ SUMMARY:Bound Brook High School vs Immaculata High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7448201@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T190000
-DTEND;TZID=America/New_York:20261217T210000
-SUMMARY:Hillsborough High School at Immaculata High School (Varsity Boys 
- Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7448201@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T190000
@@ -2613,7 +2559,7 @@ SUMMARY:Immaculata High School at University of Delaware (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:2b2ca936-9c3d-4e4d-9c08-d05efc198787@skyland
+UID:bb:MountSaintMaryAcademy:5422cd11-c023-4266-9eac-626aa2186f48@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T063000
@@ -2623,7 +2569,7 @@ SUMMARY:Mount Saint Mary Academy at Immaculata High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 6:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:40f45f8b-dbbf-4a76-86c9-ba786d2568df@skyland
+UID:bb:MountSaintMaryAcademy:3ef975f9-5db1-4d24-8ee9-c281db984c41@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T080000
@@ -2948,15 +2894,6 @@ SUMMARY:Bernards High School vs Immaculata High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7633704@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T160000
-DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Franklin High School vs Immaculata High School (Varsity Coed Coed
-  Swimming)
-DESCRIPTION:Varsity Coed Coed Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7633704@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
@@ -3173,13 +3110,13 @@ SUMMARY:Immaculata High School vs Warren Hills Regional School District (
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7612099@skyland-conference
+UID:ds:2666:7612099@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T154500
 DTEND;TZID=America/New_York:20270112T174500
-SUMMARY:Franklin High School vs Immaculata High School (Freshman Boys Boy
+SUMMARY:Immaculata High School at Franklin High School (Freshman Boys Boy
  s Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:45 PM
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7620918@skyland-conference
@@ -3200,13 +3137,13 @@ SUMMARY:Immaculata High School vs Montgomery High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7526666@skyland-conference
+UID:ds:2666:7526666@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T171500
 DTEND;TZID=America/New_York:20270112T191500
-SUMMARY:Franklin High School vs Immaculata High School (Junior Varsity Bo
+SUMMARY:Immaculata High School at Franklin High School (Junior Varsity Bo
  ys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7443893@skyland-conference
@@ -3218,13 +3155,13 @@ SUMMARY:Immaculata High School vs Voorhees High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7608585@skyland-conference
+UID:ds:2666:7608585@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
-SUMMARY:Franklin High School vs Immaculata High School (Varsity Boys Boys
+SUMMARY:Immaculata High School at Franklin High School (Varsity Boys Boys
   Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102260782@skyland-conference
@@ -3351,15 +3288,6 @@ DTEND;TZID=America/New_York:20270116T110000
 SUMMARY:Immaculata High School at Somerville High School (Freshman Boys B
  oys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7626090@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270116T100000
-DTEND;TZID=America/New_York:20270116T120000
-SUMMARY:Hillsborough High School at Immaculata High School (Freshman Girl
- s Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7626090@skyland-conference
@@ -3892,22 +3820,22 @@ SUMMARY:Immaculata High School vs Franklin High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7614030@skyland-conference
+UID:ds:2666:7614030@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270203T173000
 DTEND;TZID=America/New_York:20270203T193000
-SUMMARY:Franklin High School vs Immaculata High School (Junior Varsity Gi
+SUMMARY:Immaculata High School at Franklin High School (Junior Varsity Gi
  rls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7589208@skyland-conference
+UID:ds:2666:7589208@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270203T190000
 DTEND;TZID=America/New_York:20270203T210000
-SUMMARY:Franklin High School vs Immaculata High School (Varsity Girls Gir
+SUMMARY:Immaculata High School at Franklin High School (Varsity Girls Gir
  ls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7612077@skyland-conference
@@ -3972,15 +3900,6 @@ SUMMARY:Warren Hills Regional H.S. vs Immaculata High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7733088@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270206T100000
-DTEND;TZID=America/New_York:20270206T120000
-SUMMARY:Hillsborough High School vs Immaculata High School (Freshman Boys
-  Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7613399@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270206T100000
@@ -3997,15 +3916,6 @@ DTEND;TZID=America/New_York:20270206T120000
 SUMMARY:Immaculata High School at Hillsborough Athletics (Freshman Boys B
  oys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 10:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7733090@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270206T113000
-DTEND;TZID=America/New_York:20270206T133000
-SUMMARY:Hillsborough High School vs Immaculata High School (Junior Varsit
- y Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7614033@skyland-conference
@@ -4422,15 +4332,6 @@ SUMMARY:Immaculata High School at Hunterdon Central Regional H.S. (Junior
 DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7542734@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270406
-DTEND;VALUE=DATE:20270407
-SUMMARY:Hillsborough High School vs Immaculata High School (Varsity Boys 
- Baseball)
-DESCRIPTION:Varsity Boys Baseball - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2666:7541063@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270406
@@ -4447,15 +4348,6 @@ DTEND;VALUE=DATE:20270407
 SUMMARY:Immaculata High School at Hillsborough Athletics (Varsity Boys Ba
  seball)
 DESCRIPTION:Varsity Boys Baseball - Away
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7542794@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270408T160000
-DTEND;TZID=America/New_York:20270408T180000
-SUMMARY:Hillsborough High School at Immaculata High School (Varsity Boys 
- Baseball)
-DESCRIPTION:Varsity Boys Baseball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540865@skyland-conference
@@ -4519,24 +4411,6 @@ DTEND;TZID=America/New_York:20270413T183000
 SUMMARY:North Hunterdon High School at Immaculata High School (Varsity Bo
  ys Boys Lacrosse)
 DESCRIPTION:Varsity Boys Boys Lacrosse - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7540867@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270413
-DTEND;VALUE=DATE:20270414
-SUMMARY:Franklin High School vs Immaculata High School (Varsity Girls Sof
- tball)
-DESCRIPTION:Varsity Girls Softball - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2617:7756213@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270413
-DTEND;VALUE=DATE:20270414
-SUMMARY:Franklin High School vs Immaculata High School (Junior Varsity Gi
- rls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7540867@skyland-conference
@@ -5051,22 +4925,22 @@ SUMMARY:South Hunterdon Regional H.S. vs Immaculata High School (Varsity
 DESCRIPTION:Varsity Boys Boys Golf - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7540877@skyland-conference
+UID:ds:2666:7540877@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270513T160000
 DTEND;TZID=America/New_York:20270513T180000
-SUMMARY:Franklin High School at Immaculata High School (Varsity Girls Sof
+SUMMARY:Immaculata High School vs Franklin High School (Varsity Girls Sof
  tball)
-DESCRIPTION:Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7756217@skyland-conference
+UID:ds:2666:7756217@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270513T160000
 DTEND;TZID=America/New_York:20270513T180000
-SUMMARY:Franklin High School at Immaculata High School (Junior Varsity Gi
+SUMMARY:Immaculata High School vs Franklin High School (Junior Varsity Gi
  rls Softball)
-DESCRIPTION:Junior Varsity Girls Softball - Away - 4:00 PM
+DESCRIPTION:Junior Varsity Girls Softball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7608327@skyland-conference
