@@ -1275,15 +1275,6 @@ SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7493105@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260917T160000
-DTEND;TZID=America/New_York:20260917T180000
-SUMMARY:Delaware Valley Regional H.S. at Montgomery High School (Freshman
-  Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2586:7493104@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260917T160000
@@ -1291,6 +1282,15 @@ DTEND;TZID=America/New_York:20260917T180000
 SUMMARY:Delaware Valley Regional H.S. vs Montgomery High School (Junior V
  arsity Girls Girls Volleyball)
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7493105@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260917T160000
+DTEND;TZID=America/New_York:20260917T180000
+SUMMARY:Delaware Valley Regional H.S. at Montgomery High School (Freshman
+  Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7493104@skyland-conference
@@ -2888,15 +2888,6 @@ SUMMARY:Montgomery High School vs Hillsborough Athletics (Middle School G
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7493485@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T161500
-DTEND;TZID=America/New_York:20261009T181500
-SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Junior
-  Varsity Girls Girls Volleyball)
-DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7493486@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T161500
@@ -2904,6 +2895,15 @@ DTEND;TZID=America/New_York:20261009T181500
 SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Freshm
  an Girls Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7493485@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T161500
+DTEND;TZID=America/New_York:20261009T181500
+SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Junior
+  Varsity Girls Girls Volleyball)
+DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7493484@skyland-conference
@@ -5306,15 +5306,6 @@ SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7448301@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T173000
-DTEND;TZID=America/New_York:20270105T193000
-SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity G
- irls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7563023@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
@@ -5322,6 +5313,15 @@ DTEND;TZID=America/New_York:20270105T193000
 SUMMARY:Montgomery High School vs Mastery High School of Camden (Varsity 
  Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7448301@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T173000
+DTEND;TZID=America/New_York:20270105T193000
+SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101127308@skyland-conference
@@ -5511,15 +5511,6 @@ SUMMARY:Montgomery High School vs Hamilton East High School (Varsity Coed
 DESCRIPTION:Varsity Coed Coed Ice Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7672271@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T180000
-DTEND;TZID=America/New_York:20270108T200000
-SUMMARY:Montgomery High School at Riverside High School (Junior Varsity B
- oys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7671737@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270108T180000
@@ -5529,13 +5520,13 @@ SUMMARY:Montgomery High School at Riverside High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7580818@skyland-conference
+UID:ds:2741:7672271@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270108T183000
-DTEND;TZID=America/New_York:20270108T203000
-SUMMARY:Bernards High School vs Montgomery High School (Varsity Girls Gir
- ls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:30 PM
+DTSTART;TZID=America/New_York:20270108T180000
+DTEND;TZID=America/New_York:20270108T200000
+SUMMARY:Montgomery High School at Riverside High School (Junior Varsity B
+ oys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7580780@skyland-conference
@@ -5545,6 +5536,15 @@ DTEND;TZID=America/New_York:20270108T203000
 SUMMARY:Bernards High School vs Montgomery High School (Varsity Boys Boys
   Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7580818@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270108T183000
+DTEND;TZID=America/New_York:20270108T203000
+SUMMARY:Bernards High School vs Montgomery High School (Varsity Girls Gir
+ ls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7582384@skyland-conference
@@ -5951,7 +5951,7 @@ SUMMARY:Montgomery High School at The Pingry School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7448318@skyland-conference
+UID:ds:2741:7443805@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T180000
 DTEND;TZID=America/New_York:20270114T200000
@@ -6271,14 +6271,6 @@ SUMMARY:Montgomery High School at Branchburg Middle School (Middle School
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7652053@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270120T170000
-DTEND;TZID=America/New_York:20270120T190000
-SUMMARY:Montgomery High School vs TBA NJ (Varsity Coed Diving)
-DESCRIPTION:Varsity Coed Diving - Home - 5:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7672281@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T170000
@@ -6286,6 +6278,14 @@ DTEND;TZID=America/New_York:20270120T190000
 SUMMARY:Montgomery High School vs Woodbridge High School (Junior Varsity 
  Boys Boys Wrestling)
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 5:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7652053@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270120T170000
+DTEND;TZID=America/New_York:20270120T190000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Coed Diving)
+DESCRIPTION:Varsity Coed Diving - Home - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7658340@skyland-conference
