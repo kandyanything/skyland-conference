@@ -833,15 +833,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs Gill St. Bernard's School (Var
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7548621@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Freshm
- an Girls Girls Volleyball)
-DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7529121@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -849,6 +840,15 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Hunterdon Central Regional H.S. at Gill St. Bernard's School (Jun
  ior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7548621@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Freshm
+ an Girls Girls Volleyball)
+DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7548477@skyland-conference
@@ -3857,6 +3857,15 @@ SUMMARY:Hillsborough High School vs Hunterdon Central Regional H.S. (Vars
 DESCRIPTION:Varsity Coed Unified Sports Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2665:7544098@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261028T160000
+DTEND;TZID=America/New_York:20261028T180000
+SUMMARY:Hunterdon Central Regional H.S. at TBA NJ (Varsity Girls Girls Cr
+ oss Country)
+DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7544060@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261028T160000
@@ -3873,15 +3882,6 @@ DTEND;TZID=America/New_York:20261028T180000
 SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Varsit
  y Coed Unified Sports Soccer)
 DESCRIPTION:Varsity Coed Unified Sports Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2665:7544098@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261028T160000
-DTEND;TZID=America/New_York:20261028T180000
-SUMMARY:Hunterdon Central Regional H.S. at TBA NJ (Varsity Girls Girls Cr
- oss Country)
-DESCRIPTION:Varsity Girls Girls Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7684783@skyland-conference
@@ -3902,15 +3902,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs Randolph High School (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7552945@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261029T160000
-DTEND;TZID=America/New_York:20261029T180000
-SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7714131@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261029T160000
@@ -3918,6 +3909,15 @@ DTEND;TZID=America/New_York:20261029T180000
 SUMMARY:Hunterdon Central Regional H.S. at Belvidere High School (Varsity
   Girls Field Hockey)
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7552945@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261029T160000
+DTEND;TZID=America/New_York:20261029T180000
+SUMMARY:Hunterdon Central Regional H.S. at Somerville High School (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7620513@skyland-conference
@@ -4244,7 +4244,7 @@ SUMMARY:Hunterdon Central Regional H.S. vs Bishop Eustace Prep School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:39c62397-02f4-40fa-b897-c1edd2a97a2a@skyland
+UID:bb:MountSaintMaryAcademy:ad8c85c8-4911-4212-88a1-6af4f8c30008@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T103000
@@ -4587,7 +4587,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Rumson-Fair Haven Regional Hig
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 8:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:52f7d0b2-050a-4e5b-be75-500f1141a922@skyland
+UID:bb:MountSaintMaryAcademy:1d280d68-ba04-4adc-af2d-a565341c7051@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T113000
@@ -4597,7 +4597,7 @@ SUMMARY:Mount Saint Mary Academy vs Hunterdon Central Regional H.S. (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0c784640-22ee-470c-aced-796c44af3841@skyland
+UID:bb:MountSaintMaryAcademy:8b97d0bd-4ba0-47a4-93ad-0baa897768fc@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T130000
@@ -6632,15 +6632,6 @@ SUMMARY:Hillsborough High School vs Hunterdon Central Regional H.S. (Juni
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7694234@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T160000
-DTEND;TZID=America/New_York:20270121T180000
-SUMMARY:Hunterdon Central Regional H.S. vs Rutgers Preparatory School (Fr
- eshman Girls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7694109@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
@@ -6657,6 +6648,15 @@ DTEND;TZID=America/New_York:20270121T180000
 SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Junior
   Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7694234@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T160000
+DTEND;TZID=America/New_York:20270121T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Rutgers Preparatory School (Fr
+ eshman Girls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7645424@skyland-conference
@@ -6713,13 +6713,13 @@ SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Freshm
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7448330@skyland-conference
+UID:ds:2665:7443817@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T180000
 DTEND;TZID=America/New_York:20270121T200000
-SUMMARY:Hunterdon Central Regional H.S. vs Rutgers Preparatory School (Va
+SUMMARY:Hunterdon Central Regional H.S. at Rutgers Preparatory School (Va
  rsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7589428@skyland-conference
