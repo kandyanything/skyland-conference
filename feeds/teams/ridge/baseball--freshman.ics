@@ -23,6 +23,14 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2830:7778424@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270401T160000
+DTEND;TZID=America/New_York:20270401T180000
+SUMMARY:Ridge High School vs Dunellen Athletics (Freshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7763061@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270414T160000
@@ -30,6 +38,14 @@ DTEND;TZID=America/New_York:20270414T180000
 SUMMARY:Ridge High School vs Morristown High School (Freshman Boys Baseba
  ll)
 DESCRIPTION:Freshman Boys Baseball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7778425@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270417T100000
+DTEND;TZID=America/New_York:20270417T120000
+SUMMARY:Ridge High School at Dunellen Athletics (Freshman Boys Baseball)
+DESCRIPTION:Freshman Boys Baseball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7763093@skyland-conference
