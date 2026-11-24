@@ -1355,15 +1355,6 @@ SUMMARY:Bridgewater-Raritan High School at Ridge High School (Varsity Gir
 DESCRIPTION:Varsity Girls Gymnastics - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7505320@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T163000
-DTEND;TZID=America/New_York:20260916T183000
-SUMMARY:Bridgewater-Raritan High School at Blair Academy (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7516539@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T163000
@@ -1371,6 +1362,15 @@ DTEND;TZID=America/New_York:20260916T183000
 SUMMARY:Bridgewater-Raritan High School vs Blair Academy (Varsity Girls G
  irls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7505320@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T163000
+DTEND;TZID=America/New_York:20260916T183000
+SUMMARY:Bridgewater-Raritan High School at Blair Academy (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7441482@skyland-conference
@@ -1445,15 +1445,6 @@ SUMMARY:Bridgewater-Raritan High School vs Roxbury High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7334676@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260917
-DTEND;VALUE=DATE:20260918
-SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
- y Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7335093@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260917
@@ -1470,6 +1461,15 @@ DTEND;VALUE=DATE:20260918
 SUMMARY:Bridgewater-Raritan High School vs Gill St. Bernard's School (Var
  sity Boys Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7334676@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260917
+DTEND;VALUE=DATE:20260918
+SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
+ y Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7335093@skyland-conference
@@ -5376,15 +5376,6 @@ SUMMARY:Bound Brook High School at Bridgewater-Raritan High School (Varsi
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7602840@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T090000
-DTEND;TZID=America/New_York:20270109T110000
-SUMMARY:Bridgewater-Raritan High School at Clearview Regional High School
-  (Varsity Boys Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7767393@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T090000
@@ -5394,13 +5385,13 @@ SUMMARY:Bridgewater-Raritan High School at Clearview Regional High School
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7723563@skyland-conference
+UID:ds:2549:7602840@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T100000
-DTEND;TZID=America/New_York:20270109T120000
-SUMMARY:Bridgewater-Raritan High School vs Wayne Hills High School (Fresh
- man Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
+DTSTART;TZID=America/New_York:20270109T090000
+DTEND;TZID=America/New_York:20270109T110000
+SUMMARY:Bridgewater-Raritan High School at Clearview Regional High School
+  (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2549:7722869@skyland-conference
@@ -5412,6 +5403,15 @@ SUMMARY:Bridgewater-Raritan High School at Warren Hills Regional School D
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7723563@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T100000
+DTEND;TZID=America/New_York:20270109T120000
+SUMMARY:Bridgewater-Raritan High School vs Wayne Hills High School (Fresh
+ man Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:103410250@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T100000
@@ -5421,15 +5421,6 @@ SUMMARY:Warren Hills Regional H.S. vs Bridgewater-Raritan High School (Ju
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7757596@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270109T113000
-DTEND;TZID=America/New_York:20270109T133000
-SUMMARY:Bridgewater-Raritan High School at Warren Hills Regional School D
- istrict (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7723560@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270109T113000
@@ -5437,6 +5428,15 @@ DTEND;TZID=America/New_York:20270109T133000
 SUMMARY:Bridgewater-Raritan High School vs Wayne Hills High School (Junio
  r Varsity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7757596@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270109T113000
+DTEND;TZID=America/New_York:20270109T133000
+SUMMARY:Bridgewater-Raritan High School at Warren Hills Regional School D
+ istrict (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103410244@skyland-conference
@@ -5502,7 +5502,7 @@ SUMMARY:Bridgewater-Raritan High School at North Hunterdon High School (V
 DESCRIPTION:Varsity Coed Unified Sports Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ebbafac0-43b7-4a30-97ca-e36d82fc969e@skyland
+UID:bb:MountSaintMaryAcademy:270d66f1-0b74-4335-94f9-e8654621dab1@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T110000
@@ -5512,7 +5512,7 @@ SUMMARY:Mount Saint Mary Academy at Bridgewater-Raritan High School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 11:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:d5f1b3d8-1f4b-47d5-bc7f-8d4bc3105ca0@skyland
+UID:bb:MountSaintMaryAcademy:b6d115c7-4078-4a22-b753-95a88b8feac8@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T123000
@@ -5648,21 +5648,21 @@ SUMMARY:Bridgewater-Raritan High School at Phillipsburg High School (Vars
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7723634@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270113T150000
-DTEND;TZID=America/New_York:20270113T170000
-SUMMARY:Bridgewater-Raritan High School at South Brunswick High School (V
- arsity Boys Boys Ice Hockey)
-DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7765796@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T150000
 DTEND;TZID=America/New_York:20270113T170000
 SUMMARY:Bridgewater-Raritan High School at Monroe Township School Distric
  t (Varsity Boys Boys Ice Hockey)
+DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7723634@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270113T150000
+DTEND;TZID=America/New_York:20270113T170000
+SUMMARY:Bridgewater-Raritan High School at South Brunswick High School (V
+ arsity Boys Boys Ice Hockey)
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -6413,15 +6413,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs Bridgewater-Raritan High Schoo
 DESCRIPTION:Varsity Girls Girls Wrestling - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7429454@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T153000
-DTEND;TZID=America/New_York:20270128T173000
-SUMMARY:Bridgewater-Raritan High School vs Warren Hills Regional School D
- istrict (Varsity Boys Boys Bowling)
-DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2549:7620171@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T153000
@@ -6429,6 +6420,15 @@ DTEND;TZID=America/New_York:20270128T173000
 SUMMARY:Bridgewater-Raritan High School vs Warren Hills Regional School D
  istrict (Varsity Girls Girls Bowling)
 DESCRIPTION:Varsity Girls Girls Bowling - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2549:7429454@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T153000
+DTEND;TZID=America/New_York:20270128T173000
+SUMMARY:Bridgewater-Raritan High School vs Warren Hills Regional School D
+ istrict (Varsity Boys Boys Bowling)
+DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104818767@skyland-conference
