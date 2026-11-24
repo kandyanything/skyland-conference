@@ -23,7 +23,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2617:7662693@skyland-conference
+UID:ds:2617:7782722@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T163000
 DTEND;TZID=America/New_York:20261208T183000
@@ -32,7 +32,7 @@ SUMMARY:Franklin High School at Red Bank Catholic High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7662496@skyland-conference
+UID:ds:2617:7782743@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
@@ -50,13 +50,22 @@ SUMMARY:Franklin High School vs Clinton Township Middle School (MS-B Girl
 DESCRIPTION:MS-B Girls Girls Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7662415@skyland-conference
+UID:ds:2617:7782865@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T101500
 DTEND;TZID=America/New_York:20261212T121500
 SUMMARY:Franklin High School at Cherokee High School (Varsity Girls Girls
   Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:15 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2617:7782922@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T160000
+DTEND;TZID=America/New_York:20261215T180000
+SUMMARY:Franklin High School at Readington Middle School (MS-A Girls Girl
+ s Basketball)
+DESCRIPTION:MS-A Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7623512@skyland-conference
@@ -68,15 +77,6 @@ SUMMARY:Franklin High School vs Watchung Hills Regional H.S. (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7652929@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T160000
-DTEND;TZID=America/New_York:20261215T180000
-SUMMARY:Franklin High School at Readington Middle School (MS-A Girls Girl
- s Basketball)
-DESCRIPTION:MS-A Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:101126541@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
@@ -86,7 +86,7 @@ SUMMARY:Watchung Hills Regional H.S. at Franklin High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7652930@skyland-conference
+UID:ds:2617:7782932@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T171500
 DTEND;TZID=America/New_York:20261215T191500
@@ -140,7 +140,7 @@ SUMMARY:Franklin High School vs Bridgewater-Raritan Middle School (MS-A G
 DESCRIPTION:MS-A Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7652942@skyland-conference
+UID:ds:2617:7783441@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T171500
 DTEND;TZID=America/New_York:20261217T191500
@@ -149,7 +149,7 @@ SUMMARY:Franklin High School vs Bridgewater-Raritan Middle School (MS-B G
 DESCRIPTION:MS-B Girls Girls Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7443780@skyland-conference
+UID:ds:2617:7783464@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T180000
 DTEND;TZID=America/New_York:20261217T200000
@@ -193,7 +193,7 @@ SUMMARY:Franklin High School at Hillsborough Athletics (MS-B Girls Girls
 DESCRIPTION:MS-B Girls Girls Basketball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7589199@skyland-conference
+UID:ds:2617:7783605@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261226T170500
 DTEND;TZID=America/New_York:20261226T190500
@@ -201,7 +201,7 @@ SUMMARY:Franklin High School vs TBD (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:05 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7589200@skyland-conference
+UID:ds:2617:7783611@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T170500
 DTEND;TZID=America/New_York:20261228T190500
@@ -209,7 +209,7 @@ SUMMARY:Franklin High School vs TBD (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:05 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7589201@skyland-conference
+UID:ds:2617:7783622@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261230T170500
 DTEND;TZID=America/New_York:20261230T190500
@@ -280,7 +280,7 @@ SUMMARY:Franklin High School at Clinton Township Middle School (MS-B Girl
 DESCRIPTION:MS-B Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:0d321b80-5bcd-46d8-ab05-6cb5fda410da@skyland
+UID:bb:MountSaintMaryAcademy:ccf554d5-bc8a-4df2-8216-3743d22c6dc1@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T113000
@@ -290,7 +290,7 @@ SUMMARY:Mount Saint Mary Academy vs Franklin High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:9a3b2ad4-fb03-42c7-b47a-48d536f63e63@skyland
+UID:bb:MountSaintMaryAcademy:a70c5c7c-9c9d-4cf7-8185-5b2f8e18e328@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T130000
@@ -318,13 +318,13 @@ SUMMARY:Franklin High School vs Summit Middle School (MS-A Girls Girls Ba
 DESCRIPTION:MS-A Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7448305@skyland-conference
+UID:ds:2617:7443792@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
-SUMMARY:Franklin High School at Mount Saint Mary Academy (Varsity Girls G
+SUMMARY:Franklin High School vs Mount Saint Mary Academy (Varsity Girls G
  irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2617:7589202@skyland-conference
@@ -371,7 +371,7 @@ SUMMARY:Franklin High School at Montgomery High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7443798@skyland-conference
+UID:ds:2617:7784152@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T180000
 DTEND;TZID=America/New_York:20270112T200000
@@ -389,7 +389,7 @@ SUMMARY:Franklin High School at Montgomery High School (MS-A Girls Girls
 DESCRIPTION:MS-A Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7653061@skyland-conference
+UID:ds:2741:7784191@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T160000
 DTEND;TZID=America/New_York:20270113T180000
@@ -407,7 +407,7 @@ SUMMARY:Bridgewater-Raritan High School at Franklin High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7448317@skyland-conference
+UID:ds:2549:7784218@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T180000
 DTEND;TZID=America/New_York:20270113T200000
@@ -416,7 +416,7 @@ SUMMARY:Bridgewater-Raritan High School at Franklin High School (Varsity
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7653062@skyland-conference
+UID:ds:2617:7784256@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -452,7 +452,7 @@ SUMMARY:Franklin High School at Rutgers Preparatory School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7653069@skyland-conference
+UID:ds:2617:7784537@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
 DTEND;TZID=America/New_York:20270120T180000
@@ -514,7 +514,7 @@ SUMMARY:Franklin High School vs Hunterdon Central Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7448335@skyland-conference
+UID:ds:2665:7443822@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T180000
 DTEND;TZID=America/New_York:20270126T200000
@@ -532,7 +532,7 @@ SUMMARY:Franklin High School at Hillsborough Athletics (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7623520@skyland-conference
+UID:ds:2653:7784967@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000
@@ -541,7 +541,7 @@ SUMMARY:Hillsborough High School vs Franklin High School (Junior Varsity
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7448341@skyland-conference
+UID:ds:2617:7784998@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
@@ -577,7 +577,7 @@ SUMMARY:Hillsborough High School vs Franklin High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7589206@skyland-conference
+UID:ds:2617:7785105@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T170500
 DTEND;TZID=America/New_York:20270130T190500
