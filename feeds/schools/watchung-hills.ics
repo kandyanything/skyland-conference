@@ -683,15 +683,6 @@ SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7538276@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
- Junior Varsity Girls Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7477992@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -699,6 +690,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
  Varsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7538276@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
+ Junior Varsity Girls Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7499343@skyland-conference
@@ -809,15 +809,6 @@ SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Field Hockey - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7477984@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260909T160000
-DTEND;TZID=America/New_York:20260909T180000
-SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
- Varsity Boys Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7548203@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260909T160000
@@ -834,6 +825,15 @@ DTEND;TZID=America/New_York:20260909T180000
 SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
  Freshman Boys Boys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7477984@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260909T160000
+DTEND;TZID=America/New_York:20260909T180000
+SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
+ Varsity Boys Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7605124@skyland-conference
@@ -4218,15 +4218,6 @@ SUMMARY:Watchung Hills Regional H.S. at Franklin High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7645483@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T163000
-DTEND;TZID=America/New_York:20261215T183000
-SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
- Varsity Girls Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7645383@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T163000
@@ -4234,6 +4225,15 @@ DTEND;TZID=America/New_York:20261215T183000
 SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
  Varsity Boys Boys Fencing)
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7645483@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T163000
+DTEND;TZID=America/New_York:20261215T183000
+SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
+ Varsity Girls Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104315408@skyland-conference
@@ -4326,7 +4326,7 @@ SUMMARY:Watchung Hills Regional H.S. at Montville Township High School (V
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:86a7110c-fd00-4f78-9d8c-d1586a580472@skyland
+UID:bb:MountSaintMaryAcademy:3b0dc50e-83d4-4400-8801-e8619c65cc88@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T113000
@@ -5873,7 +5873,7 @@ SUMMARY:Watchung Hills Regional H.S. at Hunterdon Central Reg. High Schoo
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:702c3c5d-a8b5-4f57-a692-61131c1b1781@skyland
+UID:bb:MountSaintMaryAcademy:e7d6dfdf-c715-4e09-9474-e3d12033b256@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T113000
@@ -5883,7 +5883,7 @@ SUMMARY:Mount Saint Mary Academy vs Watchung Hills Regional H.S. (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:266f61f9-a431-4667-b7be-f3dba76f3045@skyland
+UID:bb:MountSaintMaryAcademy:e70576f2-0782-486c-88b8-0f9ca1d02cd9@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T130000
@@ -5893,15 +5893,6 @@ SUMMARY:Mount Saint Mary Academy vs Watchung Hills Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7724495@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T150000
-DTEND;TZID=America/New_York:20270121T170000
-SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Varsity
-  Boys Boys Swimming)
-DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7726574@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T150000
@@ -5909,6 +5900,15 @@ DTEND;TZID=America/New_York:20270121T170000
 SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Varsity
   Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7724495@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T150000
+DTEND;TZID=America/New_York:20270121T170000
+SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Varsity
+  Boys Boys Swimming)
+DESCRIPTION:Varsity Boys Boys Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104756624@skyland-conference
@@ -6036,6 +6036,15 @@ SUMMARY:Watchung Hills Regional H.S. at Montclair High School (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7666255@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
+SUMMARY:Hillsborough High School at Watchung Hills Regional H.S. (Junior 
+ Varsity Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7772834@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -6045,6 +6054,15 @@ SUMMARY:Hillsborough High School at Watchung Hills Regional H.S. (Varsity
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2830:7666255@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270123T090000
+DTEND;TZID=America/New_York:20270123T110000
+SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Junior Varsity
+  Boys Boys Wrestling)
+DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2830:7772834@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T090000
@@ -6052,15 +6070,6 @@ DTEND;TZID=America/New_York:20270123T110000
 SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Varsity Boys B
  oys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 9:00 AM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2830:7772835@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270123T090000
-DTEND;TZID=America/New_York:20270123T110000
-SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Junior Varsity
-  Boys Boys Wrestling)
-DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 9:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100999677@skyland-conference
