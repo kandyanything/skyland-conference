@@ -24,6 +24,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2665:7799103@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T100000
+DTEND;TZID=America/New_York:20261205T120000
+SUMMARY:Hunterdon Central Regional H.S. vs South Hunterdon Regional H.S. 
+ (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7799103@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261205T100000
+DTEND;TZID=America/New_York:20261205T120000
+SUMMARY:South Hunterdon Regional H.S. at Hunterdon Central Regional H.S. 
+ (Varsity Boys Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
 UID:arb:104996437@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T180000
@@ -60,7 +78,7 @@ SUMMARY:Montgomery High School at South Hunterdon Regional H.S. (Middle S
 DESCRIPTION:Middle School Boys Boys Wrestling - Away - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783401@skyland-conference
+UID:ds:2545:7728873@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T180000
 DTEND;TZID=America/New_York:20261216T200000
@@ -132,7 +150,7 @@ SUMMARY:South Hunterdon Regional H.S. at Warren Hills Regional School Dis
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7783659@skyland-conference
+UID:ds:2877:7550828@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270102T090000
 DTEND;TZID=America/New_York:20270102T110000
@@ -150,15 +168,6 @@ SUMMARY:South Hunterdon Regional H.S. vs West Windsor-Plainsboro High Sch
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7783793@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270106
-DTEND;VALUE=DATE:20270107
-SUMMARY:South Hunterdon Regional H.S. at The Pingry School (Varsity Boys 
- Boys Wrestling)
-DESCRIPTION:Varsity Boys Boys Wrestling - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7739661@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270106
@@ -168,7 +177,16 @@ SUMMARY:South Hunterdon Regional H.S. at The Pingry School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7783963@skyland-conference
+UID:ds:2877:7783793@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270106
+DTEND;VALUE=DATE:20270107
+SUMMARY:South Hunterdon Regional H.S. at The Pingry School (Varsity Boys 
+ Boys Wrestling)
+DESCRIPTION:Varsity Boys Boys Wrestling - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7739793@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
@@ -176,7 +194,7 @@ SUMMARY:South Hunterdon Regional H.S. at TBD (Varsity Boys Boys Wrestling)
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7739793@skyland-conference
+UID:ds:2877:7783963@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270109
 DTEND;VALUE=DATE:20270110
@@ -211,7 +229,7 @@ SUMMARY:South Hunterdon Regional H.S. vs Rutgers Preparatory School (Vars
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7784361@skyland-conference
+UID:ds:2877:7702109@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T090000
 DTEND;TZID=America/New_York:20270116T110000
@@ -229,7 +247,7 @@ SUMMARY:South Hunterdon Regional H.S. at New Egypt High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7692692@skyland-conference
+UID:ds:2586:7784820@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T170000
 DTEND;TZID=America/New_York:20270125T190000
@@ -265,7 +283,7 @@ SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (V
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7784945@skyland-conference
+UID:ds:2877:7740361@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T183000
 DTEND;TZID=America/New_York:20270127T203000
