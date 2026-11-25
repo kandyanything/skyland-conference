@@ -963,15 +963,6 @@ DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 11:30 AM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7551392@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T130000
-DTEND;TZID=America/New_York:20260919T150000
-SUMMARY:Hillsborough High School vs Somerville High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7551187@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T130000
@@ -979,6 +970,15 @@ DTEND;TZID=America/New_York:20260919T150000
 SUMMARY:Hillsborough High School vs Somerville High School (Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551392@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T130000
+DTEND;TZID=America/New_York:20260919T150000
+SUMMARY:Hillsborough High School vs Somerville High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102571294@skyland-conference
@@ -1156,15 +1156,6 @@ SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7335221@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Hillsborough High School vs Somerville High School (Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7335100@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -1172,6 +1163,15 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:Hillsborough High School at Somerville High School (Varsity Girls
   Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7335221@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Hillsborough High School vs Somerville High School (Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103039442@skyland-conference
@@ -3841,7 +3841,7 @@ SUMMARY:Hunterdon Central Regional H.S. vs Somerville High School (Varsit
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7645417@skyland-conference
+UID:ds:2665:7784276@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T163000
 DTEND;TZID=America/New_York:20270114T183000
@@ -4039,7 +4039,7 @@ SUMMARY:Somerville High School vs Bernards High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7753995@skyland-conference
+UID:ds:2535:7784579@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T183000
 DTEND;TZID=America/New_York:20270120T203000
@@ -4048,7 +4048,7 @@ SUMMARY:Bernards High School at Somerville High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7742283@skyland-conference
+UID:ds:2535:7784583@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T190000
 DTEND;TZID=America/New_York:20270120T210000
@@ -4111,7 +4111,7 @@ SUMMARY:Somerville High School at The Pingry School (Varsity Boys Boys Fe
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7784650@skyland-conference
+UID:ds:2535:7676709@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
 DTEND;TZID=America/New_York:20270121T193000
