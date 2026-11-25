@@ -23,7 +23,7 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2830:7704256@skyland-conference
+UID:ds:2830:7782619@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T143000
 DTEND;TZID=America/New_York:20261203T163000
@@ -50,20 +50,20 @@ SUMMARY:Hillsborough High School at Montgomery High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7579950@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261203T160000
-DTEND;TZID=America/New_York:20261203T180000
-SUMMARY:Montgomery High School vs TBA NJ (Varsity Girls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7783232@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261203T160000
 DTEND;TZID=America/New_York:20261203T180000
 SUMMARY:Montgomery High School vs Hillsborough Athletics (Varsity Girls G
  irls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7783579@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261203T160000
+DTEND;TZID=America/New_York:20261203T180000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -94,7 +94,7 @@ SUMMARY:Montgomery High School vs The Pingry School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:66505723-2fba-403d-8fcd-fbe861b26ee5@skyland
+UID:bb:MountSaintMaryAcademy:e27c4747-3c8d-4be3-8e7d-1903fa667019@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T103000
@@ -131,7 +131,7 @@ SUMMARY:Immaculata High School vs Rutgers Preparatory School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7579821@skyland-conference
+UID:ds:2741:7783242@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T150000
 DTEND;TZID=America/New_York:20261208T170000
@@ -149,7 +149,7 @@ SUMMARY:Hunterdon Central Regional H.S. vs Mount Saint Mary Academy (Vars
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7666243@skyland-conference
+UID:ds:2741:7783280@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T151500
 DTEND;TZID=America/New_York:20261210T171500
@@ -194,7 +194,7 @@ SUMMARY:Immaculata High School at Somerville High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7783318@skyland-conference
+UID:ds:2665:7688694@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T153000
 DTEND;TZID=America/New_York:20261215T173000
@@ -203,7 +203,7 @@ SUMMARY:Hunterdon Central Regional H.S. at North Hunterdon High School (V
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7783343@skyland-conference
+UID:ds:2653:7769587@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
 DTEND;TZID=America/New_York:20261215T180000
@@ -212,7 +212,7 @@ SUMMARY:Hillsborough High School at The Pingry School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:a8436365-22b1-47ef-be4c-facc60be8a64@skyland
+UID:bb:MountSaintMaryAcademy:6125a991-5ab6-4272-a868-851cd7cd1e03@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T113000
@@ -240,7 +240,7 @@ SUMMARY:Watchung Hills Regional H.S. at Mount Saint Mary Academy (Varsity
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7783427@skyland-conference
+UID:ds:2741:7640682@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
@@ -285,7 +285,7 @@ SUMMARY:Immaculata High School vs Gill St. Bernard's School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7429754@skyland-conference
+UID:ds:2830:7783513@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T150000
 DTEND;TZID=America/New_York:20261222T170000
@@ -321,7 +321,7 @@ SUMMARY:Hillsborough High School vs East Brunswick High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7579865@skyland-conference
+UID:ds:2741:7783833@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T143000
 DTEND;TZID=America/New_York:20270107T163000
@@ -339,7 +339,7 @@ SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7783835@skyland-conference
+UID:ds:2653:7429756@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T150000
 DTEND;TZID=America/New_York:20270107T170000
@@ -348,7 +348,7 @@ SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Vars
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7688669@skyland-conference
+UID:ds:2535:7783842@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T153000
 DTEND;TZID=America/New_York:20270107T173000
@@ -357,7 +357,7 @@ SUMMARY:Bernards High School vs Hunterdon Central Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7688669@skyland-conference
+UID:ds:2665:7783842@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T153000
 DTEND;TZID=America/New_York:20270107T173000
@@ -366,7 +366,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Bernards High School (Varsity
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:3b57e3c5-bde2-49a4-b173-3eea82035d8a@skyland
+UID:bb:MountSaintMaryAcademy:5e038351-5f21-4cd1-9df6-241189c49ba5@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T093000
@@ -385,7 +385,7 @@ SUMMARY:North Hunterdon High School at Mount Saint Mary Academy (Varsity
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:06b22b0b-e107-4b1d-8b96-e485064cdad4@skyland
+UID:bb:MountSaintMaryAcademy:a3f465f9-7c6a-49fb-a9e3-d5a0bb935ffe@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T093000
@@ -395,7 +395,7 @@ SUMMARY:Mount Saint Mary Academy vs Bernards High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7706472@skyland-conference
+UID:ds:2535:7784088@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T143000
 DTEND;TZID=America/New_York:20270112T163000
@@ -404,7 +404,7 @@ SUMMARY:Bernards High School at Mount Saint Mary Academy (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7784090@skyland-conference
+UID:ds:2666:7633865@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T150000
 DTEND;TZID=America/New_York:20270112T170000
@@ -422,7 +422,7 @@ SUMMARY:Bridgewater-Raritan High School at Montgomery High School (Varsit
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7784100@skyland-conference
+UID:ds:2830:7429759@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
@@ -431,7 +431,7 @@ SUMMARY:Ridge High School at The Pingry School (Varsity Girls Girls Swimm
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7784136@skyland-conference
+UID:ds:2665:7688670@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T170000
 DTEND;TZID=America/New_York:20270112T190000
@@ -449,7 +449,7 @@ SUMMARY:Bernards High School at Somerville High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:63e2b6bf-6af5-4694-92c3-49c01fb6f5c8@skyland
+UID:bb:MountSaintMaryAcademy:80ab3a4b-5ca8-4897-8d17-ebc0c79b84a0@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T041500
@@ -485,7 +485,7 @@ SUMMARY:Bridgewater-Raritan High School vs Trinity Hall (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7700508@skyland-conference
+UID:ds:2830:7784444@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T151500
 DTEND;TZID=America/New_York:20270119T171500
@@ -494,7 +494,7 @@ SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7695216@skyland-conference
+UID:ds:2653:7784491@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T170000
 DTEND;TZID=America/New_York:20270119T190000
@@ -503,7 +503,7 @@ SUMMARY:Hillsborough High School at Hunterdon Central Regional H.S. (Vars
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 5:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7784491@skyland-conference
+UID:ds:2665:7695216@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T170000
 DTEND;TZID=America/New_York:20270119T190000
@@ -521,7 +521,7 @@ SUMMARY:Bridgewater-Raritan High School at Somerville High School (Varsit
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7726574@skyland-conference
+UID:ds:2653:7784587@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T150000
 DTEND;TZID=America/New_York:20270121T170000
@@ -530,7 +530,7 @@ SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7784625@skyland-conference
+UID:ds:2535:7730026@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
@@ -539,20 +539,20 @@ SUMMARY:Bernards High School at The Pingry School (Varsity Girls Girls Sw
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7784685@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270122T160000
-DTEND;TZID=America/New_York:20270122T180000
-SUMMARY:Montgomery High School vs TBA NJ (Varsity Girls Girls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7784690@skyland-conference
+UID:ds:2741:7690714@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
 DTEND;TZID=America/New_York:20270122T180000
 SUMMARY:Montgomery High School vs Ridge High School (Varsity Girls Girls 
  Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7579959@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270122T160000
+DTEND;TZID=America/New_York:20270122T180000
+SUMMARY:Montgomery High School vs TBA NJ (Varsity Girls Girls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
@@ -574,7 +574,7 @@ SUMMARY:Montgomery High School at Watchung Hills Regional H.S. (Varsity G
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7785032@skyland-conference
+UID:ds:2535:7698409@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T200000
 DTEND;TZID=America/New_York:20270128T220000
@@ -592,7 +592,7 @@ SUMMARY:Phillipsburg High School vs Easton Area High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:e058def1-4415-473a-8b11-2aa3bfab1dd6@skyland
+UID:bb:MountSaintMaryAcademy:e6e17a3d-bf50-4c4b-98da-1f09d6190e5e@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270130T100000

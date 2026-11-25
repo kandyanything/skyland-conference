@@ -24,13 +24,22 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
-UID:ds:2653:7693653@skyland-conference
+UID:ds:2653:7783302@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T174500
 DTEND;TZID=America/New_York:20261213T194500
 SUMMARY:Hillsborough High School at Watchung Hills Regional H.S. (Junior 
  Varsity Coed Coed Ice Hockey)
 DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 5:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7817169@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261218T163000
+DTEND;TZID=America/New_York:20261218T183000
+SUMMARY:Hillsborough High School at Montclair High School (Junior Varsity
+  Coed Coed Ice Hockey)
+DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7784097@skyland-conference
@@ -42,7 +51,7 @@ SUMMARY:Hillsborough High School at Old Bridge High School (Junior Varsit
 DESCRIPTION:Junior Varsity Coed Coed Ice Hockey - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7784589@skyland-conference
+UID:ds:2653:7693662@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T151500
 DTEND;TZID=America/New_York:20270121T171500
