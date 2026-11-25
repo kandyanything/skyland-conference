@@ -97,11 +97,20 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7541071@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
+DTSTART;TZID=America/New_York:20270415T153000
+DTEND;TZID=America/New_York:20270415T173000
 SUMMARY:Immaculata High School vs South Hunterdon Regional H.S. (Varsity 
  Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Home
+DESCRIPTION:Varsity Boys Boys Golf - Home - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7541071@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T153000
+DTEND;TZID=America/New_York:20270415T173000
+SUMMARY:South Hunterdon Regional H.S. at Immaculata High School (Varsity 
+ Boys Boys Golf)
+DESCRIPTION:Varsity Boys Boys Golf - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7786141@skyland-conference
@@ -111,15 +120,6 @@ DTEND;VALUE=DATE:20270416
 SUMMARY:Immaculata High School vs South Hunterdon Regional H.S. (Varsity 
  Boys Boys Golf)
 DESCRIPTION:Varsity Boys Boys Golf - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7541071@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
-SUMMARY:South Hunterdon Regional H.S. at Immaculata High School (Varsity 
- Boys Boys Golf)
-DESCRIPTION:Varsity Boys Boys Golf - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7786141@skyland-conference
