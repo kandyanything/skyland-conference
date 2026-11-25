@@ -68,15 +68,6 @@ SUMMARY:South Hunterdon Regional H.S. at Montgomery High School (Middle S
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7657869@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T160000
-DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Bound Brook High School vs Green Brook Middle School (Middle Scho
- ol Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7782663@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
@@ -84,6 +75,15 @@ DTEND;TZID=America/New_York:20261207T180000
 SUMMARY:Bound Brook High School vs Woodbridge High School (Freshman Boys 
  Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7657869@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Bound Brook High School vs Green Brook Middle School (Middle Scho
+ ol Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7657834@skyland-conference
@@ -95,7 +95,7 @@ SUMMARY:Bound Brook High School vs Woodbridge High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7782661@skyland-conference
+UID:ds:2545:7657818@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
 DTEND;TZID=America/New_York:20261207T180000
@@ -131,15 +131,6 @@ SUMMARY:Franklin High School vs College Achieve Central Charter School (J
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7782677@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261207T160000
-DTEND;TZID=America/New_York:20261207T180000
-SUMMARY:Hunterdon Central Regional H.S. vs Bishop Eustace Prep School (Ju
- nior Varsity Boys Boys Basketball)
-DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7782676@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
@@ -147,6 +138,15 @@ DTEND;TZID=America/New_York:20261207T180000
 SUMMARY:Hunterdon Central Regional H.S. vs Bishop Eustace Prep School (Va
  rsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7782677@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261207T160000
+DTEND;TZID=America/New_York:20261207T180000
+SUMMARY:Hunterdon Central Regional H.S. vs Bishop Eustace Prep School (Ju
+ nior Varsity Boys Boys Basketball)
+DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7502271@skyland-conference
@@ -473,7 +473,7 @@ SUMMARY:Hillsborough High School vs Seton Hall Prep School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7657870@skyland-conference
+UID:ds:2545:7782742@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
@@ -886,15 +886,6 @@ SUMMARY:Bernards High School vs Franklin High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7729803@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T173000
-DTEND;TZID=America/New_York:20261211T193000
-SUMMARY:Ridge High School at Ewing High School (Freshman Boys Boys Basket
- ball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2830:7782833@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T173000
@@ -902,6 +893,15 @@ DTEND;TZID=America/New_York:20261211T193000
 SUMMARY:Ridge High School at Ewing High School (Varsity Boys Boys Basketb
  all)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2830:7729803@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T173000
+DTEND;TZID=America/New_York:20261211T193000
+SUMMARY:Ridge High School at Ewing High School (Freshman Boys Boys Basket
+ ball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7570902@skyland-conference
@@ -1193,7 +1193,7 @@ SUMMARY:Hunterdon Central Regional H.S. vs Rutgers Preparatory School (Ju
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7645587@skyland-conference
+UID:ds:2665:7783330@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
 DTEND;TZID=America/New_York:20261215T180000
@@ -1274,7 +1274,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Bernards High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7448195@skyland-conference
+UID:ds:2653:7783344@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T161500
 DTEND;TZID=America/New_York:20261215T181500
@@ -1922,7 +1922,7 @@ SUMMARY:Warren Hills Regional H.S. at Bernards High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7644715@skyland-conference
+UID:ds:2545:7783642@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T160000
 DTEND;TZID=America/New_York:20261218T180000
@@ -2750,7 +2750,7 @@ SUMMARY:Ridge High School vs Middletown North High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783161@skyland-conference
+UID:ds:2545:7761498@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261228T130000
 DTEND;TZID=America/New_York:20261228T150000
@@ -3309,7 +3309,7 @@ SUMMARY:Ridge High School at Rutgers Preparatory School (Freshman Boys Bo
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7659553@skyland-conference
+UID:ds:2877:7785138@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
 DTEND;TZID=America/New_York:20270105T180000
@@ -3408,7 +3408,7 @@ SUMMARY:Franklin High School vs Hillsborough Athletics (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7526664@skyland-conference
+UID:ds:2653:7783751@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T171500
 DTEND;TZID=America/New_York:20270105T191500
@@ -3543,7 +3543,7 @@ SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783791@skyland-conference
+UID:ds:2545:7448464@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -3561,7 +3561,7 @@ SUMMARY:Franklin High School vs Hillsborough Athletics (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7783786@skyland-conference
+UID:ds:2653:7448207@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -3615,15 +3615,6 @@ SUMMARY:Phillipsburg High School vs Hunterdon Central Reg. High School (F
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7448406@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270107T160000
-DTEND;TZID=America/New_York:20270107T180000
-SUMMARY:Bernards High School at North Hunterdon High School (Varsity Boys
-  Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7674336@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
@@ -3631,6 +3622,15 @@ DTEND;TZID=America/New_York:20270107T180000
 SUMMARY:Bernards High School at North Hunterdon High School (Freshman Boy
  s Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7448406@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270107T160000
+DTEND;TZID=America/New_York:20270107T180000
+SUMMARY:Bernards High School at North Hunterdon High School (Varsity Boys
+  Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7783859@skyland-conference
@@ -3651,7 +3651,7 @@ SUMMARY:Franklin High School at Summit Middle School (MS-A Boys Boys Bask
 DESCRIPTION:MS-A Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7783872@skyland-conference
+UID:ds:2653:7719485@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
@@ -3776,7 +3776,7 @@ SUMMARY:Phillipsburg High School vs Hunterdon Central Reg. High School (J
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7783897@skyland-conference
+UID:ds:2535:7676580@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
 DTEND;TZID=America/New_York:20270107T193000
@@ -3794,7 +3794,7 @@ SUMMARY:Hillsborough High School vs Rutgers Preparatory School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7783898@skyland-conference
+UID:ds:2653:7719803@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
 DTEND;TZID=America/New_York:20270107T193000
@@ -4495,7 +4495,7 @@ SUMMARY:Bernards High School vs Delaware Valley Regional H.S. (Junior Var
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7723585@skyland-conference
+UID:ds:2549:7784151@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T173000
 DTEND;TZID=America/New_York:20270112T193000
@@ -4756,7 +4756,7 @@ SUMMARY:Franklin High School at Gill St. Bernard's School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7653504@skyland-conference
+UID:ds:2617:7784257@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -4783,7 +4783,7 @@ SUMMARY:Ridge High School at Phillipsburg High School (Freshman Boys Boys
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7784250@skyland-conference
+UID:ds:2877:7572170@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -4882,22 +4882,13 @@ SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7645590@skyland-conference
+UID:ds:2549:7784291@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T173000
 DTEND;TZID=America/New_York:20270114T193000
 SUMMARY:Bridgewater-Raritan High School vs Hunterdon Central Regional H.S
  . (Freshman Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2665:7645590@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T173000
-DTEND;TZID=America/New_York:20270114T193000
-SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
- l (Freshman Boys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7448221@skyland-conference
@@ -4907,6 +4898,15 @@ DTEND;TZID=America/New_York:20270114T193000
 SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
  l (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7784291@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T173000
+DTEND;TZID=America/New_York:20270114T193000
+SUMMARY:Hunterdon Central Regional H.S. at Bridgewater-Raritan High Schoo
+ l (Freshman Boys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7784290@skyland-conference
@@ -5134,7 +5134,7 @@ SUMMARY:Warren Hills Regional H.S. vs Hopatcong High School (Freshman Boy
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 8:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7784358@skyland-conference
+UID:ds:2666:7611928@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T090000
 DTEND;TZID=America/New_York:20270116T110000
@@ -5196,7 +5196,7 @@ SUMMARY:Warren Hills Regional H.S. vs Hopatcong High School (Junior Varsi
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7784378@skyland-conference
+UID:ds:2666:7611927@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T103000
 DTEND;TZID=America/New_York:20270116T123000
@@ -5268,7 +5268,7 @@ SUMMARY:Franklin High School at Plainfield High School (Junior Varsity Bo
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7611926@skyland-conference
+UID:ds:2666:7784393@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T120000
 DTEND;TZID=America/New_York:20270116T140000
@@ -5699,15 +5699,6 @@ SUMMARY:Delaware Valley Regional H.S. vs North Hunterdon High School (Var
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7784515@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270119T180000
-DTEND;TZID=America/New_York:20270119T200000
-SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Boy
- s Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7645591@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T180000
@@ -5715,6 +5706,15 @@ DTEND;TZID=America/New_York:20270119T200000
 SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Freshman Bo
  ys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 6:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7784515@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270119T180000
+DTEND;TZID=America/New_York:20270119T200000
+SUMMARY:Hunterdon Central Regional H.S. at Ridge High School (Varsity Boy
+ s Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7448228@skyland-conference
@@ -5825,7 +5825,7 @@ SUMMARY:Franklin High School vs JP Case Middle School (MS-A Boys Boys Bas
 DESCRIPTION:MS-A Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7784542@skyland-conference
+UID:ds:2741:7693219@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270120T160000
 DTEND;TZID=America/New_York:20270120T180000
@@ -6005,22 +6005,22 @@ SUMMARY:Hillsborough High School vs Hunterdon Central Regional H.S. (Vars
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7448233@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T173000
-DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Varsit
- y Boys Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2665:7784649@skyland-conference
+UID:ds:2665:7645592@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
 DTEND;TZID=America/New_York:20270121T193000
 SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Freshm
  an Boys Boys Basketball)
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7784641@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Hunterdon Central Regional H.S. at Hillsborough Athletics (Varsit
+ y Boys Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7784647@skyland-conference
@@ -6131,7 +6131,7 @@ SUMMARY:Montgomery High School at South Hunterdon Regional H.S. (Middle S
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7693235@skyland-conference
+UID:ds:2877:7784691@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270122T160000
 DTEND;TZID=America/New_York:20270122T180000
@@ -6311,7 +6311,7 @@ SUMMARY:Montgomery High School vs Lenape High School (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7784784@skyland-conference
+UID:ds:2877:7572180@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T113000
 DTEND;TZID=America/New_York:20270123T133000
@@ -6653,7 +6653,7 @@ SUMMARY:Bound Brook High School vs College Achieve Central Charter School
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7784874@skyland-conference
+UID:ds:2666:7761136@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T171500
 DTEND;TZID=America/New_York:20270126T191500
@@ -6896,7 +6896,7 @@ SUMMARY:Franklin High School vs Phillipsburg High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7612073@skyland-conference
+UID:ds:2665:7784960@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T154500
 DTEND;TZID=America/New_York:20270128T174500
@@ -6905,7 +6905,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Immaculata High School (Freshm
 DESCRIPTION:Freshman Boys Boys Basketball - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7784960@skyland-conference
+UID:ds:2666:7612073@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T154500
 DTEND;TZID=America/New_York:20270128T174500
@@ -7004,7 +7004,7 @@ SUMMARY:Franklin High School vs Phillipsburg High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7784996@skyland-conference
+UID:ds:2665:7612072@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T171500
 DTEND;TZID=America/New_York:20270128T191500
@@ -7013,7 +7013,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Immaculata High School (Junior
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7612072@skyland-conference
+UID:ds:2666:7784996@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T171500
 DTEND;TZID=America/New_York:20270128T191500
@@ -7022,7 +7022,7 @@ SUMMARY:Immaculata High School vs Hunterdon Central Regional H.S. (Junior
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7448242@skyland-conference
+UID:ds:2549:7784997@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
@@ -7191,7 +7191,7 @@ SUMMARY:Montgomery High School vs Moorestown High School (Freshman Boys B
 DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7785041@skyland-conference
+UID:ds:2877:7752860@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270129T171500
 DTEND;TZID=America/New_York:20270129T191500
