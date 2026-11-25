@@ -23,6 +23,24 @@ RRULE:FREQ=YEARLY;BYMONTH=11;BYDAY=1SU
 END:STANDARD
 END:VTIMEZONE
 BEGIN:VEVENT
+UID:ds:2666:7822708@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T160000
+DTEND;TZID=America/New_York:20270317T180000
+SUMMARY:Immaculata High School vs Lenape Valley Regional High School (Var
+ sity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822709@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270317T173000
+DTEND;TZID=America/New_York:20270317T193000
+SUMMARY:Immaculata High School vs Lenape Valley Regional High School (Jun
+ ior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7764470@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270319T160000
@@ -41,6 +59,42 @@ SUMMARY:Immaculata High School at Jonathan Dayton High School (Junior Var
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2666:7822710@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270323T160000
+DTEND;TZID=America/New_York:20270323T180000
+SUMMARY:Immaculata High School at Hopewell Valley Central School (Varsity
+  Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822711@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270323T173000
+DTEND;TZID=America/New_York:20270323T193000
+SUMMARY:Immaculata High School at Hopewell Valley Central School (Junior 
+ Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822712@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T160000
+DTEND;TZID=America/New_York:20270331T180000
+SUMMARY:Immaculata High School at Pope John XXIII High School (Varsity Gi
+ rls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822713@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270331T173000
+DTEND;TZID=America/New_York:20270331T193000
+SUMMARY:Immaculata High School at Pope John XXIII High School (Junior Var
+ sity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7608316@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270401
@@ -50,22 +104,85 @@ SUMMARY:Immaculata High School at Phillipsburg High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7785868@skyland-conference
+UID:ds:2666:7822715@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270401
-DTEND;VALUE=DATE:20270402
+DTSTART;TZID=America/New_York:20270402T160000
+DTEND;TZID=America/New_York:20270402T180000
+SUMMARY:Immaculata High School at Villa Walsh Academy (Varsity Girls Girl
+ s Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822716@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270402T173000
+DTEND;TZID=America/New_York:20270402T193000
+SUMMARY:Immaculata High School at Villa Walsh Academy (Junior Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822717@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T160000
+DTEND;TZID=America/New_York:20270405T180000
+SUMMARY:Immaculata High School vs Livingston High School (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822718@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270405T173000
+DTEND;TZID=America/New_York:20270405T193000
+SUMMARY:Immaculata High School vs Livingston High School (Junior Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822719@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T160000
+DTEND;TZID=America/New_York:20270407T180000
 SUMMARY:Immaculata High School at Phillipsburg High School (Varsity Girls
   Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822720@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270407T173000
+DTEND;TZID=America/New_York:20270407T193000
+SUMMARY:Immaculata High School at Phillipsburg High School (Junior Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822721@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270412T160000
+DTEND;TZID=America/New_York:20270412T180000
+SUMMARY:Immaculata High School vs Gill St. Bernard's School (Varsity Girl
+ s Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7608320@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270415
-DTEND;VALUE=DATE:20270416
+DTSTART;TZID=America/New_York:20270415T160000
+DTEND;TZID=America/New_York:20270415T180000
 SUMMARY:Immaculata High School vs Rutgers Preparatory School (Varsity Gir
  ls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822762@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270415T173000
+DTEND;TZID=America/New_York:20270415T193000
+SUMMARY:Immaculata High School vs Rutgers Preparatory School (Junior Vars
+ ity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7786174@skyland-conference
@@ -77,13 +194,31 @@ SUMMARY:Immaculata High School vs Rutgers Preparatory School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7608322@skyland-conference
+UID:ds:2666:7822734@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270422
-DTEND;VALUE=DATE:20270423
-SUMMARY:Immaculata High School vs Gill St. Bernard's School (Varsity Girl
+DTSTART;TZID=America/New_York:20270420T160000
+DTEND;TZID=America/New_York:20270420T180000
+SUMMARY:Immaculata High School vs Lakeland Regional High School (Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822735@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270420T173000
+DTEND;TZID=America/New_York:20270420T193000
+SUMMARY:Immaculata High School vs Lakeland Regional High School (Junior V
+ arsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822739@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270422T160000
+DTEND;TZID=America/New_York:20270422T180000
+SUMMARY:Immaculata High School at Stuart Country Day School (Varsity Girl
  s Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7786331@skyland-conference
@@ -113,6 +248,24 @@ SUMMARY:Immaculata High School vs West Windsor-Plainsboro High School Sou
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2666:7786463@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T160000
+DTEND;TZID=America/New_York:20270429T180000
+SUMMARY:Immaculata High School at Warren Hills Regional School District (
+ Varsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822763@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270429T173000
+DTEND;TZID=America/New_York:20270429T193000
+SUMMARY:Immaculata High School at Warren Hills Regional School District (
+ Junior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7608325@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270429
@@ -122,13 +275,13 @@ SUMMARY:Immaculata High School at Warren Hills Regional School District (
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7786463@skyland-conference
+UID:ds:2666:7822742@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270429
-DTEND;VALUE=DATE:20270430
-SUMMARY:Immaculata High School at Warren Hills Regional School District (
- Varsity Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+DTSTART;TZID=America/New_York:20270501T100000
+DTEND;TZID=America/New_York:20270501T120000
+SUMMARY:Immaculata High School at Watchung Hills Regional H.S. (Varsity G
+ irls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104111724@skyland-conference
@@ -149,6 +302,42 @@ SUMMARY:Watchung Hills Regional H.S. vs Immaculata High School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7822745@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T164500
+DTEND;TZID=America/New_York:20270503T184500
+SUMMARY:Hillsborough High School vs Immaculata High School (Varsity Girls
+  Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822745@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T164500
+DTEND;TZID=America/New_York:20270503T184500
+SUMMARY:Immaculata High School at Hillsborough Athletics (Varsity Girls G
+ irls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:45 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7822746@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T181500
+DTEND;TZID=America/New_York:20270503T201500
+SUMMARY:Hillsborough High School vs Immaculata High School (Junior Varsit
+ y Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822746@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270503T181500
+DTEND;TZID=America/New_York:20270503T201500
+SUMMARY:Immaculata High School at Hillsborough Athletics (Junior Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 6:15 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2666:7774034@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270506T160000
@@ -160,6 +349,15 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7774061@skyland-conference
 DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270506T173000
+DTEND;TZID=America/New_York:20270506T193000
+SUMMARY:Immaculata High School vs Jonathan Dayton High School (Junior Var
+ sity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7786599@skyland-conference
+DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270506T180000
 DTEND;TZID=America/New_York:20270506T200000
 SUMMARY:Immaculata High School vs Jonathan Dayton High School (Junior Var
@@ -169,11 +367,38 @@ END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7608327@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270514
+DTSTART;TZID=America/New_York:20270513T160000
+DTEND;TZID=America/New_York:20270513T180000
 SUMMARY:Delaware Valley Regional H.S. at Immaculata High School (Varsity 
  Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7608327@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T160000
+DTEND;TZID=America/New_York:20270513T180000
+SUMMARY:Immaculata High School vs Delaware Valley Regional H.S. (Varsity 
+ Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2586:7822770@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T173000
+DTEND;TZID=America/New_York:20270513T193000
+SUMMARY:Delaware Valley Regional H.S. at Immaculata High School (Junior V
+ arsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822770@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270513T173000
+DTEND;TZID=America/New_York:20270513T193000
+SUMMARY:Immaculata High School vs Delaware Valley Regional H.S. (Junior V
+ arsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7786714@skyland-conference
@@ -185,7 +410,7 @@ SUMMARY:Delaware Valley Regional H.S. at Immaculata High School (Varsity
 DESCRIPTION:Varsity Girls Girls Lacrosse - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7608327@skyland-conference
+UID:ds:2666:7786714@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270513
 DTEND;VALUE=DATE:20270514
@@ -194,12 +419,66 @@ SUMMARY:Immaculata High School vs Delaware Valley Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Lacrosse - Home
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7786714@skyland-conference
+UID:ds:2666:7822749@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20270513
-DTEND;VALUE=DATE:20270514
-SUMMARY:Immaculata High School vs Delaware Valley Regional H.S. (Varsity 
- Girls Girls Lacrosse)
-DESCRIPTION:Varsity Girls Girls Lacrosse - Home
+DTSTART;TZID=America/New_York:20270515T100000
+DTEND;TZID=America/New_York:20270515T120000
+SUMMARY:Immaculata High School vs Union Catholic Regional High School (Va
+ rsity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 10:00 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822751@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T160000
+DTEND;TZID=America/New_York:20270518T180000
+SUMMARY:Immaculata High School at Lenape Valley Regional High School (Var
+ sity Girls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822752@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270518T173000
+DTEND;TZID=America/New_York:20270518T193000
+SUMMARY:Immaculata High School at Lenape Valley Regional High School (Jun
+ ior Varsity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822753@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T160000
+DTEND;TZID=America/New_York:20270520T180000
+SUMMARY:Immaculata High School vs Academy of the Holy Angels (Varsity Gir
+ ls Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822754@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270520T173000
+DTEND;TZID=America/New_York:20270520T193000
+SUMMARY:Immaculata High School vs Academy of the Holy Angels (Junior Vars
+ ity Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822756@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:Immaculata High School at Morristown Beard School (Varsity Girls 
+ Girls Lacrosse)
+DESCRIPTION:Varsity Girls Girls Lacrosse - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2666:7822774@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20270522
+DTEND;VALUE=DATE:20270523
+SUMMARY:Immaculata High School at Morristown Beard School (Junior Varsity
+  Girls Girls Lacrosse)
+DESCRIPTION:Junior Varsity Girls Girls Lacrosse - Away
 END:VEVENT
 END:VCALENDAR
