@@ -248,15 +248,6 @@ SUMMARY:Immaculata High School vs Delaware Valley Regional H.S. (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7782706@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Montgomery High School at Princeton High School (Junior Varsity G
- irls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7782714@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -264,6 +255,15 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Montgomery High School vs William Annin Middle School (Middle Sch
  ool Girls Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7582208@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T160000
+DTEND;TZID=America/New_York:20261208T180000
+SUMMARY:Montgomery High School at Princeton High School (Junior Varsity G
+ irls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7582207@skyland-conference
@@ -347,7 +347,7 @@ SUMMARY:Franklin High School at Red Bank Catholic High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7664960@skyland-conference
+UID:ds:2545:7783265@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T170000
 DTEND;TZID=America/New_York:20261208T190000
@@ -419,15 +419,6 @@ SUMMARY:Immaculata High School at Summit High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7782739@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261209T160000
-DTEND;TZID=America/New_York:20261209T180000
-SUMMARY:Montgomery High School vs Lawrence Township Public Schools Athlet
- ics (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2741:7782740@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
@@ -435,6 +426,15 @@ DTEND;TZID=America/New_York:20261209T180000
 SUMMARY:Montgomery High School vs Lawrence Township Public Schools Athlet
  ics (Junior Varsity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7782739@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261209T160000
+DTEND;TZID=America/New_York:20261209T180000
+SUMMARY:Montgomery High School vs Lawrence Township Public Schools Athlet
+ ics (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:fs:GillSt.BernardsSchool:2026-12-09:16:00:Basketball:2@skyland-confer
@@ -648,7 +648,7 @@ SUMMARY:Delaware Valley Regional H.S. at Ridge High School (Junior Varsit
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7782809@skyland-conference
+UID:ds:2617:7652925@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T171500
 DTEND;TZID=America/New_York:20261210T191500
@@ -767,7 +767,7 @@ SUMMARY:Montgomery High School at South Plainfield High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7509597@skyland-conference
+UID:ds:2741:7782855@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261212T100000
 DTEND;TZID=America/New_York:20261212T120000
@@ -1158,7 +1158,7 @@ SUMMARY:Bernards High School vs Voorhees High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7448429@skyland-conference
+UID:ds:2545:7783361@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
 DTEND;TZID=America/New_York:20261215T193000
@@ -1176,7 +1176,7 @@ SUMMARY:Bridgewater-Raritan High School at Rutgers Preparatory School (Va
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7783357@skyland-conference
+UID:ds:2653:7448289@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
 DTEND;TZID=America/New_York:20261215T193000
@@ -1258,7 +1258,7 @@ SUMMARY:Franklin High School vs Watchung Hills Regional H.S. (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7783371@skyland-conference
+UID:ds:2653:7443776@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
@@ -1647,7 +1647,7 @@ SUMMARY:Bernards High School at Somerville High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783460@skyland-conference
+UID:ds:2545:7443884@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T180000
 DTEND;TZID=America/New_York:20261217T200000
@@ -1964,7 +1964,7 @@ SUMMARY:Watchung Hills Regional H.S. at Scotch Plains-Fanwood High School
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7783602@skyland-conference
+UID:ds:2617:7589198@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T170500
 DTEND;TZID=America/New_York:20261219T190500
@@ -1981,7 +1981,7 @@ SUMMARY:Immaculata High School vs Voorhees High School (Freshman Girls Gi
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7692908@skyland-conference
+UID:ds:2545:7783050@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
 DTEND;TZID=America/New_York:20261221T180000
@@ -2189,7 +2189,7 @@ SUMMARY:Bridgewater-Raritan High School at West Morris Mendham High Schoo
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7695870@skyland-conference
+UID:ds:2653:7783092@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261222T173000
 DTEND;TZID=America/New_York:20261222T193000
@@ -2875,15 +2875,6 @@ SUMMARY:Hillsborough High School vs Rutgers Preparatory School (Junior Va
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7783734@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Freshman Gi
- rls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7783733@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -2891,6 +2882,15 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Junior Vars
  ity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7694230@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Freshman Gi
+ rls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7582758@skyland-conference
@@ -3091,7 +3091,7 @@ SUMMARY:Bernards High School vs North Hunterdon High School (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783776@skyland-conference
+UID:ds:2545:7443887@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T180000
 DTEND;TZID=America/New_York:20270105T200000
@@ -3199,7 +3199,7 @@ SUMMARY:Franklin High School at Phillipsburg High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7783790@skyland-conference
+UID:ds:2666:7448435@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -3273,7 +3273,7 @@ SUMMARY:Mount Saint Mary Academy vs Franklin High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7613532@skyland-conference
+UID:ds:2535:7783853@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
@@ -3354,7 +3354,7 @@ SUMMARY:Hunterdon Central Regional H.S. vs Hillsborough Athletics (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7694231@skyland-conference
+UID:ds:2665:7783869@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T160000
 DTEND;TZID=America/New_York:20270107T180000
@@ -3408,7 +3408,7 @@ SUMMARY:Manville High School vs College Achieve Central Charter School (J
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7783891@skyland-conference
+UID:ds:2535:7448437@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T173000
 DTEND;TZID=America/New_York:20270107T193000
@@ -3480,7 +3480,7 @@ SUMMARY:Bernards High School vs Immaculata High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783905@skyland-conference
+UID:ds:2545:7443889@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
@@ -3498,13 +3498,13 @@ SUMMARY:Delaware Valley Regional H.S. vs Belvidere High School (Varsity G
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7448305@skyland-conference
+UID:ds:2617:7443792@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T180000
 DTEND;TZID=America/New_York:20270107T200000
-SUMMARY:Franklin High School at Mount Saint Mary Academy (Varsity Girls G
+SUMMARY:Franklin High School vs Mount Saint Mary Academy (Varsity Girls G
  irls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7448310@skyland-conference
@@ -3804,7 +3804,7 @@ SUMMARY:Bound Brook High School vs Green Brook Middle School (Middle Scho
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7784062@skyland-conference
+UID:ds:2617:7653051@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270111T160000
 DTEND;TZID=America/New_York:20270111T180000
@@ -3887,7 +3887,7 @@ SUMMARY:Franklin High School at Montgomery High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7784110@skyland-conference
+UID:ds:2653:7626752@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
@@ -4094,7 +4094,7 @@ SUMMARY:Bernards High School at Bound Brook High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7443959@skyland-conference
+UID:ds:2586:7448507@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T180000
 DTEND;TZID=America/New_York:20270112T200000
@@ -4130,7 +4130,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7784159@skyland-conference
+UID:ds:2666:7443893@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T180000
 DTEND;TZID=America/New_York:20270112T200000
@@ -4184,7 +4184,7 @@ SUMMARY:Voorhees High School at Morristown High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7692912@skyland-conference
+UID:ds:2545:7784196@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270113T160000
 DTEND;TZID=America/New_York:20270113T180000
@@ -4339,7 +4339,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Gill St. Bernard's School (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7665281@skyland-conference
+UID:ds:2653:7784275@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T161500
 DTEND;TZID=America/New_York:20270114T181500
@@ -4447,16 +4447,16 @@ SUMMARY:Delaware Valley Regional H.S. at Manville High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7443808@skyland-conference
+UID:ds:2653:7448321@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T180000
 DTEND;TZID=America/New_York:20270114T200000
-SUMMARY:Hillsborough High School vs Ridge High School (Varsity Girls Girl
+SUMMARY:Hillsborough High School at Ridge High School (Varsity Girls Girl
  s Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7665282@skyland-conference
+UID:ds:2653:7784315@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T180000
 DTEND;TZID=America/New_York:20270114T200000
@@ -4519,7 +4519,7 @@ SUMMARY:Immaculata High School vs North Hunterdon High School (Varsity Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7692913@skyland-conference
+UID:ds:2545:7784327@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270115T160000
 DTEND;TZID=America/New_York:20270115T180000
@@ -5225,7 +5225,7 @@ SUMMARY:Hillsborough High School at Mount Saint Mary Academy (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7443812@skyland-conference
+UID:ds:2665:7784507@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T180000
 DTEND;TZID=America/New_York:20270119T200000
@@ -5398,7 +5398,7 @@ SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7784606@skyland-conference
+UID:ds:2617:7623518@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
@@ -5470,7 +5470,7 @@ SUMMARY:Ridge High School at Phillipsburg High School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2830:7665293@skyland-conference
+UID:ds:2830:7784614@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T160000
 DTEND;TZID=America/New_York:20270121T180000
@@ -5524,6 +5524,15 @@ SUMMARY:Bound Brook High School vs Voorhees High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2549:7448331@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
+ y Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2549:7722876@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
@@ -5531,15 +5540,6 @@ DTEND;TZID=America/New_York:20270121T193000
 SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Freshm
  an Girls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2549:7784642@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T173000
-DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Bridgewater-Raritan High School vs Hillsborough Athletics (Varsit
- y Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7576145@skyland-conference
@@ -5551,6 +5551,15 @@ SUMMARY:Delaware Valley Regional H.S. vs South Hunterdon Regional H.S. (J
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2653:7448331@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270121T173000
+DTEND;TZID=America/New_York:20270121T193000
+SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Vars
+ ity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2653:7722876@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T173000
@@ -5558,15 +5567,6 @@ DTEND;TZID=America/New_York:20270121T193000
 SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Fres
  hman Girls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2653:7784642@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270121T173000
-DTEND;TZID=America/New_York:20270121T193000
-SUMMARY:Hillsborough High School at Bridgewater-Raritan High School (Vars
- ity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2666:7448450@skyland-conference
@@ -5803,7 +5803,7 @@ SUMMARY:Montgomery High School at Voorhees High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 9:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7784765@skyland-conference
+UID:ds:2549:7722877@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T100000
 DTEND;TZID=America/New_York:20270123T120000
@@ -5830,7 +5830,7 @@ SUMMARY:Hunterdon Central Regional H.S. at Delaware Valley Regional H.S.
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2666:7784759@skyland-conference
+UID:ds:2666:7613580@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T100000
 DTEND;TZID=America/New_York:20270123T120000
@@ -6434,7 +6434,7 @@ SUMMARY:Bernards High School vs West Morris Mendham High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7784967@skyland-conference
+UID:ds:2617:7623520@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T160000
 DTEND;TZID=America/New_York:20270128T180000
@@ -6578,7 +6578,7 @@ SUMMARY:Delaware Valley Regional H.S. at Koinonia Academy (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7448341@skyland-conference
+UID:ds:2617:7784998@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
