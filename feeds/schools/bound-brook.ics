@@ -366,15 +366,6 @@ SUMMARY:Bound Brook High School at Belvidere High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7477973@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260908T160000
-DTEND;TZID=America/New_York:20260908T180000
-SUMMARY:Bound Brook High School at Belvidere High School (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7441461@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260908T160000
@@ -391,6 +382,15 @@ DTEND;TZID=America/New_York:20260908T180000
 SUMMARY:Bound Brook High School vs Montgomery High School (Freshman Girls
   Girls Volleyball)
 DESCRIPTION:Freshman Girls Girls Volleyball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7477973@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260908T160000
+DTEND;TZID=America/New_York:20260908T180000
+SUMMARY:Bound Brook High School at Belvidere High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7496136@skyland-conference
@@ -447,6 +447,15 @@ SUMMARY:Bound Brook High School vs Middlesex High School (Varsity Girls G
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2545:7441535@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260910T160000
+DTEND;TZID=America/New_York:20260910T180000
+SUMMARY:Bound Brook High School vs Somerville High School (Varsity Girls 
+ Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7477995@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260910T160000
@@ -463,15 +472,6 @@ DTEND;TZID=America/New_York:20260910T180000
 SUMMARY:Bound Brook High School vs Franklin High School (Varsity Girls Gi
  rls Volleyball)
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7441535@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260910T160000
-DTEND;TZID=America/New_York:20260910T180000
-SUMMARY:Bound Brook High School vs Somerville High School (Varsity Girls 
- Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7477993@skyland-conference
@@ -501,13 +501,13 @@ SUMMARY:Bound Brook High School at Mount Saint Mary Academy (Varsity Girl
 DESCRIPTION:Varsity Girls Girls Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7336352@skyland-conference
+UID:ds:2545:7334721@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-SUMMARY:Bound Brook High School at Belvidere High School (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
+SUMMARY:Bound Brook High School vs South Hunterdon Regional H.S. (Varsity
+  Girls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7334840@skyland-conference
@@ -519,13 +519,13 @@ SUMMARY:Bound Brook High School at South Hunterdon Regional H.S. (Varsity
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7334721@skyland-conference
+UID:ds:2545:7336352@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260910
 DTEND;VALUE=DATE:20260911
-SUMMARY:Bound Brook High School vs South Hunterdon Regional H.S. (Varsity
-  Girls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
+SUMMARY:Bound Brook High School at Belvidere High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7334721@skyland-conference
@@ -762,24 +762,6 @@ SUMMARY:Bound Brook High School vs Immaculata High School (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7441546@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Bound Brook High School vs Warren Hills Regional School District 
- (Varsity Girls Girls Tennis)
-DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7562250@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260916T160000
-DTEND;TZID=America/New_York:20260916T180000
-SUMMARY:Bound Brook High School at Manville High School (Varsity Coed Coe
- d Cross Country)
-DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7498624@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260916T160000
@@ -796,6 +778,24 @@ DTEND;TZID=America/New_York:20260916T180000
 SUMMARY:Bound Brook High School vs Bedminster Township School (Middle Sch
  ool Boys Boys Soccer)
 DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7441546@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Bound Brook High School vs Warren Hills Regional School District 
+ (Varsity Girls Girls Tennis)
+DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7562250@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260916T160000
+DTEND;TZID=America/New_York:20260916T180000
+SUMMARY:Bound Brook High School at Manville High School (Varsity Coed Coe
+ d Cross Country)
+DESCRIPTION:Varsity Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7498624@skyland-conference
@@ -1651,6 +1651,15 @@ SUMMARY:Bound Brook High School at Montgomery High School (Freshman Girls
 DESCRIPTION:Freshman Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2545:7478098@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261001T160000
+DTEND;TZID=America/New_York:20261001T180000
+SUMMARY:Bound Brook High School at Belvidere High School (Varsity Girls G
+ irls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7478099@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261001T160000
@@ -1676,15 +1685,6 @@ DTEND;TZID=America/New_York:20261001T180000
 SUMMARY:Bound Brook High School vs Warren Hills Regional School District 
  (Middle School Girls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7478098@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261001T160000
-DTEND;TZID=America/New_York:20261001T180000
-SUMMARY:Bound Brook High School at Belvidere High School (Varsity Girls G
- irls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7496148@skyland-conference
@@ -2173,6 +2173,15 @@ SUMMARY:Bound Brook High School vs Gill St. Bernard's School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Volleyball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2545:7565367@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261009T160000
+DTEND;TZID=America/New_York:20261009T180000
+SUMMARY:Bound Brook High School at Deerfield Middle (Middle School Girls 
+ Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7565305@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261009T160000
@@ -2189,15 +2198,6 @@ DTEND;TZID=America/New_York:20261009T180000
 SUMMARY:Bound Brook High School at Bridgewater-Raritan Middle School (Mid
  dle School Girls Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7565367@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261009T160000
-DTEND;TZID=America/New_York:20261009T180000
-SUMMARY:Bound Brook High School at Deerfield Middle (Middle School Girls 
- Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7561352@skyland-conference
@@ -2335,15 +2335,6 @@ SUMMARY:Bound Brook High School vs Manville High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7335287@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20261013
-DTEND;VALUE=DATE:20261014
-SUMMARY:Bound Brook High School at Immaculata High School (Varsity Boys B
- oys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7335172@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20261013
@@ -2351,6 +2342,15 @@ DTEND;VALUE=DATE:20261014
 SUMMARY:Bound Brook High School at Delaware Valley Regional H.S. (Varsity
   Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7335287@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20261013
+DTEND;VALUE=DATE:20261014
+SUMMARY:Bound Brook High School at Immaculata High School (Varsity Boys B
+ oys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2586:7335172@skyland-conference
@@ -2380,6 +2380,15 @@ SUMMARY:Bound Brook High School vs Deerfield Middle (Middle School Girls
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2545:7561288@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261014T160000
+DTEND;TZID=America/New_York:20261014T180000
+SUMMARY:Bound Brook High School at New Providence High School (Varsity Gi
+ rls Girls Volleyball)
+DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2545:7562959@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261014T160000
@@ -2396,15 +2405,6 @@ DTEND;TZID=America/New_York:20261014T180000
 SUMMARY:Bound Brook High School at Highland Park High School (Varsity Gir
  ls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2545:7561288@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261014T160000
-DTEND;TZID=America/New_York:20261014T180000
-SUMMARY:Bound Brook High School at New Providence High School (Varsity Gi
- rls Girls Volleyball)
-DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7561355@skyland-conference
@@ -2606,15 +2606,6 @@ SUMMARY:Bernards High School at Bound Brook High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Volleyball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7565342@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261020T160000
-DTEND;TZID=America/New_York:20261020T180000
-SUMMARY:Bound Brook High School at Warren Hills Regional School District 
- (Middle School Girls Girls Soccer)
-DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7565312@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261020T160000
@@ -2649,6 +2640,15 @@ DTEND;TZID=America/New_York:20261020T180000
 SUMMARY:Bound Brook High School at Deerfield Middle (Middle School Girls 
  Girls Volleyball)
 DESCRIPTION:Middle School Girls Girls Volleyball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7565342@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261020T160000
+DTEND;TZID=America/New_York:20261020T180000
+SUMMARY:Bound Brook High School at Warren Hills Regional School District 
+ (Middle School Girls Girls Soccer)
+DESCRIPTION:Middle School Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7478131@skyland-conference
@@ -3002,7 +3002,7 @@ SUMMARY:Bound Brook High School at Green Brook Middle School (Middle Scho
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7657818@skyland-conference
+UID:ds:2545:7782661@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261207T160000
 DTEND;TZID=America/New_York:20261207T180000
@@ -3020,7 +3020,7 @@ SUMMARY:Bound Brook High School at Ridge High School (Varsity Girls Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 3:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7656900@skyland-conference
+UID:ds:2545:7783586@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
@@ -3029,7 +3029,7 @@ SUMMARY:Bound Brook High School at JP Case Middle School (Middle School C
 DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783265@skyland-conference
+UID:ds:2545:7664960@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T170000
 DTEND;TZID=America/New_York:20261208T190000
@@ -3047,7 +3047,7 @@ SUMMARY:Bound Brook High School vs Alexander Batcho Intermediate School (
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7782742@skyland-conference
+UID:ds:2545:7657870@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261209T160000
 DTEND;TZID=America/New_York:20261209T180000
@@ -3083,15 +3083,6 @@ SUMMARY:Bound Brook High School vs Bayonne High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783627@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261211T160000
-DTEND;TZID=America/New_York:20261211T180000
-SUMMARY:Bound Brook High School at Valley View School (Middle School Boys
-  Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7783628@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T160000
@@ -3099,6 +3090,15 @@ DTEND;TZID=America/New_York:20261211T180000
 SUMMARY:Bound Brook High School vs Valley View School (Middle School Girl
  s Girls Basketball)
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7783627@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261211T160000
+DTEND;TZID=America/New_York:20261211T180000
+SUMMARY:Bound Brook High School at Valley View School (Middle School Boys
+  Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7759288@skyland-conference
@@ -3182,7 +3182,7 @@ SUMMARY:Bound Brook High School at Voorhees High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783361@skyland-conference
+UID:ds:2545:7448429@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T173000
 DTEND;TZID=America/New_York:20261215T193000
@@ -3209,7 +3209,7 @@ SUMMARY:Voorhees High School vs Bound Brook High School (Varsity Boys Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783375@skyland-conference
+UID:ds:2545:7443880@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
@@ -3236,15 +3236,6 @@ SUMMARY:Bound Brook High School vs Bedminster Township School (Middle Sch
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783632@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261216T160000
-DTEND;TZID=America/New_York:20261216T180000
-SUMMARY:Bound Brook High School at Bedminster Township School (Middle Sch
- ool Boys Boys Basketball)
-DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2545:7644697@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T160000
@@ -3252,6 +3243,15 @@ DTEND;TZID=America/New_York:20261216T180000
 SUMMARY:Bound Brook High School at South Hunterdon Regional H.S. (Middle 
  School Coed Coed Wrestling)
 DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2545:7783632@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261216T160000
+DTEND;TZID=America/New_York:20261216T180000
+SUMMARY:Bound Brook High School at Bedminster Township School (Middle Sch
+ ool Boys Boys Basketball)
+DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2545:7783401@skyland-conference
@@ -3326,7 +3326,7 @@ SUMMARY:South Hunterdon Regional H.S. vs Bound Brook High School (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7443884@skyland-conference
+UID:ds:2545:7783460@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T180000
 DTEND;TZID=America/New_York:20261217T200000
@@ -3344,7 +3344,7 @@ SUMMARY:Bound Brook High School at South Hunterdon Regional H.S. (Middle
 DESCRIPTION:Middle School Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783642@skyland-conference
+UID:ds:2545:7644715@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261218T160000
 DTEND;TZID=America/New_York:20261218T180000
@@ -3353,7 +3353,7 @@ SUMMARY:Bound Brook High School vs South Hunterdon Regional H.S. (Middle
 DESCRIPTION:Middle School Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7603730@skyland-conference
+UID:ds:2545:7782985@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T090000
 DTEND;TZID=America/New_York:20261219T110000
@@ -3371,7 +3371,7 @@ SUMMARY:Bound Brook High School at Koinonia Academy (Junior Varsity Boys
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7657820@skyland-conference
+UID:ds:2545:7783018@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
 DTEND;TZID=America/New_York:20261219T133000
@@ -3398,7 +3398,7 @@ SUMMARY:Bound Brook High School at Warren Hills Middle School (Middle Sch
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783050@skyland-conference
+UID:ds:2545:7692908@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261221T160000
 DTEND;TZID=America/New_York:20261221T180000
@@ -3488,7 +3488,7 @@ SUMMARY:Bound Brook High School vs Manville High School (Junior Varsity B
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Home - 5:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7448436@skyland-conference
+UID:ds:2545:7783760@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T173000
 DTEND;TZID=America/New_York:20270105T193000
@@ -3506,7 +3506,7 @@ SUMMARY:Bound Brook High School at Voorhees High School (Varsity Girls Gi
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783791@skyland-conference
+UID:ds:2545:7448464@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -4496,7 +4496,7 @@ SUMMARY:Bound Brook High School at Central Jersey College Prep Charter Sc
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:d6cd7635-3346-4576-883d-fdaf0d0a3e05@skyland
+UID:bb:MountSaintMaryAcademy:b9838c71-7e81-4ae9-9561-56eb59c369f8@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270203T123000
