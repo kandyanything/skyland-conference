@@ -158,15 +158,6 @@ SUMMARY:Franklin High School vs North Brunswick Township High School (Var
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:arb:100612987@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261208T160000
-DTEND;TZID=America/New_York:20261208T180000
-SUMMARY:Manville High School at South Amboy Public Schools (Varsity Boys 
- Boys Basketball)
-DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:arb:103438001@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
@@ -174,6 +165,15 @@ DTEND;TZID=America/New_York:20261208T180000
 SUMMARY:Somerville High School at Metuchen High School (Varsity Boys Boys
   Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:arb:100612987@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261208T163000
+DTEND;TZID=America/New_York:20261208T183000
+SUMMARY:Manville High School at South Amboy Public Schools (Varsity Boys 
+ Boys Basketball)
+DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7676364@skyland-conference
@@ -275,7 +275,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Central High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7600371@skyland-conference
+UID:ds:2617:7782774@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261210T160000
 DTEND;TZID=America/New_York:20261210T180000
@@ -347,7 +347,7 @@ SUMMARY:Bridgewater-Raritan High School at Saint Joseph Regional High Sch
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7728060@skyland-conference
+UID:ds:2653:7782830@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261211T170000
 DTEND;TZID=America/New_York:20261211T190000
@@ -780,7 +780,7 @@ SUMMARY:Somerville High School at Central Jersey College Prep Charter Sch
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7783018@skyland-conference
+UID:ds:2545:7657820@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261219T113000
 DTEND;TZID=America/New_York:20261219T133000
@@ -1192,7 +1192,7 @@ SUMMARY:Hillsborough High School at TBD (Varsity Boys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7645505@skyland-conference
+UID:ds:2665:7783181@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261229T130000
 DTEND;TZID=America/New_York:20261229T150000
@@ -1440,7 +1440,7 @@ SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7448464@skyland-conference
+UID:ds:2545:7783791@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T190000
 DTEND;TZID=America/New_York:20270105T210000
@@ -1646,7 +1646,7 @@ SUMMARY:Somerville High School vs Delaware Valley Regional H.S. (Varsity
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7744560@skyland-conference
+UID:ds:2617:7783926@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T193000
 DTEND;TZID=America/New_York:20270107T213000
@@ -1799,7 +1799,7 @@ SUMMARY:Bound Brook High School vs Oratory Prep School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 12:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7644767@skyland-conference
+UID:ds:2617:7784047@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270110T120000
 DTEND;TZID=America/New_York:20270110T140000
@@ -2211,7 +2211,7 @@ SUMMARY:Bernards High School vs Dunellen Athletics (Varsity Boys Boys Bas
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7482942@skyland-conference
+UID:ds:2545:7784417@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270116T180000
 DTEND;TZID=America/New_York:20270116T200000
@@ -2238,7 +2238,7 @@ SUMMARY:Immaculata High School at South Plainfield High School (Varsity B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 12:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7784430@skyland-conference
+UID:ds:2545:7657829@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270118T130000
 DTEND;TZID=America/New_York:20270118T150000
@@ -2544,7 +2544,7 @@ SUMMARY:Warren Hills Regional H.S. at South Hunterdon Regional H.S. (Vars
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 11:25 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7784787@skyland-conference
+UID:ds:2545:7417496@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270123T120000
 DTEND;TZID=America/New_York:20270123T140000
@@ -2805,7 +2805,7 @@ SUMMARY:Watchung Hills Regional H.S. at Warren Hills Regional H.S. (Varsi
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7506607@skyland-conference
+UID:ds:2545:7784930@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T173000
 DTEND;TZID=America/New_York:20270127T193000
