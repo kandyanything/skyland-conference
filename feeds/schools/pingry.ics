@@ -40,15 +40,6 @@ SUMMARY:Hillsborough High School at The Pingry School (Varsity Girls Fiel
 DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7575812@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260903T160000
-DTEND;TZID=America/New_York:20260903T180000
-SUMMARY:Hillsborough High School at The Pingry School (Junior Varsity Gir
- ls Girls Tennis)
-DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7441521@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260903T160000
@@ -56,6 +47,15 @@ DTEND;TZID=America/New_York:20260903T180000
 SUMMARY:Hillsborough High School vs The Pingry School (Varsity Girls Girl
  s Tennis)
 DESCRIPTION:Varsity Girls Girls Tennis - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7575812@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260903T160000
+DTEND;TZID=America/New_York:20260903T180000
+SUMMARY:Hillsborough High School at The Pingry School (Junior Varsity Gir
+ ls Girls Tennis)
+DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2741:7492949@skyland-conference
@@ -1194,15 +1194,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7478138@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261021T160000
-DTEND;TZID=America/New_York:20261021T180000
-SUMMARY:Hunterdon Central Regional H.S. at The Pingry School (Varsity Gir
- ls Girls Soccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7478143@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261021T160000
@@ -1210,6 +1201,15 @@ DTEND;TZID=America/New_York:20261021T180000
 SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Varsity Boy
  s Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7478138@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261021T160000
+DTEND;TZID=America/New_York:20261021T180000
+SUMMARY:Hunterdon Central Regional H.S. at The Pingry School (Varsity Gir
+ ls Girls Soccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2653:7696095@skyland-conference
@@ -1346,7 +1346,7 @@ SUMMARY:Bridgewater-Raritan High School vs The Pingry School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Ice Hockey - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7769582@skyland-conference
+UID:ds:2653:7783342@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T160000
 DTEND;TZID=America/New_York:20261215T180000
@@ -1373,7 +1373,7 @@ SUMMARY:Montgomery High School vs The Pingry School (Junior Varsity Girls
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7448195@skyland-conference
+UID:ds:2653:7783344@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T161500
 DTEND;TZID=America/New_York:20261215T181500
@@ -1489,15 +1489,6 @@ SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7698482@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270106T160000
-DTEND;TZID=America/New_York:20270106T180000
-SUMMARY:Bernards High School at The Pingry School (Varsity Boys Boys Fenc
- ing)
-DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7783802@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270106T160000
@@ -1507,7 +1498,16 @@ SUMMARY:Bernards High School at The Pingry School (Varsity Girls Girls Fe
 DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7739661@skyland-conference
+UID:ds:2535:7698482@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270106T160000
+DTEND;TZID=America/New_York:20270106T180000
+SUMMARY:Bernards High School at The Pingry School (Varsity Boys Boys Fenc
+ ing)
+DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7783793@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
@@ -1516,7 +1516,7 @@ SUMMARY:South Hunterdon Regional H.S. at The Pingry School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Wrestling - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7783793@skyland-conference
+UID:ds:2877:7739661@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20270106
 DTEND;VALUE=DATE:20270107
@@ -1624,7 +1624,7 @@ SUMMARY:Belvidere High School vs The Pingry School (Varsity Boys Boys Wre
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:ac3a5ccc-333f-4b55-a2da-c65d8bc3b968@skyland
+UID:bb:MountSaintMaryAcademy:e61d6b90-cc94-4419-acbc-c8f62c9e56e8@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T113000
@@ -1634,7 +1634,7 @@ SUMMARY:Mount Saint Mary Academy vs The Pingry School (Junior Varsity Gir
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:75804f13-69ad-4fc6-b5e0-35c5827b2d2a@skyland
+UID:bb:MountSaintMaryAcademy:c3cde61c-3fc4-46c0-ad51-88168e44656f@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T130000
@@ -1887,7 +1887,7 @@ SUMMARY:Hillsborough High School at The Pingry School (Varsity Girls Girl
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7448238@skyland-conference
+UID:ds:2665:7784896@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T180000
 DTEND;TZID=America/New_York:20270126T200000
