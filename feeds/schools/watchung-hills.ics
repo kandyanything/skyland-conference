@@ -2732,15 +2732,6 @@ SUMMARY:Hillsborough High School vs Watchung Hills Regional H.S. (Junior
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7441396@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
- Varsity Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7529131@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -2748,6 +2739,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
  Junior Varsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7441396@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
+ Varsity Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7599136@skyland-conference
@@ -3814,6 +3814,15 @@ SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Girls Competitive Ch
 DESCRIPTION:Varsity Girls Competitive Cheerleading - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2665:7783222@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261202T153000
+DTEND;TZID=America/New_York:20261202T173000
+SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
+ Varsity Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7429399@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261202T153000
@@ -3821,15 +3830,6 @@ DTEND;TZID=America/New_York:20261202T173000
 SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
  Varsity Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2665:7640484@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261202T153000
-DTEND;TZID=America/New_York:20261202T173000
-SUMMARY:Hunterdon Central Regional H.S. at Watchung Hills Regional H.S. (
- Varsity Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100968000@skyland-conference
@@ -4164,7 +4164,7 @@ SUMMARY:Watchung Hills Regional H.S. at TBD (Varsity Girls Competitive Ch
 DESCRIPTION:Varsity Girls Competitive Cheerleading - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7783302@skyland-conference
+UID:ds:2653:7693653@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261213T174500
 DTEND;TZID=America/New_York:20261213T194500
@@ -4227,6 +4227,15 @@ SUMMARY:Watchung Hills Regional H.S. at Franklin High School (Junior Vars
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2665:7783346@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T163000
+DTEND;TZID=America/New_York:20261215T183000
+SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
+ Varsity Boys Boys Fencing)
+DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7645483@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T163000
@@ -4234,15 +4243,6 @@ DTEND;TZID=America/New_York:20261215T183000
 SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
  Varsity Girls Girls Fencing)
 DESCRIPTION:Varsity Girls Girls Fencing - Home - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2665:7645383@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T163000
-DTEND;TZID=America/New_York:20261215T183000
-SUMMARY:Hunterdon Central Regional H.S. vs Watchung Hills Regional H.S. (
- Varsity Boys Boys Fencing)
-DESCRIPTION:Varsity Boys Boys Fencing - Home - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:104315408@skyland-conference
@@ -4308,7 +4308,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Bernards High School (Varsity Boy
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7443774@skyland-conference
+UID:ds:2617:7783379@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T180000
 DTEND;TZID=America/New_York:20261215T200000
@@ -4335,7 +4335,7 @@ SUMMARY:Watchung Hills Regional H.S. at Franklin High School (Varsity Gir
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:35666f1c-ac06-4dd5-94e8-5152b632272f@skyland
+UID:bb:MountSaintMaryAcademy:bc6de057-62c2-4755-9c50-0152fbfb7ca4@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261216T113000
@@ -5568,7 +5568,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Phillipsburg High School (Varsity
 DESCRIPTION:Varsity Boys Boys Bowling - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7784260@skyland-conference
+UID:ds:2535:7674363@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -5622,7 +5622,7 @@ SUMMARY:Watchung Hills Regional H.S. at Bernards High School (Junior Vars
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7784320@skyland-conference
+UID:ds:2535:7448412@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T190000
 DTEND;TZID=America/New_York:20270114T210000
@@ -5828,7 +5828,7 @@ SUMMARY:Ridge High School at Watchung Hills Regional H.S. (Varsity Girls
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7784529@skyland-conference
+UID:ds:2535:7708052@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T183000
 DTEND;TZID=America/New_York:20270119T203000
@@ -5891,7 +5891,7 @@ SUMMARY:Watchung Hills Regional H.S. at Hunterdon Central Reg. High Schoo
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:77e24c53-242d-45bc-92ee-1fe052d2ff75@skyland
+UID:bb:MountSaintMaryAcademy:edc9202a-df51-458d-bf06-2be687918dd6@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T113000
@@ -5901,7 +5901,7 @@ SUMMARY:Mount Saint Mary Academy vs Watchung Hills Regional H.S. (Junior
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:9d2c8617-e085-4fe0-bc29-656189e50c39@skyland
+UID:bb:MountSaintMaryAcademy:1665ba28-3e0b-4a8a-b731-1209b5a23bfc@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270121T130000
@@ -6225,7 +6225,7 @@ SUMMARY:Watchung Hills Regional H.S. vs Montgomery High School (Varsity C
 DESCRIPTION:Varsity Coed Coed Swimming - Home - 3:15 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2549:7784856@skyland-conference
+UID:ds:2549:7722880@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T160000
 DTEND;TZID=America/New_York:20270126T180000
