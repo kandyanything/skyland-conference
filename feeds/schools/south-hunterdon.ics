@@ -1034,6 +1034,24 @@ SUMMARY:Montgomery High School vs South Hunterdon Regional H.S. (Middle S
 DESCRIPTION:Middle School Girls Field Hockey - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2877:7441454@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:South Hunterdon Regional H.S. at Somerville High School (Varsity 
+ Girls Field Hockey)
+DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7508978@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260930T160000
+DTEND;TZID=America/New_York:20260930T180000
+SUMMARY:South Hunterdon Regional H.S. vs Montgomery High School (Middle S
+ chool Boys Boys Soccer)
+DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2877:7510514@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260930T160000
@@ -1050,24 +1068,6 @@ DTEND;TZID=America/New_York:20260930T180000
 SUMMARY:South Hunterdon Regional H.S. at Montgomery High School (Middle S
  chool Girls Field Hockey)
 DESCRIPTION:Middle School Girls Field Hockey - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7508978@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:South Hunterdon Regional H.S. vs Montgomery High School (Middle S
- chool Boys Boys Soccer)
-DESCRIPTION:Middle School Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7441454@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260930T160000
-DTEND;TZID=America/New_York:20260930T180000
-SUMMARY:South Hunterdon Regional H.S. at Somerville High School (Varsity 
- Girls Field Hockey)
-DESCRIPTION:Varsity Girls Field Hockey - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:100870870@skyland-conference
@@ -1468,15 +1468,6 @@ SUMMARY:South Hunterdon Regional H.S. at Delaware Valley Regional H.S. (V
 DESCRIPTION:Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7577208@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261008T160000
-DTEND;TZID=America/New_York:20261008T180000
-SUMMARY:South Hunterdon Regional H.S. at Somerville Middle School (Middle
-  School Coed Coed Cross Country)
-DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7511610@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261008T160000
@@ -1502,6 +1493,15 @@ DTEND;TZID=America/New_York:20261008T180000
 SUMMARY:South Hunterdon Regional H.S. vs Pennington Prep (Middle School G
  irls Girls Soccer)
 DESCRIPTION:Middle School Girls Girls Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7577208@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261008T160000
+DTEND;TZID=America/New_York:20261008T180000
+SUMMARY:South Hunterdon Regional H.S. at Somerville Middle School (Middle
+  School Coed Coed Cross Country)
+DESCRIPTION:Middle School Coed Coed Cross Country - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7478111@skyland-conference
@@ -3386,13 +3386,22 @@ SUMMARY:Voorhees High School at South Hunterdon Regional H.S. (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7572169@skyland-conference
+UID:ds:2877:7784101@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:South Hunterdon Regional H.S. at Manville High School (Junior Var
  sity Boys Boys Basketball)
 DESCRIPTION:Junior Varsity Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7784127@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:South Hunterdon Regional H.S. at Alexander Batcho Intermediate Sc
+ hool (Middle School Coed Coed Wrestling)
+DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7574934@skyland-conference
@@ -3402,15 +3411,6 @@ DTEND;TZID=America/New_York:20270112T180000
 SUMMARY:South Hunterdon Regional H.S. vs Manville High School (Junior Var
  sity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7740221@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:South Hunterdon Regional H.S. at Alexander Batcho Intermediate Sc
- hool (Middle School Coed Coed Wrestling)
-DESCRIPTION:Middle School Coed Coed Wrestling - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105531736@skyland-conference
@@ -3494,15 +3494,6 @@ SUMMARY:South Hunterdon Regional H.S. vs Rutgers Preparatory School (Vars
 DESCRIPTION:Varsity Boys Boys Wrestling - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7729721@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T153000
-DTEND;TZID=America/New_York:20270114T173000
-SUMMARY:South Hunterdon Regional H.S. at Warren Hills Regional School Dis
- trict (Varsity Girls Girls Bowling)
-DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7784240@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T153000
@@ -3510,6 +3501,15 @@ DTEND;TZID=America/New_York:20270114T173000
 SUMMARY:South Hunterdon Regional H.S. at Warren Hills Regional School Dis
  trict (Varsity Boys Boys Bowling)
 DESCRIPTION:Varsity Boys Boys Bowling - Away - 3:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7784243@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T153000
+DTEND;TZID=America/New_York:20270114T173000
+SUMMARY:South Hunterdon Regional H.S. at Warren Hills Regional School Dis
+ trict (Varsity Girls Girls Bowling)
+DESCRIPTION:Varsity Girls Girls Bowling - Away - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:105259806@skyland-conference
@@ -3548,7 +3548,7 @@ SUMMARY:Hillsborough High School at South Hunterdon Regional H.S. (Girls
 DESCRIPTION:Girls (MS - JV) Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7784250@skyland-conference
+UID:ds:2877:7572170@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T160000
 DTEND;TZID=America/New_York:20270114T180000
@@ -4070,7 +4070,7 @@ SUMMARY:Bound Brook High School vs South Hunterdon Regional H.S. (Middle
 DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2545:7784810@skyland-conference
+UID:ds:2545:7644717@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270125T160000
 DTEND;TZID=America/New_York:20270125T180000
@@ -4205,15 +4205,6 @@ SUMMARY:Warren Hills Regional H.S. at South Hunterdon Regional H.S. (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7448519@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270126T173000
-DTEND;TZID=America/New_York:20270126T193000
-SUMMARY:South Hunterdon Regional H.S. vs Warren Hills Regional School Dis
- trict (Varsity Girls Girls Basketball)
-DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2877:7448484@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T173000
@@ -4221,6 +4212,15 @@ DTEND;TZID=America/New_York:20270126T193000
 SUMMARY:South Hunterdon Regional H.S. at Voorhees High School (Varsity Bo
  ys Boys Basketball)
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 5:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7448519@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270126T173000
+DTEND;TZID=America/New_York:20270126T193000
+SUMMARY:South Hunterdon Regional H.S. vs Warren Hills Regional School Dis
+ trict (Varsity Girls Girls Basketball)
+DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102269466@skyland-conference
@@ -4241,22 +4241,13 @@ SUMMARY:Warren Hills Regional H.S. at South Hunterdon Regional H.S. (Vars
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2877:7784894@skyland-conference
+UID:ds:2877:7443971@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270126T180000
 DTEND;TZID=America/New_York:20270126T200000
 SUMMARY:South Hunterdon Regional H.S. vs Warren Hills Regional School Dis
  trict (Varsity Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 6:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2877:7753066@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270127T160000
-DTEND;TZID=America/New_York:20270127T180000
-SUMMARY:South Hunterdon Regional H.S. vs J P Case Middle School (Middle S
- chool Girls Girls Basketball)
-DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7752858@skyland-conference
@@ -4266,6 +4257,15 @@ DTEND;TZID=America/New_York:20270127T180000
 SUMMARY:South Hunterdon Regional H.S. at J P Case Middle School (Middle S
  chool Boys Boys Basketball)
 DESCRIPTION:Middle School Boys Boys Basketball - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2877:7784924@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270127T160000
+DTEND;TZID=America/New_York:20270127T180000
+SUMMARY:South Hunterdon Regional H.S. vs J P Case Middle School (Middle S
+ chool Girls Girls Basketball)
+DESCRIPTION:Middle School Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2877:7784945@skyland-conference
