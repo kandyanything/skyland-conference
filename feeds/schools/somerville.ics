@@ -963,15 +963,6 @@ DESCRIPTION:Junior Varsity Girls Field Hockey - Away - 11:30 AM
 STATUS:CANCELLED
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7551392@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260919T130000
-DTEND;TZID=America/New_York:20260919T150000
-SUMMARY:Hillsborough High School vs Somerville High School (Junior Varsit
- y Boys Boys Soccer)
-DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 1:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7551187@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260919T130000
@@ -979,6 +970,15 @@ DTEND;TZID=America/New_York:20260919T150000
 SUMMARY:Hillsborough High School vs Somerville High School (Varsity Boys 
  Boys Soccer)
 DESCRIPTION:Varsity Boys Boys Soccer - Home - 1:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551392@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260919T130000
+DTEND;TZID=America/New_York:20260919T150000
+SUMMARY:Hillsborough High School vs Somerville High School (Junior Varsit
+ y Boys Boys Soccer)
+DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102571294@skyland-conference
@@ -1156,15 +1156,6 @@ SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
 DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7335221@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Hillsborough High School vs Somerville High School (Varsity Boys 
- Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7335100@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -1172,6 +1163,15 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:Hillsborough High School at Somerville High School (Varsity Girls
   Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Away
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7335221@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Hillsborough High School vs Somerville High School (Varsity Boys 
+ Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103039442@skyland-conference
@@ -2747,7 +2747,7 @@ SUMMARY:Somerville High School at Summit High School (Varsity Boys Boys B
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2617:7633692@skyland-conference
+UID:ds:2617:7783257@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261208T160000
 DTEND;TZID=America/New_York:20261208T180000
@@ -3089,22 +3089,22 @@ SUMMARY:Bernards High School at Somerville High School (Junior Varsity Gi
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2741:7783427@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261217T160000
-DTEND;TZID=America/New_York:20261217T180000
-SUMMARY:Montgomery High School vs Somerville High School (Varsity Girls G
- irls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2741:7783426@skyland-conference
+UID:ds:2741:7640678@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261217T160000
 DTEND;TZID=America/New_York:20261217T180000
 SUMMARY:Montgomery High School vs Somerville High School (Varsity Boys Bo
  ys Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2741:7640682@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261217T160000
+DTEND;TZID=America/New_York:20261217T180000
+SUMMARY:Montgomery High School vs Somerville High School (Varsity Girls G
+ irls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:101126962@skyland-conference
@@ -3805,7 +3805,7 @@ SUMMARY:Bernards High School at Somerville High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7784235@skyland-conference
+UID:ds:2535:7710217@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T144500
 DTEND;TZID=America/New_York:20270114T164500
