@@ -1418,15 +1418,6 @@ SUMMARY:Hillsborough High School vs Bernards High School (Junior Varsity
 DESCRIPTION:Junior Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2653:7551195@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260922T160000
-DTEND;TZID=America/New_York:20260922T180000
-SUMMARY:Hillsborough High School vs Bernards High School (Varsity Boys Bo
- ys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2653:7551400@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260922T160000
@@ -1434,6 +1425,15 @@ DTEND;TZID=America/New_York:20260922T180000
 SUMMARY:Hillsborough High School vs Bernards High School (Freshman Boys B
  oys Soccer)
 DESCRIPTION:Freshman Boys Boys Soccer - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2653:7551195@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260922T160000
+DTEND;TZID=America/New_York:20260922T180000
+SUMMARY:Hillsborough High School vs Bernards High School (Varsity Boys Bo
+ ys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:103359562@skyland-conference
@@ -1580,6 +1580,15 @@ SUMMARY:Bernards High School at Thomas Edison Energy Charter School (Juni
 DESCRIPTION:Junior Varsity Girls Girls Volleyball - Away - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7526583@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20260924T160000
+DTEND;TZID=America/New_York:20260924T180000
+SUMMARY:Bernards High School at Franklin High School (Junior Varsity Girl
+ s Girls Soccer)
+DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7585382@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20260924T160000
@@ -1614,15 +1623,6 @@ DTEND;TZID=America/New_York:20260924T180000
 SUMMARY:Bernards High School at Hunterdon Central Regional H.S. (Junior V
  arsity Girls Girls Tennis)
 DESCRIPTION:Junior Varsity Girls Girls Tennis - Away - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7526583@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20260924T160000
-DTEND;TZID=America/New_York:20260924T180000
-SUMMARY:Bernards High School at Franklin High School (Junior Varsity Girl
- s Girls Soccer)
-DESCRIPTION:Junior Varsity Girls Girls Soccer - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7648825@skyland-conference
@@ -1715,24 +1715,6 @@ SUMMARY:Hillsborough High School vs Bernards High School (Varsity Girls F
 DESCRIPTION:Varsity Girls Field Hockey - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7335130@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Bernards High School vs Ridge High School (Varsity Girls Girls So
- ccer)
-DESCRIPTION:Varsity Girls Girls Soccer - Home
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7335219@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;VALUE=DATE:20260924
-DTEND;VALUE=DATE:20260925
-SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
- s Boys Soccer)
-DESCRIPTION:Varsity Boys Boys Soccer - Away
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2535:7334794@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;VALUE=DATE:20260924
@@ -1749,6 +1731,24 @@ DTEND;VALUE=DATE:20260925
 SUMMARY:Bernards High School vs Warren Hills Regional School District (Va
  rsity Girls Girls Soccer)
 DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7335130@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Bernards High School vs Ridge High School (Varsity Girls Girls So
+ ccer)
+DESCRIPTION:Varsity Girls Girls Soccer - Home
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7335219@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;VALUE=DATE:20260924
+DTEND;VALUE=DATE:20260925
+SUMMARY:Bernards High School at Watchung Hills Regional H.S. (Varsity Boy
+ s Boys Soccer)
+DESCRIPTION:Varsity Boys Boys Soccer - Away
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2830:7335130@skyland-conference
@@ -4345,7 +4345,7 @@ SUMMARY:Bernards High School vs Hunterdon Central Regional H.S. (Varsity
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 3:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7688644@skyland-conference
+UID:ds:2535:7783841@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270107T153000
 DTEND;TZID=America/New_York:20270107T173000
@@ -4489,7 +4489,7 @@ SUMMARY:Bernards High School at Jonathan Dayton High School (Varsity Boys
 DESCRIPTION:Varsity Boys Boys Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:72e252fc-b132-4324-a13e-060f8b242c54@skyland
+UID:bb:MountSaintMaryAcademy:07bca7a7-c80a-4a77-82db-c79c30ff060d@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T093000
@@ -4497,6 +4497,15 @@ DTEND;TZID=America/New_York:20270112T113000
 SUMMARY:Mount Saint Mary Academy vs Bernards High School (Varsity Girls G
  irls Swimming)
 DESCRIPTION:Varsity Girls Girls Swimming - Home - 9:30 AM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7784088@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270112T143000
+DTEND;TZID=America/New_York:20270112T163000
+SUMMARY:Bernards High School at Mount Saint Mary Academy (Varsity Girls G
+ irls Swimming)
+DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7706469@skyland-conference
@@ -4508,13 +4517,13 @@ SUMMARY:Bernards High School at Mount Saint Mary Academy (Varsity Boys Bo
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7706472@skyland-conference
+UID:ds:2535:7784119@skyland-conference
 DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T143000
-DTEND;TZID=America/New_York:20270112T163000
-SUMMARY:Bernards High School at Mount Saint Mary Academy (Varsity Girls G
- irls Swimming)
-DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:30 PM
+DTSTART;TZID=America/New_York:20270112T160000
+DTEND;TZID=America/New_York:20270112T180000
+SUMMARY:Bernards High School vs Delaware Valley Regional H.S. (Freshman B
+ oys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7692922@skyland-conference
@@ -4526,16 +4535,7 @@ SUMMARY:Bernards High School at Bound Brook High School (Junior Varsity G
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7784119@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270112T160000
-DTEND;TZID=America/New_York:20270112T180000
-SUMMARY:Bernards High School vs Delaware Valley Regional H.S. (Freshman B
- oys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2586:7674362@skyland-conference
+UID:ds:2586:7784119@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T160000
 DTEND;TZID=America/New_York:20270112T180000
@@ -4598,7 +4598,7 @@ SUMMARY:Bernards High School at Ridge High School (Varsity Boys Boys Wres
 DESCRIPTION:Varsity Boys Boys Wrestling - Away - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7784176@skyland-conference
+UID:ds:2535:7706459@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T183000
 DTEND;TZID=America/New_York:20270112T203000
@@ -4625,7 +4625,7 @@ SUMMARY:Bernards High School vs Delaware Valley Regional H.S. (Varsity Bo
 DESCRIPTION:Varsity Boys Boys Basketball - Home - 7:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2586:7784177@skyland-conference
+UID:ds:2586:7448409@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270112T190000
 DTEND;TZID=America/New_York:20270112T210000
@@ -4679,31 +4679,13 @@ SUMMARY:Bernards High School at Somerville High School (Varsity Girls Gir
 DESCRIPTION:Varsity Girls Girls Swimming - Away - 2:45 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7710217@skyland-conference
+UID:ds:2535:7784235@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270114T144500
 DTEND;TZID=America/New_York:20270114T164500
 SUMMARY:Bernards High School at Somerville High School (Varsity Boys Boys
   Swimming)
 DESCRIPTION:Varsity Boys Boys Swimming - Away - 2:45 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7674363@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Freshman Bo
- ys Boys Basketball)
-DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7784266@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270114T160000
-DTEND;TZID=America/New_York:20270114T180000
-SUMMARY:Bernards High School at Ridge High School (Varsity Girls Girls Fe
- ncing)
-DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7698486@skyland-conference
@@ -4713,6 +4695,24 @@ DTEND;TZID=America/New_York:20270114T180000
 SUMMARY:Bernards High School at Ridge High School (Varsity Boys Boys Fenc
  ing)
 DESCRIPTION:Varsity Boys Boys Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7700559@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Bernards High School at Ridge High School (Varsity Girls Girls Fe
+ ncing)
+DESCRIPTION:Varsity Girls Girls Fencing - Away - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2535:7784260@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270114T160000
+DTEND;TZID=America/New_York:20270114T180000
+SUMMARY:Bernards High School vs Watchung Hills Regional H.S. (Freshman Bo
+ ys Boys Basketball)
+DESCRIPTION:Freshman Boys Boys Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:arb:102269793@skyland-conference
@@ -5237,7 +5237,7 @@ SUMMARY:Bernards High School vs The Pingry School (Junior Varsity Boys Bo
 DESCRIPTION:Junior Varsity Boys Boys Wrestling - Home - 6:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7708565@skyland-conference
+UID:ds:2535:7784949@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270127T190000
 DTEND;TZID=America/New_York:20270127T210000
@@ -5255,22 +5255,13 @@ SUMMARY:Bernards High School vs West Morris Mendham High School (Junior V
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7708576@skyland-conference
+UID:ds:2535:7785001@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T173000
 DTEND;TZID=America/New_York:20270128T193000
 SUMMARY:Bernards High School vs West Morris Mendham High School (Varsity 
  Girls Girls Basketball)
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 5:30 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2535:7785024@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270128T183000
-DTEND;TZID=America/New_York:20270128T203000
-SUMMARY:Bernards High School vs Gill St. Bernard's School (Varsity Girls 
- Girls Fencing)
-DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2535:7785023@skyland-conference
@@ -5282,6 +5273,15 @@ SUMMARY:Bernards High School vs Gill St. Bernard's School (Varsity Boys B
 DESCRIPTION:Varsity Boys Boys Fencing - Home - 6:30 PM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2535:7785024@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270128T183000
+DTEND;TZID=America/New_York:20270128T203000
+SUMMARY:Bernards High School vs Gill St. Bernard's School (Varsity Girls 
+ Girls Fencing)
+DESCRIPTION:Varsity Girls Girls Fencing - Home - 6:30 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2535:7785031@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T200000
@@ -5291,7 +5291,7 @@ SUMMARY:Bernards High School vs Ridge High School (Varsity Boys Boys Swim
 DESCRIPTION:Varsity Boys Boys Swimming - Home - 8:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2535:7785032@skyland-conference
+UID:ds:2535:7698409@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270128T200000
 DTEND;TZID=America/New_York:20270128T220000
