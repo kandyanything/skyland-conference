@@ -78,7 +78,7 @@ SUMMARY:Hunterdon Central Regional H.S. at West Morris Mendham High Schoo
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:253532a3-e82f-45ef-8f06-ee8866cc40a3@skyland
+UID:bb:MountSaintMaryAcademy:7e23cd9c-19f2-4d65-81ea-8cd8ac81372c@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T113000
@@ -88,7 +88,7 @@ SUMMARY:Mount Saint Mary Academy vs Hunterdon Central Regional H.S. (Juni
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 11:30 AM
 END:VEVENT
 BEGIN:VEVENT
-UID:bb:MountSaintMaryAcademy:860b0aa2-6474-4844-a322-bd29ec1eda1e@skyland
+UID:bb:MountSaintMaryAcademy:864f4c49-0b39-4168-89ef-cb4c6d08b28c@skyland
  -conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T130000
@@ -98,15 +98,6 @@ SUMMARY:Mount Saint Mary Academy vs Hunterdon Central Regional H.S. (Vars
 DESCRIPTION:Varsity Girls Girls Basketball - Home - 1:00 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7694103@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20261215T163000
-DTEND;TZID=America/New_York:20261215T183000
-SUMMARY:Hunterdon Central Regional H.S. at Mount Saint Mary Academy (Juni
- or Varsity Girls Girls Basketball)
-DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
-END:VEVENT
-BEGIN:VEVENT
 UID:ds:2665:7694228@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20261215T163000
@@ -114,6 +105,15 @@ DTEND;TZID=America/New_York:20261215T183000
 SUMMARY:Hunterdon Central Regional H.S. at Mount Saint Mary Academy (Fres
  hman Girls Girls Basketball)
 DESCRIPTION:Freshman Girls Girls Basketball - Away - 4:30 PM
+END:VEVENT
+BEGIN:VEVENT
+UID:ds:2665:7694103@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20261215T163000
+DTEND;TZID=America/New_York:20261215T183000
+SUMMARY:Hunterdon Central Regional H.S. at Mount Saint Mary Academy (Juni
+ or Varsity Girls Girls Basketball)
+DESCRIPTION:Junior Varsity Girls Girls Basketball - Away - 4:30 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7443777@skyland-conference
@@ -251,6 +251,15 @@ SUMMARY:Hunterdon Central Regional H.S. at Notre Dame High School (Varsit
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 10:00 AM
 END:VEVENT
 BEGIN:VEVENT
+UID:ds:2665:7783734@skyland-conference
+DTSTAMP:20250801T000000Z
+DTSTART;TZID=America/New_York:20270105T160000
+DTEND;TZID=America/New_York:20270105T180000
+SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Freshman Gi
+ rls Girls Basketball)
+DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
+END:VEVENT
+BEGIN:VEVENT
 UID:ds:2665:7783733@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270105T160000
@@ -258,15 +267,6 @@ DTEND;TZID=America/New_York:20270105T180000
 SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Junior Vars
  ity Girls Girls Basketball)
 DESCRIPTION:Junior Varsity Girls Girls Basketball - Home - 4:00 PM
-END:VEVENT
-BEGIN:VEVENT
-UID:ds:2665:7694230@skyland-conference
-DTSTAMP:20250801T000000Z
-DTSTART;TZID=America/New_York:20270105T160000
-DTEND;TZID=America/New_York:20270105T180000
-SUMMARY:Hunterdon Central Regional H.S. vs The Pingry School (Freshman Gi
- rls Girls Basketball)
-DESCRIPTION:Freshman Girls Girls Basketball - Home - 4:00 PM
 END:VEVENT
 BEGIN:VEVENT
 UID:ds:2665:7783781@skyland-conference
@@ -503,7 +503,7 @@ SUMMARY:Montgomery High School at Hunterdon Central Regional H.S. (Varsit
 DESCRIPTION:Varsity Girls Girls Basketball - Away - 5:30 PM
 END:VEVENT
 BEGIN:VEVENT
-UID:ds:2665:7784507@skyland-conference
+UID:ds:2665:7443812@skyland-conference
 DTSTAMP:20250801T000000Z
 DTSTART;TZID=America/New_York:20270119T180000
 DTEND;TZID=America/New_York:20270119T200000
